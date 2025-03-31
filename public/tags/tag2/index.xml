@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag2 on Attila Krick</title>
+    <link>https://attilakrick.com/tags/tag2/</link>
+    <description>Recent content in Tag2 on Attila Krick</description>
+    <image>
+      <title>Attila Krick</title>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://attilakrick.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mein Beitragstitel</title>
+      <link>https://attilakrick.com/_template/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/_template/</guid>
+      <description>Kurze prägnante Beschreibung für SEO und Social Media.</description>
+    </item>
+  </channel>
+</rss>

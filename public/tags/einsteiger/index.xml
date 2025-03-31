@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Einsteiger on Attila Krick</title>
+    <link>http://localhost:1313/tags/einsteiger/</link>
+    <description>Recent content in Einsteiger on Attila Krick</description>
+    <image>
+      <title>Attila Krick</title>
+      <url>http://localhost:1313/images/seo-thumbnail.png</url>
+      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/einsteiger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell benutzen – Tools, VS Code und erste Schritte</title>
+      <link>http://localhost:1313/posts/powershell/powershell_benutzen/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/powershell/powershell_benutzen/</guid>
+      <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
+    </item>
+  </channel>
+</rss>

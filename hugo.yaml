@@ -1,0 +1,230 @@
+baseURL: "https://attilakrick.com/"
+languageCode: "de-DE"
+defaultContentLanguage: "de"
+title: "Attila Krick"
+theme: ["PaperMod"]
+
+# SEO
+enableRobotsTXT: true
+
+# Performance
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify: # Minifizierung für schnellere Ladezeiten
+
+  disableXML: true
+  minifyOutput: true
+
+# Syntax-Highlighting für Codeblöcke
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: false
+
+pagination:
+
+  pagerSize: 5
+
+markup:
+
+  highlight:
+    noClasses: true  # true Notwendig, damit Hugo seine Standard-CSS-Klassen verwendet
+    anchorLineNos: false  # Erlaubt klickbare Zeilennummern
+    codeFences: true  # Aktiviert Triple-Backticks für Codeblöcke (```)
+    guessSyntax: true  # Erkennt automatisch die Programmiersprache
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true  # Zeilennummern anzeigen
+    lineNumbersInTable: false
+    style: "gruvbox"  # gruvbox solarized-light Alternativen: https://gohugo.io/quick-reference/syntax-highlighting-styles/
+    tabWidth: 4
+    wrapperClass: highlight
+
+  goldmark: # Goldmark (Markdown-Parser für Hugo)
+    renderer:
+      unsafe: true # Erlaubt HTML in Markdown-Dateien
+
+# Ausgabeformate (welche Dateitypen Hugo generiert)
+outputs:
+
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML", "RSS"]
+  section: ["HTML", "RSS"]
+  taxonomy: ["HTML", "RSS"]
+
+# Datenschutz-Einstellungen (DSGVO-konform)
+privacy:
+
+  googleAnalytics:
+    disable: true
+  youtube:
+    privacyEnhanced: true
+
+# Sitemap-Einstellungen für SEO
+sitemap:
+
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+menu: # Menüstruktur für das Hauptmenü
+
+  main:
+
+    - identifier: "home"
+      name: "Start"
+      url: "/"
+      weight: 1
+
+    - identifier: "posts"
+      name: Artikel
+      url: "/posts/"
+      weight: 2
+    
+    - identifier: "leistungen"
+      name: "Leistungen"
+      url: "/leistungen/"
+      weight: 3
+
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 4
+    
+    - identifier: "kontakt"
+      name: "Kontakt"
+      url: "/kontakt/"
+      weight: 5
+
+    - identifier: "impressum"
+      name: "Impressum"
+      url: "/impressum/"
+      weight: 6
+
+    - identifier: search
+      name: Suche
+      url: /search/
+      weight: 7
+
+params:
+
+  env: "production" # Ermöglicht Google Analytics, OpenGraph, Twitter-Cards und Schema.org, Sonst: development = Deaktiviert Tracking, zeigt Drafts an
+
+  title: "Attila Krick - PowerShell, T-SQL & .NET | IT-Automatisierung"
+  description: "Effiziente Automatisierung, Entwicklung und Schulungen in PowerShell, .NET & SQL."
+  keywords: 
+    - "PowerShell Experte"
+    - ".NET Entwicklung"
+    - "T-SQL Spezialist"
+    - "T-SQL Schulungen"
+    - "Automatisierung mit PowerShell"
+    - "Skripting und Automatisierung"
+    - "Windows-Administration"
+    - "IT-Consulting"
+    - "Datenbank-Optimierung"
+    - "DevOps & CI/CD"
+    - "IT-Sicherheit & Scripting"
+
+  author: "Attila Krick" 
+  images: ["/images/seo-thumbnail.png"] # Das images-Feld in Hugo wird hauptsächlich für OpenGraph, Twitter Cards und SEO-Vorschauen genutzt. Dieses Bild wird verwendet, wenn deine Website in sozialen Netzwerken geteilt wird oder wenn Suchmaschinen eine Vorschau anzeigen.
+
+  noindex: ["/404.html"]
+
+  # Darstellung & Design
+
+  defaultTheme: "auto" # Optionen: "light", "dark", "auto"
+  disableThemeToggle: false
+  DateFormat: "2. January 2006"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  showtoc: true # Inhaltsverzeichnis anzeigen
+  tocopen: false # Standardmäßig geschlossen
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+
+  # Assets (Favicons & Logos)
+  assets:
+    disableHLJS: true # Highlight.js für Code-Highlighting deaktivieren?
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  # Label (vermutlich für das Hauptmenü)
+  label:
+    text: "attila krick"
+    icon: "/favicon.ico"
+    iconHeight: 30
+
+  profileMode: # Profil-Modus (Falls du eine persönliche Vorstellung auf der Startseite möchtest)
+
+    enabled: true
+    title: "Attila Krick - IT-Experte für PowerShell, T-SQL & .NET"
+    subtitle: "Automatisierung, IT-Beratung & Softwareentwicklung mit PowerShell, .NET und SQL Server"
+    imageUrl: "/images/portrait-attila-krick-300x300.webp"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Attila Krick - Experte für PowerShell, T-SQL & .NET"
+    # buttons:
+    #   - name: Artikel
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
+    #   - name: "Leistungen"
+    #     url: "/leistungen/"
+
+  # Oder der Home-Info-Modus (Falls du stattdessen einen einleitenden Text möchtest)
+  # homeInfoParams:
+  #   Title: "👋 👋👋Willkommen auf meiner Seite! 👋"
+  #   Content: "Ich bin Attila Krick, Experte für PowerShell, .NET und SQL. Hier findest du Informationen zu meinen Schulungen und Dienstleistungen."
+
+  socialIcons:
+
+    - name: Email
+      url: "mailto:info@attilakrick.com"
+    - name: X
+      url: "https://x.com/AttilaKrick"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/attilakrick/"
+    - name: "Youtube"
+      url: "https://www.youtube.com/@ATTILAKRICKCOM"
+    - name: PowerShell Gallery"
+      url: "https://www.powershellgallery.com/profiles/eolith"
+    - name: "GitHub"
+      url: "https://github.com/attkri"
+
+  # Cover-Einstellungen (Bild für Header)
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # Bearbeiten von Beiträgen (Falls du Änderungslinks für deine Blogposts bereitstellen willst)
+  # editPost:
+  #   URL: "https://github.com/attkri/homepage/edit/main/content"
+  #   Text: "Änderung vorschlagen"
+  #   appendFilePath: true
+
+  # Sucheinstellungen
+  fuseOpts: # https://fusejs.io/api/options.html
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]

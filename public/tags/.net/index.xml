@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.NET on Attila Krick</title>
+    <link>http://localhost:1313/tags/.net/</link>
+    <description>Recent content in .NET on Attila Krick</description>
+    <image>
+      <title>Attila Krick</title>
+      <url>http://localhost:1313/images/seo-thumbnail.png</url>
+      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell verstehen – Was ist das &amp; warum brauchst du es?</title>
+      <link>http://localhost:1313/posts/powershell/powershell-verstehen/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/powershell/powershell-verstehen/</guid>
+      <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
+    </item>
+    <item>
+      <title>So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität</title>
+      <link>http://localhost:1313/posts/allgemein/methode_direkte_instruktion/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/allgemein/methode_direkte_instruktion/</guid>
+      <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
+    </item>
+  </channel>
+</rss>
