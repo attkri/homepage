@@ -3,6 +3,7 @@ languageCode: "de-DE"
 defaultContentLanguage: "de"
 title: "Attila Krick"
 theme: ["PaperMod"]
+publishDir: "docs"
 
 # SEO
 enableRobotsTXT: true
