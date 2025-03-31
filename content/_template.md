@@ -14,7 +14,7 @@ cover:
   relative: false
 
 editPost:
-  URL: "https://github.com/deinusername/repo/edit/main/content/posts/TEMPLATE.md"
+  URL: "https://github.com/attkri/homepage/tree/main/content/posts/TEMPLATE.md"
   Text: "Diesen Artikel bearbeiten"
   appendFilePath: true
 

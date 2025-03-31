@@ -14,7 +14,7 @@ cover:
   relative: false
 
 editPost:
-  URL: "https://github.com/deinusername/repo/edit/main/content/posts/PowerShell/Objekte_Pipeline_Cmdlets.md"
+  URL: "https://github.com/attkri/homepage/tree/main/content/posts/PowerShell/Objekte_Pipeline_Cmdlets.md"
   Text: "Diesen Artikel bearbeiten"
   appendFilePath: true
 
