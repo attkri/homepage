@@ -2,277 +2,292 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/.net/</loc>
+    <loc>https://attilakrick.com/tags/.net/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://attilakrick.com/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/freie-softwareentwickler/</loc>
+    <loc>https://attilakrick.com/tags/automation/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/objekte/</loc>
+    <loc>https://attilakrick.com/posts/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/_template/</loc>
+    <loc>https://attilakrick.com/categories/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/objekte_pipeline_cmdlets/</loc>
+    <loc>https://attilakrick.com/tags/einsteiger/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/pipeline/</loc>
+    <loc>https://attilakrick.com/tags/freie-softwareentwickler/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/powershell/</loc>
+    <loc>https://attilakrick.com/tags/objekte/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/powershell/</loc>
+    <loc>https://attilakrick.com/_template/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/powershell-verstehen/</loc>
+    <loc>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/seminar/</loc>
+    <loc>https://attilakrick.com/tags/pipeline/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://attilakrick.com/categories/powershell/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/azure-data-studio/</loc>
+    <loc>https://attilakrick.com/tags/powershell/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/posts/powershell/powershell_benutzen/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/posts/powershell/powershell-verstehen/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/seminar/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/vs-code/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/windows-terminal/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/azure-data-studio/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/join/</loc>
+    <loc>https://attilakrick.com/tags/join/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/t-sql/</loc>
+    <loc>https://attilakrick.com/categories/t-sql/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/t-sql/join/</loc>
+    <loc>https://attilakrick.com/posts/t-sql/join/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/tsql/</loc>
+    <loc>https://attilakrick.com/tags/tsql/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/lernmethoden/</loc>
+    <loc>https://attilakrick.com/tags/lernmethoden/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/allgemein/methode_direkte_instruktion/</loc>
+    <loc>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/automatisierung/</loc>
+    <loc>https://attilakrick.com/tags/automatisierung/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/dotnet/</loc>
+    <loc>https://attilakrick.com/tags/dotnet/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/impressum/</loc>
+    <loc>https://attilakrick.com/impressum/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/it-consulting/</loc>
+    <loc>https://attilakrick.com/tags/it-consulting/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/leistungen/</loc>
+    <loc>https://attilakrick.com/leistungen/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/it-schulungen/</loc>
+    <loc>https://attilakrick.com/tags/it-schulungen/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/softwareentwicklung/</loc>
+    <loc>https://attilakrick.com/tags/softwareentwicklung/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/t-sql/</loc>
+    <loc>https://attilakrick.com/tags/t-sql/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/debugging/</loc>
+    <loc>https://attilakrick.com/tags/debugging/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/vscode_starter/</loc>
+    <loc>https://attilakrick.com/posts/powershell/vscode_starter/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/produktivit%C3%A4t/</loc>
+    <loc>https://attilakrick.com/tags/produktivit%C3%A4t/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/skripting/</loc>
+    <loc>https://attilakrick.com/tags/skripting/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/vs-code/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/cmdlet/</loc>
+    <loc>https://attilakrick.com/tags/cmdlet/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/get-help/</loc>
+    <loc>https://attilakrick.com/tags/get-help/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/hilfe/</loc>
+    <loc>https://attilakrick.com/tags/hilfe/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/kontakt/</loc>
+    <loc>https://attilakrick.com/kontakt/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/kontakt/</loc>
+    <loc>https://attilakrick.com/tags/kontakt/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/scripting/</loc>
+    <loc>https://attilakrick.com/tags/scripting/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/powershell-hilfe_nutzen/</loc>
+    <loc>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/best-practices/</loc>
+    <loc>https://attilakrick.com/tags/best-practices/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/best_practices_powershell_skripting/</loc>
+    <loc>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/sicherheit/</loc>
+    <loc>https://attilakrick.com/tags/sicherheit/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>https://attilakrick.com/tags/cli/</loc>
     <lastmod>2025-03-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/cli/</loc>
+    <loc>https://attilakrick.com/posts/powershell/neuerungen_powershell_75_76/</loc>
     <lastmod>2025-03-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/neuerungen_powershell_75_76/</loc>
-    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/bash/</loc>
+    <loc>https://attilakrick.com/tags/bash/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/eingabeaufforderung/</loc>
+    <loc>https://attilakrick.com/tags/eingabeaufforderung/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/powershell/unterschied_ps_vs_bash/</loc>
+    <loc>https://attilakrick.com/posts/powershell/unterschied_ps_vs_bash/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/vergleich/</loc>
+    <loc>https://attilakrick.com/tags/vergleich/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/dotnet/</loc>
+    <loc>https://attilakrick.com/categories/dotnet/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/entity-framework/</loc>
+    <loc>https://attilakrick.com/tags/entity-framework/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/dotnet/efcore/</loc>
+    <loc>https://attilakrick.com/posts/dotnet/efcore/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://attilakrick.com/search/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

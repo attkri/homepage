@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cmdlet on Attila Krick</title>
-    <link>http://localhost:1313/tags/cmdlet/</link>
+    <link>https://attilakrick.com/tags/cmdlet/</link>
     <description>Recent content in Cmdlet on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>http://localhost:1313/images/seo-thumbnail.png</url>
-      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cmdlet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://attilakrick.com/tags/cmdlet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>http://localhost:1313/posts/powershell/powershell-hilfe_nutzen/</link>
+      <link>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/powershell-hilfe_nutzen/</guid>
+      <guid>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</guid>
       <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
     </item>
   </channel>

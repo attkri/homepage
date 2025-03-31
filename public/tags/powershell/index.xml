@@ -2,71 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PowerShell on Attila Krick</title>
-    <link>http://localhost:1313/tags/powershell/</link>
+    <link>https://attilakrick.com/tags/powershell/</link>
     <description>Recent content in PowerShell on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>http://localhost:1313/images/seo-thumbnail.png</url>
-      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://attilakrick.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell benutzen – Tools, VS Code und erste Schritte</title>
+      <link>https://attilakrick.com/posts/powershell/powershell_benutzen/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/powershell_benutzen/</guid>
+      <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
+    </item>
     <item>
       <title>PowerShell verstehen – Was ist das &amp; warum brauchst du es?</title>
-      <link>http://localhost:1313/posts/powershell/powershell-verstehen/</link>
+      <link>https://attilakrick.com/posts/powershell/powershell-verstehen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/powershell-verstehen/</guid>
+      <guid>https://attilakrick.com/posts/powershell/powershell-verstehen/</guid>
       <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
     </item>
     <item>
       <title>So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität</title>
-      <link>http://localhost:1313/posts/allgemein/methode_direkte_instruktion/</link>
+      <link>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/allgemein/methode_direkte_instruktion/</guid>
+      <guid>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</guid>
       <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
     </item>
     <item>
       <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>http://localhost:1313/leistungen/</link>
+      <link>https://attilakrick.com/leistungen/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/leistungen/</guid>
+      <guid>https://attilakrick.com/leistungen/</guid>
       <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
     </item>
     <item>
       <title>Integration von PowerShell in Visual Studio Code</title>
-      <link>http://localhost:1313/posts/powershell/vscode_starter/</link>
+      <link>https://attilakrick.com/posts/powershell/vscode_starter/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/vscode_starter/</guid>
+      <guid>https://attilakrick.com/posts/powershell/vscode_starter/</guid>
       <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
     </item>
     <item>
       <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>http://localhost:1313/posts/powershell/powershell-hilfe_nutzen/</link>
+      <link>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/powershell-hilfe_nutzen/</guid>
+      <guid>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</guid>
       <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
     </item>
     <item>
       <title>PowerShell-Scripting Best Practices - Effiziente Automatisierung und Sicherheit</title>
-      <link>http://localhost:1313/posts/powershell/best_practices_powershell_skripting/</link>
+      <link>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/best_practices_powershell_skripting/</guid>
+      <guid>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</guid>
       <description>Die besten Methoden für PowerShell-Skripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
     </item>
     <item>
       <title>Neuerungen PowerShell 7.5 und 7.6</title>
-      <link>http://localhost:1313/posts/powershell/neuerungen_powershell_75_76/</link>
+      <link>https://attilakrick.com/posts/powershell/neuerungen_powershell_75_76/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/neuerungen_powershell_75_76/</guid>
+      <guid>https://attilakrick.com/posts/powershell/neuerungen_powershell_75_76/</guid>
       <description>Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5.</description>
     </item>
     <item>
       <title>Unterschiede zwischen PowerShell und anderen Shells</title>
-      <link>http://localhost:1313/posts/powershell/unterschied_ps_vs_bash/</link>
+      <link>https://attilakrick.com/posts/powershell/unterschied_ps_vs_bash/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/unterschied_ps_vs_bash/</guid>
+      <guid>https://attilakrick.com/posts/powershell/unterschied_ps_vs_bash/</guid>
       <description>&lt;h2 id=&#34;unterschiede-zwischen-powershell-und-anderen-shells-wie-der-eingabeaufforderung-oder-bash&#34;&gt;Unterschiede zwischen PowerShell und anderen Shells wie der Eingabeaufforderung oder Bash&lt;/h2&gt;
 &lt;p&gt;PowerShell, die Windows-Eingabeaufforderung (CMD) und Bash sind drei verschiedene Shell-Umgebungen, die jeweils unterschiedliche Einsatzbereiche und Funktionen haben. In diesem Artikel vergleichen wir diese Shells und beleuchten die wichtigsten Unterschiede.&lt;/p&gt;
 &lt;h3 id=&#34;1-grundlegendes-konzept&#34;&gt;1. Grundlegendes Konzept&lt;/h3&gt;

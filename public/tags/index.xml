@@ -2,246 +2,260 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Attila Krick</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://attilakrick.com/tags/</link>
     <description>Recent content in Tags on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>http://localhost:1313/images/seo-thumbnail.png</url>
-      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://attilakrick.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.NET</title>
-      <link>http://localhost:1313/tags/.net/</link>
+      <link>https://attilakrick.com/tags/.net/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/.net/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Freie Softwareentwickler</title>
-      <link>http://localhost:1313/tags/freie-softwareentwickler/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/freie-softwareentwickler/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Objekte</title>
-      <link>http://localhost:1313/tags/objekte/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/objekte/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pipeline</title>
-      <link>http://localhost:1313/tags/pipeline/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pipeline/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PowerShell</title>
-      <link>http://localhost:1313/tags/powershell/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/powershell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seminar</title>
-      <link>http://localhost:1313/tags/seminar/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/seminar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Azure Data Studio</title>
-      <link>http://localhost:1313/tags/azure-data-studio/</link>
-      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/azure-data-studio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JOIN</title>
-      <link>http://localhost:1313/tags/join/</link>
-      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/join/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TSQL</title>
-      <link>http://localhost:1313/tags/tsql/</link>
-      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tsql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lernmethoden</title>
-      <link>http://localhost:1313/tags/lernmethoden/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lernmethoden/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automatisierung</title>
-      <link>http://localhost:1313/tags/automatisierung/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automatisierung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DotNET</title>
-      <link>http://localhost:1313/tags/dotnet/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dotnet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IT-Consulting</title>
-      <link>http://localhost:1313/tags/it-consulting/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/it-consulting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IT-Schulungen</title>
-      <link>http://localhost:1313/tags/it-schulungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/it-schulungen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Softwareentwicklung</title>
-      <link>http://localhost:1313/tags/softwareentwicklung/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/softwareentwicklung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>T-SQL</title>
-      <link>http://localhost:1313/tags/t-sql/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/t-sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Debugging</title>
-      <link>http://localhost:1313/tags/debugging/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/debugging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Produktivität</title>
-      <link>http://localhost:1313/tags/produktivit%C3%A4t/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/produktivit%C3%A4t/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skripting</title>
-      <link>http://localhost:1313/tags/skripting/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/skripting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VS Code</title>
-      <link>http://localhost:1313/tags/vs-code/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vs-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cmdlet</title>
-      <link>http://localhost:1313/tags/cmdlet/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cmdlet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Get-Help</title>
-      <link>http://localhost:1313/tags/get-help/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/get-help/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hilfe</title>
-      <link>http://localhost:1313/tags/hilfe/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hilfe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kontakt</title>
-      <link>http://localhost:1313/tags/kontakt/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/kontakt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scripting</title>
-      <link>http://localhost:1313/tags/scripting/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/scripting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Best Practices</title>
-      <link>http://localhost:1313/tags/best-practices/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sicherheit</title>
-      <link>http://localhost:1313/tags/sicherheit/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sicherheit/</guid>
+      <guid>https://attilakrick.com/tags/.net/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <link>https://attilakrick.com/tags/automation/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Einsteiger</title>
+      <link>https://attilakrick.com/tags/einsteiger/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/einsteiger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freie Softwareentwickler</title>
+      <link>https://attilakrick.com/tags/freie-softwareentwickler/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/freie-softwareentwickler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Objekte</title>
+      <link>https://attilakrick.com/tags/objekte/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/objekte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipeline</title>
+      <link>https://attilakrick.com/tags/pipeline/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/pipeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>https://attilakrick.com/tags/powershell/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seminar</title>
+      <link>https://attilakrick.com/tags/seminar/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/seminar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>https://attilakrick.com/tags/vs-code/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Terminal</title>
+      <link>https://attilakrick.com/tags/windows-terminal/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/windows-terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Data Studio</title>
+      <link>https://attilakrick.com/tags/azure-data-studio/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/azure-data-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JOIN</title>
+      <link>https://attilakrick.com/tags/join/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/join/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TSQL</title>
+      <link>https://attilakrick.com/tags/tsql/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/tsql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lernmethoden</title>
+      <link>https://attilakrick.com/tags/lernmethoden/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/lernmethoden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automatisierung</title>
+      <link>https://attilakrick.com/tags/automatisierung/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/automatisierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DotNET</title>
+      <link>https://attilakrick.com/tags/dotnet/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT-Consulting</title>
+      <link>https://attilakrick.com/tags/it-consulting/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/it-consulting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT-Schulungen</title>
+      <link>https://attilakrick.com/tags/it-schulungen/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/it-schulungen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Softwareentwicklung</title>
+      <link>https://attilakrick.com/tags/softwareentwicklung/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/softwareentwicklung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>T-SQL</title>
+      <link>https://attilakrick.com/tags/t-sql/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/t-sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>https://attilakrick.com/tags/debugging/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Produktivität</title>
+      <link>https://attilakrick.com/tags/produktivit%C3%A4t/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/produktivit%C3%A4t/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skripting</title>
+      <link>https://attilakrick.com/tags/skripting/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/skripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cmdlet</title>
+      <link>https://attilakrick.com/tags/cmdlet/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/cmdlet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Get-Help</title>
+      <link>https://attilakrick.com/tags/get-help/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/get-help/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hilfe</title>
+      <link>https://attilakrick.com/tags/hilfe/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/hilfe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>https://attilakrick.com/tags/kontakt/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/kontakt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scripting</title>
+      <link>https://attilakrick.com/tags/scripting/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://attilakrick.com/tags/best-practices/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sicherheit</title>
+      <link>https://attilakrick.com/tags/sicherheit/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/sicherheit/</guid>
       <description></description>
     </item>
     <item>
       <title>CLI</title>
-      <link>http://localhost:1313/tags/cli/</link>
+      <link>https://attilakrick.com/tags/cli/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cli/</guid>
+      <guid>https://attilakrick.com/tags/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>http://localhost:1313/tags/bash/</link>
+      <link>https://attilakrick.com/tags/bash/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bash/</guid>
+      <guid>https://attilakrick.com/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Eingabeaufforderung</title>
-      <link>http://localhost:1313/tags/eingabeaufforderung/</link>
+      <link>https://attilakrick.com/tags/eingabeaufforderung/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eingabeaufforderung/</guid>
+      <guid>https://attilakrick.com/tags/eingabeaufforderung/</guid>
       <description></description>
     </item>
     <item>
       <title>Vergleich</title>
-      <link>http://localhost:1313/tags/vergleich/</link>
+      <link>https://attilakrick.com/tags/vergleich/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vergleich/</guid>
+      <guid>https://attilakrick.com/tags/vergleich/</guid>
       <description></description>
     </item>
     <item>
       <title>Entity Framework</title>
-      <link>http://localhost:1313/tags/entity-framework/</link>
+      <link>https://attilakrick.com/tags/entity-framework/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/entity-framework/</guid>
+      <guid>https://attilakrick.com/tags/entity-framework/</guid>
       <description></description>
     </item>
   </channel>

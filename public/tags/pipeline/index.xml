@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pipeline on Attila Krick</title>
-    <link>http://localhost:1313/tags/pipeline/</link>
+    <link>https://attilakrick.com/tags/pipeline/</link>
     <description>Recent content in Pipeline on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>http://localhost:1313/images/seo-thumbnail.png</url>
-      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://attilakrick.com/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
-      <link>http://localhost:1313/_template/</link>
+      <link>https://attilakrick.com/_template/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_template/</guid>
+      <guid>https://attilakrick.com/_template/</guid>
       <description>Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer.</description>
     </item>
     <item>
       <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
-      <link>http://localhost:1313/posts/powershell/objekte_pipeline_cmdlets/</link>
+      <link>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/objekte_pipeline_cmdlets/</guid>
+      <guid>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</guid>
       <description>Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer.</description>
     </item>
   </channel>

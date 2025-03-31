@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sicherheit on Attila Krick</title>
-    <link>http://localhost:1313/tags/sicherheit/</link>
+    <link>https://attilakrick.com/tags/sicherheit/</link>
     <description>Recent content in Sicherheit on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>http://localhost:1313/images/seo-thumbnail.png</url>
-      <link>http://localhost:1313/images/seo-thumbnail.png</link>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sicherheit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://attilakrick.com/tags/sicherheit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerShell-Scripting Best Practices - Effiziente Automatisierung und Sicherheit</title>
-      <link>http://localhost:1313/posts/powershell/best_practices_powershell_skripting/</link>
+      <link>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell/best_practices_powershell_skripting/</guid>
+      <guid>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</guid>
       <description>Die besten Methoden für PowerShell-Skripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
     </item>
   </channel>
