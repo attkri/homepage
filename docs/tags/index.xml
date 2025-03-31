@@ -28,6 +28,13 @@
       <description></description>
     </item>
     <item>
+      <title>Cmdlet</title>
+      <link>https://attilakrick.com/tags/cmdlet/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/cmdlet/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Einsteiger</title>
       <link>https://attilakrick.com/tags/einsteiger/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
@@ -35,10 +42,24 @@
       <description></description>
     </item>
     <item>
+      <title>ExecutionPolicy</title>
+      <link>https://attilakrick.com/tags/executionpolicy/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/executionpolicy/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Freie Softwareentwickler</title>
       <link>https://attilakrick.com/tags/freie-softwareentwickler/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/freie-softwareentwickler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hilfe</title>
+      <link>https://attilakrick.com/tags/hilfe/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/hilfe/</guid>
       <description></description>
     </item>
     <item>
@@ -70,6 +91,27 @@
       <description></description>
     </item>
     <item>
+      <title>Sicherheit</title>
+      <link>https://attilakrick.com/tags/sicherheit/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/sicherheit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL Server</title>
+      <link>https://attilakrick.com/tags/sql-server/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TSQL</title>
+      <link>https://attilakrick.com/tags/tsql/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/tsql/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>VS Code</title>
       <link>https://attilakrick.com/tags/vs-code/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
@@ -95,13 +137,6 @@
       <link>https://attilakrick.com/tags/join/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/join/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TSQL</title>
-      <link>https://attilakrick.com/tags/tsql/</link>
-      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/tsql/</guid>
       <description></description>
     </item>
     <item>
@@ -175,24 +210,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cmdlet</title>
-      <link>https://attilakrick.com/tags/cmdlet/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/cmdlet/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Get-Help</title>
       <link>https://attilakrick.com/tags/get-help/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/get-help/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hilfe</title>
-      <link>https://attilakrick.com/tags/hilfe/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/hilfe/</guid>
       <description></description>
     </item>
     <item>
@@ -214,13 +235,6 @@
       <link>https://attilakrick.com/tags/best-practices/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sicherheit</title>
-      <link>https://attilakrick.com/tags/sicherheit/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/sicherheit/</guid>
       <description></description>
     </item>
     <item>

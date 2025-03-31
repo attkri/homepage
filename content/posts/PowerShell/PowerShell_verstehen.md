@@ -6,7 +6,7 @@ slug: "powershell-verstehen"
 tags: ["PowerShell", ".NET", "Seminar", "Freie Softwareentwickler"]
 draft: false
 cover:
-  image: "/images/cover/PowerShell-Keep-calm-and-use-Get-Help.webp"
+  image: "/images/posts/PowerShell-Keep-calm-and-use-Get-Help.webp"
   alt: "PowerShell verstehen"  
 ---
 

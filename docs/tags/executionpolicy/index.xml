@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ExecutionPolicy on Attila Krick</title>
+    <link>https://attilakrick.com/tags/executionpolicy/</link>
+    <description>Recent content in ExecutionPolicy on Attila Krick</description>
+    <image>
+      <title>Attila Krick</title>
+      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
+      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://attilakrick.com/tags/executionpolicy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell sicher einsetzen – Execution Policies &amp; Best Practices</title>
+      <link>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</guid>
+      <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
+    </item>
+  </channel>
+</rss>

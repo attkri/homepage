@@ -6,7 +6,7 @@ categories: ["dotNET", "T-SQL"]
 tags: ["Entity Framework", "dotNET"]
 draft: false
 cover:
-  image: "/images/cover/Entity_Framework.webp"
+  image: "/images/posts/Entity_Framework.webp"
   alt: "Entity Framework Core - Einführung"
 ---
 

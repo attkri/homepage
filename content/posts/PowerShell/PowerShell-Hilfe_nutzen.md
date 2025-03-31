@@ -6,7 +6,7 @@ categories: ["PowerShell"]
 tags: ["PowerShell", "Hilfe", "Cmdlet", "Get-Help", "Scripting"]
 draft: false
 cover:
-  image: "/images/cover/Helpful.webp"
+  image: "/images/posts/Helpful.webp"
   alt: "Attila Krick - IT-Spezialist"  
 ---
 

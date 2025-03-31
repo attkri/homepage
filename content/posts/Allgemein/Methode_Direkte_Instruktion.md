@@ -5,7 +5,7 @@ draft: false
 description: "Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg."
 tags: ["PowerShell", ".NET", "TSQL", "Seminar", "Freie Softwareentwickler", "Lernmethoden"]
 cover:
-  image: "/images/lernmethoden-header-1200x600.webp"
+  image: "/images/posts/lernmethoden-header-1200x600.webp"
   alt: "Technisches Seminar mit Trainer, Teilnehmern und Code-Screens"
   caption: "So funktioniert modernes IT-Training: Struktur trifft Interaktion"
 ---

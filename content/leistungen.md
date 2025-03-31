@@ -6,7 +6,7 @@ description: "PowerShell, .NET und SQL - Schulungen, Entwicklung & Automatisieru
 type: "article"
 tags: ["PowerShell", "Automatisierung", "T-SQL", "IT-Schulungen", "Softwareentwicklung", "IT-Consulting", "dotNET"]
 cover:
-  image: "/images/cover/Leistungen.webp"
+  image: "/images/posts/Leistungen.webp"
   alt: "Attila Krick - IT-Spezialist"
 comments: false
 HideTags: true

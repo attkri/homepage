@@ -8,15 +8,10 @@ tags: ["Pipeline", "Objekte"]
 author: "Attila Krick"
 
 cover:
-  image: "/images/cover/PowerShell-Pipelining-FlipChart-Vorschau.webp"
+  image: "/images/posts/PowerShell-Pipelining-FlipChart-Vorschau.webp"
   alt: "PowerShell Pipelining visualisiert auf einem Flipchart"
   caption: "Objekte fließen durch die Pipeline – das Grundprinzip von PowerShell"
   relative: false
-
-editPost:
-  URL: "https://github.com/attkri/homepage/tree/main/content/posts/PowerShell/Objekte_Pipeline_Cmdlets.md"
-  Text: "Diesen Artikel bearbeiten"
-  appendFilePath: true
 
 showToc: true
 TocOpen: false
@@ -26,7 +21,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
-ShowWordCount: false
+#ShowWordCount: false
 
 assets:
   disableHLJS: true

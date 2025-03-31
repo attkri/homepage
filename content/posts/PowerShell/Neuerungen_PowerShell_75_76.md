@@ -6,7 +6,7 @@ description: "Ein Überblick über die neuen Features, Verbesserungen und bekann
 tags: ["PowerShell", "Automation", "CLI", "Scripting"]
 categories: ["PowerShell"]
 cover:
-  image: "/images/cover/PowerShell7576.webp"  # Titelbild der Seite
+  image: "/images/posts/PowerShell7576.webp"  # Titelbild der Seite
   alt: "Attila Krick - IT-Spezialist"  
 
 showToc: true

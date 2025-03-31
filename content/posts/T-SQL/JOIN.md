@@ -6,7 +6,7 @@ categories: ["T-SQL"]
 tags: ["TSQL", "JOIN", "Azure Data Studio"]
 draft: false
 cover:
-  image: "/images/cover/tsql_joins_cover_1200x300.webp"
+  image: "/images/posts/tsql_joins_cover_1200x300.webp"
   alt: "JOIN-Typen in T-SQL einfach erklärt"
 ---
 
@@ -67,7 +67,7 @@ Hier siehst du die wichtigsten JOINs als vereinfachte Darstellung (Legende: ⬤ 
 
 Zeigt nur Zeilen, bei denen in beiden Tabellen ein passender Eintrag existiert.
 
-```
+```text
 Kunden           Bestellungen
   □                 □
     \             /
@@ -84,7 +84,7 @@ INNER JOIN Bestellungen B ON K.KundenID = B.KundenID;
 
 Nimm alle Kunden, und falls Bestellungen existieren, zeig sie.
 
-```
+```text
 Kunden           Bestellungen
   □                 □
    |\             /
@@ -128,7 +128,7 @@ JOIN Produkte P ON B.ProduktID = P.ProduktID;
 
 Das ergibt z. B.:
 
-```
+```text
 Name        | Produktname | Menge
 ------------|-------------|------
 Müller GmbH | Laptop      | 2

@@ -6,7 +6,7 @@ categories: ["PowerShell"]
 tags: ["PowerShell", "VS Code", "Skripting", "Debugging", "Produktivität"]
 draft: false
 cover:
-  image: "/images/cover/vscode-powershell.webp"
+  image: "/images/posts/vscode-powershell.webp"
   alt: "PowerShell-Integration in VS Code"
 ---
 

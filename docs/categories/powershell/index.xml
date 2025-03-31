@@ -14,11 +14,18 @@
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
+      <title>Das richtige Cmdlet finden – So suchst du clever in PowerShell</title>
+      <link>https://attilakrick.com/posts/powershell/cmdlet_finden/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/cmdlet_finden/</guid>
+      <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
+    </item>
+    <item>
+      <title>Der Titel sollte maximal 580 Pixel lang sein.</title>
       <link>https://attilakrick.com/_template/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/_template/</guid>
-      <description>Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer.</description>
+      <description>Die Description sollte maximal 1000 Pixel lang sein.</description>
     </item>
     <item>
       <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
@@ -28,11 +35,25 @@
       <description>Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer.</description>
     </item>
     <item>
+      <title>PowerShell &amp; SQL Server – Automatisieren mit T-SQL &amp; .NET</title>
+      <link>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</guid>
+      <description>Wie du mit PowerShell SQL Server abfragst, Daten exportierst und Automatisierung mit T-SQL und .NET kombinierst. Ideal für DBAs, Admins &amp;amp; freie Softwareentwickler.</description>
+    </item>
+    <item>
       <title>PowerShell benutzen – Tools, VS Code und erste Schritte</title>
       <link>https://attilakrick.com/posts/powershell/powershell_benutzen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/posts/powershell/powershell_benutzen/</guid>
       <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
+    </item>
+    <item>
+      <title>PowerShell sicher einsetzen – Execution Policies &amp; Best Practices</title>
+      <link>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</guid>
+      <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
     </item>
     <item>
       <title>Integration von PowerShell in Visual Studio Code</title>

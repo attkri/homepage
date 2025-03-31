@@ -8,15 +8,10 @@ categories: ["PowerShell"]
 author: "Attila Krick"
 
 cover:
-  image: "/images/cover/VisualStudioCode-PowerShell-Beispiel-1.webp"
+  image: "/images/posts/VisualStudioCode-PowerShell-Beispiel-1.webp"
   alt: "Visual Studio Code mit PowerShell-Erweiterung"
   caption: "PowerShell Skripte schreiben mit Visual Studio Code"
   relative: false
-
-# editPost:
-#   URL: "https://github.com/deinusername/repo/edit/main/content/{path}"
-#   Text: "Diesen Artikel bearbeiten"
-#   appendFilePath: true
 
 showToc: true
 TocOpen: false
@@ -26,7 +21,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
-ShowWordCount: false
+#ShowWordCount: false
 
 assets:
   disableHLJS: true
