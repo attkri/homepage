@@ -11,21 +11,6 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/freie-softwareentwickler/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PowerShell verstehen – Was ist das &amp; warum brauchst du es?</title>
-      <link>https://attilakrick.com/posts/powershell/powershell-verstehen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell-verstehen/</guid>
-      <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
-    </item>
-    <item>
-      <title>So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität</title>
-      <link>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</guid>
-      <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
-    </item>
   </channel>
 </rss>

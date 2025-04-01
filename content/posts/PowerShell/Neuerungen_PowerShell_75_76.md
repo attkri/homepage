@@ -3,7 +3,7 @@
 title: "Neuerungen PowerShell 7.5 und 7.6"
 date: 2025-03-14
 description: "Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5."
-tags: ["PowerShell", "Automation", "CLI", "Scripting"]
+tags: ["PowerShell", "Automatisierung", "CLI", "Scripting"]
 categories: ["PowerShell"]
 cover:
   image: "/images/posts/PowerShell7576.webp"  # Titelbild der Seite

@@ -3,7 +3,7 @@ title: "Integration von PowerShell in Visual Studio Code"
 date: 2025-03-18
 description: "Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung."
 categories: ["PowerShell"]
-tags: ["PowerShell", "VS Code", "Skripting", "Debugging", "Produktivität"]
+tags: ["PowerShell", "Scripting", "Debugging"]
 draft: false
 cover:
   image: "/images/posts/vscode-powershell.webp"

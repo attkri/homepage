@@ -3,7 +3,7 @@ title: "Wie man die PowerShell-Hilfe benutzt"
 date: 2025-03-17
 description: "Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung."
 categories: ["PowerShell"]
-tags: ["PowerShell", "Hilfe", "Cmdlet", "Get-Help", "Scripting"]
+tags: ["PowerShell", "Hilfe", "Cmdlet", "Scripting"]
 draft: false
 cover:
   image: "/images/posts/Helpful.webp"

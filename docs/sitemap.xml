@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://attilakrick.com/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/posts/powershell/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/tags/.net/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -22,7 +12,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/automation/</loc>
+    <loc>https://attilakrick.com/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,32 +42,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/executionpolicy/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/freie-softwareentwickler/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/tags/hilfe/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/objekte/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/pipeline/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -88,11 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/vs-code/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -112,7 +77,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/seminar/</loc>
+    <loc>https://attilakrick.com/posts/powershell/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -122,7 +87,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/sql-server/</loc>
+    <loc>https://attilakrick.com/tags/t-sql/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -134,21 +99,6 @@
   </url><url>
     <loc>https://attilakrick.com/tags/tsql/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/windows-terminal/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/azure-data-studio/</loc>
-    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/join/</loc>
-    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -168,6 +118,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://attilakrick.com/tags/lernmethoden/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/seminar/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -212,11 +167,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/t-sql/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/tags/debugging/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -227,18 +177,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/produktivit%C3%A4t/</loc>
+    <loc>https://attilakrick.com/tags/scripting/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/skripting/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/get-help/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -248,11 +188,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://attilakrick.com/tags/kontakt/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/scripting/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -282,22 +217,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/bash/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/eingabeaufforderung/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/posts/powershell/unterschied_ps_vs_bash/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/tags/vergleich/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -317,11 +237,31 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://attilakrick.com/tags/freie-softwareentwickler/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/vs-code/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://attilakrick.com/categories/powershrell/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://attilakrick.com/tags/skripting/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/sql-server/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://attilakrick.com/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/tags/windows-terminal/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

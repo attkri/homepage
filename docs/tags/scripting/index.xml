@@ -11,14 +11,28 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integration von PowerShell in Visual Studio Code</title>
+      <link>https://attilakrick.com/posts/powershell/vscode_starter/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/vscode_starter/</guid>
+      <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
+    </item>
     <item>
       <title>Wie man die PowerShell-Hilfe benutzt</title>
       <link>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</guid>
       <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
+    </item>
+    <item>
+      <title>PowerShell-Scripting Best Practices - Effiziente Automatisierung und Sicherheit</title>
+      <link>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/powershell/best_practices_powershell_skripting/</guid>
+      <description>Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
     </item>
     <item>
       <title>Neuerungen PowerShell 7.5 und 7.6</title>

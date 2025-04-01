@@ -11,14 +11,6 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PowerShell &amp; SQL Server – Automatisieren mit T-SQL &amp; .NET</title>
-      <link>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</guid>
-      <description>Wie du mit PowerShell SQL Server abfragst, Daten exportierst und Automatisierung mit T-SQL und .NET kombinierst. Ideal für DBAs, Admins &amp;amp; freie Softwareentwickler.</description>
-    </item>
   </channel>
 </rss>

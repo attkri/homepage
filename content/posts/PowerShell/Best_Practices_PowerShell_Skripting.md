@@ -1,8 +1,8 @@
 ---
 title: "PowerShell-Scripting Best Practices - Effiziente Automatisierung und Sicherheit"
 date: 2025-03-16
-description: "Die besten Methoden für PowerShell-Skripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung."
-tags: ["PowerShell", "Skripting", "Automatisierung", "Sicherheit", "Best Practices"]
+description: "Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung."
+tags: ["PowerShell", "Scripting", "Automatisierung", "Sicherheit", "Best Practices"]
 ---
 
 ## Best Practices für PowerShell-Skripting

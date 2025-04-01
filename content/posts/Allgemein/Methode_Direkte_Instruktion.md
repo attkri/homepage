@@ -3,7 +3,7 @@ title: "So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität"
 date: 2025-03-27
 draft: false
 description: "Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg."
-tags: ["PowerShell", ".NET", "TSQL", "Seminar", "Freie Softwareentwickler", "Lernmethoden"]
+tags: ["PowerShell", ".NET", "TSQL", "Seminar", "Lernmethoden"]
 cover:
   image: "/images/posts/lernmethoden-header-1200x600.webp"
   alt: "Technisches Seminar mit Trainer, Teilnehmern und Code-Screens"

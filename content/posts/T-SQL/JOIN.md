@@ -3,7 +3,7 @@ title: "T-SQL JOINs für Einsteiger – So verknüpfst du deine Daten richtig"
 date: 2025-03-29
 description: "Verstehe INNER JOIN, LEFT JOIN & Co. mit praxisnahen Beispielen für Kunden, Bestellungen und Produkte – ideal für Business-Analysten und Power-User."
 categories: ["T-SQL"]
-tags: ["TSQL", "JOIN", "Azure Data Studio"]
+tags: ["T-SQL"]
 draft: false
 cover:
   image: "/images/posts/tsql_joins_cover_1200x300.webp"

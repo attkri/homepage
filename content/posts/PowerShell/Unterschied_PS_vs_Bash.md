@@ -1,7 +1,7 @@
 ---
 title: "Unterschiede zwischen PowerShell und anderen Shells"
 date: 2025-03-10
-tags: ["PowerShell", "Bash", "Eingabeaufforderung", "Vergleich"]
+tags: ["PowerShell"]
 draft: false
 ---
 

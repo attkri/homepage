@@ -3,7 +3,7 @@ draft: false
 date: 2025-03-31
 title: "PowerShell benutzen – Tools, VS Code und erste Schritte"
 description: "Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte."
-tags: ["PowerShell", ".NET", "VS Code", "Windows Terminal", "Seminar", "Einsteiger", "Automation"]
+tags: ["PowerShell", "Einsteiger"]
 categories: ["PowerShell"]
 author: "Attila Krick"
 
