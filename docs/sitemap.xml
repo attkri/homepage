@@ -7,17 +7,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/categories/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://attilakrick.com/posts/cmdlet_finden/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/categories/powershell/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -47,27 +47,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/categories/powershell/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/categories/t-sql/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/join/</loc>
+    <loc>https://attilakrick.com/posts/t-sql_join/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/categories/divers/</loc>
+    <loc>https://attilakrick.com/posts/methode_direkte_instruktion/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/methode_direkte_instruktion/</loc>
+    <loc>https://attilakrick.com/categories/divers/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -117,16 +112,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/efcore/</loc>
+    <loc>https://attilakrick.com/posts/entityframework_basis/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/search/</loc>
+    <loc>https://attilakrick.com/posts/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/tags/</loc>
+    <loc>https://attilakrick.com/search/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

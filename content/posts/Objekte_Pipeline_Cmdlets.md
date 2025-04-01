@@ -2,7 +2,7 @@
 draft: false
 date: 2025-03-31
 title: "Objekte, Pipeline & Cmdlets – So arbeitest du effizient mit PowerShell"
-description: "Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer."
+description: "PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger."
 categories: ["PowerShell"]
 author: "Attila Krick"
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>.NET Beiträge nach Kategorie | Attila Krick on Attila Krick</title>
+    <title>.NET Beiträge nach Kategorie on Attila Krick</title>
     <link>https://attilakrick.com/categories/dotnet/</link>
-    <description>Recent content in .NET Beiträge nach Kategorie | Attila Krick on Attila Krick</description>
+    <description>Recent content in .NET Beiträge nach Kategorie on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
       <url>https://attilakrick.com/images/seo-thumbnail.png</url>
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>Entity Framework Core - Was du als .NET-Entwickler wissen musst</title>
-      <link>https://attilakrick.com/posts/efcore/</link>
+      <link>https://attilakrick.com/posts/entityframework_basis/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/efcore/</guid>
+      <guid>https://attilakrick.com/posts/entityframework_basis/</guid>
       <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
     </item>
   </channel>

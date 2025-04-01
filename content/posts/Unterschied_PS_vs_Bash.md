@@ -1,5 +1,6 @@
 ---
 title: "Unterschiede zwischen PowerShell und anderen Shells"
+description: "Unterschiede zwischen PowerShell, CMD und Bash – Shells im Vergleich: Konzepte, Plattformen, Syntax & Anwendungsfälle."
 date: 2025-03-10
 categories: ["PowerShell"]
 draft: false

@@ -1,6 +1,8 @@
 ---
-title: "PowerShell-Blogbeiträge kategorisiert | Attila Krick"
-description: "Alle Artikel, die zur Kategorie PowerShell gehören – ideal für Admins, Entwickler und IT-Automatisierer."
+title: "Kategorien – PowerShell, .NET, T-SQL & mehr"
+description: "Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis."
+type: "taxonomy"
+layout: "list"
 aliases:
   - "/tags/.net/"
   - "/powershell/gui-mit-powershell-erstellen/"

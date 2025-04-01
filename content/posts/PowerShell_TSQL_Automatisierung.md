@@ -2,7 +2,7 @@
 draft: false
 date: 2025-03-31
 title: "PowerShell & SQL Server – Automatisieren mit T-SQL & .NET"
-description: "Wie du mit PowerShell SQL Server abfragst, Daten exportierst und Automatisierung mit T-SQL und .NET kombinierst. Ideal für DBAs, Admins & freie Softwareentwickler."
+description: "PowerShell trifft SQL Server: Daten abfragen, exportieren & automatisieren mit T-SQL und .NET – praxisnah & kompakt."
 categories: ["PowerShell"]
 author: "Attila Krick"
 

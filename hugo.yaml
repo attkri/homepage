@@ -26,6 +26,10 @@ pagination:
 
   pagerSize: 5
 
+taxonomies:
+  category: "categories"
+  tag: "" # Wird nicht mehr benötigt daher auch keine /tags/-Seite mehr
+
 markup:
 
   highlight:
