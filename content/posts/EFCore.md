@@ -2,7 +2,7 @@
 title: "Entity Framework Core - Was du als .NET-Entwickler wissen musst"
 date: 2024-10-18
 description: "Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler."
-categories: [".NET", "T-SQL"]
+categories: ["dotNET", "T-SQL"]
 draft: false
 cover:
   image: "/images/posts/Entity_Framework.webp"

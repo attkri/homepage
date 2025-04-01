@@ -4,7 +4,7 @@ date: 2025-03-19
 title: "IT-Dienstleistungen & Schulungen"
 description: "PowerShell, .NET und SQL - Schulungen, Entwicklung & Automatisierung"
 type: "article"
-tags: ["PowerShell", "Automatisierung", "T-SQL", "IT-Schulungen", "Softwareentwicklung", "IT-Consulting", "dotNET"]
+categories: ["PowerShell", "T-SQL", "dotNET"]
 cover:
   image: "/images/posts/Leistungen.webp"
   alt: "Attila Krick - IT-Spezialist"
