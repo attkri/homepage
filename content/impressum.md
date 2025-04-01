@@ -16,7 +16,7 @@ HideTags: true
 
 Attila Krick  
 An der Schanze 20  
-Vinkrath, 47292 Grefrath  
+47292 Grefrath  
 
 E-Mail: [info@attilakrick.com](mailto:info@attilakrick.com)  
 

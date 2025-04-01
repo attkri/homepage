@@ -11,14 +11,7 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/tsql/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität</title>
-      <link>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/allgemein/methode_direkte_instruktion/</guid>
-      <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
-    </item>
   </channel>
 </rss>

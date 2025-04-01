@@ -14,88 +14,32 @@
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>.NET</title>
-      <link>https://attilakrick.com/tags/.net/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/.net/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Alle PowerShell-Artikel nach Tag | Attila Krick</title>
+      <title>PowerShell</title>
       <link>https://attilakrick.com/tags/powershell/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/powershell/</guid>
-      <description>Hier findest du alle Blogartikel zum Thema PowerShell – von Grundlagen über Skripting bis zur Automatisierung.</description>
-    </item>
-    <item>
-      <title>Cmdlet</title>
-      <link>https://attilakrick.com/tags/cmdlet/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/cmdlet/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Einsteiger</title>
-      <link>https://attilakrick.com/tags/einsteiger/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/einsteiger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hilfe</title>
-      <link>https://attilakrick.com/tags/hilfe/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/hilfe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sicherheit</title>
-      <link>https://attilakrick.com/tags/sicherheit/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/sicherheit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>T-SQL Scripts, Beispiele &amp; Best Practices | Attila Krick</title>
-      <link>https://attilakrick.com/tags/t-sql/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/t-sql/</guid>
-      <description>Beiträge rund um T-SQL und SQL Server – ideal für Datenbankentwickler, Admins &amp;amp; Analysten.</description>
     </item>
     <item>
       <title>TSQL</title>
       <link>https://attilakrick.com/tags/tsql/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/tsql/</guid>
       <description></description>
     </item>
     <item>
-      <title>Lernmethoden</title>
-      <link>https://attilakrick.com/tags/lernmethoden/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/lernmethoden/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seminar</title>
-      <link>https://attilakrick.com/tags/seminar/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/seminar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>.NET Tipps &amp; Tools für Entwickler | Attila Krick</title>
-      <link>https://attilakrick.com/tags/dotnet/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/dotnet/</guid>
-      <description>Alle Beiträge, die sich mit .NET, C# und Framework-Themen befassen – kompakt und praxisnah.</description>
-    </item>
-    <item>
-      <title>Automatisierung mit PowerShell &amp; SQL | Attila Krick</title>
+      <title>Automatisierung</title>
       <link>https://attilakrick.com/tags/automatisierung/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/automatisierung/</guid>
-      <description>Tipps, Beispiele und Tools zur Automatisierung von IT-Aufgaben mit PowerShell, .NET und SQL.</description>
+      <description></description>
+    </item>
+    <item>
+      <title>DotNET</title>
+      <link>https://attilakrick.com/tags/dotnet/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/dotnet/</guid>
+      <description></description>
     </item>
     <item>
       <title>IT-Consulting</title>
@@ -119,17 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>Debugging</title>
-      <link>https://attilakrick.com/tags/debugging/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/debugging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scripting</title>
-      <link>https://attilakrick.com/tags/scripting/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/scripting/</guid>
+      <title>T-SQL</title>
+      <link>https://attilakrick.com/tags/t-sql/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/tags/t-sql/</guid>
       <description></description>
     </item>
     <item>
@@ -138,62 +75,6 @@
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/tags/kontakt/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Best Practices</title>
-      <link>https://attilakrick.com/tags/best-practices/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CLI</title>
-      <link>https://attilakrick.com/tags/cli/</link>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/cli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entity Framework</title>
-      <link>https://attilakrick.com/tags/entity-framework/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/entity-framework/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Freie Softwareentwickler &amp; Automatisierung | Attila Krick</title>
-      <link>https://attilakrick.com/tags/freie-softwareentwickler/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/freie-softwareentwickler/</guid>
-      <description>PowerShell-, T-SQL- und .NET-Tipps für freie Entwickler &amp;amp; IT-Selbstständige.</description>
-    </item>
-    <item>
-      <title>PowerShell &amp; VS Code – Die perfekte Kombi | Attila Krick</title>
-      <link>https://attilakrick.com/tags/vs-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/vs-code/</guid>
-      <description>PowerShell-Entwicklung mit Visual Studio Code – Editor-Tipps, Erweiterungen &amp;amp; Debugging.</description>
-    </item>
-    <item>
-      <title>Skripting mit PowerShell | Attila Krick</title>
-      <link>https://attilakrick.com/tags/skripting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/skripting/</guid>
-      <description>Best Practices, Beispiele &amp;amp; Tools für effizientes Skripting mit PowerShell.</description>
-    </item>
-    <item>
-      <title>SQL Server automatisieren mit PowerShell | Attila Krick</title>
-      <link>https://attilakrick.com/tags/sql-server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/sql-server/</guid>
-      <description>Wie du SQL Server mit PowerShell und T-SQL automatisierst – inklusive praktischer Skripte.</description>
-    </item>
-    <item>
-      <title>Windows Terminal &amp; PowerShell nutzen | Attila Krick</title>
-      <link>https://attilakrick.com/tags/windows-terminal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/tags/windows-terminal/</guid>
-      <description>PowerShell effizient im Windows Terminal nutzen – mit Shortcuts, Themes und Tipps für Admins.</description>
     </item>
   </channel>
 </rss>

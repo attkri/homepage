@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PowerShell on Attila Krick</title>
+    <title>PowerShell-Blogbeiträge kategorisiert | Attila Krick on Attila Krick</title>
     <link>https://attilakrick.com/categories/powershell/</link>
-    <description>Recent content in PowerShell on Attila Krick</description>
+    <description>Recent content in PowerShell-Blogbeiträge kategorisiert | Attila Krick on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
       <url>https://attilakrick.com/images/seo-thumbnail.png</url>
@@ -15,66 +15,111 @@
     <atom:link href="https://attilakrick.com/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Das richtige Cmdlet finden – So suchst du clever in PowerShell</title>
-      <link>https://attilakrick.com/posts/powershell/cmdlet_finden/</link>
+      <link>https://attilakrick.com/posts/cmdlet_finden/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/cmdlet_finden/</guid>
+      <guid>https://attilakrick.com/posts/cmdlet_finden/</guid>
       <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
     </item>
     <item>
       <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
-      <link>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</link>
+      <link>https://attilakrick.com/posts/objekte_pipeline_cmdlets/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</guid>
+      <guid>https://attilakrick.com/posts/objekte_pipeline_cmdlets/</guid>
       <description>Verstehe das Herzstück von PowerShell: Die Pipeline, objektbasierte Verarbeitung und der gezielte Umgang mit Cmdlets. Ideal für Einsteiger und aufstrebende Automatisierer.</description>
     </item>
     <item>
       <title>PowerShell &amp; SQL Server – Automatisieren mit T-SQL &amp; .NET</title>
-      <link>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</link>
+      <link>https://attilakrick.com/posts/powershell_tsql_automatisierung/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell_tsql_automatisierung/</guid>
+      <guid>https://attilakrick.com/posts/powershell_tsql_automatisierung/</guid>
       <description>Wie du mit PowerShell SQL Server abfragst, Daten exportierst und Automatisierung mit T-SQL und .NET kombinierst. Ideal für DBAs, Admins &amp;amp; freie Softwareentwickler.</description>
     </item>
     <item>
       <title>PowerShell benutzen – Tools, VS Code und erste Schritte</title>
-      <link>https://attilakrick.com/posts/powershell/powershell_benutzen/</link>
+      <link>https://attilakrick.com/posts/powershell_benutzen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell_benutzen/</guid>
+      <guid>https://attilakrick.com/posts/powershell_benutzen/</guid>
       <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
     </item>
     <item>
       <title>PowerShell sicher einsetzen – Execution Policies &amp; Best Practices</title>
-      <link>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</link>
+      <link>https://attilakrick.com/posts/powershell_sicher_einsetzen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell_sicher_einsetzen/</guid>
+      <guid>https://attilakrick.com/posts/powershell_sicher_einsetzen/</guid>
       <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
     </item>
     <item>
       <title>PowerShell verstehen – Was ist das &amp; warum brauchst du es?</title>
-      <link>https://attilakrick.com/posts/powershell/powershell-verstehen/</link>
+      <link>https://attilakrick.com/posts/powershell-verstehen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell-verstehen/</guid>
+      <guid>https://attilakrick.com/posts/powershell-verstehen/</guid>
       <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
     </item>
     <item>
       <title>Integration von PowerShell in Visual Studio Code</title>
-      <link>https://attilakrick.com/posts/powershell/vscode_starter/</link>
+      <link>https://attilakrick.com/posts/vscode_starter/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/vscode_starter/</guid>
+      <guid>https://attilakrick.com/posts/vscode_starter/</guid>
       <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
     </item>
     <item>
       <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</link>
+      <link>https://attilakrick.com/posts/powershell-hilfe_nutzen/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/powershell-hilfe_nutzen/</guid>
+      <guid>https://attilakrick.com/posts/powershell-hilfe_nutzen/</guid>
       <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
     </item>
     <item>
+      <title>PowerShell-Scripting Best Practices - Effiziente Automatisierung und Sicherheit</title>
+      <link>https://attilakrick.com/posts/best_practices_powershell_skripting/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/best_practices_powershell_skripting/</guid>
+      <description>Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
+    </item>
+    <item>
       <title>Neuerungen PowerShell 7.5 und 7.6</title>
-      <link>https://attilakrick.com/posts/powershell/neuerungen_powershell_75_76/</link>
+      <link>https://attilakrick.com/posts/neuerungen_powershell_75_76/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell/neuerungen_powershell_75_76/</guid>
+      <guid>https://attilakrick.com/posts/neuerungen_powershell_75_76/</guid>
       <description>Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5.</description>
+    </item>
+    <item>
+      <title>Unterschiede zwischen PowerShell und anderen Shells</title>
+      <link>https://attilakrick.com/posts/unterschied_ps_vs_bash/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/posts/unterschied_ps_vs_bash/</guid>
+      <description>&lt;h2 id=&#34;unterschiede-zwischen-powershell-und-anderen-shells-wie-der-eingabeaufforderung-oder-bash&#34;&gt;Unterschiede zwischen PowerShell und anderen Shells wie der Eingabeaufforderung oder Bash&lt;/h2&gt;
+&lt;p&gt;PowerShell, die Windows-Eingabeaufforderung (CMD) und Bash sind drei verschiedene Shell-Umgebungen, die jeweils unterschiedliche Einsatzbereiche und Funktionen haben. In diesem Artikel vergleichen wir diese Shells und beleuchten die wichtigsten Unterschiede.&lt;/p&gt;
+&lt;h3 id=&#34;1-grundlegendes-konzept&#34;&gt;1. Grundlegendes Konzept&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Shell&lt;/th&gt;
+          &lt;th&gt;Basis-Technologie&lt;/th&gt;
+          &lt;th&gt;Hauptplattform&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;PowerShell&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Objektbasiert (OOP)&lt;/td&gt;
+          &lt;td&gt;Windows, Linux, macOS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;CMD (Eingabeaufforderung)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Textbasiert&lt;/td&gt;
+          &lt;td&gt;Windows&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Bash&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Textbasiert&lt;/td&gt;
+          &lt;td&gt;Linux, macOS&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-unterschiede-in-der-syntax&#34;&gt;2. Unterschiede in der Syntax&lt;/h3&gt;
+&lt;h4 id=&#34;powershell-objektbasiert&#34;&gt;PowerShell: Objektbasiert&lt;/h4&gt;
+&lt;p&gt;PowerShell arbeitet mit &lt;strong&gt;Objekten&lt;/strong&gt;, nicht nur mit Text. Das bedeutet, dass Befehle strukturierte Daten ausgeben, die einfach weiterverarbeitet werden können.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

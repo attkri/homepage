@@ -89,9 +89,9 @@ menu: # Menüstruktur für das Hauptmenü
       url: "/leistungen/"
       weight: 3
 
-    - identifier: "tags"
-      name: "Tags"
-      url: "/tags/"
+    - identifier: "categories"
+      name: "Kategorien"
+      url: "/categories/"
       weight: 4
     
     - identifier: "kontakt"
