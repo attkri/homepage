@@ -5,3 +5,6 @@ Disallow: /search/
 Disallow: /tags/
 
 Sitemap: {{ "sitemap.xml" | absURL }}
+
+User-agent: Seobility
+Allow: /

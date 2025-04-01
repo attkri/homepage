@@ -14,13 +14,6 @@
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Der Titel sollte maximal 580 Pixel lang sein.</title>
-      <link>https://attilakrick.com/_template/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/_template/</guid>
-      <description>Die Description sollte maximal 1000 Pixel lang sein.</description>
-    </item>
-    <item>
       <title>Objekte, Pipeline &amp; Cmdlets – So arbeitest du effizient mit PowerShell</title>
       <link>https://attilakrick.com/posts/powershell/objekte_pipeline_cmdlets/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>

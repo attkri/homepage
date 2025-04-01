@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://attilakrick.com/posts/powershell/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://attilakrick.com/tags/.net/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -33,11 +38,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://attilakrick.com/posts/powershell/cmdlet_finden/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/_template/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
