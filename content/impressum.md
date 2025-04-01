@@ -2,6 +2,7 @@
 date: 2025-03-19
 title: "Impressum & Datenschutz"
 description: "Impressum von Attila Krick - Kontaktinformationen, rechtliche Hinweise und Verantwortlichkeit für Inhalte dieser Website."
+categories: ["Divers"]
 draft: false
 hidemeta: true
 searchHidden: true

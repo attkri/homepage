@@ -20,5 +20,19 @@
       <guid>https://attilakrick.com/posts/methode_direkte_instruktion/</guid>
       <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
     </item>
+    <item>
+      <title>Impressum &amp; Datenschutz</title>
+      <link>https://attilakrick.com/impressum/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/impressum/</guid>
+      <description>Impressum von Attila Krick - Kontaktinformationen, rechtliche Hinweise und Verantwortlichkeit für Inhalte dieser Website.</description>
+    </item>
+    <item>
+      <title>Jetzt Kontakt aufnehmen - IT-Beratung &amp; PowerShell-Expertise</title>
+      <link>https://attilakrick.com/kontakt/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/kontakt/</guid>
+      <description>Nimm Kontakt auf mit Attila Krick - Experte für PowerShell, .NET und T-SQL. Beratung, Schulungen und individuelle IT-Lösungen.</description>
+    </item>
   </channel>
 </rss>

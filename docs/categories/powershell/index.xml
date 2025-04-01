@@ -56,6 +56,13 @@
       <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
     </item>
     <item>
+      <title>IT-Dienstleistungen &amp; Schulungen</title>
+      <link>https://attilakrick.com/leistungen/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/leistungen/</guid>
+      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
+    </item>
+    <item>
       <title>Integration von PowerShell in Visual Studio Code</title>
       <link>https://attilakrick.com/posts/vscode_starter/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
