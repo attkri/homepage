@@ -21,18 +21,32 @@
       <description></description>
     </item>
     <item>
-      <title>T-SQL</title>
+      <title>T-SQL Artikel nach Kategorie | Attila Krick</title>
       <link>https://attilakrick.com/categories/t-sql/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/categories/t-sql/</guid>
+      <description>Kategorisierte Inhalte rund um T-SQL, Abfragen, Performance-Tuning und Best Practices.</description>
+    </item>
+    <item>
+      <title>TSQL</title>
+      <link>https://attilakrick.com/categories/tsql/</link>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/categories/tsql/</guid>
       <description></description>
     </item>
     <item>
-      <title>DotNET</title>
+      <title>.NET Beiträge nach Kategorie | Attila Krick</title>
       <link>https://attilakrick.com/categories/dotnet/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/categories/dotnet/</guid>
-      <description></description>
+      <description>Finde alle Beiträge zum Thema .NET sauber kategorisiert – für Entwickler, Softwarearchitekten &amp;amp; Freiberufler.</description>
+    </item>
+    <item>
+      <title>PowerShell-Blogbeiträge kategorisiert | Attila Krick</title>
+      <link>https://attilakrick.com/categories/powershrell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/categories/powershrell/</guid>
+      <description>Alle Artikel, die zur Kategorie PowerShell gehören – ideal für Admins, Entwickler und IT-Automatisierer.</description>
     </item>
   </channel>
 </rss>
