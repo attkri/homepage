@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2025-03-31
-title: "Objekte, Pipeline & Cmdlets – So arbeitest du effizient mit PowerShell"
+title: "PowerShell: Objekte & Pipeline meistern"
 description: "PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger."
 categories: ["PowerShell"]
 author: "Attila Krick"

@@ -1,5 +1,5 @@
 ---
-title: "Suche" # in any language you want
+title: "Suche im Blog – PowerShell, SQL & .NET finden" # in any language you want
 categories: ["Divers"]
 layout: "search" # is necessary
 # url: "/archive"

@@ -1,5 +1,5 @@
 ---
-title: "So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität"
+title: "Direkte Instruktion – Klar & effektiv erklären"
 date: 2025-03-27
 draft: false
 description: "Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg."

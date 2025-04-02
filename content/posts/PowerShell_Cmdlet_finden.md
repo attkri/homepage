@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2025-03-31
-title: "Das richtige Cmdlet finden – So suchst du clever in PowerShell"
+title: "Cmdlets in PowerShell clever finden"
 description: "PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche."
 categories: ["PowerShell"]
 author: "Attila Krick"

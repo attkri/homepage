@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2025-03-31
-title: "PowerShell & SQL Server – Automatisieren mit T-SQL & .NET"
+title: "PowerShell + SQL Server automatisieren"
 description: "PowerShell trifft SQL Server: Daten abfragen, exportieren & automatisieren mit T-SQL und .NET – praxisnah & kompakt."
 categories: ["PowerShell"]
 author: "Attila Krick"

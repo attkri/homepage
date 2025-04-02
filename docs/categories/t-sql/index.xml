@@ -14,7 +14,7 @@
     <lastBuildDate>Sat, 29 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/categories/t-sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>T-SQL JOINs für Einsteiger – So verknüpfst du deine Daten richtig</title>
+      <title>T-SQL JOINs für Einsteiger</title>
       <link>https://attilakrick.com/posts/t-sql_join/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/posts/t-sql_join/</guid>
@@ -28,10 +28,10 @@
       <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
     </item>
     <item>
-      <title>Entity Framework Core - Was du als .NET-Entwickler wissen musst</title>
-      <link>https://attilakrick.com/posts/entityframework_basis/</link>
+      <title>Entity Framework Core Grundlagen</title>
+      <link>https://attilakrick.com/posts/dotnet_entityframework_basis/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/entityframework_basis/</guid>
+      <guid>https://attilakrick.com/posts/dotnet_entityframework_basis/</guid>
       <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
     </item>
   </channel>

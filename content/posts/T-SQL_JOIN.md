@@ -1,5 +1,5 @@
 ---
-title: "T-SQL JOINs für Einsteiger – So verknüpfst du deine Daten richtig"
+title: "T-SQL JOINs für Einsteiger"
 date: 2025-03-29
 description: "Verstehe INNER JOIN, LEFT JOIN & Co. mit praxisnahen Beispielen für Kunden, Bestellungen und Produkte – ideal für Business-Analysten und Power-User."
 categories: ["T-SQL"]

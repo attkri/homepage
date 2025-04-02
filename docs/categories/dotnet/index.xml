@@ -21,10 +21,10 @@
       <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
     </item>
     <item>
-      <title>Entity Framework Core - Was du als .NET-Entwickler wissen musst</title>
-      <link>https://attilakrick.com/posts/entityframework_basis/</link>
+      <title>Entity Framework Core Grundlagen</title>
+      <link>https://attilakrick.com/posts/dotnet_entityframework_basis/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/entityframework_basis/</guid>
+      <guid>https://attilakrick.com/posts/dotnet_entityframework_basis/</guid>
       <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
     </item>
   </channel>

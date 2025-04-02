@@ -7,12 +7,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/categories/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://attilakrick.com/posts/cmdlet_finden/</loc>
+    <loc>https://attilakrick.com/posts/powershell_cmdlet_finden/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -22,7 +17,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/objekte_pipeline_cmdlets/</loc>
+    <loc>https://attilakrick.com/categories/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -32,17 +27,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/powershell_benutzen/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://attilakrick.com/posts/powershell_sicher_einsetzen/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://attilakrick.com/posts/powershell_benutzen/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://attilakrick.com/posts/powershell-verstehen/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://attilakrick.com/posts/powershell_objekte_pipeline_cmdlets/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -97,7 +97,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/best_practices_powershell_skripting/</loc>
+    <loc>https://attilakrick.com/posts/best_practices_powershell_scripting/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -107,12 +107,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/unterschied_ps_vs_bash/</loc>
+    <loc>https://attilakrick.com/posts/unterschied_powershell_vs_bash/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://attilakrick.com/posts/entityframework_basis/</loc>
+    <loc>https://attilakrick.com/posts/dotnet_entityframework_basis/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

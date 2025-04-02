@@ -1,5 +1,5 @@
 ---
-title: "PowerShell verstehen – Was ist das & warum brauchst du es?"
+title: "PowerShell verstehen – Das musst du wissen"
 date: 2025-03-31
 description: "Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt."
 slug: "powershell-verstehen"

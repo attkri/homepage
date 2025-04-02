@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2025-03-31
-title: "PowerShell benutzen – Tools, VS Code und erste Schritte"
+title: "PowerShell starten mit VS Code & Tools"
 description: "Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte."
 categories: ["PowerShell"]
 author: "Attila Krick"

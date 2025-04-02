@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2025-03-31
-title: "PowerShell sicher einsetzen – Execution Policies & Best Practices"
+title: "PowerShell Execution Policies erklärt"
 description: "Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst."
 categories: ["PowerShell"]
 author: "Attila Krick"

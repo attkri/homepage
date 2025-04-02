@@ -1,5 +1,5 @@
 ---
-title: "Jetzt Kontakt aufnehmen - IT-Beratung & PowerShell-Expertise"
+title: "Kontakt – Beratung & Schulung anfragen"
 description: "Nimm Kontakt auf mit Attila Krick - Experte für PowerShell, .NET und T-SQL. Beratung, Schulungen und individuelle IT-Lösungen."
 date: 2025-03-17
 categories: ["Divers"]
