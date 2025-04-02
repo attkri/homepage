@@ -8,6 +8,9 @@ publishDir: "docs"
 # SEO
 enableRobotsTXT: true
 
+disableKinds: ["taxonomy", "term"]
+
+
 # Performance
 buildDrafts: false
 buildFuture: false
