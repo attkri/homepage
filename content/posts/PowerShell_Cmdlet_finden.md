@@ -26,7 +26,9 @@ assets:
   disableHLJS: true
 ---
 
-## Cmdlets finden leicht gemacht
+## Cmdlets in PowerShell clever finden
+
+Hier zeige ich dir, wie du Cmdlets in PowerShell gezielt findest – ob über Verb-Noun-Suche, Parameter oder GUI.
 
 PowerShell bringt tausende Cmdlets mit – und mit jedem Modul werden es mehr. Kein Mensch kennt sie alle. Muss man auch nicht. Aber: **Man muss wissen, wie man sie findet.** Genau das zeige ich dir in diesem Beitrag.
 

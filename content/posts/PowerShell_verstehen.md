@@ -12,6 +12,8 @@ cover:
 
 ## Warum du PowerShell kennenlernen solltest
 
+In diesem Artikel lernst du, was es bedeutet, PowerShell wirklich zu verstehen – von der objektbasierten Denkweise bis zum praktischen Einsatz.
+
 Du hast schon mal von PowerShell gehört, aber weißt nicht genau, was das eigentlich ist? Dann geht es dir wie vielen IT-Einsteigern. Vielleicht bist du Admin, technischer Supporter oder angehender Entwickler und suchst ein Werkzeug, mit dem du Aufgaben automatisieren oder Systeme konfigurieren kannst. Genau da kommt PowerShell ins Spiel.
 
 ## Was ist PowerShell überhaupt?

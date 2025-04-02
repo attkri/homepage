@@ -28,6 +28,8 @@ assets:
 
 ## So funktioniert PowerShell wirklich – mit Objekten & Pipeline
 
+In PowerShell ist alles ein Objekt – und mithilfe der Pipeline kannst du diese effizient weiterverarbeiten. Hier lernst du wie.
+
 Jetzt wird’s technisch – aber keine Sorge: In diesem Beitrag lernst du Schritt für Schritt, wie PowerShell im Inneren funktioniert. Wir schauen uns die **Objektverarbeitung**, die **Pipeline** und die clevere Kombination von Cmdlets an – so, wie PowerShell eigentlich gedacht ist.
 
 Denn: PowerShell ist keine normale Kommandozeile – sie ist **objektbasiert**. Und genau das macht sie so einzigartig und leistungsfähig.

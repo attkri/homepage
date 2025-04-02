@@ -7,3 +7,7 @@ layout: "search" # is necessary
 summary: "Durchsuche die Inhalte der Website."
 placeholder: "Suchtext hier eingeben"
 ---
+
+## Suche im Blog – PowerShell, SQL & .NET finden
+
+Nutze die Suchfunktion, um gezielt Artikel über PowerShell, SQL, .NET oder GUI-Entwicklung zu finden.

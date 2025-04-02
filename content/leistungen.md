@@ -14,6 +14,10 @@ HideTags: true
 
 Ich bin Attila Krick, selbstständiger Experte für **PowerShell**, **T-SQL** und **.NET** mit über 30 Jahren praktischer Erfahrung. Ich unterstütze Unternehmen und IT-Abteilungen dabei, effiziente Softwarelösungen zu entwickeln, Prozesse zu automatisieren und internes Fachwissen aufzubauen. Die Lösungen, die ich entwickle, sind so konzipiert, dass Kunden diese später eigenständig anpassen und erweitern können.
 
+## IT-Dienstleistungen & Schulungen
+
+Hier findest du einen Überblick über meine IT-Dienstleistungen – von PowerShell-Automatisierung bis zu praxisnahen Schulungen in .NET und SQL.
+
 ## Meine Leistungen: PowerShell, .NET & SQL-Optimierung für IT-Experten
 
 Ich biete meine **Schulungen, Workshops und Vorträge sowohl vor Ort als auch remote/online an**, um maximale Flexibilität für Unternehmen und Teilnehmer zu gewährleisten.

@@ -19,7 +19,7 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 ---
 
-## Kontakt aufnehmen
+## Kontakt aufnehmen – Beratung & Schulung anfragen
 
 Du möchtest **persönliche IT-Beratung**, **eine PowerShell-Schulung** oder **eine individuelle Softwarelösung**?  
 Dann nimm jetzt **direkt Kontakt mit mir auf** und ich melde mich innerhalb von 24 Stunden zurück.  

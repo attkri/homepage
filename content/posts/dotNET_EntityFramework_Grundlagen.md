@@ -11,6 +11,8 @@ cover:
 
 ## Warum Entity Framework Core nutzen?
 
+Dieser Artikel vermittelt dir die Grundlagen von Entity Framework Core – einem modernen ORM für .NET-Anwendungen.
+
 Entity Framework Core (EF Core) ist das bevorzugte **Object-Relational Mapping (ORM)-Framework** für .NET-Entwickler. Es ermöglicht eine einfache und effiziente Interaktion mit relationalen Datenbanken, ohne direkt SQL schreiben zu müssen.
 
 Vorteile von EF Core:

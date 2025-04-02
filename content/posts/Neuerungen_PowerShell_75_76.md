@@ -14,6 +14,9 @@ showWordCount: true
 showReadingTime: true
 showBreadCrumbs: true
 showPostNavLinks: true
+
+aliases:
+  - "/posts/powershell7576/"
 ---
 
 ## PowerShell 7.6 und PowerShell 7.5: Was ist neu?

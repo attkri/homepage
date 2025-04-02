@@ -27,6 +27,8 @@ assets:
 
 ## PowerShell sicher einsetzen – Execution Policies & Best Practices
 
+Dieser Artikel erklärt dir, was Execution Policies sind, wie sie funktionieren und wie du sie sicher in deiner Umgebung einsetzt.
+
 PowerShell ist mächtig – und wie bei jeder mächtigen Technologie gilt: Mit großer Macht kommt große Verantwortung. 😎 In diesem Beitrag zeige ich dir, wie du PowerShell **sicher und verantwortungsvoll einsetzt**, insbesondere mit Blick auf **Execution Policies**.
 
 ---

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kategorien im Überblick – PowerShell, .NET, SQL &amp; mehr | Attila Krick on Attila Krick</title>
+    <title>Alle Kategorien im Überblick on Attila Krick</title>
     <link>https://attilakrick.com/categories/</link>
-    <description>Recent content in Kategorien im Überblick – PowerShell, .NET, SQL &amp; mehr | Attila Krick on Attila Krick</description>
+    <description>Recent content in Alle Kategorien im Überblick on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
       <url>https://attilakrick.com/images/seo-thumbnail.png</url>
@@ -14,144 +14,32 @@
     <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cmdlets in PowerShell clever finden</title>
-      <link>https://attilakrick.com/posts/powershell_cmdlet_finden/</link>
+      <title>Kategorien – PowerShell, .NET, T-SQL &amp; mehr</title>
+      <link>https://attilakrick.com/categories/powershell/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell_cmdlet_finden/</guid>
-      <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
+      <guid>https://attilakrick.com/categories/powershell/</guid>
+      <description>Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis.</description>
     </item>
     <item>
-      <title>PowerShell &#43; SQL Server automatisieren</title>
-      <link>https://attilakrick.com/posts/powershell_tsql_automatisierung/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell_tsql_automatisierung/</guid>
-      <description>PowerShell trifft SQL Server: Daten abfragen, exportieren &amp;amp; automatisieren mit T-SQL und .NET – praxisnah &amp;amp; kompakt.</description>
-    </item>
-    <item>
-      <title>PowerShell Execution Policies erklärt</title>
-      <link>https://attilakrick.com/posts/powershell_sicher_einsetzen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell_sicher_einsetzen/</guid>
-      <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
-    </item>
-    <item>
-      <title>PowerShell starten mit VS Code &amp; Tools</title>
-      <link>https://attilakrick.com/posts/powershell_benutzen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell_benutzen/</guid>
-      <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
-    </item>
-    <item>
-      <title>PowerShell verstehen – Das musst du wissen</title>
-      <link>https://attilakrick.com/posts/powershell-verstehen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell-verstehen/</guid>
-      <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
-    </item>
-    <item>
-      <title>PowerShell: Objekte &amp; Pipeline meistern</title>
-      <link>https://attilakrick.com/posts/powershell_objekte_pipeline_cmdlets/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell_objekte_pipeline_cmdlets/</guid>
-      <description>PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger.</description>
-    </item>
-    <item>
-      <title>T-SQL JOINs für Einsteiger</title>
-      <link>https://attilakrick.com/posts/t-sql_join/</link>
+      <title>T-SQL Artikel nach Kategorie</title>
+      <link>https://attilakrick.com/categories/t-sql/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/t-sql_join/</guid>
-      <description>Verstehe INNER JOIN, LEFT JOIN &amp;amp; Co. mit praxisnahen Beispielen für Kunden, Bestellungen und Produkte – ideal für Business-Analysten und Power-User.</description>
+      <guid>https://attilakrick.com/categories/t-sql/</guid>
+      <description>Kategorisierte Inhalte rund um T-SQL, Abfragen, Performance-Tuning und Best Practices.</description>
     </item>
     <item>
-      <title>Direkte Instruktion – Klar &amp; effektiv erklären</title>
-      <link>https://attilakrick.com/posts/methode_direkte_instruktion/</link>
+      <title>Verschiedenes aus der IT-Welt</title>
+      <link>https://attilakrick.com/categories/divers/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/methode_direkte_instruktion/</guid>
-      <description>Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg.</description>
+      <guid>https://attilakrick.com/categories/divers/</guid>
+      <description>Hier findest du ausgewählte Beiträge rund um IT, Tools, Events und Erfahrungen – alles, was nicht direkt in PowerShell, .NET oder T-SQL fällt.</description>
     </item>
     <item>
-      <title>Impressum &amp; Datenschutz</title>
-      <link>https://attilakrick.com/impressum/</link>
+      <title>.NET Beiträge nach Kategorie</title>
+      <link>https://attilakrick.com/categories/dotnet/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/impressum/</guid>
-      <description>Impressum von Attila Krick - Kontaktinformationen, rechtliche Hinweise und Verantwortlichkeit für Inhalte dieser Website.</description>
-    </item>
-    <item>
-      <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>https://attilakrick.com/leistungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/leistungen/</guid>
-      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
-    </item>
-    <item>
-      <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>https://attilakrick.com/leistungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/leistungen/</guid>
-      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
-    </item>
-    <item>
-      <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>https://attilakrick.com/leistungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/leistungen/</guid>
-      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
-    </item>
-    <item>
-      <title>Integration von PowerShell in Visual Studio Code</title>
-      <link>https://attilakrick.com/posts/vscode_starter/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/vscode_starter/</guid>
-      <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
-    </item>
-    <item>
-      <title>Kontakt – Beratung &amp; Schulung anfragen</title>
-      <link>https://attilakrick.com/kontakt/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/kontakt/</guid>
-      <description>Nimm Kontakt auf mit Attila Krick - Experte für PowerShell, .NET und T-SQL. Beratung, Schulungen und individuelle IT-Lösungen.</description>
-    </item>
-    <item>
-      <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>https://attilakrick.com/posts/powershell-hilfe_nutzen/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/powershell-hilfe_nutzen/</guid>
-      <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
-    </item>
-    <item>
-      <title>PowerShell Scripting Best Practices</title>
-      <link>https://attilakrick.com/posts/best_practices_powershell_scripting/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/best_practices_powershell_scripting/</guid>
-      <description>Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
-    </item>
-    <item>
-      <title>Neuerungen PowerShell 7.5 und 7.6</title>
-      <link>https://attilakrick.com/posts/neuerungen_powershell_75_76/</link>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/neuerungen_powershell_75_76/</guid>
-      <description>Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5.</description>
-    </item>
-    <item>
-      <title>PowerShell vs. Bash – Shells im Vergleich</title>
-      <link>https://attilakrick.com/posts/unterschied_powershell_vs_bash/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/unterschied_powershell_vs_bash/</guid>
-      <description>Unterschiede zwischen PowerShell, CMD und Bash – Shells im Vergleich: Konzepte, Plattformen, Syntax &amp;amp; Anwendungsfälle.</description>
-    </item>
-    <item>
-      <title>Entity Framework Core Grundlagen</title>
-      <link>https://attilakrick.com/posts/dotnet_entityframework_basis/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/dotnet_entityframework_basis/</guid>
-      <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
-    </item>
-    <item>
-      <title>Entity Framework Core Grundlagen</title>
-      <link>https://attilakrick.com/posts/dotnet_entityframework_basis/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/posts/dotnet_entityframework_basis/</guid>
-      <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
+      <guid>https://attilakrick.com/categories/dotnet/</guid>
+      <description>Finde alle Beiträge zum Thema .NET sauber kategorisiert – für Entwickler, Softwarearchitekten &amp;amp; Freiberufler.</description>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,9 @@ cover:
   alt: "Attila Krick - IT-Spezialist"  
 ---
 
-## Warum sollte man die PowerShell-Hilfe nutzen?
+## Wie man die PowerShell-Hilfe benutzt
+
+In diesem Beitrag lernst du, wie du die PowerShell-Hilfe richtig nutzt – inklusive Tipps für `Get-Help`, Online-Docs und `Show-Command`.
 
 PowerShell ist ein mächtiges Werkzeug, aber die Vielzahl an Cmdlets, Parametern und Möglichkeiten kann überwältigend sein. Die integrierte Hilfe erleichtert den Einstieg und hilft dir, effizient zu arbeiten, indem sie dir schnell die benötigten Informationen liefert. Sie ist:
 

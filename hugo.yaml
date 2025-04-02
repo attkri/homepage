@@ -26,10 +26,6 @@ pagination:
 
   pagerSize: 5
 
-taxonomies:
-  category: "categories"
-  tag: "" # Wird nicht mehr benötigt daher auch keine /tags/-Seite mehr
-
 markup:
 
   highlight:
@@ -93,25 +89,20 @@ menu: # Menüstruktur für das Hauptmenü
       url: "/leistungen/"
       weight: 3
 
-    - identifier: "categories"
-      name: "Kategorien"
-      url: "/categories/"
-      weight: 4
-    
     - identifier: "kontakt"
       name: "Kontakt"
       url: "/kontakt/"
-      weight: 5
+      weight: 4
 
     - identifier: "impressum"
       name: "Impressum"
       url: "/impressum/"
-      weight: 6
+      weight: 5
 
     - identifier: search
       name: Suche
       url: /search/
-      weight: 7
+      weight: 6
 
 params:
 

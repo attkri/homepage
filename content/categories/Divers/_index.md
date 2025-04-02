@@ -5,6 +5,6 @@ type: "category"
 layout: "list"
 ---
 
-## Diverses & Gedanken aus der IT-Welt
+## Verschiedenes aus der IT-Welt
 
-Manche Themen sprengen Kategorien – genau dafür ist dieser Bereich gedacht: Gedanken, Empfehlungen, Tools, Anekdoten.
+In dieser Kategorie findest du Beiträge, die sich mit verschiedenen Themen aus der IT-Welt beschäftigen – von Tools bis hin zu persönlichen Einblicken.
