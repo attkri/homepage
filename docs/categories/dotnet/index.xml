@@ -11,21 +11,6 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>http://localhost:1313/leistungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/leistungen/</guid>
-      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
-    </item>
-    <item>
-      <title>Entity Framework Core Grundlagen</title>
-      <link>http://localhost:1313/posts/dotnet_entityframework_grundlagen/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dotnet_entityframework_grundlagen/</guid>
-      <description>Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler.</description>
-    </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kategorien – PowerShell, .NET, T-SQL &amp; mehr on Attila Krick</title>
+    <title>PowerShell on Attila Krick</title>
     <link>http://localhost:1313/categories/powershell/</link>
-    <description>Recent content in Kategorien – PowerShell, .NET, T-SQL &amp; mehr on Attila Krick</description>
+    <description>Recent content in PowerShell on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
       <url>http://localhost:1313/images/seo-thumbnail.png</url>
@@ -11,91 +11,14 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cmdlets in PowerShell clever finden</title>
-      <link>http://localhost:1313/posts/powershell_cmdlet_finden/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell_cmdlet_finden/</guid>
-      <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
-    </item>
-    <item>
-      <title>PowerShell &#43; SQL Server automatisieren</title>
-      <link>http://localhost:1313/posts/powershell_tsql_automatisierung/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell_tsql_automatisierung/</guid>
-      <description>PowerShell trifft SQL Server: Daten abfragen, exportieren &amp;amp; automatisieren mit T-SQL und .NET – praxisnah &amp;amp; kompakt.</description>
-    </item>
-    <item>
-      <title>PowerShell Execution Policies erklärt</title>
-      <link>http://localhost:1313/posts/powershell_sicher_einsetzen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell_sicher_einsetzen/</guid>
-      <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
-    </item>
-    <item>
-      <title>PowerShell starten mit VS Code &amp; Tools</title>
-      <link>http://localhost:1313/posts/powershell_benutzen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell_benutzen/</guid>
-      <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
-    </item>
-    <item>
-      <title>PowerShell verstehen – Das musst du wissen</title>
-      <link>http://localhost:1313/posts/powershell-verstehen/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell-verstehen/</guid>
-      <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
-    </item>
-    <item>
-      <title>PowerShell: Objekte &amp; Pipeline meistern</title>
-      <link>http://localhost:1313/posts/powershell_objekte_pipeline_cmdlets/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell_objekte_pipeline_cmdlets/</guid>
-      <description>PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger.</description>
-    </item>
-    <item>
-      <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>http://localhost:1313/leistungen/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/leistungen/</guid>
-      <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
-    </item>
-    <item>
-      <title>Integration von PowerShell in Visual Studio Code</title>
-      <link>http://localhost:1313/posts/vscode_starter/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vscode_starter/</guid>
-      <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
-    </item>
-    <item>
-      <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>http://localhost:1313/posts/powershell-hilfe_nutzen/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/powershell-hilfe_nutzen/</guid>
-      <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
-    </item>
-    <item>
       <title>PowerShell Scripting Best Practices</title>
-      <link>http://localhost:1313/posts/best_practices_powershell_scripting/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/best_practices_powershell_scripting/</guid>
+      <link>http://localhost:1313/artikel/best_practices_powershell_scripting/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artikel/best_practices_powershell_scripting/</guid>
       <description>Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
-    </item>
-    <item>
-      <title>Neuerungen PowerShell 7.5 und 7.6</title>
-      <link>http://localhost:1313/posts/neuerungen_powershell_75_76/</link>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/neuerungen_powershell_75_76/</guid>
-      <description>Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5.</description>
-    </item>
-    <item>
-      <title>PowerShell vs. Bash – Shells im Vergleich</title>
-      <link>http://localhost:1313/posts/unterschied_powershell_vs_bash/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unterschied_powershell_vs_bash/</guid>
-      <description>Unterschiede zwischen PowerShell, CMD und Bash – Shells im Vergleich: Konzepte, Plattformen, Syntax &amp;amp; Anwendungsfälle.</description>
     </item>
   </channel>
 </rss>

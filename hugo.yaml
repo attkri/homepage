@@ -8,8 +8,10 @@ publishDir: "docs"
 # SEO
 enableRobotsTXT: true
 
-disableKinds: ["taxonomy", "term"]
+#disableKinds: ["taxonomy", "term"]
 
+taxonomies:
+  category: "categories"
 
 # Performance
 buildDrafts: false
@@ -77,35 +79,40 @@ menu: # Menüstruktur für das Hauptmenü
 
   main:
 
-    - identifier: "home"
+    - identifier: Start
       name: "Start"
       url: "/"
       weight: 1
 
-    - identifier: "posts"
+    - identifier: Artikel
       name: Artikel
-      url: "/posts/"
+      url: "/Artikel/"
       weight: 2
-    
-    - identifier: "leistungen"
-      name: "Leistungen"
-      url: "/leistungen/"
+
+    - identifier: Kategorien
+      name: Kategorien
+      url: /categories/
       weight: 3
 
-    - identifier: "kontakt"
-      name: "Kontakt"
-      url: "/kontakt/"
+    - identifier: Leistungen
+      name: "Leistungen"
+      url: "/Leistung/"
       weight: 4
 
-    - identifier: "impressum"
-      name: "Impressum"
-      url: "/impressum/"
+    - identifier: Kontakt
+      name: "Kontakt"
+      url: "/Kontakt/"
       weight: 5
 
-    - identifier: search
-      name: Suche
-      url: /search/
+    - identifier: Impressum
+      name: "Impressum"
+      url: "/Impressum/"
       weight: 6
+
+    - identifier: Suchen
+      name: Suchen
+      url: /Suchen/
+      weight: 7
 
 params:
 
@@ -136,6 +143,8 @@ params:
   defaultTheme: "auto" # Optionen: "light", "dark", "auto"
   disableThemeToggle: false
   DateFormat: "2. January 2006"
+  showTags : false
+  showCategories : true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -151,6 +160,10 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
+
+
+
+
 
   # Assets (Favicons & Logos)
   assets:

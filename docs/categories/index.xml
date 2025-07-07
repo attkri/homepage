@@ -11,19 +11,26 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kategorien – PowerShell, .NET, T-SQL &amp; mehr</title>
+      <title>.NET Beiträge nach Kategorie</title>
+      <link>http://localhost:1313/categories/dotnet/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dotnet/</guid>
+      <description>Finde alle Beiträge zum Thema .NET sauber kategorisiert – für Entwickler, Softwarearchitekten &amp;amp; Freiberufler.</description>
+    </item>
+    <item>
+      <title>PowerShell</title>
       <link>http://localhost:1313/categories/powershell/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/powershell/</guid>
       <description>Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis.</description>
     </item>
     <item>
-      <title>T-SQL Artikel nach Kategorie</title>
+      <title>T-SQL</title>
       <link>http://localhost:1313/categories/t-sql/</link>
-      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/t-sql/</guid>
       <description>Kategorisierte Inhalte rund um T-SQL, Abfragen, Performance-Tuning und Best Practices.</description>
     </item>
@@ -33,13 +40,6 @@
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/divers/</guid>
       <description>Hier findest du ausgewählte Beiträge rund um IT, Tools, Events und Erfahrungen – alles, was nicht direkt in PowerShell, .NET oder T-SQL fällt.</description>
-    </item>
-    <item>
-      <title>.NET Beiträge nach Kategorie</title>
-      <link>http://localhost:1313/categories/dotnet/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dotnet/</guid>
-      <description>Finde alle Beiträge zum Thema .NET sauber kategorisiert – für Entwickler, Softwarearchitekten &amp;amp; Freiberufler.</description>
     </item>
   </channel>
 </rss>

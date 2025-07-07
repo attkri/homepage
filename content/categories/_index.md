@@ -1,6 +1,6 @@
 ---
 title: "Alle Kategorien im Überblick"
-description: "Finde alle Blogartikel thematisch sortiert nach Kategorien: PowerShell, TSQL, .NET, GUI-Entwicklung und weitere IT-Themen für Profis & Einsteiger."
+description: "Finde alle Blogartikel thematisch sortiert nach categories: PowerShell, TSQL, .NET, GUI-Entwicklung und weitere IT-Themen für Profis & Einsteiger."
 ---
 
 ## Kategorien im Überblick – PowerShell, .NET, SQL & mehr

@@ -1,5 +1,5 @@
 ---
-title: "Kategorien – PowerShell, .NET, T-SQL & mehr"
+title: "PowerShell"
 description: "Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis."
 type: "taxonomy"
 layout: "list"

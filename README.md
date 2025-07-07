@@ -4,7 +4,7 @@ Willkommen im Repository meiner persönlichen Homepage! Diese Seite ist mit **[H
 
 - 🧠 **Wissenstransfer** zu PowerShell, .NET, SQL, T-SQL, WPF & GUI-Entwicklung
 - 🎓 Informationen zu meinen **Seminaren & Schulungen**
-- 🛠️ Praxisnahe **Blogartikel und Tutorials** für IT-Admins, Entwickler & Supporter
+- 🛠️ Praxisnahe **Blog-Artikel und Tutorials** für IT-Admins, Entwickler & Supporter
 - 💬 Kontaktmöglichkeiten & Beratungsangebote
 
 ---
@@ -12,7 +12,7 @@ Willkommen im Repository meiner persönlichen Homepage! Diese Seite ist mit **[H
 ## 🔧 Technologien
 
 - **Hugo** als statischer Site Generator
-- **Markdown** für Inhalte (Blogartikel, Tutorials, Anleitungen)
+- **Markdown** für Inhalte (Blog-Artikel, Tutorials, Anleitungen)
 - **GitHub** zur Versionskontrolle & Veröffentlichung
 - **Visual Studio Code** für die tägliche Bearbeitung
 - Deployment via GitHub Pages oder Netlify (optional)
@@ -22,7 +22,7 @@ Willkommen im Repository meiner persönlichen Homepage! Diese Seite ist mit **[H
 ## 📁 Projektstruktur
 
 ```bash
-content/            # Blogposts, Seiten und Inhalte
+content/            # Blog-Artikel, Seiten und Inhalte
   └── posts/
       └── powershell/   # Thematisch sortierte Beiträge
 static/             # Statische Assets (Bilder, Downloads etc.)
@@ -35,7 +35,7 @@ README.md           # Diese Datei 😄
 
 ## 🖊️ Eigene Beiträge schreiben
 
-Neue Beiträge legst du unter `content/posts/<thema>/` an.
+Neue Beiträge legst du unter `content/posts/<Thema>/` an.
 Jeder Beitrag beginnt mit einem **Front Matter Block** im YAML-Format:
 
 ```yaml
@@ -55,16 +55,25 @@ author: "Attila Krick"
 ## 🧪 Lokale Vorschau starten
 
 Installiere Hugo (falls noch nicht geschehen):
+
 ```bash
 brew install hugo       # macOS
 choco install hugo      # Windows
 ```
 
 Starte die Seite lokal mit Live-Reload:
+
 ```bash
 hugo server -D
 ```
+
 Öffne dann: [http://localhost:1313](http://localhost:1313)
+
+Unnötige Inhalte und Daten löschen:
+
+```bash
+hugo --cleanDestinationDir
+```
 
 ---
 
@@ -79,9 +88,8 @@ Erstelle gerne ein Issue oder nutze die „EditPost“-Funktion im jeweiligen Bl
 
 Mehr über mich findest du auf der Seite [https://attilakrick.com](https://attilakrick.com)
 
-Oder direkt kontaktieren: [https://attilakrick.com/kontakt](https://attilakrick.com/kontakt)
+Oder direkt kontaktieren: [https://attilakrick.com/Kontakt](https://attilakrick.com/Kontakt)
 
 ---
 
-**Danke fürs Vorbeischauen! 🙌**
-
+**Danke fürs Vorbeischauen!** 🙌

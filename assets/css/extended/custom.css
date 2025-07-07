@@ -25,3 +25,36 @@ h4 {
     border: 0;
   }
   
+
+
+
+
+
+/* Gemeinsame Formatierung */
+.post-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+/* Erste Metazeile (Datum, Lesedauer etc.) */
+.post-meta.main-meta {
+  margin-bottom: 0.4rem;  /* Etwas Abstand nach unten */
+}
+
+/* Zweite Metazeile (Kategorien) */
+.post-meta.categories {
+  margin-top: 0.4rem;     /* Etwas Abstand nach oben */
+}
+
+.post-meta.categories a {
+  color: #6c757d; /* Ein kräftigeres Blau */
+  text-decoration: underline;
+  font-weight: 500; /* Etwas fetter */
+  transition: color 0.2s ease;
+}
+
+.post-meta.categories a:hover {
+  color: black; /* Dunkler beim Hover */
+  text-decoration: none;
+}

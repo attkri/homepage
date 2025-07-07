@@ -14,19 +14,35 @@
       </span>
       {{- end }}
     </h1>
+
     {{- if .Description }}
     <div class="post-description">
       {{ .Description }}
     </div>
     {{- end }}
+
     {{- if not (.Param "hideMeta") }}
-    <div class="post-meta">
+    <div class="post-meta main-meta">
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
     </div>
     {{- end }}
+
+    {{ if not .Params.HideCategories }}
+    {{- $categories := .Language.Params.Taxonomies.category | default "categories" }}
+    {{- $terms := $.GetTerms $categories }}
+    {{- if $terms }}
+    <div class="post-meta categories">
+      Kategorie{{ if gt (len $terms) 1 }}n{{ end }}:&nbsp;
+      {{- range $i, $cat := $terms }}
+      {{- if $i }},&nbsp;{{ end }}<a href="{{ $cat.Permalink }}">{{ $cat.LinkTitle }}</a>
+      {{- end }}
+    </div>
+    {{ end }}
+    {{ end }}
+
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
@@ -44,13 +60,14 @@
 
   <footer class="post-footer">
     {{ if not .Params.HideTags }}
-      {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-      <ul class="post-tags">
-        {{- range ($.GetTerms $tags) }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-        {{- end }}
-      </ul>
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
     {{ end }}
+
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
