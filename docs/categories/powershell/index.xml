@@ -2,106 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PowerShell on Attila Krick</title>
-    <link>https://attilakrick.com/categories/powershell/</link>
+    <link>http://localhost:1313/categories/powershell/</link>
     <description>Recent content in PowerShell on Attila Krick</description>
     <image>
       <title>Attila Krick</title>
-      <url>https://attilakrick.com/images/seo-thumbnail.png</url>
-      <link>https://attilakrick.com/images/seo-thumbnail.png</link>
+      <url>http://localhost:1313/images/seo-thumbnail.png</url>
+      <link>http://localhost:1313/images/seo-thumbnail.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>de-DE</language>
     <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://attilakrick.com/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wie viel PowerShell braucht moderne IT-Sicherheit?</title>
-      <link>https://attilakrick.com/artikel/sicherheit_wie_viel_powershell/</link>
+      <link>http://localhost:1313/artikel/sicherheit_wie_viel_powershell/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/sicherheit_wie_viel_powershell/</guid>
+      <guid>http://localhost:1313/artikel/sicherheit_wie_viel_powershell/</guid>
       <description>PowerShell ist ein Schlüsselwerkzeug der IT-Sicherheit. Entdecke, wie du damit Audits, Protokolle und Systemhärtung automatisierst – sicher, effizient und nachvollziehbar.</description>
     </item>
     <item>
       <title>IT-Dienstleistungen &amp; Schulungen</title>
-      <link>https://attilakrick.com/leistung/</link>
+      <link>http://localhost:1313/leistung/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/leistung/</guid>
+      <guid>http://localhost:1313/leistung/</guid>
       <description>PowerShell, .NET und SQL - Schulungen, Entwicklung &amp;amp; Automatisierung</description>
     </item>
     <item>
       <title>PowerShell Execution Policies erklärt</title>
-      <link>https://attilakrick.com/artikel/powershell_sicher_einsetzen/</link>
+      <link>http://localhost:1313/artikel/powershell_sicher_einsetzen/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_sicher_einsetzen/</guid>
+      <guid>http://localhost:1313/artikel/powershell_sicher_einsetzen/</guid>
       <description>Sicherer Umgang mit PowerShell-Skripten: Lerne, wie du Execution Policies nutzt, Risiken minimierst und Skripte verantwortungsvoll ausführst.</description>
     </item>
     <item>
       <title>PowerShell Scripting Best Practices</title>
-      <link>https://attilakrick.com/artikel/best_practices_powershell_scripting/</link>
+      <link>http://localhost:1313/artikel/best_practices_powershell_scripting/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/best_practices_powershell_scripting/</guid>
+      <guid>http://localhost:1313/artikel/best_practices_powershell_scripting/</guid>
       <description>Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung.</description>
     </item>
     <item>
       <title>PowerShell: Objekte &amp; Pipeline meistern</title>
-      <link>https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets/</link>
+      <link>http://localhost:1313/artikel/powershell_objekte_pipeline_cmdlets/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets/</guid>
+      <guid>http://localhost:1313/artikel/powershell_objekte_pipeline_cmdlets/</guid>
       <description>PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger.</description>
     </item>
     <item>
       <title>Cmdlets in PowerShell clever finden</title>
-      <link>https://attilakrick.com/artikel/powershell_cmdlet_finden/</link>
+      <link>http://localhost:1313/artikel/powershell_cmdlet_finden/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_cmdlet_finden/</guid>
+      <guid>http://localhost:1313/artikel/powershell_cmdlet_finden/</guid>
       <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
     </item>
     <item>
       <title>PowerShell &#43; SQL Server automatisieren</title>
-      <link>https://attilakrick.com/artikel/powershell_tsql_automatisierung/</link>
+      <link>http://localhost:1313/artikel/powershell_tsql_automatisierung/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_tsql_automatisierung/</guid>
+      <guid>http://localhost:1313/artikel/powershell_tsql_automatisierung/</guid>
       <description>PowerShell trifft SQL Server: Daten abfragen, exportieren &amp;amp; automatisieren mit T-SQL und .NET – praxisnah &amp;amp; kompakt.</description>
     </item>
     <item>
       <title>PowerShell starten mit VS Code &amp; Tools</title>
-      <link>https://attilakrick.com/artikel/powershell_benutzen/</link>
+      <link>http://localhost:1313/artikel/powershell_benutzen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_benutzen/</guid>
+      <guid>http://localhost:1313/artikel/powershell_benutzen/</guid>
       <description>Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte.</description>
     </item>
     <item>
       <title>PowerShell verstehen – Das musst du wissen</title>
-      <link>https://attilakrick.com/artikel/powershell-verstehen/</link>
+      <link>http://localhost:1313/artikel/powershell-verstehen/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell-verstehen/</guid>
+      <guid>http://localhost:1313/artikel/powershell-verstehen/</guid>
       <description>Ein klarer Einstieg in die Welt der PowerShell – für Admins, IT-Interessierte und Einsteiger, die wissen wollen, was hinter der mächtigen Shell steckt.</description>
     </item>
     <item>
       <title>Integration von PowerShell in Visual Studio Code</title>
-      <link>https://attilakrick.com/artikel/vscode_starter/</link>
+      <link>http://localhost:1313/artikel/vscode_starter/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/vscode_starter/</guid>
+      <guid>http://localhost:1313/artikel/vscode_starter/</guid>
       <description>Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung.</description>
     </item>
     <item>
       <title>Wie man die PowerShell-Hilfe benutzt</title>
-      <link>https://attilakrick.com/artikel/powershell-hilfe_nutzen/</link>
+      <link>http://localhost:1313/artikel/powershell-hilfe_nutzen/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell-hilfe_nutzen/</guid>
+      <guid>http://localhost:1313/artikel/powershell-hilfe_nutzen/</guid>
       <description>Eine umfassende Anleitung zur Verwendung der integrierten Hilfe in PowerShell zur effizienten Befehlssuche und Nutzung.</description>
     </item>
     <item>
       <title>Neuerungen PowerShell 7.5 und 7.6</title>
-      <link>https://attilakrick.com/artikel/neuerungen_powershell_75_76/</link>
+      <link>http://localhost:1313/artikel/neuerungen_powershell_75_76/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/neuerungen_powershell_75_76/</guid>
+      <guid>http://localhost:1313/artikel/neuerungen_powershell_75_76/</guid>
       <description>Ein Überblick über die neuen Features, Verbesserungen und bekannten Probleme in PowerShell 7.6 sowie PowerShell 7.5.</description>
     </item>
     <item>
       <title>PowerShell vs. Bash – Shells im Vergleich</title>
-      <link>https://attilakrick.com/artikel/unterschied_powershell_vs_bash/</link>
+      <link>http://localhost:1313/artikel/unterschied_powershell_vs_bash/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/unterschied_powershell_vs_bash/</guid>
+      <guid>http://localhost:1313/artikel/unterschied_powershell_vs_bash/</guid>
       <description>Unterschiede zwischen PowerShell, CMD und Bash – Shells im Vergleich: Konzepte, Plattformen, Syntax &amp;amp; Anwendungsfälle.</description>
     </item>
   </channel>
