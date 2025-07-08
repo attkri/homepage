@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/artikel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cmdlets in PowerShell clever finden</title>
-      <link>https://attilakrick.com/artikel/powershell_cmdlet_finden/</link>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/artikel/powershell_cmdlet_finden/</guid>
-      <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
+      <title>Wie viel PowerShell braucht moderne IT-Sicherheit?</title>
+      <link>https://attilakrick.com/artikel/sicherheit_wie_viel_powershell/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/artikel/sicherheit_wie_viel_powershell/</guid>
+      <description>PowerShell ist ein Schlüsselwerkzeug der IT-Sicherheit. Entdecke, wie du damit Audits, Protokolle und Systemhärtung automatisierst – sicher, effizient und nachvollziehbar.</description>
     </item>
     <item>
       <title>PowerShell Execution Policies erklärt</title>
@@ -40,6 +40,13 @@
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets/</guid>
       <description>PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger.</description>
+    </item>
+    <item>
+      <title>Cmdlets in PowerShell clever finden</title>
+      <link>https://attilakrick.com/artikel/powershell_cmdlet_finden/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/artikel/powershell_cmdlet_finden/</guid>
+      <description>PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche.</description>
     </item>
     <item>
       <title>PowerShell &#43; SQL Server automatisieren</title>

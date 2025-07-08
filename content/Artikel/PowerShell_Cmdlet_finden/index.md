@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2025-07-07
+date: 2025-07-06
 title: "Cmdlets in PowerShell clever finden"
 description: "PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche."
 categories: ["PowerShell"]
@@ -100,7 +100,7 @@ Start-Process 'https://www.google.com/search?q=powershell+new+ad+user'
 
 Auch hilfreich:
 
-- [PowerShell Cmdlet Reference](https://docs.microsoft.com/en-us/powershell/scripting/reference/)
+- [Official product documentation for PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - [PowerShell Gallery](https://www.powershellgallery.com/)
 
 ### 7. Kontext verstehen mit Get-Help

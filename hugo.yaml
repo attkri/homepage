@@ -96,22 +96,22 @@ menu: # Menüstruktur für das Hauptmenü
 
     - identifier: Leistungen
       name: "Leistungen"
-      url: "/Leistung/"
+      url: "/leistung/"
       weight: 4
 
     - identifier: Kontakt
       name: "Kontakt"
-      url: "/Kontakt/"
+      url: "/kontakt/"
       weight: 5
 
     - identifier: Impressum
       name: "Impressum"
-      url: "/Impressum/"
+      url: "/impressum/"
       weight: 6
 
     - identifier: Suchen
       name: Suchen
-      url: /Suchen/
+      url: /suchen/
       weight: 7
 
 params:

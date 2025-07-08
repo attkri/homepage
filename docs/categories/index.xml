@@ -11,21 +11,21 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>de-DE</language>
-    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attilakrick.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell</title>
+      <link>https://attilakrick.com/categories/powershell/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://attilakrick.com/categories/powershell/</guid>
+      <description>Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis.</description>
+    </item>
     <item>
       <title>.NET Beiträge nach Kategorie</title>
       <link>https://attilakrick.com/categories/dotnet/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://attilakrick.com/categories/dotnet/</guid>
       <description>Finde alle Beiträge zum Thema .NET sauber kategorisiert – für Entwickler, Softwarearchitekten &amp;amp; Freiberufler.</description>
-    </item>
-    <item>
-      <title>PowerShell</title>
-      <link>https://attilakrick.com/categories/powershell/</link>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://attilakrick.com/categories/powershell/</guid>
-      <description>Finde alle Blogbeiträge und Tutorials sortiert nach Kategorie – von PowerShell-Automatisierung über .NET-Entwicklung bis hin zu T-SQL für Datenbankprofis.</description>
     </item>
     <item>
       <title>T-SQL</title>
