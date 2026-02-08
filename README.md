@@ -1,95 +1,39 @@
-# 🏠 Attila Krick – Personal Website & Blog (Hugo + Markdown)
+# AttilaKrick.com -- Website-Repository
 
-Willkommen im Repository meiner persönlichen Homepage! Diese Seite ist mit **[Hugo](https://gohugo.io/)** erstellt und dient als zentrale Plattform für:
+Dieses Repository enthaelt die statische Website von Attila Krick:
 
-- 🧠 **Wissenstransfer** zu PowerShell, .NET, SQL, T-SQL, WPF & GUI-Entwicklung
-- 🎓 Informationen zu meinen **Seminaren & Schulungen**
-- 🛠️ Praxisnahe **Blog-Artikel und Tutorials** für IT-Admins, Entwickler & Supporter
-- 💬 Kontaktmöglichkeiten & Beratungsangebote
+https://attilakrick.com/
 
----
+Die README ist bewusst kurz und richtet sich an Menschen, die das Projekt schnell verstehen wollen.
 
-## 🔧 Technologien
+## Zweck des Projekts
 
-- **Hugo** als statischer Site Generator
-- **Markdown** für Inhalte (Blog-Artikel, Tutorials, Anleitungen)
-- **GitHub** zur Versionskontrolle & Veröffentlichung
-- **Visual Studio Code** für die tägliche Bearbeitung
-- Deployment via GitHub Pages oder Netlify (optional)
+- Fachartikel und Praxiswissen zu PowerShell, T-SQL und .NET veroeffentlichen
+- Leistungen, Kontakt und rechtliche Seiten bereitstellen
+- Inhalte mit Hugo effizient pflegen und versionieren
 
----
+## Technologie
 
-## 📁 Projektstruktur
+- Hugo (Static Site Generator)
+- Theme: PaperMod
+- Sprache: de-DE
+- Versionsverwaltung und Hosting ueber GitHub
 
-```bash
-content/            # Blog-Artikel, Seiten und Inhalte
-  └── posts/
-      └── powershell/   # Thematisch sortierte Beiträge
-static/             # Statische Assets (Bilder, Downloads etc.)
-themes/             # Hugo-Theme (z. B. PaperMod)
-config.toml         # Konfigurationsdatei für Hugo
-README.md           # Diese Datei 😄
-```
+## Mitwirkung
 
----
+Hinweise auf Fehler (z. B. Tippfehler, defekte Links) sind willkommen.
+Bitte dafuer ein Issue erstellen oder einen Pull Request vorschlagen.
 
-## 🖊️ Eigene Beiträge schreiben
+## Copyright
 
-Neue Beiträge legst du unter `content/posts/<Thema>/` an.
-Jeder Beitrag beginnt mit einem **Front Matter Block** im YAML-Format:
+Copyright (c) 2026 Attila Krick. Alle Rechte vorbehalten.
 
-```yaml
----
-draft: false
-date: 2025-03-31
-title: "Mein Beitragstitel"
-description: "Kurze prägnante Beschreibung für SEO und Social Media."
-categories: ["PowerShell"]
-tags: ["Tag1", "Tag2"]
-author: "Attila Krick"
----
-```
+## Lizenz
 
----
+Dieses Repository enthaelt Inhalte und Quelltexte der Website attilakrick.com.
+Ohne ausdrueckliche, separate Lizenzdatei ist keine allgemeine Wiederverwendung,
+Vervielfaeltigung oder Weitergabe erlaubt.
 
-## 🧪 Lokale Vorschau starten
+## Wichtiger Hinweis
 
-Installiere Hugo (falls noch nicht geschehen):
-
-```bash
-brew install hugo       # macOS
-choco install hugo      # Windows
-```
-
-Starte die Seite lokal mit Live-Reload:
-
-```bash
-hugo server -D
-```
-
-Öffne dann: [http://localhost:1313](http://localhost:1313)
-
-Unnötige Inhalte und Daten löschen:
-
-```bash
-hugo --cleanDestinationDir
-```
-
----
-
-## 🤝 Mitwirken / Beiträge verbessern
-
-Fehler gefunden oder Vorschlag für einen neuen Artikel?
-Erstelle gerne ein Issue oder nutze die „EditPost“-Funktion im jeweiligen Blogartikel, um direkt einen Pull Request zu starten.
-
----
-
-## 📬 Kontakt
-
-Mehr über mich findest du auf der Seite [https://attilakrick.com](https://attilakrick.com)
-
-Oder direkt kontaktieren: [https://attilakrick.com/Kontakt](https://attilakrick.com/Kontakt)
-
----
-
-**Danke fürs Vorbeischauen!** 🙌
+Projektregeln, Content-Konventionen, Front-Matter-Schemata und Agentenrichtlinien stehen in `AGENTS.md`.
