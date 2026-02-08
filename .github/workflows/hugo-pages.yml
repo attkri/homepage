@@ -40,7 +40,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: Europe/Berlin
         run: |
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --gc --minify
           if [ -f CNAME ]; then
             cp CNAME docs/CNAME
           elif [ -f content/CNAME ]; then
