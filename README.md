@@ -14,15 +14,22 @@ Die README ist bewusst kurz und richtet sich an Menschen, die das Projekt schnel
 
 ## Technologie
 
-- Hugo (Static Site Generator)
-- Theme: PaperMod
-- Sprache: de-DE
-- Versionsverwaltung und Hosting ueber GitHub
+- [Hugo](https://gohugo.io/) mit dem Theme [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/)
+- Markdown
+- Versionsverwaltung und Hosting über GitHub
+- OpenCode
+
+## Wichtige Kommandos
+
+| Kommando         | Zweck                                          |
+| ---------------- | ---------------------------------------------- |
+| `hugo server -D` | Lokaler Entwicklungsserver mit Drafts          |
+| `hugo --gc`      | Hugo-Cache bereinigen (Ressourcen-Verzeichnis) |
 
 ## Mitwirkung
 
 Hinweise auf Fehler (z. B. Tippfehler, defekte Links) sind willkommen.
-Bitte dafuer ein Issue erstellen oder einen Pull Request vorschlagen.
+Bitte dafuer ein Issue erstellen.
 
 ## Copyright
 
