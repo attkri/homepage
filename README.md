@@ -1,4 +1,4 @@
-# AttilaKrick.com -- Website-Repository
+# AttilaKrick.com - Website-Repository
 
 Dieses Repository enthaelt die statische Website von Attila Krick:
 
