@@ -26,6 +26,13 @@ Dieses Dokument enthält projektspezifische Daten und Konventionen für alle Age
 - Als direkter Website-Inhalt gelten insbesondere Inhalte unter `content/` sowie sichtbare Medien/Assets fuer Seiten und Artikel.
 - Alle anderen Aenderungen (z. B. `README.md`, `AGENTS.md`, interne Doku, Skripte, Build-/Tooling-Konfiguration) duerfen ohne separate Freigabe umgesetzt werden.
 
+## Build-Artefakte (Hugo Cache)
+
+- `resources/_gen/` ist ein generierter Hugo-Cache und gehoert nicht zu den Quellinhalten der Website.
+- Dateien unter `resources/_gen/` werden **nie** committed.
+- Agenten sollen den Cache regelmaessig bereinigen, wenn er unnoetiges Git-Rauschen erzeugt (z. B. vor Commits oder nach lokalen Builds).
+- Zulaessige Bereinigung: `hugo --gc` oder lokales Loeschen von `resources/_gen/`.
+
 ## Verzeichnisstruktur
 
 ```

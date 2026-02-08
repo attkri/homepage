@@ -1,2 +1,5 @@
 .opencode/
 .Secrets/
+docs/
+AGENTS.md
+resources/_gen/
