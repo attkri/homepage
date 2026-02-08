@@ -1,8 +1,6 @@
 # AttilaKrick.com - Website-Repository
 
-Dieses Repository enthaelt die statische Website von Attila Krick:
-
-https://attilakrick.com/
+Dieses Repository enthaelt die berufliche Website von [Attila Krick](https://attilakrick.com).
 
 Die README ist bewusst kurz und richtet sich an Menschen, die das Projekt schnell verstehen wollen.
 

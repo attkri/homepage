@@ -1,4 +1,4 @@
-# Wichtiges zu https://attilakrick.com
+# Wichtiges zu attilakrick.com
 
 ## SEO
 
