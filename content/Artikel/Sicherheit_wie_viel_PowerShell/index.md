@@ -1,21 +1,39 @@
 ---
 draft: false
-date: 2025-07-08
+date: 2026-02-08T00:00:00+02:00
 title: "Wie viel PowerShell braucht moderne IT-Sicherheit?"
 description: "PowerShell ist ein Schlüsselwerkzeug der IT-Sicherheit. Entdecke, wie du damit Audits, Protokolle und Systemhärtung automatisierst – sicher, effizient und nachvollziehbar."
-categories: ["PowerShell"]
+categories:
+  - PowerShell
+tags:
+  - powershell-security
+  - it-sicherheit
+  - auditing
+  - hardening
 author: "Attila Krick"
 
 cover:
-  image: "cover.webp"
+  image: cover.webp
   alt: "PowerShell-Skript analysiert Sicherheitsprotokolle auf einem Server"
   caption: "PowerShell als Werkzeug für moderne IT-Sicherheit – von Audits bis Angriffserkennung"
   relative: true
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
 ## Wie viel PowerShell braucht moderne IT-Sicherheit?
 
 *Warum automatisiertes Auditing, Reporting und Härtung ohne PowerShell nicht mehr zeitgemäß ist – und wie du das volle Potenzial sicher ausschöpfst.*
+
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.5 (`pwsh`) in Security-, Audit- und Betriebsszenarien.
 
 ### PowerShell – das unterschätzte Sicherheitswerkzeug
 
@@ -112,4 +130,10 @@ Wer heute Systeme absichern, Konfigurationen prüfen oder Angriffe erkennen will
 
 > *Du möchtest Sicherheits-Audits automatisieren oder dein Team für PowerShell fit machen? Ich unterstütze dich gern – mit Schulungen, Beratung oder direkt im Projekt.*
 
-👉 [Kontaktiere mich hier!](https://attilakrick.com/Kontakt)
+## Weiterführende Inhalte
+
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})

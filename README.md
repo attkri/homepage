@@ -1,12 +1,21 @@
 # AttilaKrick.com - Website-Repository
 
-Dieses Repository enthaelt die berufliche Website von [Attila Krick](https://attilakrick.com).
+Dieses Repository enthält die berufliche Website von [Attila Krick](https://attilakrick.com).
 
 Die README ist bewusst kurz und richtet sich an Menschen, die das Projekt schnell verstehen wollen.
 
+## Überblick
+
+Dieses Repository enthält Inhalte, Layouts und Konfigurationen für die Hugo-Website `attilakrick.com`.
+
+## Voraussetzungen
+
+- [Hugo](https://gohugo.io/) `v0.155.2 extended`
+- Git
+
 ## Zweck des Projekts
 
-- Fachartikel und Praxiswissen zu PowerShell, T-SQL und .NET veroeffentlichen
+- Fachartikel und Praxiswissen zu PowerShell, T-SQL und .NET veröffentlichen
 - Leistungen, Kontakt und rechtliche Seiten bereitstellen
 - Inhalte mit Hugo effizient pflegen und versionieren
 
@@ -27,7 +36,7 @@ Die README ist bewusst kurz und richtet sich an Menschen, die das Projekt schnel
 ## Mitwirkung
 
 Hinweise auf Fehler (z. B. Tippfehler, defekte Links) sind willkommen.
-Bitte dafuer ein Issue erstellen.
+Bitte dafür ein Issue erstellen.
 
 ## Copyright
 
@@ -35,9 +44,9 @@ Copyright (c) 2026 Attila Krick. Alle Rechte vorbehalten.
 
 ## Lizenz
 
-Dieses Repository enthaelt Inhalte und Quelltexte der Website attilakrick.com.
-Ohne ausdrueckliche, separate Lizenzdatei ist keine allgemeine Wiederverwendung,
-Vervielfaeltigung oder Weitergabe erlaubt.
+Dieses Repository enthält Inhalte und Quelltexte der Website attilakrick.com.
+Ohne ausdrückliche, separate Lizenzdatei ist keine allgemeine Wiederverwendung,
+Vervielfältigung oder Weitergabe erlaubt.
 
 ## Wichtiger Hinweis
 

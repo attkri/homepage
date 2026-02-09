@@ -1,17 +1,41 @@
 ---
-title: "Entity Framework Core Grundlagen"
-date: 2024-10-18
-description: "Ein Überblick über Entity Framework Core, seine Vorteile und Best Practices für .NET-Entwickler."
-categories: ["dotNET", "T-SQL"]
 draft: false
+date: 2026-02-08T00:00:00+02:00
+title: "Entity Framework Core Grundlagen: So startest du sauber in .NET"
+description: "Wie du mit Entity Framework Core strukturiert startest: Setup, DbContext, Migrationen und typische Fehler im produktiven Einsatz."
+categories:
+  - dotNET
+  - T-SQL
+tags:
+  - entity-framework-core
+  - dotnet
+  - sql-server
+  - migrationen
+author: "Attila Krick"
 cover:
-  image: "cover.webp"
-  alt: "Entity Framework Core - Einführung"
+  image: cover.webp
+  alt: "Entity Framework Core Grundlagen in .NET"
+  caption: "EF Core: vom ersten Modell bis zur Migration"
+  relative: true
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
-## Warum Entity Framework Core nutzen?
+## Worum geht es in diesem Artikel?
 
-Dieser Artikel vermittelt dir die Grundlagen von Entity Framework Core – einem modernen ORM für .NET-Anwendungen.
+Dieser Artikel beantwortet eine konkrete Frage: **Wie setzt du Entity Framework Core in einem .NET-Projekt so auf, dass das Setup in der Praxis tragfähig ist?**
+
+> Stand: 2026-02  
+> Getestet mit: den in diesem Beitrag gezeigten EF-Core-Basisbausteinen (DbContext, Migrationen, LINQ-Abfragen) in aktuellen .NET-Projekten.
+
+## Warum Entity Framework Core?
 
 Entity Framework Core (EF Core) ist das bevorzugte **Object-Relational Mapping (ORM)-Framework** für .NET-Entwickler. Es ermöglicht eine einfache und effiziente Interaktion mit relationalen Datenbanken, ohne direkt SQL schreiben zu müssen.
 
@@ -23,9 +47,9 @@ Vorteile von EF Core:
 - **Integriertes Change Tracking** - Automatische Verwaltung von Änderungen an Datenbankeinträgen.
 - **Migrationen & Modellvalidierung** - Versionierung der Datenbankstruktur direkt im Code.
 
-## Installation von Entity Framework Core
+## Installation in einem neuen Projekt
 
-EF Core wird als NuGet-Paket installiert. Um EF Core zu nutzen, füge die Pakete zu deinem .NET-Projekt hinzu:
+EF Core wird als NuGet-Paket installiert. Für SQL Server brauchst du in der Regel mindestens diese Pakete:
 
 ### Installation mit .NET CLI
 
@@ -40,16 +64,16 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
-### Installation mit Package Manager
+### Optional: Installation über Visual Studio
 
 Falls du Visual Studio verwendest, kannst du die Pakete auch über die *NuGet-Paketverwaltung* hinzufügen:
 
-1. Visual Studio öffnen
-2. Projekt laden
-3. Tools -> NuGet-Paket-Manager -> Paketverwaltung für Lösung
-4. Microsoft.EntityFrameworkCore suchen und installieren
+- Visual Studio öffnen
+- Projekt laden
+- Tools -> NuGet-Paket-Manager -> Paketverwaltung für Lösung
+- Microsoft.EntityFrameworkCore suchen und installieren
 
-## Erste Schritte mit EF Core
+## Saubere Basis: Modell und DbContext
 
 Um EF Core in einem Projekt zu nutzen, erstelle eine `DbContext`-Klasse und definiere deine Modelle.
 
@@ -59,28 +83,29 @@ Um EF Core in einem Projekt zu nutzen, erstelle eine `DbContext`-Klasse und defi
 public class Product
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
     public decimal Price { get; set; }
 }
 ```
 
-### DbContext erstellen
+### Beispiel: DbContext
 
 Die **DbContext-Klasse** verwaltet die Verbindung zur Datenbank:
 
 ```csharp
 public class AppDbContext : DbContext
 {
-    public DbSet<Product> Products { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-        options.UseSqlServer("Server=.;Database=MyAppDB;Trusted_Connection=True;");
     }
+
+    public DbSet<Product> Products { get; set; }
 }
 ```
 
-## Migrationen und Datenbankverwaltung
+In produktiven Projekten gehört die Connection-String-Konfiguration in `appsettings.json` oder sichere Umgebungsvariablen, nicht hart in den Code.
+
+## Migrationen und Datenbankversionierung
 
 EF Core ermöglicht eine einfache Verwaltung der Datenbankstruktur mit **Migrationen**.
 
@@ -96,6 +121,12 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
+### Was du damit erreichst
+
+- Datenbankstruktur bleibt versioniert und nachvollziehbar.
+- Schemaänderungen laufen reproduzierbar über Entwicklungs- und Testumgebungen.
+- Rollouts werden planbarer, weil Änderungen dokumentiert sind.
+
 ## Abfragen mit LINQ
 
 EF Core nutzt **LINQ (Language Integrated Query)**, um Datenbankabfragen direkt in C# zu formulieren.
@@ -103,7 +134,11 @@ EF Core nutzt **LINQ (Language Integrated Query)**, um Datenbankabfragen direkt 
 ### Beispiel: Daten abrufen
 
 ```csharp
-using (var context = new AppDbContext())
+var options = new DbContextOptionsBuilder<AppDbContext>()
+    .UseSqlServer("Server=.;Database=MyAppDb;Trusted_Connection=True;TrustServerCertificate=True")
+    .Options;
+
+using (var context = new AppDbContext(options))
 {
     var products = context.Products.Where(p => p.Price > 50).ToList();
     foreach (var product in products)
@@ -116,7 +151,11 @@ using (var context = new AppDbContext())
 ### Beispiel: Einfügen eines neuen Produkts
 
 ```csharp
-using (var context = new AppDbContext())
+var options = new DbContextOptionsBuilder<AppDbContext>()
+    .UseSqlServer("Server=.;Database=MyAppDb;Trusted_Connection=True;TrustServerCertificate=True")
+    .Options;
+
+using (var context = new AppDbContext(options))
 {
     var newProduct = new Product { Name = "Laptop", Price = 999.99M };
     context.Products.Add(newProduct);
@@ -124,13 +163,44 @@ using (var context = new AppDbContext())
 }
 ```
 
-## Tipps für den produktiven Einsatz von EF Core
+### Leselast optimieren mit AsNoTracking
 
-- **Verwende AsNoTracking()**, wenn Daten nur gelesen werden, um Performance zu verbessern.
-- **Nutze Lazy Loading sparsam**, um unerwartete Datenbankaufrufe zu vermeiden.
-- **Verwalte Verbindungen richtig**, um Speicherlecks zu vermeiden.
-- **Nutze Migrations sauber**, um Probleme bei der Datenbankversionierung zu verhindern.
+```csharp
+var options = new DbContextOptionsBuilder<AppDbContext>()
+    .UseSqlServer("Server=.;Database=MyAppDb;Trusted_Connection=True;TrustServerCertificate=True")
+    .Options;
+
+using (var context = new AppDbContext(options))
+{
+    var products = context.Products
+        .AsNoTracking()
+        .Where(p => p.Price > 50)
+        .ToList();
+}
+```
+
+## Typische Fehler im Alltag
+
+- Migrationen werden lokal erstellt, aber nicht versioniert eingecheckt.
+- Connection Strings landen versehentlich im Quellcode.
+- LINQ-Abfragen werden nicht auf SQL-Auswirkung geprüft.
+- Bei reinen Leseabfragen wird `AsNoTracking()` nicht genutzt.
+
+## Checkliste für den produktiven Einsatz
+
+- Projektpakete und Provider gezielt festlegen.
+- DbContext per DI konfigurieren.
+- Migrationen als festen Bestandteil des Deployments behandeln.
+- Kritische Abfragen messen und bei Bedarf SQL-Plan analysieren.
+- Sicherheit der Verbindungsdaten technisch absichern.
+
+## Weiterführende Inhalte
+
+- [T-SQL JOIN verstehen und korrekt einsetzen]({{< relref "/Artikel/T-SQL_JOIN/index.md" >}})
+- [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
 ## Fazit
 
-Entity Framework Core erleichtert die Arbeit mit Datenbanken erheblich und bietet viele nützliche Funktionen für .NET-Entwickler. Mit der richtigen Konfiguration und Best Practices kannst du das volle Potenzial von EF Core ausschöpfen und performante Anwendungen entwickeln.
+Entity Framework Core ist ein starker Beschleuniger, wenn du das Setup von Anfang an sauber aufsetzt: klare Modellierung, versionierte Migrationen, kontrollierte Abfragen und sichere Konfiguration. Genau diese vier Punkte entscheiden im Alltag über Stabilität und Wartbarkeit.

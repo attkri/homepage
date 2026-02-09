@@ -1,17 +1,21 @@
 ---
 draft: false
-date: 2025-03-31
-title: "PowerShell starten mit VS Code & Tools"
-description: "Ein praxisnaher Leitfaden für PowerShell-Einsteiger: So richtest du deine Umgebung ein und startest deine ersten Skripte."
-categories: ["PowerShell"]
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell produktiv starten: Setup mit VS Code und Windows Terminal"
+description: "So richtest du PowerShell 7, VS Code und Windows Terminal sauber ein und startest mit den ersten Cmdlets ohne typische Einsteigerfehler."
+categories:
+  - PowerShell
+tags:
+  - powershell-setup
+  - vscode
+  - windows-terminal
+  - einsteiger
 author: "Attila Krick"
-
 cover:
-  image: "cover.webp"
+  image: cover.webp
   alt: "Visual Studio Code mit PowerShell-Erweiterung"
-  caption: "PowerShell Skripte schreiben mit Visual Studio Code"
-  relative: false
-
+  caption: "PowerShell-Setup für produktives Arbeiten mit VS Code"
+  relative: true
 showToc: true
 TocOpen: false
 comments: true
@@ -20,125 +24,112 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
-#ShowWordCount: false
-
-assets:
-  disableHLJS: true
+disableHLJS: true
 ---
 
-## PowerShell benutzen – Tools, VS Code und erste Schritte
+## Welche Frage beantwortet dieser Artikel?
 
-Im ersten Teil hast du erfahren, was PowerShell ist und warum sie so mächtig ist. Jetzt geht’s ans Eingemachte: In diesem Beitrag zeige ich dir, wie du PowerShell installierst, welche Tools dir das Leben leichter machen – und wie du deine ersten Cmdlets schreibst.
+Dieser Artikel beantwortet eine konkrete Frage: **Wie richtest du PowerShell so ein, dass du vom ersten Tag an stabil und produktiv arbeiten kannst?**
 
-### PowerShell installieren
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.5 (`pwsh`), VS Code und Windows Terminal unter Windows 11.
 
-Die klassische „Windows PowerShell“ ist auf jedem Windows 10/11 bereits vorinstalliert – in Version 5.1. Aber: Die Zukunft heißt **PowerShell 7**. Diese moderne Version ist plattformübergreifend (Windows, Linux, macOS) und basiert auf **.NET Core**.
+## 1) PowerShell 7 installieren
 
-#### So installierst du PowerShell 7 auf Windows
+Windows PowerShell 5.1 ist oft bereits vorhanden, für neue Automatisierung ist aber PowerShell 7 die bessere Basis.
 
-1. Lade das aktuelle Installationspaket von GitHub herunter: [PowerShell Releases](https://github.com/PowerShell/PowerShell/releases)
-2. Wähle die passende `.msi`-Datei für dein System (z. B. `PowerShell-7.x.x-win-x64.msi`)
-3. Installieren, fertig. PowerShell 7 findest du danach im Startmenü unter „PowerShell 7 (x64)“
+- Download: [PowerShell Releases](https://github.com/PowerShell/PowerShell/releases)
+- passende `.msi` auswählen (zum Beispiel `win-x64`)
+- Installation durchführen und `pwsh` starten
 
-> 💡 Die alte Windows PowerShell 5.1 und PowerShell 7 können parallel betrieben werden – das ist sogar empfehlenswert.
+Version prüfen:
 
----
+```powershell
+$PSVersionTable.PSVersion
+```
 
-### Die besten Tools zum Arbeiten mit PowerShell
+## 2) VS Code für PowerShell einrichten
 
-#### 1. Visual Studio Code (VS Code)
+VS Code ist der Standardeditor für PowerShell im professionellen Umfeld.
 
-Visual Studio Code ist der perfekte Editor für PowerShell. Microsoft empfiehlt ihn offiziell als Nachfolger der alten „PowerShell ISE“.
+Empfohlenes Minimal-Setup:
 
-- Kostenlos, Open Source, plattformübergreifend
-- Integriertes Terminal und Debugger
-- Erweiterbar mit Extensions
+- Erweiterung `PowerShell` von Microsoft installieren
+- integriertes Terminal auf PowerShell setzen
+- Formatierung beim Speichern aktivieren
 
-> 💡 Alternativ: **VSCodium** – komplett ohne Microsoft-Telemetrie
+```json
+{
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
+```
 
-#### Diese Extensions solltest du installieren
+## 3) Windows Terminal sinnvoll nutzen
 
-| Erweiterung         | Beschreibung                                 |
-| ------------------- | -------------------------------------------- |
-| PowerShell          | Syntax-Highlighting, IntelliSense, Debugging |
-| Better Comments     | Kommentiere Skripte farblich strukturiert    |
-| Markdown All in One | Praktisch für Dokumentationen und Blogposts  |
+Windows Terminal hilft, mehrere Shells sauber parallel zu betreiben.
 
-Nach der Installation kannst du PowerShell-Skripte direkt in VS Code schreiben, ausführen (`F8`) und debuggen (`F5`).
-
-#### 2. Windows Terminal
-
-Das neue Windows Terminal ist ein echter Gamechanger:
-
-- Mehrere Tabs für PowerShell, CMD, WSL & mehr
-- Modernes Design, schnelle Eingabe
-- Vollständig anpassbar
-
-Du kannst es direkt über den Microsoft Store installieren oder via GitHub. Starte es danach über `WIN + R` → `wt`
+- Tabs für PowerShell, CMD und WSL
+- schnelle Profilwechsel
+- gute Lesbarkeit bei langen Sessions
 
 ![Windows Terminal Beispiel](WindowsTerminal-Beispiel-2.webp)
 
-
-
----
-
-### Erste Schritte mit Cmdlets
-
-Jetzt wird’s praktisch. Öffne PowerShell 7 oder VS Code mit Terminal und gib folgende Zeilen ein:
+Start über `wt`:
 
 ```powershell
-Get-Process
+wt
 ```
 
-Das zeigt dir alle laufenden Prozesse als Tabelle. Noch besser:
+## 4) Erste Cmdlets direkt ausprobieren
 
 ```powershell
-Get-Process | Format-List
+Get-Process |
+    Sort-Object CPU -Descending |
+    Select-Object -First 10 Name, Id, CPU
 ```
-
-Oder hübsch mit GUI:
 
 ```powershell
-Get-Process | Out-GridView
+Get-Service |
+    Where-Object Status -eq Running |
+    Select-Object Name, Status
 ```
 
-💡 Cmdlets folgen immer dem Muster `Verb-Substantiv`, z. B. `Get-Help`, `Set-Location`, `Start-Service`
+Cmdlets folgen in der Regel dem Muster `Verb-Noun`, zum Beispiel `Get-Help`, `Set-Location`, `Start-Service`.
 
-Du kannst mehrere Cmdlets mit der **Pipeline (`|`)** verbinden. Das ist eines der wichtigsten Prinzipien in PowerShell.
+## 5) Erstes Skript erstellen und sicher ausführen
 
----
-
-### Skripte erstellen und ausführen
-
-In VS Code: `File > New File` → Inhalt eingeben → speichern als `.ps1`-Datei.
-
-Beispiel:
+Beispielskript `system-check.ps1`:
 
 ```powershell
 Get-ChildItem -Path C:\Windows -Directory
 ```
 
-Drücke `F8`, um einzelne Zeilen auszuführen – oder `F5`, um das gesamte Skript zu starten.
+Zum Starten einzelner Zeilen in VS Code: `F8`, für den Debuglauf: `F5`.
 
-Achtung: PowerShell schützt dich vor der Ausführung unbekannter Skripte. Du musst einmalig die **Execution Policy** ändern:
+Falls Skriptausführung blockiert ist:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-> Mehr zur Sicherheit und Ausführungsrichtlinien folgt in Teil 3.
+## Häufige Einsteigerfehler vermeiden
 
----
+- zu früh mit großen Skripten starten statt mit kleinen, prüfbaren Schritten
+- keine Versionsprüfung vor Supportfällen
+- fehlende Fehlerbehandlung und kein Logging
+- Befehle aus dem Internet ungeprüft übernehmen
 
-### Fazit & Ausblick
+## Weiterführende Inhalte
 
-Du hast jetzt alles, was du brauchst, um PowerShell produktiv zu nutzen: Eine moderne Shell, ein komfortables Editor-Setup und erste Befehle, mit denen du direkt loslegen kannst.
+- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
+- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
+- [PowerShell Cmdlets finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
+- [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
-In **Teil 3** steigen wir tiefer ein: Du lernst, wie du mit Objekten arbeitest, Daten analysierst und eigene Cmdlets kombinierst.
+## Fazit
 
-👉 Du willst schneller vorankommen? Schau dir meine [PowerShell Seminare](https://attilakrick.com/powershell/powershell-seminare/) an – oder nimm direkt Kontakt auf.
-
----
-
-**Noch Fragen oder Feedback?**  
-👉 [Melde dich gern bei mir!](https://attilakrick.com/Kontakt)
+Mit PowerShell 7, VS Code und Windows Terminal steht deine Arbeitsumgebung auf einer stabilen Basis. Wenn Version, Editor und Ausführung sauber konfiguriert sind, wird der Einstieg deutlich schneller und spätere Automatisierung robuster.

@@ -1,174 +1,167 @@
 ---
-title: "PowerShell Scripting Best Practices"
-date: 2025-07-07
-description: "Die besten Methoden für PowerShell-Scripting, inklusive Fehlerbehandlung, Sicherheitsrichtlinien und Performance-Optimierung."
-categories: ["PowerShell"]
+draft: false
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell Scripting Best Practices: 10 Regeln fuer wartbaren Code"
+description: "Diese 10 PowerShell Best Practices helfen dir, Skripte wartbar, sicher und teamfaehig zu bauen: Fehlerbehandlung, Validierung, Logging, Tests und Performance."
+categories:
+  - PowerShell
+tags:
+  - powershell-scripting
+  - best-practices
+  - pester
+  - automations
+author: "Attila Krick"
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
-## Best Practices für PowerShell-Scripting
+## Welche Frage beantwortet dieser Artikel?
 
-Gutes PowerShell-Scripting ist mehr als das Aneinanderreihen von Befehlen. Es geht um Wartbarkeit, Lesbarkeit, Sicherheit und Performance. Hier findest du bewährte Methoden, wie du professionelle Skripte erstellst – unabhängig davon, ob du als Administrator, Entwickler oder Automatisierer arbeitest.
+Dieser Artikel beantwortet eine klare Frage: **Welche Regeln machen PowerShell-Skripte im Team dauerhaft wartbar und sicher betreibbar?**
 
----
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.4 (LTS) und 7.5 fuer typische Admin- und Automatisierungsaufgaben.
 
-### 1. Verwende aussagekräftige Variablennamen
+## 10 Best Practices fuer professionelles PowerShell-Scripting
 
-Vermeide kryptische Kurzformen. Gute Namen verbessern die Lesbarkeit – gerade bei Teamarbeit oder späterem Refactoring.
+### 1) Namen so waehlen, dass Absicht sofort klar ist
+
+Lesbarkeit ist die Basis fuer Wartbarkeit. Variablen und Funktionen sollten den fachlichen Zweck zeigen, nicht nur den Datentyp.
 
 ```powershell
-$logDateiPfad = "C:\Logs\error.log"
-$benutzerListe = Get-ADUser -Filter *
+$logFilePath = "C:\Logs\deployment.log"
+$activeUsers = Get-ADUser -Filter { Enabled -eq $true }
 ```
 
----
+### 2) Fehler steuerbar machen statt verstecken
 
-### 2. Kommentare für bessere Verständlichkeit
-
-Schreibe nicht für dich – schreibe für den „zukünftigen Du“ oder deine Kollegen. Kommentare helfen enorm.
+Nutze `try/catch/finally` konsequent und setze bei kritischen Befehlen `-ErrorAction Stop`, damit Fehler im `catch` landen.
 
 ```powershell
-# Ermittelt alle aktiven Benutzer und speichert sie in einer Variablen
-$aktiveBenutzer = Get-ADUser -Filter {Enabled -eq $true}
-```
-
----
-
-### 3. Nutze `Try-Catch-Finally` für Fehlerbehandlung
-
-Robuste Skripte können mit Fehlern umgehen:
-
-```powershell
-Try {
-    Get-Item "C:\NichtVorhandeneDatei.txt"
-} Catch {
-    Write-Host "Fehler: $_" -ForegroundColor Red
-} Finally {
-    Write-Host "Skript abgeschlossen."
+try {
+    Get-Item "C:\NichtVorhandeneDatei.txt" -ErrorAction Stop
+}
+catch {
+    Write-Error "Datei konnte nicht gelesen werden: $_"
+}
+finally {
+    Write-Verbose "Aufraeumarbeiten abgeschlossen" -Verbose
 }
 ```
 
-> 🔄 `Finally` wird immer ausgeführt – ideal für Aufräumarbeiten oder Logging.
+### 3) Eingaben validieren, bevor Business-Logik startet
 
----
-
-### 4. Setze Funktionen für wiederverwendbaren Code ein
-
-Funktionen machen deinen Code modular und wiederverwendbar:
+Parameter-Validierung reduziert Laufzeitfehler und macht Funktionen selbsterklaerend.
 
 ```powershell
-Function Get-FreierSpeicher {
-    Param($Laufwerk)
-    Get-PSDrive -Name $Laufwerk | Select-Object Used, Free
-}
-```
-
----
-
-### 5. Verwende Module für größere Projekte
-
-Bei umfangreichen Skripten solltest du ein Modul erstellen:
-
-```powershell
-New-ModuleManifest -Path "C:\MeinModul\MeinModul.psd1"
-```
-
-Das erhöht Wiederverwendbarkeit und erleichtert Wartung und Deployment.
-
----
-
-### 6. Parameter validieren
-
-Vermeide fehlerhafte Eingaben durch gezielte Validierung:
-
-```powershell
-Function Set-BenutzerPasswort {
-    Param(
+function Set-UserPassword {
+    param(
         [Parameter(Mandatory)]
-        [ValidatePattern("^[a-zA-Z0-9]{8,}$")]
-        [string]$NeuesPasswort
+        [ValidateLength(12, 128)]
+        [string]$NewPassword
     )
-    # Passwort setzen
+
+    "Passwort wird gesetzt"
 }
 ```
 
-> 🎯 Validierung macht Skripte sicherer und nutzerfreundlicher.
+### 4) Funktionen klein und eindeutig halten
 
----
-
-### 7. Logging in Skripten implementieren
-
-Protokolliere, was dein Skript macht. Das erleichtert Fehlersuche und Nachvollziehbarkeit:
+Eine Funktion sollte genau eine Aufgabe haben. Das erleichtert Testbarkeit und Wiederverwendung.
 
 ```powershell
-Function Write-Log {
-    Param([string]$Nachricht)
-    "$(Get-Date) - $Nachricht" | Out-File "C:\Logs\script.log" -Append
+function Get-FreeDiskSpace {
+    param([Parameter(Mandatory)][string]$DriveLetter)
+
+    Get-PSDrive -Name $DriveLetter | Select-Object Name, Used, Free
 }
 ```
 
----
+### 5) Logging standardisieren
 
-### 8. Automatisierte Tests mit Pester nutzen
-
-Qualitätssicherung für PowerShell – mit dem Pester-Modul:
+Ohne vernuenftiges Logging wird Incident-Analyse teuer. Nutze ein einheitliches Format mit Zeitstempel und Level.
 
 ```powershell
-Describe "Get-FreierSpeicher Tests" {
-    It "Soll eine Ausgabe mit Werten haben" {
-        Get-FreierSpeicher C | Should -Not -BeNullOrEmpty
+function Write-Log {
+    param(
+        [Parameter(Mandatory)][string]$Message,
+        [ValidateSet('INFO','WARN','ERROR')][string]$Level = 'INFO'
+    )
+
+    "$((Get-Date).ToString('s')) [$Level] $Message" |
+        Out-File -FilePath "C:\Logs\script.log" -Append -Encoding utf8
+}
+```
+
+### 6) Tests mit Pester als Pflichtschritt einbauen
+
+Produktive Skripte brauchen automatisierte Tests. Schon wenige Pester-Tests verhindern teure Regressionen.
+
+```powershell
+Describe "Get-FreeDiskSpace" {
+    It "liefert ein Ergebnisobjekt" {
+        Get-FreeDiskSpace -DriveLetter C | Should -Not -BeNullOrEmpty
     }
 }
 ```
 
-Tests gehören in produktiven Skripten heute zum Standard.
+### 7) Sicherheitsgrenzen explizit machen
 
----
-
-### 9. Skripte digital signieren
-
-Skript-Sicherheit erhöhen und Vertrauen schaffen:
+Nutze `#Requires`, least privilege und Code-Signing, wenn Skripte in sensiblen Umgebungen laufen.
 
 ```powershell
-Set-AuthenticodeSignature -FilePath "MeinSkript.ps1" -Certificate (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert)
+#Requires -Version 7.4
+#Requires -Modules ActiveDirectory
 ```
 
-> 🔐 Besonders wichtig in sicherheitskritischen Umgebungen.
+### 8) Module statt Skript-Monolithen bauen
 
----
-
-### 10. Performance optimieren
-
-Vermeide ineffiziente Schleifen und unnötige Aufrufe:
+Ab einer gewissen Groesse sollten wiederverwendbare Funktionen in Module wandern. Das verbessert Versionierung und Deployment.
 
 ```powershell
-# Langsame Variante vermeiden
-Get-ADUser -Filter * | ForEach-Object { $_.SamAccountName }
-
-# Schneller:
-$BenutzerNamen = (Get-ADUser -Filter *).SamAccountName
+New-ModuleManifest -Path "C:\Modules\Company.Automation\Company.Automation.psd1"
 ```
 
-Auch Caching und gezieltes Filtern wirken Wunder.
+### 9) Performance mit Messwerten beurteilen
 
----
+Nicht raten, messen. `Measure-Command` und gezieltes Filtern vermeiden falsche Optimierungen.
 
-## Bonus: Weitere Tipps für sauberes Scripting
+```powershell
+$duration = Measure-Command {
+    Get-ADUser -Filter * -Properties SamAccountName |
+        Select-Object -ExpandProperty SamAccountName
+}
 
-- Nutze `Set-StrictMode` zur Fehlervermeidung
-- Verwende `#Requires` für Versions- und Modulabhängigkeiten
-- Halte Funktionen kurz und thematisch fokussiert
-- Vermeide globale Variablen – arbeite mit Rückgabewerten
-- Dokumentiere alle Eingaben, Ausgaben und Seiteneffekte
+$duration.TotalMilliseconds
+```
 
----
+### 10) Team-Standards verbindlich dokumentieren
+
+Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logging-Format, Fehlerstrategie, Testpflicht.
+
+## Mini-Checkliste fuer den produktiven Einsatz
+
+- Eingaben validiert und Fehlerpfade getestet
+- Logging mit Zeitstempel und Severity aktiv
+- Pester-Tests in CI/CD integriert
+- Versions- und Modulabhaengigkeiten mit `#Requires` definiert
+- Rollback-Plan fuer kritische Jobs dokumentiert
+
+## Weiterfuehrende Inhalte
+
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [PowerShell Cmdlet finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
+- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
 ## Fazit
 
-Professionelles PowerShell-Scripting braucht Struktur, Disziplin und Weitblick. Mit diesen Best Practices entwickelst du Skripte, die nicht nur funktionieren, sondern auch wartbar, sicher und performant sind.
-
-📚 In meinem [PowerShell-Seminar für Fortgeschrittene](https://attilakrick.com/powershell/powershell-seminare/) vertiefen wir genau diese Aspekte – praxisnah und mit vielen realen Beispielen.
-
----
-
-**Fragen zu deinem PowerShell-Skript oder Wunsch nach Code-Review?**  
-👉 [Jetzt Kontakt aufnehmen!](https://attilakrick.com/Kontakt)
+PowerShell-Skripte sind dann professionell, wenn sie auch nach Monaten nachvollziehbar, sicher und testbar bleiben. Mit diesen 10 Regeln minimierst du Betriebsrisiko und erhoehst die Geschwindigkeit im Team spuerbar.

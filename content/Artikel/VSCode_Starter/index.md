@@ -1,96 +1,137 @@
 ---
-title: "Integration von PowerShell in Visual Studio Code"
-date: 2025-03-18
-description: "Wie man PowerShell effizient in VS Code nutzt - Installation, Konfiguration und Tipps für eine produktive Arbeitsumgebung."
-categories: ["PowerShell"]
 draft: false
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell in Visual Studio Code: Produktiv einrichten in 20 Minuten"
+description: "So richtest du Visual Studio Code für PowerShell sauber ein: Extension, Terminal, Formatierung, Debugging und ein praxisnaher Setup-Check für Teams."
+categories:
+  - PowerShell
+tags:
+  - powershell
+  - vscode
+  - debugging
+  - scripting
+author: "Attila Krick"
 cover:
-  image: "cover.webp"
-  alt: "PowerShell-Integration in VS Code"
+  image: cover.webp
+  alt: "PowerShell produktiv in Visual Studio Code einrichten"
+  caption: "VS Code Setup für stabile und schnelle PowerShell-Entwicklung"
+  relative: true
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
-## Warum PowerShell mit VS Code nutzen?
+## Welche Frage beantwortet dieser Artikel?
 
-Viele Entwickler und IT-Administratoren setzen *Visual Studio Code (VS Code)* als bevorzugte Entwicklungsumgebung für PowerShell-Skripte ein. Die Kombination aus *leichtgewichtigem Editor, leistungsstarken Erweiterungen und integrierten Debugging-Features* macht VS Code zu einer idealen Plattform für PowerShell-Entwicklung. Zusätzlich ermöglicht es eine einheitliche Entwicklungserfahrung über verschiedene Betriebssysteme hinweg, da VS Code sowohl unter Windows als auch auf macOS und Linux verfügbar ist.
+Dieser Artikel beantwortet eine konkrete Frage: **Wie richtest du Visual Studio Code so ein, dass PowerShell-Skripte im Alltag schneller, stabiler und besser wartbar werden?**
+
+> Stand: 2026-02  
+> Getestet mit: VS Code und der offiziellen PowerShell-Erweiterung `ms-vscode.powershell` in einer typischen Admin-/Automatisierungsumgebung.
+
+## Warum VS Code für PowerShell?
+
+VS Code ist für PowerShell besonders praxisnah, weil Editor, Terminal und Debugging in einer Oberfläche zusammenlaufen. Das reduziert Wechselkosten und macht Fehlersuche reproduzierbar.
+
+Typische Vorteile im Tagesgeschäft:
+
+- schnelle Navigation in großen Skripten
+- integriertes Debugging mit Breakpoints und Variablenansicht
+- konsistente Code-Formatierung im Team
+- einheitliche Arbeitsweise auf Windows, Linux und macOS
 
 ## Installation der PowerShell-Erweiterung
 
-Damit VS Code PowerShell optimal unterstützt, benötigst du die **PowerShell-Erweiterung**. Diese bietet:
+Damit VS Code PowerShell sauber unterstützt, installierst du die offizielle Erweiterung.
+
+Sie bringt unter anderem mit:
 
 - **Syntaxhervorhebung** für besser lesbaren Code
 - **IntelliSense** für Autovervollständigung und Parameterhilfe
 - **Debugging-Funktionen**, um Skripte effizient zu testen
-- **Integrierte PowerShell-Konsole** für direkten Code-Output
+- **Integrierte PowerShell-Konsole** für direkte Ausführung
 - **Erweiterte Fehleranalyse** für bessere Fehlersuche
 
-### Schritte zur Installation
+### Schnellsetup
 
-1. VS Code herunterladen und installieren  
-   - [Download VS Code](https://code.visualstudio.com/)
+- VS Code installieren: [Download VS Code](https://code.visualstudio.com/)
+- Erweiterungsansicht öffnen (`Strg + Shift + X`)
+- Nach `PowerShell` suchen und die Erweiterung von Microsoft installieren
+- VS Code neu starten
 
-2. PowerShell-Erweiterung hinzufügen  
-   - Öffne VS Code
-   - Gehe zu Erweiterungen (`Ctrl + Shift + X`)
-   - Suche nach `PowerShell`
-   - Klicke auf Installieren
+## Basis-Konfiguration für produktives Arbeiten
 
-3. PowerShell als Standard-Terminal setzen  
-   - Öffne die Einstellungen (`Strg + ,`)
-   - Suche nach `terminal.integrated.defaultProfile.windows`
-   - Setze den Wert auf `PowerShell`
-
-## VS Code für PowerShell optimieren
-
-### Automatische Formatierung aktivieren
-
-Um sicherzustellen, dass dein Code sauber und einheitlich bleibt, kannst du die Auto-Formatierung aktivieren:
-
-1. Öffne die VS Code **Einstellungen** (`Strg + ,`).
-2. Suche nach `editor.formatOnSave`.
-3. Setze den Wert auf `true`.
+### Formatierung beim Speichern aktivieren
 
 ```json
-"editor.formatOnSave": true
+{
+  "editor.formatOnSave": true
+}
 ```
 
-### Standard-Terminal auf PowerShell setzen
-
-Falls VS Code ein anderes Terminal nutzt, kannst du es wie folgt ändern:
-
-1. Gehe zu den **Einstellungen** (`Strg + ,`).
-2. Suche nach `terminal.integrated.defaultProfile.windows`.
-3. Setze den Wert auf `PowerShell`.
+### PowerShell als Standard-Terminal setzen
 
 ```json
-"terminal.integrated.defaultProfile.windows": "PowerShell"
+{
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
 ```
 
-### Erweiterte Tastenkombinationen für PowerShell nutzen
+### Optional: sinnvolle Standardwerte für Teams
 
-- **Aktuelle Zeile ausführen**: In `.ps1`-Dateien kann die aktuelle Zeile mit `F8` ausgeführt werden.
-- **Skript starten**: Drücke `F5`, um das gesamte Skript auszuführen.
-- **Fehlersuche starten**: Setze einen Breakpoint und starte das Debugging mit `F5`.
+```json
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.renderWhitespace": "selection"
+}
+```
 
-## Debugging von PowerShell-Skripten
+Diese Einstellungen senken Review-Reibung und halten Diffs sauber.
 
-Eine der größten Stärken von VS Code ist das **integrierte Debugging** für PowerShell. So kannst du Fehler schneller finden und beheben.
+## Debugging: so findest du Fehler schneller
 
-### Breakpoints setzen und Debugging starten
+Das Debugging ist der größte Produktivitätshebel bei komplexeren Skripten.
 
-1. Breakpoint setzen: Klicke links neben eine Zeilennummer.
-2. Debugging starten (`F5`).
-3. Variablen überwachen und durch den Code schrittweise gehen.
-4. Eingabeaufforderung für interaktives Debugging nutzen, um Werte in Echtzeit zu verändern.
+Empfohlener Ablauf:
 
-## Tipps für eine produktive Umgebung
+- Breakpoint an der verdächtigen Stelle setzen
+- Debug-Start mit `F5`
+- Variablen im Lauf inspizieren
+- Bei Bedarf Zeile für Zeile mit Step Into/Over prüfen
 
-- **Zusätzliche VS Code Extensions**
-  - "Bracket Pair Colorizer" für farbige Klammern
-  - "Code Spell Checker" für weniger Tippfehler
-  - "PowerShell Pro Tools" für erweiterte Skriptfunktionen
+### Nützliche Shortcuts in der Praxis
+
+- `F8` für aktuelle Zeile oder Markierung
+- `F5` für Start/Debug-Lauf
+- `Strg + Shift + P` für schnelle Kommandosuche
+
+## Häufige Fehler bei der Einrichtung
+
+- Erweiterung ist installiert, aber Terminal läuft noch in einer anderen Shell.
+- Einstellungen werden nur lokal gesetzt und nicht als Team-Standard dokumentiert.
+- Skripte werden ohne Debug-Profil geändert und erst spät getestet.
+
+## Mini-Checkliste für den Rollout im Team
+
+- Offizielle PowerShell-Extension auf allen Arbeitsplätzen vereinheitlichen.
+- Kern-Settings als Teamvorgabe dokumentieren.
+- Zwei bis drei Referenzskripte als Smoke-Test definieren.
+- Debugging-Workflow für Incidents standardisieren.
+
+## Weiterführende Inhalte
+
+- [PowerShell verstehen: Grundlagen für den sicheren Einstieg]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [Best Practices für PowerShell Scripting]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
 ## Fazit
 
-Die Integration von PowerShell in Visual Studio Code macht die Entwicklung deutlich komfortabler und effizienter. Mit der richtigen Konfiguration, Debugging-Tools und erweiterten Features kannst du produktiver arbeiten und deine Skripte schneller optimieren.
-
-Nutze die gezeigten Einstellungen und steigere deine Produktivität mit VS Code und PowerShell!
+Wenn VS Code für PowerShell sauber eingerichtet ist, sinken typische Fehler im Alltag spürbar: weniger Konfigurationsdrift, schnellere Fehlersuche und konsistentere Skripte im Team. Genau das macht den Unterschied zwischen "funktioniert lokal" und belastbarer Automatisierung im Betrieb.

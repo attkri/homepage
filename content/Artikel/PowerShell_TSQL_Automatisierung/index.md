@@ -1,17 +1,22 @@
 ---
 draft: false
-date: 2025-03-31
-title: "PowerShell + SQL Server automatisieren"
-description: "PowerShell trifft SQL Server: Daten abfragen, exportieren & automatisieren mit T-SQL und .NET – praxisnah & kompakt."
-categories: ["PowerShell", "T-SQL"]
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell und SQL Server automatisieren: robuste Workflows für den Betrieb"
+description: "So kombinierst du PowerShell mit SQL Server für Reports, Audits und Betriebsautomatisierung - inklusive sicherer Verbindungsstrategie, Export und Best Practices."
+categories:
+  - PowerShell
+  - T-SQL
+tags:
+  - powershell
+  - sql-server
+  - tsql
+  - automatisierung
 author: "Attila Krick"
-
 cover:
-  image: "cover.webp"
+  image: cover.webp
   alt: "PowerShell-Skript greift auf SQL Server zu"
-  caption: "PowerShell und SQL Server – ein starkes Team für Automatisierung"
-  relative: false
-
+  caption: "PowerShell und SQL Server als belastbarer Automatisierungs-Stack"
+  relative: true
 showToc: true
 TocOpen: false
 comments: true
@@ -20,102 +25,102 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
-
-assets:
-  disableHLJS: true
+disableHLJS: true
 ---
 
-## PowerShell & SQL Server – Automatisieren mit T-SQL & .NET
+## Welche Frage beantwortet dieser Artikel?
 
-Du arbeitest mit SQL Server und möchtest Routineaufgaben automatisieren? Dann ist PowerShell dein bester Freund. In diesem Beitrag zeige ich dir, wie du mit PowerShell SQL-Daten abfragen, verarbeiten und exportieren kannst – inklusive TSQL, .NET-Zugriff und nützlicher Tipps für Admins, DBAs und **freie Softwareentwickler**.
+Dieser Artikel beantwortet eine klare Frage: **Wie automatisierst du SQL-Server-Aufgaben mit PowerShell so, dass Ergebnisse reproduzierbar und betriebssicher bleiben?**
 
-### Warum PowerShell + SQL?
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.5 (`pwsh`) und SQL Server in typischen Reporting- und Betriebsprozessen.
 
-SQL Server ist robust – aber seine GUI-Tools (wie SSMS) sind oft schwerfällig, besonders bei wiederkehrenden Aufgaben. PowerShell hilft dir:
+## Warum PowerShell plus SQL Server so gut funktioniert
 
-- regelmäßig Berichte zu ziehen (z. B. Logins, Speicher, Indizes)
-- Datenbanken zu sichern oder zu vergleichen
-- Skripte gegen mehrere Server auszuführen
-- CSVs zu importieren/exportieren
-- SQL-Jobs zu überwachen
+Viele SQL-Aufgaben sind wiederkehrend: Reports erzeugen, Zustände prüfen, Ergebnisse exportieren. PowerShell ist ideal, um diese Abläufe zu standardisieren.
 
-Und das Beste: Du kannst alles **zeitgesteuert** oder per Klick im Skript erledigen.
+Typische Anwendungsfälle:
 
-### Zugriff auf SQL Server mit PowerShell
+- regelmäßige Status- und Compliance-Reports
+- serverübergreifende Abfragen
+- Export für Fachbereiche (CSV/JSON)
+- Vor- und Nachkontrollen in Deployments
 
-Für viele Anwendungsfälle brauchst du keine Zusatzmodule. Die .NET-Klasse `System.Data.SqlClient.SqlConnection` reicht völlig:
+## 1) Zugriff über das `SqlServer`-Modul
 
-```powershell
-# Verbindung aufbauen
-$connectionString = "Server=SQL01;Database=master;Integrated Security=True;"
-$connection = New-Object System.Data.SqlClient.SqlConnection $connectionString
-$connection.Open()
-
-# Abfrage vorbereiten
-$command = $connection.CreateCommand()
-$command.CommandText = "SELECT name FROM sys.databases"
-
-# Ergebnis lesen
-$reader = $command.ExecuteReader()
-while ($reader.Read()) {
-    $reader["name"]
-}
-
-$connection.Close()
-```
-
-> Achte auf Leerzeilen vor und nach Codeblöcken – für bessere Lesbarkeit.
-
-### Alternativ: SqlServer-Modul verwenden
-
-Für komplexere Szenarien nutzt du das Modul `SqlServer`, z. B. mit `Invoke-SqlCmd`:
+Für viele Szenarien ist `Invoke-SqlCmd` der schnellste Einstieg:
 
 ```powershell
 Install-Module -Name SqlServer -Scope CurrentUser
 
-Invoke-Sqlcmd -ServerInstance "SQL01" -Database "master" -Query "SELECT name FROM sys.databases"
+Invoke-SqlCmd \
+    -ServerInstance "SQL01" \
+    -Database "master" \
+    -Query "SELECT name, create_date FROM sys.databases"
 ```
 
-Vorteile:
-- vereinfacht die Verbindung
-- liefert sofort Objekte
-- unterstützt Authentifizierungsoptionen & Variablen
+Vorteil: cmdlet-basierter Zugriff mit PowerShell-Objekten als Ergebnis.
 
-> 💡 Auch mit Azure SQL oder benutzerdefinierten Ports nutzbar.
+## 2) Alternative über .NET-Verbindung
 
-### Ergebnis exportieren – z. B. als CSV
-
-Gerade für Audits oder Reporting lohnt sich die Weiterverarbeitung:
+Wenn du feinere Kontrolle brauchst:
 
 ```powershell
-Invoke-Sqlcmd -ServerInstance "SQL01" -Database "master" -Query "SELECT name, create_date FROM sys.databases" |
+$connectionString = "Server=SQL01;Database=master;Integrated Security=True;TrustServerCertificate=True"
+$connection = New-Object System.Data.SqlClient.SqlConnection $connectionString
+
+try {
+    $connection.Open()
+    $command = $connection.CreateCommand()
+    $command.CommandText = "SELECT name FROM sys.databases"
+
+    $reader = $command.ExecuteReader()
+    while ($reader.Read()) {
+        $reader["name"]
+    }
+}
+finally {
+    $connection.Close()
+}
+```
+
+## 3) Ergebnis exportieren und weiterverarbeiten
+
+```powershell
+Invoke-SqlCmd \
+    -ServerInstance "SQL01" \
+    -Database "master" \
+    -Query "SELECT name, create_date FROM sys.databases" |
     Export-Csv -Path "$env:TEMP\datenbanken.csv" -NoTypeInformation -Encoding UTF8
 ```
 
-So landen deine SQL-Daten direkt als CSV im Zielverzeichnis – fertig für Excel oder weitere Verarbeitung.
+So entstehen reproduzierbare Reports für Betrieb, Audit und Management.
 
-### Anwendungsszenarien aus der Praxis
+## 4) Sicherheits- und Qualitätsregeln
 
-- **Backup-Monitoring:** SQL-Backups auslesen & in HTML-Report verwandeln
-- **Benutzerprüfung:** Abfrage aller Logins & deren Rechte
-- **Tägliche Checks:** z. B. Datenbankgröße, Recovery-Modus, fehlende Indizes
-- **DevOps Pipelines:** per PowerShell & SQL automatisch Testdaten laden
+- Verbindungsdaten nicht hart im Skript ablegen
+- parameterisierte Queries nutzen, wenn Eingaben verarbeitet werden
+- Fehler mit `try/catch/finally` sauber behandeln
+- Timeouts bewusst setzen und protokollieren
+- Skripte versionieren und mit Review-Prozess betreiben
 
-Gerade in Kombination mit geplanten Tasks oder CI/CD-Tools (z. B. Azure DevOps) ergeben sich endlose Möglichkeiten.
+## 5) Mini-Workflow für produktive Automatisierung
 
-### Tipps für robuste Skripte
+- SQL-Use-Case klar definieren (z. B. täglicher Health-Report)
+- Abfrage in kleiner Testumgebung validieren
+- Exportformat für Empfänger festlegen (CSV/JSON/HTML)
+- Logging, Exit-Code und Zeitplanung ergänzen
+- Ergebnisqualität regelmäßig prüfen
 
-- nutze Try-Catch zum Abfangen von SQL-Fehlern
-- prüfe Verbindungen mit `$connection.State`
-- arbeite mit `Parameterized Queries` gegen SQL-Injections
-- setze Timeouts bewusst (CommandTimeout)
-- strukturiere deine Skripte modular & kommentiere großzügig
+## Weiterführende Inhalte
 
-### Fazit
+- [T-SQL JOINs verstehen]({{< relref "/Artikel/T-SQL_JOIN/index.md" >}})
+- [Entity Framework Core Grundlagen]({{< relref "/Artikel/dotNET_EntityFramework_Grundlagen/index.md" >}})
+- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
-PowerShell ist ein extrem hilfreiches Werkzeug zur SQL-Automatisierung – ob für regelmäßige Checks, einmalige Reports oder dynamische Pipelines. Durch den Zugriff via .NET oder `Invoke-SqlCmd` bist du maximal flexibel und kannst auch große Umgebungen effizient verwalten.
+## Fazit
 
-👉 Mehr Praxis findest du in meinen [PowerShell & SQL Seminaren](https://attilakrick.com/powershell/powershell-seminare/)
-
-**Noch Fragen oder eigene SQL-Automation im Kopf?**  
-👉 [Meld dich gern!](https://attilakrick.com/Kontakt)
+PowerShell und SQL Server sind zusammen ein sehr effizienter Automatisierungs-Stack. Wenn Verbindung, Fehlerbehandlung und Export standardisiert sind, bekommst du belastbare Ergebnisse statt manueller Einmallösungen.

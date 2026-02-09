@@ -17,7 +17,6 @@
 ![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
 [![X (formerly Twitter) URL](https://img.shields.io/badge/-Share%20on%20X-gray?style=flat&logo=x)](https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod)
 
-
 ---
 
 <p align="center">

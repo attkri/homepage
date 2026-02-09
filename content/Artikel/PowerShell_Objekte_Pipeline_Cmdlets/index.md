@@ -1,17 +1,21 @@
 ---
 draft: false
-date: 2025-07-07
-title: "PowerShell: Objekte & Pipeline meistern"
-description: "PowerShell verstehen: So nutzt du Pipeline, Objekte und Cmdlets effektiv – ideal für Automatisierung und Einsteiger."
-categories: ["PowerShell"]
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell Objekte und Pipeline: Das Kernprinzip sauber verstehen"
+description: "So arbeitest du in PowerShell korrekt mit Objekten, Pipeline und Cmdlets - inklusive typischer Fehler, praktischer Beispiele und Workflow für den Alltag."
+categories:
+  - PowerShell
+tags:
+  - powershell-pipeline
+  - objekte
+  - cmdlets
+  - automations
 author: "Attila Krick"
-
 cover:
-  image: "cover.webp"
-  alt: "PowerShell Pipelining visualisiert auf einem Flipchart"
-  caption: "Objekte fließen durch die Pipeline – das Grundprinzip von PowerShell"
-  relative: false
-
+  image: cover.webp
+  alt: "PowerShell Pipeline und Objektfluss im Überblick"
+  caption: "Objekte statt Text: das zentrale PowerShell-Prinzip"
+  relative: true
 showToc: true
 TocOpen: false
 comments: true
@@ -20,115 +24,93 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
-
-assets:
-  disableHLJS: true
+disableHLJS: true
 ---
 
-## So funktioniert PowerShell wirklich – mit Objekten & Pipeline
+## Welche Frage beantwortet dieser Artikel?
 
-Wer **PowerShell Objekte und Pipeline** wirklich meistern will, muss verstehen, wie diese Konzepte zusammenspielen. In PowerShell ist alles ein Objekt – und mithilfe der Pipeline kannst du diese effizient weiterverarbeiten. Hier lernst du wie.
+Dieser Artikel beantwortet eine klare Frage: **Wie funktionieren Objekte, Pipeline und Cmdlets in PowerShell zusammen, damit Skripte robust statt fragil werden?**
 
-Jetzt wird’s technisch – aber keine Sorge: In diesem Beitrag lernst du Schritt für Schritt, wie PowerShell im Inneren funktioniert. Wir schauen uns die **Objektverarbeitung**, die **Pipeline** und die clevere Kombination von Cmdlets an – so, wie PowerShell eigentlich gedacht ist.
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.5 (`pwsh`) in typischen Admin- und Automatisierungsaufgaben.
 
-Denn: PowerShell ist keine normale Kommandozeile – sie ist **objektbasiert**. Und genau das macht sie so einzigartig und leistungsfähig.
+## Warum PowerShell anders ist
 
----
-
-### Warum PowerShell keine Texte verarbeitet – sondern Objekte
-
-In klassischen Shells bekommst du oft nur Text zurück – z. B. bei `ipconfig`. In PowerShell erhältst du **strukturierte Objekte**, mit Eigenschaften und Methoden. Das ist ein riesiger Vorteil, denn damit kannst du gezielt auf Werte zugreifen, filtern und weiterverarbeiten.
-
-Beispiel:
+PowerShell verarbeitet in der Pipeline standardmäßig **Objekte** statt reinen Text. Dadurch kannst du Eigenschaften direkt ansprechen und musst weniger parsen.
 
 ```powershell
-Get-Process
+Get-Process |
+    Select-Object Name, Id, CPU
 ```
 
-zeigt nicht nur eine Texttabelle, sondern liefert eine Liste von **Prozessobjekten** mit Eigenschaften wie `Name`, `Id`, `WorkingSet`, etc.
+## 1) Objekte sichtbar machen
 
-Du willst wissen, was du mit diesen Objekten machen kannst?
-Nutze dieses Cmdlet zur Analyse:
+Mit `Get-Member` siehst du, welche Eigenschaften und Methoden ein Objekt hat:
 
 ```powershell
 Get-Process | Get-Member
 ```
 
-(Der Alias dafür ist `gm`)
+Das ist oft der schnellste Weg, um unbekannte Ausgaben korrekt weiterzuverarbeiten.
 
----
+## 2) Pipeline als Datenfluss nutzen
 
-### Die Pipeline – das Herzstück von PowerShell
-
-Mit dem Pipe-Zeichen `|` leitest du die Ausgabe eines Cmdlets direkt an das nächste weiter. Und da es Objekte sind, bleibt die Struktur erhalten.
-
-Ein Beispiel für einen einfachen Datenfluss:
+Die Pipeline (`|`) verbindet Verarbeitungsschritte zu einem klaren Ablauf:
 
 ```powershell
-Get-Service | Where-Object Status -eq "Running" | Sort-Object DisplayName
+Get-Service |
+    Where-Object Status -eq Running |
+    Sort-Object DisplayName |
+    Select-Object Name, Status
 ```
 
-Was passiert hier?
+Jeder Schritt erhält Objekte, verarbeitet sie und gibt wieder Objekte weiter.
 
-1. `Get-Service` holt alle Dienste
-2. `Where-Object` filtert nur laufende (`Running`) heraus
-3. `Sort-Object` sortiert sie nach Namen
+## 3) Cmdlets gezielt kombinieren
 
-Objekt rein – Objekt raus. So einfach.
+Cmdlets folgen meist dem Muster `Verb-Noun`.
 
-> 💡 Wer die **PowerShell-Pipeline verstehen** will, sollte mit solchen Beispielen experimentieren.
+- `Get-*` liest Daten
+- `Where-Object` filtert
+- `Select-Object` reduziert auf relevante Felder
+- `Sort-Object` ordnet Ergebnisse
 
----
+So bleiben Skripte lesbar und nachvollziehbar.
 
-### Was ist ein Cmdlet eigentlich?
+## 4) Typische Fehler und wie du sie vermeidest
 
-Ein Cmdlet (sprich: „Command-Let“) ist der kleinste Befehl in PowerShell. Jedes Cmdlet folgt der Konvention `Verb-Noun`, z. B.:
+- zu früh mit `Format-Table` arbeiten und damit die Pipeline "abschneiden"
+- Eigenschaften nutzen, die im Objekt gar nicht vorhanden sind
+- Textausgaben parsen, obwohl strukturierte Objekte verfügbar sind
+- zu lange One-Liner ohne Zwischenschritte bauen
 
-- `Get-Process`
-- `Set-Location`
-- `Remove-Item`
+## 5) Ergebnisse sauber exportieren
 
-Cmdlets sind **modular**, oft über PowerShell-Module bereitgestellt und lassen sich über `Get-Command` oder `Find-Command` finden.
-
----
-
-### Daten selektieren, filtern & ausgeben
-
-Mit Cmdlets wie `Select-Object`, `Where-Object` und `Sort-Object` kannst du Daten verarbeiten wie ein echter Datenjongleur:
+Für Reporting oder Audits:
 
 ```powershell
-Get-ChildItem -Path C:\Windows -File | Where-Object Length -ge 10KB | Select-Object Name, Length | Sort-Object Length -Descending
+Get-Process |
+    Select-Object Name, Id, @{Name='RAM_MB';Expression={ [math]::Round($_.WorkingSet / 1MB, 2) }} |
+    Export-Csv -Path "$env:TEMP\Prozesse.csv" -Delimiter ';' -NoTypeInformation
 ```
 
-Jeder Schritt liefert wieder ein Objekt – perfekt für weitere Verarbeitung oder Ausgabe.
+## Mini-Workflow für den Alltag
 
----
+- Datenquelle mit `Get-*` wählen
+- mit `Get-Member` Struktur prüfen
+- mit `Where-Object` und `Select-Object` schärfen
+- Ergebnis prüfen und erst dann exportieren oder weiterreichen
 
-### Bonus: Ausgabe als CSV-Datei speichern
+## Weiterführende Inhalte
 
-Du möchtest Ergebnisse weitergeben oder archivieren? Kein Problem:
+- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
+- [PowerShell Cmdlets finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
+- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
+- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
-```powershell
-Get-Process | Select-Object Name, Id, @{Name='RAM_MB';Expression={ [math]::Round($_.WorkingSet/1MB,2) }} | ConvertTo-Csv -Delimiter ";" | Out-File "$env:TEMP\Prozesse.csv"
-```
+## Fazit
 
-So exportierst du strukturierte Daten in eine Datei – ideal für Reporting, Audits oder Excel-Nutzer.
-
----
-
-### Fazit & Ausblick
-
-Jetzt hast du das Herzstück von PowerShell verstanden:
-
-- PowerShell verarbeitet Objekte statt Text
-- Die Pipeline leitet Daten weiter – effizient und elegant
-- Cmdlets lassen sich logisch kombinieren
-
-Wenn du **PowerShell Objekte und Pipeline** souverän beherrschst, kannst du nahezu jede administrative oder automatisierte Aufgabe elegant lösen.
-
-In einem der nächsten Beiträge zeige ich dir, wie du **eigene Cmdlets und Funktionen schreibst** oder die PowerShell zur **SQL-Automatisierung** nutzt.
-
----
-
-**Noch Fragen oder Interesse an individueller Beratung?**  
-👉 [Kontaktiere mich hier!](https://attilakrick.com/Kontakt)
+Wer in PowerShell objektbasiert denkt, schreibt weniger fragilen Code und kommt schneller zu verlässlichen Ergebnissen. Genau deshalb sind Pipeline und Cmdlets keine Details, sondern das Fundament jeder professionellen Automatisierung.

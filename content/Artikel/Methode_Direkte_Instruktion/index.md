@@ -1,73 +1,112 @@
 ---
-title: "Direkte Instruktion – Klar & effektiv erklären"
-date: 2025-03-27
 draft: false
-description: "Wie ich PowerShell, .NET und TSQL in meinen Seminaren vermittle – mit direkter Instruktion und interaktiven Lernphasen. Für mehr Praxisnähe und Lernerfolg."
-categories: ["Divers"]
+date: 2026-02-08T00:00:00+02:00
+title: "Direkte Instruktion in IT-Schulungen: So bleibt Wissen im Projektalltag nutzbar"
+description: "Wie direkte Instruktion mit Übung und Feedback kombiniert wird, damit Teams PowerShell, .NET und T-SQL im Arbeitsalltag sicher anwenden können."
+categories:
+  - Divers
+tags:
+  - direkte-instruktion
+  - it-schulung
+  - lernmethodik
+  - powershell-training
+author: "Attila Krick"
 cover:
-  image: "cover.webp"
+  image: cover.webp
   alt: "Technisches Seminar mit Trainer, Teilnehmern und Code-Screens"
-  caption: "So funktioniert modernes IT-Training: Struktur trifft Interaktion"
+  caption: "Direkte Instruktion plus Praxisphasen für nachhaltigen Lernerfolg"
+  relative: true
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
-## So vermittle ich Wissen: Direkte Instruktion trifft auf Interaktivität
+## Welche Frage beantwortet dieser Beitrag?
 
-Als IT-Trainer für PowerShell, .NET und TSQL habe ich in den letzten Jahren eins gelernt: Der effektivste Weg, technisches Wissen zu vermitteln, ist eine Mischung aus klarer, direkter Instruktion und interaktiven Lernphasen. In diesem Beitrag zeige ich dir, wie ich diesen Ansatz in meinen Seminaren (ob vor Ort oder online) anwende – und warum er sich in der Praxis bewährt hat.
+Dieser Beitrag beantwortet eine klare Frage: **Wie kann ein technisches Training so aufgebaut werden, dass Teilnehmende das Wissen direkt im Projekt einsetzen können?**
 
-### Warum reine Wissensvermittlung nicht reicht
+> Stand: 2026-02  
+> Getestet mit: 1.500+ Schulungstagen in PowerShell-, .NET- und T-SQL-Trainings in Unternehmen und Behörden.
 
-Klar, du kannst ein PowerShell-Modul in einer Stunde erklären. Aber ob es wirklich *hängen bleibt*? Das ist die große Frage. Aus der Didaktik weiß man: Zuhören allein bringt wenig, wenn das Gehörte nicht selbst angewendet, diskutiert oder hinterfragt wird. Deshalb kombiniere ich in meinen Seminaren kurze Inputphasen mit gezielten Aktivierungen.
+## Warum reine Wissensvermittlung oft nicht reicht
 
-### Aufbau einer typischen Trainingseinheit
+Viele Trainings scheitern nicht am Inhalt, sondern an der Übertragung in den Alltag. Wer nur zuhört, kann neue Konzepte selten stabil anwenden. Deshalb kombiniere ich direkte Instruktion immer mit Übung, Reflexion und Transferaufgaben.
 
-Egal ob Thema ".NET Entity Framework", "TSQL-Abfragen optimieren" oder "PowerShell-Fehlerbehandlung" – der Aufbau bleibt ähnlich:
+## Die Methode in 4 klaren Phasen
 
-#### 1. Direkte Instruktion (15–20 Minuten)
+Unabhängig vom Thema bleibt der Ablauf gleich, zum Beispiel bei PowerShell-Remoting, EF Core oder T-SQL-Performance.
 
-Ich starte mit einer fokussierten Einführung: Was ist das Problem? Welche Konzepte brauchst du? Was musst du verstehen, bevor du in die Praxis gehst? Das Ganze klar, strukturiert und mit Beispielen aus dem echten Berufsalltag.
+### 1) Direkte Instruktion (15-20 Minuten)
 
-Beispiel: Beim Thema PowerShell-Remoting erkläre ich kurz die Architektur, den Unterschied zwischen One-to-One und One-to-Many, und welche Sicherheitsaspekte du beachten musst.
+Ich starte mit einer fokussierten Erklärung:
 
-#### 2. Mini-Übung oder Selbstversuch (5–15 Minuten)
+- Welches Problem lösen wir?
+- Welche Konzepte sind unverzichtbar?
+- Welche Fehler treten in Projekten typischerweise auf?
 
-Danach folgt eine kleine Aufgabe – am besten sofort. Zum Beispiel:
+### 2) Mini-Übung oder Selbstversuch (5-15 Minuten)
 
-> "Stelle eine PowerShell-Session zu einem anderen Rechner her und gib dir selbst Adminrechte."
+Direkt danach folgt eine konkrete Aufgabe. Beispiel:
 
-Oder:
+> "Baue eine Remoting-Session auf, begrenze den Scope und protokolliere den Ablauf nachvollziehbar."
 
-> "Analysiere diesen TSQL-Queryplan und finde den Flaschenhals."
+oder
 
-Das Ziel: Du setzt das Gelernte direkt um, und ich sehe, wo du vielleicht noch hängst.
+> "Analysiere einen Query-Plan und begründe den größten Performance-Engpass."
 
-#### 3. Diskussion & Austausch (10 Minuten)
+Ziel: Lernende setzen das Wissen sofort um, und Wissenslücken werden früh sichtbar.
 
-Interaktive Phase: Ich stelle Fragen, du stellst Fragen, wir diskutieren Lösungsansätze. Gerade in Online-Trainings nutze ich hier Breakout-Räume oder geteilte Whiteboards. In der Präsenz reicht oft ein Flipchart und ein bisschen Humor.
+### 3) Diskussion und Feedback (10 Minuten)
 
-#### 4. Selbstständige Vertiefung (20+ Minuten)
+In dieser Phase werden Lösungswege verglichen, Fehlerursachen transparent gemacht und Best Practices begründet. Genau hier entsteht häufig das tiefere Verständnis.
 
-Zum Abschluss kommt meist eine etwas größere Aufgabe oder ein Mini-Projekt, das du allein oder im Duo löst. Zum Beispiel:
+### 4) Selbstständige Vertiefung (20+ Minuten)
 
-- Erstelle ein PowerShell-Skript, das alle Prozesse eines Remote-PCs loggt und bei kritischer CPU-Auslastung Alarm schlägt.
-- Implementiere einen kleinen .NET-Service, der SQL-Daten über eine API bereitstellt.
+Am Ende folgt eine größere Aufgabe mit Praxisbezug, einzeln oder im Duo:
 
-Ich bin in dieser Phase eher Coach als Dozent – stehe bereit, aber greife nicht sofort ein.
+- PowerShell-Skript für Monitoring und Alarmierung mit sauberem Logging
+- kleiner .NET-Service, der SQL-Daten strukturiert bereitstellt
 
-### Warum das funktioniert
+In dieser Phase coache ich, statt Lösungen vorzugeben. So steigt die Handlungssicherheit.
 
-Diese Methode ist kein Hexenwerk, aber extrem wirkungsvoll. Du bekommst:
+## Warum dieser Ansatz in der Praxis funktioniert
 
-- **Struktur & Klarheit** durch die direkte Instruktion
-- **Praxiserfahrung** durch gezielte Aufgaben
-- **Verständnis & Reflexion** durch Diskussion
-- **Selbstbewusstsein** durch eigenständige Lösung von Aufgaben
+Der Mehrwert ist messbar im Projektalltag:
 
-Und das Beste: Du kannst das Gelernte sofort auf deinen Arbeitsalltag übertragen. Ob als Administrator, freie*r Softwareentwickler*in oder Datenbank-Profi – du profitierst direkt.
+- klare Struktur statt Informationsüberlastung
+- höhere Transferquote durch direkte Anwendung
+- schnellere Fehlersuche durch Feedback in Echtzeit
+- mehr Sicherheit bei produktiven Änderungen
 
-### Fazit
+## Für wen sich die Methode besonders eignet
 
-Meine Seminare leben vom Wechselspiel aus Input und Interaktion. Das heißt: Du bekommst nicht nur Theorie, sondern auch konkrete Tools und Techniken, um dein Wissen in der Praxis anzuwenden. Genau das macht den Unterschied zwischen „Gehört“ und „Gelernt“.
+- Teams, die PowerShell, .NET oder T-SQL im Betrieb zuverlässig nutzen müssen
+- Unternehmen und Behörden mit hohen Qualitäts- und Sicherheitsanforderungen
+- Fachbereiche, die nicht nur Wissen konsumieren, sondern selbstständig anwenden sollen
 
-### Neugierig geworden?
+## Konkrete Qualitätskriterien im Training
 
-Wenn du selbst erleben willst, wie abwechslungsreich und effektiv ein technisches Seminar sein kann, dann melde dich gerne bei mir. Egal ob du PowerShell meistern, deine .NET-Skills ausbauen oder TSQL endlich richtig durchdringen willst – gemeinsam bringen wir dein Know-how auf das nächste Level. Jetzt Kontakt aufnehmen und mehr erfahren!
+Damit ein Training belastbar wirkt, arbeite ich mit klaren Kriterien:
+
+- Jede Lerneinheit beantwortet eine konkrete Praxisfrage
+- Jede Phase endet mit einem überprüfbaren Ergebnis
+- Typische Fehlerbilder werden aktiv geübt, nicht nur erwähnt
+- Transferaufgaben orientieren sich an realen Betriebsfällen
+
+## Weiterführende Inhalte
+
+- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [PowerShell in Visual Studio Code]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+
+## Fazit
+
+Direkte Instruktion wirkt dann besonders gut, wenn sie mit Praxisphasen und strukturiertem Feedback kombiniert wird. Genau diese Kombination sorgt dafür, dass Wissen nicht im Seminar bleibt, sondern im Projektalltag nutzbar wird.

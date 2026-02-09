@@ -1,30 +1,46 @@
 ---
 draft: false
-date: 2025-07-06
-title: "Cmdlets in PowerShell clever finden"
-description: "PowerShell bietet tausende Cmdlets – mit diesen Tricks findest du genau das richtige für deine Aufgabe. Inklusive Beispiele, Gallery-Tipps und GUI-Suche."
-categories: ["PowerShell"]
+date: 2026-02-08T00:00:00+02:00
+title: "PowerShell Cmdlets finden: Der schnellste Weg zum passenden Befehl"
+description: "So findest du in PowerShell zielsicher das richtige Cmdlet: Get-Command, Parameter-Suche, Modulfilter, Get-Help und ein klarer Recherche-Workflow für den Alltag."
+categories:
+  - PowerShell
+tags:
+  - get-command
+  - powershell-cmdlets
+  - troubleshooting
+  - powershell-grundlagen
 author: "Attila Krick"
-
 cover:
-  image: "cover.webp"
-  alt: "Cmdlets finden leicht gemacht"
-  caption: "So findest du gezielt Cmdlets, die dein Problem lösen"
-  relative: false
-
-assets:
-  disableHLJS: true
+  image: cover.webp
+  alt: "Das passende PowerShell-Cmdlet schnell finden"
+  caption: "Mit Get-Command und Get-Help strukturiert zum Ziel"
+  relative: true
+showToc: true
+TocOpen: false
+comments: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: true
+ShowCodeCopyButtons: true
+disableHLJS: true
 ---
 
-## Cmdlets in PowerShell clever finden
+## Welche Frage beantwortet dieser Artikel?
 
-PowerShell bringt tausende Cmdlets mit – und mit jedem Modul werden es mehr. Kein Mensch kennt sie alle. Muss man auch nicht. Aber: **Man muss wissen, wie man sie findet.** Genau das zeige ich dir in diesem Beitrag.
+Dieser Artikel beantwortet eine konkrete Frage: **Wie findest du in PowerShell schnell das richtige Cmdlet, ohne Zeit mit Trial-and-Error zu verlieren?**
 
-Du lernst, mit welchen Techniken du in Sekunden **das passende Cmdlet** findest – ob du gerade eine neue Aufgabe lösen willst oder in einem Skript auf einen bestimmten Parameter stößt. Diese Methoden helfen dir sowohl beim Schreiben eigener Skripte als auch beim Verstehen fremder Automatisierung.
+> Stand: 2026-02  
+> Getestet mit: PowerShell 7.5 (`pwsh`) und typischen Admin-/Support-Szenarien.
 
-### 1. Suche per Verb oder Noun
+## Warum Cmdlet-Suche ein Kernskill ist
 
-Alle Cmdlets folgen der Konvention `Verb-Noun`. Diese Namenskonvention hilft dir bereits enorm beim Auffinden:
+Du musst keine tausenden Befehle auswendig kennen. Entscheidend ist ein reproduzierbarer Suchprozess.
+
+## 1) Suche nach Verb oder Noun
+
+PowerShell-Cmdlets folgen dem Muster `Verb-Noun`.
 
 ```powershell
 # Suche alle Cmdlets zum Beenden von Dingen:
@@ -34,33 +50,31 @@ Get-Command -Verb Stop
 Get-Command -Noun Service
 ```
 
-Das ist besonders hilfreich, wenn du den groben Zweck kennst, aber nicht den genauen Namen. Die Kombination dieser Filter ergibt oft eine treffsichere Liste.
+Damit findest du schnell Kandidaten, wenn der exakte Name noch nicht bekannt ist.
 
-### 2. Suche nach Schlüsselwörtern im Namen
+## 2) Suche mit Wildcards
 
-Wenn du nur einen Begriff im Kopf hast – etwa „connection“ oder „user“ –, kannst du auch mit Wildcards arbeiten:
+Wenn du nur Teilbegriffe kennst:
 
 ```powershell
 Get-Command -Name '*connection*'
 ```
 
-Das ist ideal bei unscharfer Erinnerung oder beim Erkunden eines neuen Themengebiets.
+Nützliche Muster: `*cert*`, `*event*`, `*service*`.
 
-> 💡 Probiere es z. B. mit `*cert*` für Zertifikatsverwaltung oder `*event*` für Eventlog-Befehle.
+## 3) Suche über Parametername
 
-### 3. Suche per Parametername
-
-Du kennst einen Parameter wie `-ComputerName`, weißt aber nicht, welche Cmdlets ihn unterstützen?
+Du kennst einen Parameter, aber nicht das Cmdlet:
 
 ```powershell
 Get-Command -ParameterName ComputerName
 ```
 
-Das ist besonders bei Fernwartung, Netzwerkverwaltung oder Remoting-Szenarien nützlich.
+Sehr hilfreich für Remoting, Netzwerk- und Infrastruktur-Aufgaben.
 
-### 4. Suche im richtigen Modul
+## 4) Suche im richtigen Modul
 
-Manchmal möchtest du gezielt nur Cmdlets aus einem bestimmten Modul betrachten:
+Wenn du den Technologiebereich kennst, begrenze direkt auf das Modul:
 
 ```powershell
 Get-Command -Module 'Microsoft.PowerShell.Management'
@@ -72,61 +86,57 @@ Wenn du mit Drittanbieter-Modulen arbeitest, z. B. Azure oder Exchange, grenzt
 Get-Module -ListAvailable
 ```
 
-Oder stöbere in der PowerShell Gallery:
+Noch nicht installierte Befehle findest du über die Gallery:
 
 ```powershell
 Find-Command -Name 'Invoke-SqlCmd'
 ```
 
-> 🔎 Besonders nützlich, um **Cmdlets zu entdecken, die noch nicht installiert sind**.
+## 5) Ergebnis mit Get-Help absichern
 
-### 5. Suche mit Show-Command (GUI)
+`Get-Command` zeigt Kandidaten, `Get-Help` bestätigt die fachlich richtige Nutzung.
 
-Für visuelle Nutzer gibt es `Show-Command`. Damit öffnet sich ein kleines GUI-Fenster:
+```powershell
+Get-Help Restart-Computer -Examples
+Get-Help Restart-Computer -Full
+```
+
+Ohne diesen Schritt steigt das Risiko für falsche Parameter und Seiteneffekte.
+
+## 6) Optional: GUI-Ansicht mit Show-Command
+
+Für visuelle Exploration:
 
 ```powershell
 Show-Command
 ```
 
-Du kannst dort Cmdlets durchstöbern, Parameter befüllen und sogar direkt ausführen – ideal zum Testen und Lernen.
+## 7) Externe Quellen richtig nutzen
 
-### 6. Suche online – aber gezielt
-
-Die Community ist riesig – Google ist oft der schnellste Weg, vor allem mit gezielten Suchbegriffen:
-
-```powershell
-Start-Process 'https://www.google.com/search?q=powershell+new+ad+user'
-```
-
-Auch hilfreich:
+Ergänzend hilfreich:
 
 - [Official product documentation for PowerShell](https://learn.microsoft.com/en-us/powershell/)
 - [PowerShell Gallery](https://www.powershellgallery.com/)
 
-### 7. Kontext verstehen mit Get-Help
+KI-Antworten und Forenbeiträge immer gegen `Get-Help` und offizielle Doku prüfen.
 
-Wichtig zu wissen: `Get-Command` findet Cmdlets – aber `Get-Help` erklärt sie. Oft unterschätzt:
+## Der 5-Schritte-Workflow für den Alltag
 
-```powershell
-Get-Help Restart-Computer -Full
-```
+- Problem in ein Verb-Noun-Muster übersetzen
+- Kandidaten mit `Get-Command` einschränken
+- Modul/Parameter gezielt prüfen
+- mit `Get-Help -Examples` verifizieren
+- erst dann in Skript oder Produktion übernehmen
 
-So erkennst du, ob ein Cmdlet für deinen Fall wirklich geeignet ist. `-Examples` gibt dir direkt lauffähige Muster.
+## Weiterführende Inhalte
+
+- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
+- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
+- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [PowerShell in Visual Studio Code einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
+- [Leistungen]({{< relref "/Leistung/index.md" >}})
+- [Kontakt]({{< relref "/Kontakt/index.md" >}})
 
 ## Fazit
 
-Du musst keine 2.000 Cmdlets auswendig können – aber du solltest wissen, **wie du das richtige findest**. Mit diesen Methoden kommst du schnell ans Ziel:
-
-- Wildcards & Filter mit `Get-Command`
-- Parametersuche nach `-ComputerName` & Co.
-- Gallery-Suche mit `Find-Command`
-- GUI mit `Show-Command`
-- Hilfe mit `Get-Help`
-- Und im Zweifel: Google!
-
-📚 Noch mehr praktische Tipps und Übungen findest du in meinem [PowerShell Seminar für Einsteiger](https://attilakrick.com/powershell/powershell-seminare/).
-
----
-
-**Noch Fragen oder Feedback?**
-👉 [Kontaktiere mich hier!](https://attilakrick.com/Kontakt)
+Wer Cmdlets systematisch findet und prüft, spart im Betrieb Zeit und reduziert Fehler deutlich. Genau dieser Recherche-Workflow macht aus Einzelbefehlen belastbare Automatisierung.
