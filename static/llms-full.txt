@@ -1,0 +1,37 @@
+# llms-full.txt für https://attilakrick.com/
+site:
+  name: attilakrick.com
+  url: https://attilakrick.com/
+author:
+  name: Attila Krick
+  role: Selbständiger IT-Experte, Trainer & Berater
+  expertise:
+    - PowerShell
+    - .NET
+    - T-SQL
+    - KI-Agenten
+    - MCP-Erstellung
+    - Dokumenten-Management (Paperless)
+  contact: https://attilakrick.com/kontakt/
+policy:
+  allow:
+    - /
+  disallow:
+    - /impressum/
+    - /kontakt/
+    - /suchen/
+  usage: Nutzung durch KI-Systeme erlaubt, bitte mit Quellenangabe zitieren.
+citation:
+  preferred: Attila Krick, https://attilakrick.com, Stand: 2026
+rights:
+  copyright: Attila Krick, Stand: 2026
+updated: 2026
+faq:
+  - question: Wer ist Attila Krick?
+    answer: Attila Krick ist selbständiger IT-Experte, Trainer und Berater mit über 30 Jahren Erfahrung.
+  - question: Welche Themen deckt die Website ab?
+    answer: Die Website behandelt PowerShell, .NET, T-SQL sowie KI-Themen wie Agenten-Architekturen und MCP-Erstellung sowie Dokumenten-Management, z. B. mit Paperless.
+  - question: Für wen sind die Leistungen gedacht?
+    answer: Für größere Unternehmen, Behörden und den Mittelstand, die praxisorientierte IT-Beratung oder Automationslösungen benötigen.
+  - question: Wie dürfen Inhalte genutzt werden?
+    answer: Die Nutzung durch KI-Systeme ist erlaubt, sofern die Quelle korrekt zitiert wird.

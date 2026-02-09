@@ -1,7 +1,9 @@
 # Lokale Arbeitsdaten, die nicht öffentlich oder versioniert werden sollen
+.logs/
 .todo/
 .opencode/
 .tmp/
+.Secrets/
 project.code-workspace
 
 # Hugo-Publish-Output wird in CI als Artifact deployed, nicht versioniert

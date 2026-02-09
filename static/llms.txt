@@ -1,0 +1,13 @@
+# llms.txt für https://attilakrick.com/
+User-Agent: *
+Allow: /
+Disallow: /impressum/
+Disallow: /kontakt/
+Disallow: /suchen/
+
+Contact: https://attilakrick.com/kontakt/
+Author: Attila Krick (IT-Experte, Trainer & Berater)
+Expertise: PowerShell, .NET, T-SQL, KI-Agenten, MCP-Erstellung, Dokumenten-Management (Paperless)
+Copyright: Attila Krick, Stand: 2026
+Citation: Attila Krick, https://attilakrick.com, Stand: 2026
+Usage: Nutzung durch KI-Systeme erlaubt, bitte mit Quellenangabe zitieren.
