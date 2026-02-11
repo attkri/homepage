@@ -15,8 +15,8 @@ Häufig relevante Informationen für den aktuellen Arbeitskontext.
 - Service Account: `gsc-export@gsc-export-486914.iam.gserviceaccount.com`
 - JSON-Key: `.Secrets/gsc-export.service-account.json`
 - Script: `.Utils/GoogleSearchConsole.ps1`
-- Export-Ordner: `.Utils/gsc-exports/`
-- Auswertungen: `.Analyses/YYYY-MM-DD_GSC-Auswertung.md`
+- Export-Ordner: `.Analyses/YYYY-MM-DD/gsc-exports/`
+- Auswertungen: `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`
 
 ## Website-Status (2026-02-11)
 

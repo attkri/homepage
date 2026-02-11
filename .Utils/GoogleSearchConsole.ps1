@@ -27,7 +27,7 @@ param(
   [datetime]$EndDate = (Get-Date).Date,
 
   [Parameter()]
-  [string]$OutputDir = (Join-Path $PSScriptRoot "gsc-exports"),
+  [string]$OutputDir = (Join-Path (Join-Path $PSScriptRoot ("..\\.Analyses\\" + (Get-Date -Format "yyyy-MM-dd"))) "gsc-exports"),
 
   [Parameter()]
   [int]$RowLimit = 25000

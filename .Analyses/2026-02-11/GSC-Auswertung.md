@@ -5,8 +5,8 @@
 - Property: `sc-domain:attilakrick.com`
 - Zeitraum: letzte 16 Monate (laut Export)
 - Quellen:
-  - `.Utils/gsc-exports/gsc-queries.csv`
-  - `.Utils/gsc-exports/gsc-pages.csv`
+  - `.Analyses/2026-02-11/gsc-exports/gsc-queries.csv`
+  - `.Analyses/2026-02-11/gsc-exports/gsc-pages.csv`
 
 ## Kurzfazit
 

@@ -10,8 +10,8 @@ Automatisierte Messung der Google-Sichtbarkeit für `attilakrick.com`.
 - **API:** Google Search Console API (aktiviert im Projekt „GSC-Export")
 - **Auth:** Service Account mit JSON-Key (`.Secrets/gsc-export.service-account.json`)
 - **Script:** `.Utils/GoogleSearchConsole.ps1`
-- **Export-Ordner:** `.Utils/gsc-exports/`
-- **Auswertungen:** `.Analyses/YYYY-MM-DD_GSC-Auswertung.md`
+- **Export-Ordner:** `.Analyses/YYYY-MM-DD/gsc-exports/`
+- **Auswertungen:** `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`
 
 ## Erster Export (2026-02-11)
 
