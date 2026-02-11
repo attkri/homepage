@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2025-07-07
-title: "IT-Dienstleistungen & Schulungen"
-description: "PowerShell, .NET und SQL - Schulungen, Entwicklung & Automatisierung"
+title: "PowerShell Beratung und Training für Unternehmen | Attila Krick"
+description: "PowerShell Beratung, Inhouse-Trainings und Workshops für Unternehmen und Behörden. Praxisnah, sicher, messbar produktiv."
 type: "article"
 categories: ["PowerShell", "T-SQL", "dotNET"]
 cover:
@@ -17,6 +17,19 @@ Ich bin Attila Krick, selbstständiger Experte für **PowerShell**, **T-SQL** un
 ## IT-Dienstleistungen & Schulungen
 
 Hier findest du einen Überblick über meine Leistungen – von strategischer Beratung bis zu praxisnahen Workshops in PowerShell, .NET und SQL. Mein Fokus liegt auf klarer Kommunikation, nachhaltigem Wissenstransfer und konkreten Ergebnissen, die sofort im Arbeitsalltag wirken.
+
+## PowerShell Beratung für Unternehmen und Behörden
+
+Wenn du PowerShell im Unternehmen sicher, wartbar und produktiv einsetzen willst, unterstütze ich dich mit Beratung, Inhouse-Training und praxisnahen Workshops. Für einen fachlichen Einstieg empfehle ich dir auch diese Inhalte: [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}}) und [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}}). Wenn du direkt über dein Vorhaben sprechen möchtest, kannst du jederzeit [Kontakt aufnehmen]({{< relref "/Kontakt/index.md" >}}).
+
+## Spezialisierte Leistungsseiten
+
+- [SQL Server Beratung](/leistung/sql-server-beratung/)
+- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
+- [.NET Beratung](/leistung/dotnet-beratung/)
+- [.NET Code Review](/leistung/dotnet-code-review/)
+- [WPF Refactoring Beratung](/leistung/wpf-refactoring-beratung/)
+- [T-SQL Workshop](/leistung/tsql-workshop/)
 
 ## Meine Leistungen: PowerShell, .NET & SQL-Optimierung für IT-Experten
 

@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "keys": [
+        "https://attilakrick.com/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://attilakrick.com/artikel/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "https://attilakrick.com/artikel/ki_mcp_sql_server_db_abfrage/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://attilakrick.com/artikel/ki_vscode_github_copilot_agent_powershell_nutzen/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "https://attilakrick.com/leistung/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13.666666666666666
+    }
+  ],
+  "responseAggregationType": "byPage"
+}

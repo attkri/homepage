@@ -1,0 +1,35 @@
+{{- if eq (.Param "schemaType") "Service" -}}
+{{- $providerName := .Params.schemaProvider | default "Attila Krick" -}}
+{{- $serviceType := .Params.serviceType | default .Title -}}
+{{- $areaServed := .Params.areaServed | default (slice "Deutschland" "Österreich" "Schweiz" "Europa") -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ .Title | plainify | jsonify }},
+  "description": {{ ((.Description | default .Summary) | plainify) | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "serviceType": {{ $serviceType | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": {{ $providerName | jsonify }},
+    "url": {{ site.Home.Permalink | jsonify }}
+  },
+  "areaServed": [
+    {{- range $index, $area := $areaServed -}}
+    {{- if $index }}, {{ end -}}{{ $area | jsonify }}
+    {{- end -}}
+  ],
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Unternehmen, Behörden, Mittelstand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": {{ .Permalink | jsonify }},
+    "availability": "https://schema.org/InStock"
+  },
+  "inLanguage": "de-DE"
+}
+</script>
+{{- end -}}

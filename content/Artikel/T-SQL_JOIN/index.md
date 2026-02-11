@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2026-02-08T00:00:00+02:00
-title: "T-SQL JOINs verstehen: INNER, LEFT, RIGHT und FULL praxisnah erklärt"
-description: "So setzt du T-SQL JOINs korrekt ein: klare Unterschiede, typische Fehler, Performance-Fallen und eine Entscheidungshilfe für den SQL-Alltag."
+title: "T-SQL JOINs verstehen: INNER, LEFT, RIGHT, FULL"
+description: "T-SQL JOIN-Arten einfach erklärt: Wann du welchen JOIN nutzt, typische Fehler vermeidest und bessere SQL-Ergebnisse erhältst."
 categories:
   - T-SQL
 tags:
@@ -33,6 +33,8 @@ Dieser Artikel beantwortet eine konkrete Frage: **Welchen JOIN-Typ solltest du i
 
 > Stand: 2026-02  
 > Getestet mit: SQL Server und Azure Data Studio in typischen Reporting- und Auswertungs-Szenarien.
+
+## SQL JOIN Arten verständlich erklärt
 
 ## Warum JOINs zentral sind
 
@@ -151,6 +153,8 @@ Wichtig: Eine zusätzliche Zwischentabelle macht eine Abfrage **nicht automatisc
 
 - [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
 - [Entity Framework Core Grundlagen]({{< relref "/Artikel/dotNET_EntityFramework_Grundlagen/index.md" >}})
+- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
+- [T-SQL Workshop](/leistung/tsql-workshop/)
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
 

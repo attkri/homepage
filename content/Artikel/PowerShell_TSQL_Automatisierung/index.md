@@ -118,6 +118,8 @@ So entstehen reproduzierbare Reports für Betrieb, Audit und Management.
 - [Entity Framework Core Grundlagen]({{< relref "/Artikel/dotNET_EntityFramework_Grundlagen/index.md" >}})
 - [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
 - [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
+- [SQL Server Beratung](/leistung/sql-server-beratung/)
+- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
 

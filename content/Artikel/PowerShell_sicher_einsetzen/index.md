@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2026-02-08T00:00:00+02:00
-title: "PowerShell sicher einsetzen: Execution Policy, Signierung und Praxisregeln"
-description: "So reduzierst du Risiken bei PowerShell-Skripten: Execution Policy richtig einordnen, sichere Defaults setzen und Best Practices für produktive Umgebungen anwenden."
+title: "PowerShell Sicherheit: Execution Policy, Signierung, Hardening"
+description: "So setzt du PowerShell sicher ein: Execution Policy, Script-Signierung und konkrete Hardening-Schritte für produktive Umgebungen."
 categories:
   - PowerShell
 tags:
@@ -73,6 +73,8 @@ PowerShell-Policies können in verschiedenen Scopes gesetzt sein:
 
 Wenn GPO-Policies gesetzt sind, überschreiben sie lokale Änderungen.
 
+## PowerShell sicher konfigurieren in der Praxis
+
 ## Best Practices für sichere Skriptnutzung
 
 - produktive Skripte signieren
@@ -100,6 +102,7 @@ Nicht im gleichen Sinne wie unter Windows. Dort greifen andere Sicherheitsmechan
 ## Weiterführende Inhalte
 
 - [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
+- [Sicherheit: Wie viel PowerShell ist sinnvoll?]({{< relref "/Artikel/Sicherheit_wie_viel_PowerShell/index.md" >}})
 - [PowerShell Cmdlets finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
 - [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
 - [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})

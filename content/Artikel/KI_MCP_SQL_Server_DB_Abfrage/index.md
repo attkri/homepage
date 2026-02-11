@@ -138,6 +138,8 @@ Regeln:
 
 - [PowerShell und T-SQL für Automatisierung]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
 - [T-SQL JOINs verstehen]({{< relref "/Artikel/T-SQL_JOIN/index.md" >}})
+- [SQL Server Beratung](/leistung/sql-server-beratung/)
+- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
 

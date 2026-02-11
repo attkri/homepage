@@ -58,6 +58,9 @@
   </div>
   {{- end }}
 
+  {{- partial "service_schema.html" . }}
+  {{- partial "faq_schema.html" . }}
+
   <footer class="post-footer">
     {{ if not .Params.HideTags }}
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}

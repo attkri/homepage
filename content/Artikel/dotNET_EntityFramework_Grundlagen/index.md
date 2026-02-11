@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2026-02-08T00:00:00+02:00
-title: "Entity Framework Core Grundlagen: So startest du sauber in .NET"
-description: "Wie du mit Entity Framework Core strukturiert startest: Setup, DbContext, Migrationen und typische Fehler im produktiven Einsatz."
+title: "Entity Framework Grundlagen für .NET-Projekte"
+description: "Entity Framework Grundlagen auf Deutsch: Modelle, Abfragen und Praxisbeispiele für saubere .NET-Datenzugriffe."
 categories:
   - dotNET
   - T-SQL
@@ -46,6 +46,8 @@ Vorteile von EF Core:
 - **Code First & Database First** - Ermöglicht flexible Entwicklungsmethoden.
 - **Integriertes Change Tracking** - Automatische Verwaltung von Änderungen an Datenbankeinträgen.
 - **Migrationen & Modellvalidierung** - Versionierung der Datenbankstruktur direkt im Code.
+
+## Entity Framework Tutorial: Der strukturierte Einstieg
 
 ## Installation in einem neuen Projekt
 
@@ -198,6 +200,8 @@ using (var context = new AppDbContext(options))
 
 - [T-SQL JOIN verstehen und korrekt einsetzen]({{< relref "/Artikel/T-SQL_JOIN/index.md" >}})
 - [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
+- [.NET Beratung](/leistung/dotnet-beratung/)
+- [.NET Code Review](/leistung/dotnet-code-review/)
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
 

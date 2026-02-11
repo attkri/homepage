@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2026-02-08T00:00:00+02:00
-title: "PowerShell Scripting Best Practices: 10 Regeln fuer wartbaren Code"
-description: "Diese 10 PowerShell Best Practices helfen dir, Skripte wartbar, sicher und teamfaehig zu bauen: Fehlerbehandlung, Validierung, Logging, Tests und Performance."
+title: "PowerShell Best Practices für wartbare Skripte"
+description: "Best Practices für PowerShell-Scripting: Struktur, Logging, Tests mit Pester und klare Standards für Teams."
 categories:
   - PowerShell
 tags:
@@ -27,9 +27,11 @@ disableHLJS: true
 Dieser Artikel beantwortet eine klare Frage: **Welche Regeln machen PowerShell-Skripte im Team dauerhaft wartbar und sicher betreibbar?**
 
 > Stand: 2026-02  
-> Getestet mit: PowerShell 7.4 (LTS) und 7.5 fuer typische Admin- und Automatisierungsaufgaben.
+> Getestet mit: PowerShell 7.4 (LTS) und 7.5 für typische Admin- und Automatisierungsaufgaben.
 
-## 10 Best Practices fuer professionelles PowerShell-Scripting
+## PowerShell Scripting Best Practices im Team
+
+## 10 Best Practices für professionelles PowerShell-Scripting
 
 ### 1) Namen so waehlen, dass Absicht sofort klar ist
 
@@ -158,6 +160,7 @@ Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logg
 
 - [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
 - [PowerShell Cmdlet finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
+- [PowerShell Objekte und Pipeline verstehen]({{< relref "/Artikel/PowerShell_Objekte_Pipeline_Cmdlets/index.md" >}})
 - [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
