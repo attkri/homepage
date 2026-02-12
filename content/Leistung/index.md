@@ -3,6 +3,9 @@ draft: false
 date: 2025-07-07
 title: "PowerShell Beratung und Training für Unternehmen | Attila Krick"
 description: "PowerShell Beratung, Inhouse-Trainings und Workshops für Unternehmen und Behörden. Praxisnah, sicher, messbar produktiv."
+aliases:
+  - /leistungen/
+  - /seminar/
 type: "article"
 categories: ["PowerShell", "T-SQL", "dotNET"]
 cover:

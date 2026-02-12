@@ -3,6 +3,9 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell Cmdlets finden: Der schnellste Weg zum passenden Befehl"
 description: "So findest du in PowerShell zielsicher das richtige Cmdlet: Get-Command, Parameter-Suche, Modulfilter, Get-Help und ein klarer Recherche-Workflow für den Alltag."
+aliases:
+  - /powershell/cmdlet-finden/
+  - /powershell/cmdlet-erstellen/
 categories:
   - PowerShell
 tags:

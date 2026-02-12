@@ -3,6 +3,8 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell Best Practices für wartbare Skripte"
 description: "Best Practices für PowerShell-Scripting: Struktur, Logging, Tests mit Pester und klare Standards für Teams."
+aliases:
+  - /powershell/powershell-script-aufbau/
 categories:
   - PowerShell
 tags:

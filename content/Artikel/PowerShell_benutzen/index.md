@@ -3,6 +3,8 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell produktiv starten: Setup mit VS Code und Windows Terminal"
 description: "So richtest du PowerShell 7, VS Code und Windows Terminal sauber ein und startest mit den ersten Cmdlets ohne typische Einsteigerfehler."
+aliases:
+  - /powershell/gui-mit-powershell-erstellen/
 categories:
   - PowerShell
 tags:

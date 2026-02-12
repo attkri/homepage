@@ -3,6 +3,10 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell Objekte und Pipeline: Das Kernprinzip sauber verstehen"
 description: "So arbeitest du in PowerShell korrekt mit Objekten, Pipeline und Cmdlets - inklusive typischer Fehler, praktischer Beispiele und Workflow für den Alltag."
+aliases:
+  - /powershell/funktionsweise-powershell-pipeline/
+  - /powershell/powershell-objekt-analyse/
+  - /powershell/powershell-objekt-erweiterung/
 categories:
   - PowerShell
 tags:

@@ -3,6 +3,9 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell verstehen: Der klare Einstieg für Admins und IT-Teams"
 description: "Was PowerShell ist, warum sie objektbasiert arbeitet und wie du in wenigen Schritten vom ersten Befehl zur belastbaren Automatisierung kommst."
+aliases:
+  - /powershell/powershell-wissenstest/
+  - /powershell/powershell-tutorial/
 slug: "powershell-verstehen"
 categories:
   - PowerShell

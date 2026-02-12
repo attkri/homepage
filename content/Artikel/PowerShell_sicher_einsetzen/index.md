@@ -3,6 +3,9 @@ draft: false
 date: 2026-02-08T00:00:00+02:00
 title: "PowerShell Sicherheit: Execution Policy, Signierung, Hardening"
 description: "So setzt du PowerShell sicher ein: Execution Policy, Script-Signierung und konkrete Hardening-Schritte für produktive Umgebungen."
+aliases:
+  - /powershell/powershell-sicherheit/
+  - /powershell/verschluesseln-mit-powershell/
 categories:
   - PowerShell
 tags:
