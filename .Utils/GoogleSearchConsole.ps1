@@ -14,10 +14,10 @@
 
 [CmdletBinding()]
 param(
-  [Parameter(Mandatory)]
-  [string]$ServiceAccountJsonPath,
+  [Parameter()]
+  [string]$ServiceAccountJsonPath = '~\.secrets\GoogleSearchConsole.Secrets.json',
 
-  [Parameter(Mandatory)]
+  [Parameter()]
   [string]$SiteUrl,
 
   [Parameter()]
@@ -35,6 +35,32 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+
+function Get-FirstJsonValue {
+  param(
+    [Parameter(Mandatory)]$Object,
+    [Parameter(Mandatory)][string[]]$Names
+  )
+
+  foreach ($name in $Names) {
+    if ($Object.PSObject.Properties.Name -contains $name) {
+      return $Object.$name
+    }
+  }
+
+  return $null
+}
+
+function Assert-RequiredValue {
+  param(
+    [Parameter(Mandatory)][string]$Name,
+    [Parameter(Mandatory)][string]$Value
+  )
+
+  if ([string]::IsNullOrWhiteSpace($Value)) {
+    throw "$Name fehlt. Bitte Parameter setzen oder im Secret hinterlegen."
+  }
+}
 
 function New-GoogleServiceAccountToken {
   param(
@@ -111,16 +137,42 @@ function Invoke-GscQuery {
   return Invoke-RestMethod -Method Post -Uri $uri -Headers $headers -Body $body -ContentType "application/json"
 }
 
-if (-not (Test-Path $ServiceAccountJsonPath)) {
-  throw "ServiceAccountJsonPath nicht gefunden: $ServiceAccountJsonPath"
+$resolvedServiceAccountJsonPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ServiceAccountJsonPath)
+if (-not (Test-Path $resolvedServiceAccountJsonPath)) {
+  throw "ServiceAccountJsonPath nicht gefunden: $resolvedServiceAccountJsonPath"
 }
 
-$serviceAccount = Get-Content $ServiceAccountJsonPath -Raw | ConvertFrom-Json
+$secretConfig = Get-Content $resolvedServiceAccountJsonPath -Raw | ConvertFrom-Json
+$serviceAccountRoot = Get-FirstJsonValue -Object $secretConfig -Names @("serviceAccount", "ServiceAccount", "service_account")
+if ($null -eq $serviceAccountRoot) {
+  $serviceAccountRoot = $secretConfig
+}
+
+$clientEmail = [string](Get-FirstJsonValue -Object $serviceAccountRoot -Names @("client_email", "clientEmail", "ClientEmail"))
+$privateKeyPem = [string](Get-FirstJsonValue -Object $serviceAccountRoot -Names @("private_key", "privateKey", "PrivateKey"))
+$tokenUri = [string](Get-FirstJsonValue -Object $serviceAccountRoot -Names @("token_uri", "tokenUri", "TokenUri"))
+$defaultSiteUrl = "sc-domain:attilakrick.com"
+if ([string]::IsNullOrWhiteSpace($tokenUri)) {
+  $tokenUri = "https://oauth2.googleapis.com/token"
+}
+
+Assert-RequiredValue -Name "client_email" -Value $clientEmail
+Assert-RequiredValue -Name "private_key" -Value $privateKeyPem
+
+if ([string]::IsNullOrWhiteSpace($SiteUrl)) {
+  $SiteUrl = [string](Get-FirstJsonValue -Object $secretConfig -Names @("siteUrl", "SiteUrl", "site_url", "property", "Property"))
+}
+
+if ([string]::IsNullOrWhiteSpace($SiteUrl)) {
+  $SiteUrl = $defaultSiteUrl
+}
+
+Assert-RequiredValue -Name "SiteUrl" -Value $SiteUrl
 
 $scope = "https://www.googleapis.com/auth/webmasters.readonly"
-$accessToken = New-GoogleServiceAccountToken -ClientEmail $serviceAccount.client_email `
-  -PrivateKeyPem $serviceAccount.private_key `
-  -TokenUri $serviceAccount.token_uri `
+$accessToken = New-GoogleServiceAccountToken -ClientEmail $clientEmail `
+  -PrivateKeyPem $privateKeyPem `
+  -TokenUri $tokenUri `
   -Scope $scope
 
 if (-not (Test-Path $OutputDir)) {

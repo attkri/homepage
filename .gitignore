@@ -3,6 +3,7 @@
 .todo/
 .opencode/
 .tmp/
+.secrets/
 .Secrets/
 project.code-workspace
 
