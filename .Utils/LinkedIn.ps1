@@ -7,7 +7,7 @@ param(
     [string]$ClientId = $env:LINKEDIN_CLIENT_ID,
     [string]$ClientSecret = $env:LINKEDIN_CLIENT_SECRET,
     [string]$RedirectUri = $env:LINKEDIN_REDIRECT_URI,
-    [string]$SecretFile = '.Secrets/LinkedIn.secret.json',
+    [string]$SecretFile = '~\.secrets\LinkedIn.secret.json',
     [string[]]$Scopes,
     [string]$State,
 
