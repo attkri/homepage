@@ -102,7 +102,7 @@ So entstehen reproduzierbare Reports für Betrieb, Audit und Management.
 - parameterisierte Queries nutzen, wenn Eingaben verarbeitet werden
 - Fehler mit `try/catch/finally` sauber behandeln
 - Timeouts bewusst setzen und protokollieren
-- Skripte versionieren und mit Review-Prozess betreiben
+- Skripte versionieren und mit [Code Review](/glossar/#code-review)-Prozess betreiben
 
 ## 5) Mini-Workflow für produktive Automatisierung
 

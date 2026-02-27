@@ -71,7 +71,7 @@ Empfohlenes Minimal-Setup:
 
 Windows Terminal hilft, mehrere Shells sauber parallel zu betreiben.
 
-- Tabs für PowerShell, CMD und WSL
+- Tabs für PowerShell, CMD und [WSL](/glossar/#wsl-windows-subsystem-for-linux)
 - schnelle Profilwechsel
 - gute Lesbarkeit bei langen Sessions
 
@@ -97,7 +97,7 @@ Get-Service |
     Select-Object Name, Status
 ```
 
-Cmdlets folgen in der Regel dem Muster `Verb-Noun`, zum Beispiel `Get-Help`, `Set-Location`, `Start-Service`.
+[Cmdlets](/glossar/#cmdlet) folgen in der Regel dem Muster `Verb-Noun`, zum Beispiel `Get-Help`, `Set-Location`, `Start-Service`.
 
 ## 5) Erstes Skript erstellen und sicher ausführen
 

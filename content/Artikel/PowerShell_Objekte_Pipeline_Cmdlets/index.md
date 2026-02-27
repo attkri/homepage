@@ -40,7 +40,7 @@ Dieser Artikel beantwortet eine klare Frage: **Wie funktionieren Objekte, Pipeli
 
 ## Warum PowerShell anders ist
 
-PowerShell verarbeitet in der Pipeline standardmäßig **Objekte** statt reinen Text. Dadurch kannst du Eigenschaften direkt ansprechen und musst weniger parsen.
+PowerShell verarbeitet in der [Pipeline](/glossar/#pipeline) standardmäßig **Objekte** statt reinen Text. Dadurch kannst du Eigenschaften direkt ansprechen und musst weniger parsen.
 
 ```powershell
 Get-Process |
@@ -72,7 +72,7 @@ Jeder Schritt erhält Objekte, verarbeitet sie und gibt wieder Objekte weiter.
 
 ## 3) Cmdlets gezielt kombinieren
 
-Cmdlets folgen meist dem Muster `Verb-Noun`.
+[Cmdlets](/glossar/#cmdlet) folgen meist dem Muster `Verb-Noun`.
 
 - `Get-*` liest Daten
 - `Where-Object` filtert

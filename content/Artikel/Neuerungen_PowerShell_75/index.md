@@ -43,7 +43,7 @@ PowerShell 7.5 ist seit **Dezember 2024** als stabile Version verfuegbar. Fuer v
 
 | Einsatztyp                                               | Empfehlung                                                       |
 | -------------------------------------------------------- | ---------------------------------------------------------------- |
-| Produktive Kernsysteme mit hoher Stabilitaetsanforderung | Bei **PowerShell 7.4 (LTS)** bleiben und 7.5 parallel evaluieren |
+| Produktive Kernsysteme mit hoher Stabilitaetsanforderung | Bei **PowerShell 7.4 ([LTS](/glossar/#lts-long-term-support))** bleiben und 7.5 parallel evaluieren |
 | Automatisierungsteams mit Test-/Staging-Umgebung         | **7.5 pilotieren**, dann schrittweise ausrollen                  |
 | Einzelne Admin-Workstations und Dev-Umgebungen           | **7.5 direkt einsetzen**, wenn Modultests gruen sind             |
 
@@ -100,7 +100,7 @@ Miss vor und nach dem Wechsel dieselben Jobs. Nur so ist ein Nutzen belastbar be
 ## So fuehrst du den Wechsel risikoarm ein
 
 - Erst Pilotgruppe, dann stufenweiser Rollout.
-- CI/CD-Pipeline mit Pester-Tests vor produktiven Jobs.
+- CI/CD-Pipeline mit [Pester](/glossar/#pester)-Tests vor produktiven Jobs.
 - Pro Skript eine klare Rueckfalloption auf die vorherige Runtime.
 
 ## Weiterfuehrende Ressourcen

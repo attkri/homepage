@@ -87,7 +87,7 @@ Schneller Praxisweg:
 
 ## 3) about-Themen für Konzeptwissen nutzen
 
-Für Grundlagen wie Pipeline, Variablen oder Fehlerverhalten sind `about_`-Themen oft die beste Quelle:
+Für Grundlagen wie [Pipeline](/glossar/#pipeline), Variablen oder Fehlerverhalten sind `about_`-Themen oft die beste Quelle:
 
 ```powershell
 Get-Help about_Functions
@@ -112,7 +112,7 @@ Get-Help about_*
 
 - [Microsoft Learn PowerShell](https://learn.microsoft.com/powershell/)
 - VS Code mit PowerShell Extension
-- PowerShell Gallery für Modulinfos
+- [PowerShell Gallery](/glossar/#powershell-gallery) für Modulinfos
 
 KI-Tools können helfen, aber produktive Befehle sollten immer gegen `Get-Help` und offizielle Dokumentation gegengeprüft werden.
 

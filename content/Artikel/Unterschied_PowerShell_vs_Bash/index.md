@@ -37,7 +37,7 @@ Dieser Artikel beantwortet eine klare Frage: **Wann solltest du PowerShell nutze
 | Bash       | Textbasiert   | Linux, macOS          | Systemnahe Shell-Skripte und Unix-Toolchain |
 | CMD        | Textbasiert   | Windows               | Legacy-Umgebungen                           |
 
-PowerShell unterscheidet sich vor allem dadurch, dass die Pipeline Objekte statt Text transportiert. Das reduziert Parsing-Fehler und macht Skripte wartbarer.
+PowerShell unterscheidet sich vor allem dadurch, dass die [Pipeline](/glossar/#pipeline) Objekte statt Text transportiert. Das reduziert Parsing-Fehler und macht Skripte wartbarer.
 
 ## 1) Pipeline: Objekte vs. Text
 
@@ -81,7 +81,7 @@ PowerShell (`pwsh`) ist heute plattformübergreifend nutzbar und eignet sich gut
 
 ## 4) Modul- und Ökosystem-Ansatz
 
-PowerShell nutzt die PowerShell Gallery für Module:
+PowerShell nutzt die [PowerShell Gallery](/glossar/#powershell-gallery) für Module:
 
 ```powershell
 Install-Module Az -Scope CurrentUser

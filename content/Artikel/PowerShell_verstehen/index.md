@@ -44,7 +44,7 @@ PowerShell ist eine Shell plus Skriptsprache, die **objektbasiert** arbeitet und
 
 ## Warum objektbasiert so wichtig ist
 
-Der zentrale Unterschied: In der Pipeline landen keine reinen Zeichenketten, sondern Objekte mit Eigenschaften wie `Name`, `Id` oder `Status`.
+Der zentrale Unterschied: In der [Pipeline](/glossar/#pipeline) landen keine reinen Zeichenketten, sondern Objekte mit Eigenschaften wie `Name`, `Id` oder `Status`.
 
 ```powershell
 Get-Service |
@@ -57,7 +57,7 @@ Das reduziert Parsing-Fehler und macht Skripte langfristig wartbarer.
 ## Was du mit PowerShell konkret automatisieren kannst
 
 - Dienste und Prozesse kontrollieren
-- Active Directory-Aufgaben standardisieren
+- [Active Directory](/glossar/#active-directory-ad)-Aufgaben standardisieren
 - CSV-, JSON- und API-Daten verarbeiten
 - SQL-Abfragen und Reports automatisieren
 - wiederkehrende Betriebsaufgaben in CI/CD integrieren
@@ -89,7 +89,7 @@ Wenn du neu startest, ist PowerShell 7 in der Regel die sinnvollere Wahl.
 
 ## Häufige Einstiegshürden und wie du sie vermeidest
 
-- Zu viele Cmdlets auf einmal lernen: besser mit 10 Kernbefehlen starten.
+- Zu viele [Cmdlets](/glossar/#cmdlet) auf einmal lernen: besser mit 10 Kernbefehlen starten.
 - Direkt große Skripte schreiben: zuerst kleine, testbare Schritte bauen.
 - Fehler ignorieren: mit `try/catch` und Logging von Anfang an arbeiten.
 

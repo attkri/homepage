@@ -39,7 +39,7 @@ Dieser Artikel beantwortet eine konkrete Frage: **Wie setzt du PowerShell in pro
 
 ## Security-Grundsatz: Execution Policy ist wichtig, aber nicht allein ausreichend
 
-Execution Policies steuern, ob und unter welchen Bedingungen Skripte ausgeführt werden. Sie sind ein wichtiger Schutzbaustein, aber kein vollständiger Sicherheitsersatz.
+[Execution Policies](/glossar/#execution-policy) steuern, ob und unter welchen Bedingungen Skripte ausgeführt werden. Sie sind ein wichtiger Schutzbaustein, aber kein vollständiger Sicherheitsersatz.
 
 Aktuelle Konfiguration prüfen:
 
@@ -90,8 +90,8 @@ Wenn GPO-Policies gesetzt sind, überschreiben sie lokale Änderungen.
 ## Zusätzliche Schutzmechanismen
 
 - `PSScriptAnalyzer` für statische Qualitäts- und Sicherheitschecks
-- JEA (Just Enough Administration) für minimale Rechte
-- Constrained Language Mode in gehärteten Umgebungen
+- [JEA (Just Enough Administration)](/glossar/#jea-just-enough-administration) für minimale Rechte
+- [Constrained Language Mode](/glossar/#constrained-language-mode) in gehärteten Umgebungen
 - WDAC/App-Control-Ansätze für vertrauenswürdige Ausführung
 
 ## Häufige Fragen

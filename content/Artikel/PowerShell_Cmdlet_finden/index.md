@@ -43,7 +43,7 @@ Du musst keine tausenden Befehle auswendig kennen. Entscheidend ist ein reproduz
 
 ## 1) Suche nach Verb oder Noun
 
-PowerShell-Cmdlets folgen dem Muster `Verb-Noun`.
+PowerShell-[Cmdlets](/glossar/#cmdlet) folgen dem Muster `Verb-Noun`.
 
 ```powershell
 # Suche alle Cmdlets zum Beenden von Dingen:
@@ -89,7 +89,7 @@ Wenn du mit Drittanbieter-Modulen arbeitest, z. B. Azure oder Exchange, grenzt
 Get-Module -ListAvailable
 ```
 
-Noch nicht installierte Befehle findest du über die Gallery:
+Noch nicht installierte Befehle findest du über die [Gallery](/glossar/#powershell-gallery):
 
 ```powershell
 Find-Command -Name 'Invoke-SqlCmd'

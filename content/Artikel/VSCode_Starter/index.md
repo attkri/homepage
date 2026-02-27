@@ -52,7 +52,7 @@ Damit VS Code PowerShell sauber unterstützt, installierst du die offizielle Erw
 Sie bringt unter anderem mit:
 
 - **Syntaxhervorhebung** für besser lesbaren Code
-- **IntelliSense** für Autovervollständigung und Parameterhilfe
+- **[IntelliSense](/glossar/#intellisense)** für Autovervollständigung und Parameterhilfe
 - **Debugging-Funktionen**, um Skripte effizient zu testen
 - **Integrierte PowerShell-Konsole** für direkte Ausführung
 - **Erweiterte Fehleranalyse** für bessere Fehlersuche
@@ -94,7 +94,7 @@ Sie bringt unter anderem mit:
 
 Diese Einstellungen senken Review-Reibung und halten Diffs sauber.
 
-## Debugging: so findest du Fehler schneller
+## [Debugging](/glossar/#debugging): so findest du Fehler schneller
 
 Das Debugging ist der größte Produktivitätshebel bei komplexeren Skripten.
 

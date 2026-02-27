@@ -33,7 +33,7 @@ disableHLJS: true
 
 ## Kurzantwort
 
-MCP (Model Context Protocol) hilft bei SQL-Server-Abfragen, weil es den Zugriff der KI auf Datenbankfunktionen standardisiert. Du definierst freigegebene Tools, Rechte und Rückgabeformate. Dadurch werden Antworten nachvollziehbarer, Abfragen konsistenter und Sicherheitsrisiken besser steuerbar.
+[MCP (Model Context Protocol)](/glossar/#mcp-model-context-protocol) hilft bei SQL-Server-Abfragen, weil es den Zugriff der KI auf Datenbankfunktionen standardisiert. Du definierst freigegebene Tools, Rechte und Rückgabeformate. Dadurch werden Antworten nachvollziehbarer, Abfragen konsistenter und Sicherheitsrisiken besser steuerbar.
 
 Ich bin Attila Krick, Trainer und Berater für T-SQL, SQL-Performance und Automatisierung. In diesem Artikel zeige ich dir einen pragmatischen Ansatz für den Einsatz von KI mit SQL Server in Unternehmen.
 
@@ -59,7 +59,7 @@ Ich bin Attila Krick, Trainer und Berater für T-SQL, SQL-Performance und Automa
 
 - Nutze Least Privilege für den Datenbank-Login.
 - Erlaube nur bekannte Schemata und Views statt direktem Tabellenwildwuchs.
-- Kapsle komplexe Logik in Stored Procedures mit klaren Parametern.
+- Kapsle komplexe Logik in [Stored Procedures](/glossar/#stored-procedure) mit klaren Parametern.
 - Validiere alle Eingaben serverseitig.
 - Begrenze Ergebnismengen für Performance und Kostenkontrolle.
 
@@ -110,7 +110,7 @@ Regeln:
 | Rechte              | Read-only auf definierte Views/Prozeduren | Breite Rechte auf ganze Datenbank        |
 | Eingaben            | Strikte Parameter-Validierung             | Freitext ohne Prüfungen                  |
 | Ausgabe             | Standardisiertes Resultatformat           | Uneinheitliche, schwer prüfbare Ausgaben |
-| Nachvollziehbarkeit | Zentrales Logging pro Request             | Kein Audit-Trail                         |
+| Nachvollziehbarkeit | Zentrales Logging pro Request             | Kein [Audit-Trail](/glossar/#audit-trail)                         |
 
 ## Typische Nutzenszenarien
 

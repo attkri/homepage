@@ -44,7 +44,7 @@ Richtig eingesetzt, liefert PowerShell eine zentrale Schnittstelle zwischen Betr
 - Zugriff auf Systeminformationen in Echtzeit
 - Automatisierte Kontrolle von Konfigurationen und Compliance
 - Reporting über Benutzerrechte, Freigaben, Zertifikate oder GPOs
-- Integration in Security-Workflows und SIEM-Systeme
+- Integration in Security-Workflows und [SIEM-Systeme](/glossar/#siem-security-information-and-event-management)
 
 Ohne PowerShell wird IT-Security schnell manuell, lückenhaft und ineffizient. Statt auf fragmentierte Tools zu setzen, hilft PowerShell dabei, standardisierte Workflows zu etablieren – nachvollziehbar und reproduzierbar.
 
@@ -91,18 +91,18 @@ Darüber hinaus bietet PowerShell native Möglichkeiten zur Verschlüsselung, zu
 
 ## Sicherheitsrisiken? Ja – aber kontrollierbar
 
-Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte Living-off-the-Land-Techniken. Doch statt das Tool zu verbannen, gilt es, sichere Rahmenbedingungen zu schaffen:
+Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte [Living-off-the-Land-Techniken](/glossar/#living-off-the-land). Doch statt das Tool zu verbannen, gilt es, sichere Rahmenbedingungen zu schaffen:
 
 - signierte Skripte und Execution Policies
 - rollenbasierte Rechtevergabe
-- lückenloses Logging (z. B. ModuleLogging, ScriptBlockLogging)
+- lückenloses Logging (z. B. ModuleLogging, [ScriptBlockLogging](/glossar/#scriptblock-logging))
 - Schulung von Admins und SecOps-Teams
 
 PowerShell ist nicht das Problem – fehlende Governance ist es. Mit einer klaren Sicherheitsstrategie und dokumentierten Prozessen lassen sich viele Risiken eliminieren. 
 
 Auch das "Application Whitelisting" via AppLocker oder Windows Defender Application Control (WDAC) hilft, nur geprüfte Skripte zuzulassen.
 
-Eine weitere Möglichkeit ist die Integration von PowerShell mit Just Enough Administration (JEA), um administrative Aufgaben granular abzusichern und gleichzeitig protokollierbar zu gestalten.
+Eine weitere Möglichkeit ist die Integration von PowerShell mit [Just Enough Administration (JEA)](/glossar/#jea-just-enough-administration), um administrative Aufgaben granular abzusichern und gleichzeitig protokollierbar zu gestalten.
 
 ---
 
@@ -116,7 +116,7 @@ Organisationen, die PowerShell strategisch nutzen, sollten:
 - Schulungen einführen – auch für Admins ohne Entwicklerhintergrund
 - ein zentrales Repository mit geprüften und getesteten Skripten pflegen
 
-Auch im Kontext von Zertifizierungen (z. B. ISO 27001 oder BSI IT-Grundschutz) kann PowerShell helfen, Anforderungen nachweisbar zu erfüllen – etwa durch automatisierte Reports über Berechtigungen, Protokolle oder Systemzustände.
+Auch im Kontext von Zertifizierungen (z. B. [ISO 27001](/glossar/#iso-27001) oder BSI IT-Grundschutz) kann PowerShell helfen, Anforderungen nachweisbar zu erfüllen – etwa durch automatisierte Reports über Berechtigungen, Protokolle oder Systemzustände.
 
 PowerShell sollte nicht als Risiko, sondern als strategisches Asset betrachtet werden – eine Plattform, mit der IT-Abteilungen nicht nur effizienter, sondern auch sicherer arbeiten können.
 

@@ -33,7 +33,7 @@ disableHLJS: true
 
 ## Kurzantwort
 
-Ja. GitHub Copilot Agent in VS Code hilft bei PowerShell, wenn du ihn wie einen Junior-Entwickler führst: klare Aufgaben, technische Regeln und verbindliche Review-Schritte. Dann gewinnst du Tempo bei Entwurf, Refactoring und Testaufbau, ohne die Kontrolle über Sicherheit und Codequalität zu verlieren.
+Ja. [GitHub Copilot](/glossar/#github-copilot) Agent in VS Code hilft bei PowerShell, wenn du ihn wie einen Junior-Entwickler führst: klare Aufgaben, technische Regeln und verbindliche Review-Schritte. Dann gewinnst du Tempo bei Entwurf, Refactoring und Testaufbau, ohne die Kontrolle über Sicherheit und Codequalität zu verlieren.
 
 Ich bin Attila Krick, PowerShell-Trainer und Berater. In diesem Beitrag zeige ich einen Workflow, der in Unternehmen und Behörden praxistauglich ist.
 
@@ -53,7 +53,7 @@ Copilot Agent ist ein KI-gestützter Arbeitsmodus in VS Code, der nicht nur Code
 
 - Wenn du wiederkehrende Automatisierungsaufgaben umsetzt.
 - Wenn Teamstandards für Namensgebung, Fehlerbehandlung und Logging gelten.
-- Wenn Pester-Tests aufgebaut oder erweitert werden sollen.
+- Wenn [Pester](/glossar/#pester)-Tests aufgebaut oder erweitert werden sollen.
 - Wenn aus Prototypen wartbarer Produktivcode werden muss.
 
 ## Setup in VS Code für belastbare Ergebnisse
@@ -139,7 +139,7 @@ Nutzen: Du baust schneller ein Sicherheitsnetz für spätere Änderungen.
 
 - Nutze Copilot Agent nicht mit unklassifizierten sensiblen Daten.
 - Prüfe jeden generierten Befehl mit Blick auf Rechte, Nebenwirkungen und Scope.
-- Erzwinge Code-Reviews vor Merge, auch bei kleinen KI-Änderungen.
+- Erzwinge [Code-Reviews](/glossar/#code-review) vor Merge, auch bei kleinen KI-Änderungen.
 - Führe PSScriptAnalyzer und Pester in der Pipeline verbindlich aus.
 - Dokumentiere, welche KI-Unterstützung für welches Repository erlaubt ist.
 

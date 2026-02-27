@@ -29,7 +29,7 @@ disableHLJS: true
 Dieser Artikel beantwortet eine klare Frage: **Welche Regeln machen PowerShell-Skripte im Team dauerhaft wartbar und sicher betreibbar?**
 
 > Stand: 2026-02  
-> Getestet mit: PowerShell 7.4 (LTS) und 7.5 für typische Admin- und Automatisierungsaufgaben.
+> Getestet mit: PowerShell 7.4 ([LTS](/glossar/#lts-long-term-support)) und 7.5 für typische Admin- und Automatisierungsaufgaben.
 
 ## PowerShell Scripting Best Practices im Team
 
@@ -106,7 +106,7 @@ function Write-Log {
 
 ### 6) Tests mit Pester als Pflichtschritt einbauen
 
-Produktive Skripte brauchen automatisierte Tests. Schon wenige Pester-Tests verhindern teure Regressionen.
+Produktive Skripte brauchen automatisierte Tests. Schon wenige [Pester](/glossar/#pester)-Tests verhindern teure Regressionen.
 
 ```powershell
 Describe "Get-FreeDiskSpace" {
@@ -154,7 +154,7 @@ Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logg
 
 - Eingaben validiert und Fehlerpfade getestet
 - Logging mit Zeitstempel und Severity aktiv
-- Pester-Tests in CI/CD integriert
+- [Pester](/glossar/#pester)-Tests in CI/CD integriert
 - Versions- und Modulabhaengigkeiten mit `#Requires` definiert
 - Rollback-Plan fuer kritische Jobs dokumentiert
 

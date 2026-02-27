@@ -37,7 +37,7 @@ Dieser Artikel beantwortet eine konkrete Frage: **Wie setzt du Entity Framework 
 
 ## Warum Entity Framework Core?
 
-Entity Framework Core (EF Core) ist das bevorzugte **Object-Relational Mapping (ORM)-Framework** für .NET-Entwickler. Es ermöglicht eine einfache und effiziente Interaktion mit relationalen Datenbanken, ohne direkt SQL schreiben zu müssen.
+Entity Framework Core (EF Core) ist das bevorzugte **[Object-Relational Mapping (ORM)](/glossar/#orm-object-relational-mapper)-Framework** für .NET-Entwickler. Es ermöglicht eine einfache und effiziente Interaktion mit relationalen Datenbanken, ohne direkt SQL schreiben zu müssen.
 
 Vorteile von EF Core:
 
@@ -51,7 +51,7 @@ Vorteile von EF Core:
 
 ## Installation in einem neuen Projekt
 
-EF Core wird als NuGet-Paket installiert. Für SQL Server brauchst du in der Regel mindestens diese Pakete:
+EF Core wird als [NuGet](/glossar/#nuget)-Paket installiert. Für SQL Server brauchst du in der Regel mindestens diese Pakete:
 
 ### Installation mit .NET CLI
 
@@ -92,7 +92,7 @@ public class Product
 
 ### Beispiel: DbContext
 
-Die **DbContext-Klasse** verwaltet die Verbindung zur Datenbank:
+Die **[DbContext](/glossar/#dbcontext)-Klasse** verwaltet die Verbindung zur Datenbank:
 
 ```csharp
 public class AppDbContext : DbContext
@@ -131,7 +131,7 @@ dotnet ef database update
 
 ## Abfragen mit LINQ
 
-EF Core nutzt **LINQ (Language Integrated Query)**, um Datenbankabfragen direkt in C# zu formulieren.
+EF Core nutzt **[LINQ (Language Integrated Query)](/glossar/#linq-language-integrated-query)**, um Datenbankabfragen direkt in C# zu formulieren.
 
 ### Beispiel: Daten abrufen
 

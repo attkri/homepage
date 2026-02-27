@@ -135,10 +135,10 @@ Müller GmbH | Maus        | 5
 
 Folgende Punkte sind in der Praxis entscheidend:
 
-- passende Indizes auf Join-Spalten (`KundenID`, `ProduktID`)
+- passende [Indizes](/glossar/#index-datenbankindex) auf Join-Spalten (`KundenID`, `ProduktID`)
 - korrekte Datentypen auf beiden Seiten der Join-Bedingung
 - saubere Filterbedingungen, damit früh reduziert wird
-- tatsächlichen Ausführungsplan prüfen statt Annahmen treffen
+- tatsächlichen [Ausführungsplan](/glossar/#ausführungsplan-execution-plan) prüfen statt Annahmen treffen
 
 Wichtig: Eine zusätzliche Zwischentabelle macht eine Abfrage **nicht automatisch** schneller. Sie ist nur dann sinnvoll, wenn sie fachlich benötigt wird oder den Plan nachweisbar verbessert.
 
