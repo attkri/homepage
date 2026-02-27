@@ -15,7 +15,7 @@ Website wird von KI-Systemen (ChatGPT, Perplexity, Gemini, Copilot) als Quelle e
 1. Entitäts-Klarheit: Jede Seite beantwortet genau eine Frage
 2. Zitierbarkeit: Konkrete Zahlen, Fakten, Anleitungen
 3. Strukturierte Daten: Schema.org (Person, Article)
-4. Freshness-Signale: Datum aktuell, „Stand: YYYY"
+4. Freshness-Signale: Datum aktuell, "Stand: YYYY"
 5. Autorität: Über-mich-Signale, Expertise-Nachweise, interne Verlinkung
 
 ## Offene Punkte
@@ -23,3 +23,4 @@ Website wird von KI-Systemen (ChatGPT, Perplexity, Gemini, Copilot) als Quelle e
 - Startseite und Leistungsseite auf KI-Zitierbarkeit prüfen
 - Schema.org-Markup erweitern
 - Keyword-Matrix mit GSC-Daten abgleichen
+

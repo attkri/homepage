@@ -14,7 +14,7 @@ Häufig relevante Informationen für den aktuellen Arbeitskontext.
 - Property: `sc-domain:attilakrick.com` (Domain-Property)
 - Service Account: zentral im Secret hinterlegt
 - JSON-Key: `~\.secrets\GoogleSearchConsole.Secrets.json`
-- Script: `.Utils/GoogleSearchConsole.ps1`
+- Script: `.Tools/GoogleSearchConsole.ps1`
 - Export-Ordner: `.Analyses/YYYY-MM-DD/gsc-exports/`
 - Auswertungen: `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`
 

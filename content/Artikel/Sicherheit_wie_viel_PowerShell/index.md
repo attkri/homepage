@@ -83,7 +83,7 @@ Get-WinEvent -LogName Security -FilterXPath '*[System[(EventID=4625)]]' |
   Select-Object TimeCreated, Message
 ```
 
-Diese Beispiele zeigen: PowerShell ist kein Tool „für Bastler“, sondern eine leistungsfähige und auditierbare Automatisierungsplattform. Sie lässt sich mit existierenden Sicherheitssystemen kombinieren – etwa über REST-APIs oder Syslog-Anbindungen an zentrale Monitoring-Systeme.
+Diese Beispiele zeigen: PowerShell ist kein Tool "für Bastler", sondern eine leistungsfähige und auditierbare Automatisierungsplattform. Sie lässt sich mit existierenden Sicherheitssystemen kombinieren – etwa über REST-APIs oder Syslog-Anbindungen an zentrale Monitoring-Systeme.
 
 Darüber hinaus bietet PowerShell native Möglichkeiten zur Verschlüsselung, zur sicheren Speicherung von Zugangsdaten (z. B. über den Windows Credential Store) und zur Verwaltung von Zertifikaten. Das macht sie zur idealen Grundlage für sichere Automatisierung auch in sensiblen Infrastrukturen.
 
@@ -100,7 +100,7 @@ Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch s
 
 PowerShell ist nicht das Problem – fehlende Governance ist es. Mit einer klaren Sicherheitsstrategie und dokumentierten Prozessen lassen sich viele Risiken eliminieren. 
 
-Auch das „Application Whitelisting“ via AppLocker oder Windows Defender Application Control (WDAC) hilft, nur geprüfte Skripte zuzulassen.
+Auch das "Application Whitelisting" via AppLocker oder Windows Defender Application Control (WDAC) hilft, nur geprüfte Skripte zuzulassen.
 
 Eine weitere Möglichkeit ist die Integration von PowerShell mit Just Enough Administration (JEA), um administrative Aufgaben granular abzusichern und gleichzeitig protokollierbar zu gestalten.
 
@@ -110,7 +110,7 @@ Eine weitere Möglichkeit ist die Integration von PowerShell mit Just Enough Adm
 
 Organisationen, die PowerShell strategisch nutzen, sollten:
 
-- mindestens einen internen **„PowerShell Champion“** benennen
+- mindestens einen internen **"PowerShell Champion"** benennen
 - Skripte versionieren und regelmäßig prüfen (**Code Reviews**)
 - eigene Module für Audits, Richtlinien und Reports entwickeln
 - Schulungen einführen – auch für Admins ohne Entwicklerhintergrund
@@ -137,3 +137,4 @@ Wer heute Systeme absichern, Konfigurationen prüfen oder Angriffe erkennen will
 - [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
 - [Leistungen]({{< relref "/Leistung/index.md" >}})
 - [Kontakt]({{< relref "/Kontakt/index.md" >}})
+

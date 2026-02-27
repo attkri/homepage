@@ -2,6 +2,8 @@
 
 ## Aktiv
 
+- - **Homepage-Teaser (B):** Dedizierter News-Teaser-Block auf der Startseite – auf Taskliste.
+
 - **Google Search Console Export Ende März 2026 erneut ausführen**
   - Kontext: Fälligkeit 2026-03-31, Export nach `.Analyses/YYYY-MM-DD/gsc-exports/`, Auswertung in `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`.
 

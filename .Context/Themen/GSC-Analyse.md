@@ -7,9 +7,9 @@ Automatisierte Messung der Google-Sichtbarkeit für `attilakrick.com`.
 ## Setup
 
 - **Property:** `sc-domain:attilakrick.com` (Domain-Property)
-- **API:** Google Search Console API (aktiviert im Projekt „GSC-Export")
+- **API:** Google Search Console API (aktiviert im Projekt "GSC-Export")
 - **Auth:** Service Account mit zentralem Secret (`~\.secrets\GoogleSearchConsole.Secrets.json`)
-- **Script:** `.Utils/GoogleSearchConsole.ps1`
+- **Script:** `.Tools/GoogleSearchConsole.ps1`
 - **Export-Ordner:** `.Analyses/YYYY-MM-DD/gsc-exports/`
 - **Auswertungen:** `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`
 
@@ -24,3 +24,4 @@ Automatisierte Messung der Google-Sichtbarkeit für `attilakrick.com`.
 - Nächster Export: 7 Tage nach Erstexport
 - Keyword-Matrix (`.todo/Keyword-Matrix.md`) gegen echte Daten abgleichen
 - Branding vs. Non-Brand auswerten
+

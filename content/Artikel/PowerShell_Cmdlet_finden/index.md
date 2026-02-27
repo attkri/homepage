@@ -49,7 +49,7 @@ PowerShell-Cmdlets folgen dem Muster `Verb-Noun`.
 # Suche alle Cmdlets zum Beenden von Dingen:
 Get-Command -Verb Stop
 
-# Suche alle Cmdlets, die mit „Service“ arbeiten:
+# Suche alle Cmdlets, die mit "Service" arbeiten:
 Get-Command -Noun Service
 ```
 
@@ -143,3 +143,4 @@ KI-Antworten und Forenbeiträge immer gegen `Get-Help` und offizielle Doku prüf
 ## Fazit
 
 Wer Cmdlets systematisch findet und prüft, spart im Betrieb Zeit und reduziert Fehler deutlich. Genau dieser Recherche-Workflow macht aus Einzelbefehlen belastbare Automatisierung.
+
