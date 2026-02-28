@@ -1,6 +1,6 @@
 ---
 title: "IT-News vom 28. Februar 2026"
-date: 2026-02-28T07:00:00+01:00
+date: 2026-02-28T00:00:00+01:00
 draft: false
 description: "Kuratierte IT-News für den 28. Februar 2026: KI-Politiksturm in den USA, Azure Data Studio End-of-Life, PowerShell 7.6 RC1, DDoS-Rekorde und mehr."
 tags: ["KI", "PowerShell", "T-SQL", "IT-Security", ".NET", "Tools"]
