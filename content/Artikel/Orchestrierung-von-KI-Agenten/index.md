@@ -13,10 +13,8 @@ tags:
   - Softwarearchitektur
 author: "Attila Krick"
 cover:
-  image: "cover.webp"
+  image: "cover.jpg"
   alt: "Futuristischer Dirigent, der KI-Agenten und Datenströme orchestriert"
-images:
-  - "cover.jpg"
   caption: "Agenten-Orchestrierung in der Praxis"
   relative: true
 showToc: true
@@ -32,9 +30,9 @@ disableHLJS: true
 
 Lange Zeit galten KI-Tools in der Entwicklung vor allem als smarte Autovervollständigung. Man tippt einen Kommentar, die KI spuckt einen Code-Schnipsel aus. Doch das ist Schnee von gestern. Die wahre Magie beginnt, wenn man aufhört, einzelne Code-Blöcke zu generieren, und anfängt, ein ganzes Team von Spezialisten zu dirigieren.
 
-In den letzten Wochen habe ich in meinem Projekt *Themerus* (einer WPF-Desktop-App unter .NET 10) genau das auf die Spitze getrieben. Ich habe nicht mit einer einzigen, allwissenden KI gesprochen, sondern ein Orchester aus spezialisierten Agenten aufgebaut. 
+In den letzten Wochen habe ich in meinem Projekt *Themerus* (einer WPF-Desktop-App unter .NET 10) genau das auf die Spitze getrieben. Ich habe nicht mit einer einzigen, allwissenden KI gesprochen, sondern ein Orchester aus spezialisierten Agenten aufgebaut.
 
-Das Ergebnis? Ein absolutes "Aha"-Erlebnis. 
+Das Ergebnis? Ein absolutes "Aha"-Erlebnis.
 
 ## Mein Agenten-Team
 
@@ -66,6 +64,7 @@ Wir Entwickler müssen umdenken. Es geht künftig weniger darum, die Syntax eine
 ---
 
 ### Wie geht es weiter? Du entscheidest!
+
 Ich möchte dieses Thema weiter vertiefen. Welcher Bereich interessiert dich am meisten? **Schreib mir einfach kurz per E-Mail oder über mein Kontaktformular deine Wunsch-Nummer. Das Thema mit den meisten Stimmen gewinnt und wird mein nächster Fachartikel hier auf dem Blog!**
 
 1. **Deep-Dive: So schreibe ich System-Prompts für gnadenlose Code-Review-Agenten**
