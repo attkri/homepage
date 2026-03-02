@@ -2,10 +2,26 @@
 
 ## Aktiv
 
+- Artikel für attilakrick.com verfassen – ähnlich einem praxisnahen Einführungsbeitrag. Referenz-Stil: [OpenCode Tutorial 2026](https://www.nxcode.io/resources/news/opencode-tutorial-2026).
+
+- Orientierungstext zu KI-Sicherheit einbauen. Referenz-Inhalt: [KI-Sicherheit in der Praxis](https://www.it-daily.net/it-management/ki/ki-sicherheit-genai-risiken).
+
 - - **Homepage-Teaser (B):** Dedizierter News-Teaser-Block auf der Startseite – auf Taskliste.
 
 - **Google Search Console Export Ende März 2026 erneut ausführen**
   - Kontext: Fälligkeit 2026-03-31, Export nach `.Analyses/YYYY-MM-DD/gsc-exports/`, Auswertung in `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`.
+
+- verwerten!
+
+<!-- ## Mein Wertbeitrag
+
+- KI verständlich erklären – ohne Buzzwords, auf Augenhöhe mit Nicht-Technikern.
+- Einsatzmöglichkeiten und Mehrwerte aufzeigen (Zeit, Qualität, Risiko, Geschwindigkeit).
+- Tool-Landschaft einordnen: Kategorien, Entscheidungskriterien, kein Produktvertrieb.
+- Kostenarten transparent machen (Lizenz, Nutzung, Integration, Schulung, Betrieb).
+- Datenschutz und Sicherheit: klare Leitplanken statt Angst.
+- Roadmap entwickeln: von Quick Wins bis Agent-Betrieb, strukturiert und sicher.
+- Cloud vs. On-Prem: Vor- und Nachteile, Entscheidungshilfen. -->
 
 ## Erledigt
 

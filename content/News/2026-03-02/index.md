@@ -40,7 +40,7 @@ Auf der Microsoft AI Tour 2026 präsentierte Satya Nadella, wie Unternehmenskund
 
 *Quelle: bigdata-insider.de · 2. März 2026*
 
-→ Tiefer einsteigen: [KI und MCP für SQL Server DB-Abfragen nutzen](/artikel/ki-mcp-sql-server-db-abfrage/)
+→ Tiefer einsteigen: [KI und MCP für SQL Server DB-Abfragen nutzen](/artikel/ki_mcp_sql_server_db_abfrage/) oder lies meinen Praxisbericht: [Agenten-Orchestrierung in der Praxis](/artikel/orchestrierung-von-ki-agenten/)
 
 ### [DeepSeek V4: Multimodales Flaggschiff angekündigt – Release nächste Woche](https://creati.ai/de/ai-news/2026-03-02/deepseek-v4-multimodal-ai-model-release-withholds-nvidia-amd/)
 

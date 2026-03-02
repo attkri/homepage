@@ -196,4 +196,6 @@ Beginne mit einem klar begrenzten Pilot-Repository, dokumentiere Prompt-Standard
 
 Copilot Agent in VS Code ist für PowerShell ein echter Hebel, wenn du Führung und Qualität kombinierst. KI ersetzt keine Verantwortung, aber sie beschleunigt sauber geführte Entwicklungsarbeit deutlich.
 
+💡 **Tipp:** Wenn du noch einen Schritt weiter gehen willst und KI nicht nur als Assistent, sondern als vollautomatisiertes Team für ganze Projekte einsetzen möchtest, lies meinen Erfahrungsbericht: **[Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert](/artikel/orchestrierung-von-ki-agenten/)**.
+
 Wenn du in deinem Team einen belastbaren KI-Workflow für PowerShell etablieren willst, unterstütze ich dich mit praxisnahen Workshops und konkretem Setup für eure Umgebung.

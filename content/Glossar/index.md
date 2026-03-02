@@ -6,7 +6,7 @@ description: "Kompaktes Nachschlagewerk mit Erklärungen zu Fachbegriffen aus KI
 comments: false
 HideTags: true
 showToc: true
-TocOpen: true
+TocOpen: false
 searchHidden: false
 hidemeta: true
 disableShare: true
