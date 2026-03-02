@@ -15,6 +15,8 @@ author: "Attila Krick"
 cover:
   image: "cover.webp"
   alt: "Futuristischer Dirigent, der KI-Agenten und Datenströme orchestriert"
+images:
+  - "cover.jpg"
   caption: "Agenten-Orchestrierung in der Praxis"
   relative: true
 showToc: true
