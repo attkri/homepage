@@ -40,7 +40,7 @@ Das Ergebnis? Ein absolutes "Aha"-Erlebnis.
 
 Das Setup in OpenCode bestand nicht aus einem monolithischen Chatbot, sondern aus klaren, voneinander getrennten Rollen. Hier ist der Workflow, wie die Agenten zusammenarbeiten:
 
-![Agenten Workflow Diagramm](ki-agenten-orchestrierung-workflow.png)
+![Agenten Workflow Diagramm](ki-agenten-orchestrierung-workflow.webp)
 
 - **Der Code-Orchestrator:** Der Projektleiter, der die Aufgaben verteilt.
 - **Der Code-Planner:** Erstellt den verbindlichen Implementierungsplan, ohne selbst Code zu schreiben.
