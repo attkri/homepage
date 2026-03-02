@@ -13,7 +13,7 @@ tags:
   - Softwarearchitektur
 author: "Attila Krick"
 cover:
-  image: "cover.png"
+  image: "cover.jpg"
   alt: "Futuristischer Dirigent, der KI-Agenten und Datenströme orchestriert"
   caption: "Agenten-Orchestrierung in der Praxis"
   relative: true
