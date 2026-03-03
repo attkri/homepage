@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-03-03T00:00:00+02:00
+date: 2026-03-01T00:00:00+02:00
 title: "PowerShell 7 starten: Setup mit VS Code und Windows Terminal"
 description: "Erfahre, wie du PowerShell 7 starten und produktiv nutzen kannst. Inklusive Setup für VS Code und Windows Terminal ohne typische Einsteigerfehler."
 aliases:

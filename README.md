@@ -26,6 +26,10 @@ Dieses Repository enthält Inhalte, Layouts und Konfigurationen für die Hugo-We
 - Versionsverwaltung und Hosting über GitHub
 - OpenCode
 
+## Deployment
+
+Wenn in den `main`-Branch gepusht wird, greift die GitHub Action `Deploy Hugo site to Pages` und veröffentlicht die Website automatisch.
+
 ## Wichtige Kommandos
 
 | Kommando         | Zweck                                          |

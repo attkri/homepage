@@ -11,7 +11,13 @@
 - **Google Search Console Export Ende März 2026 erneut ausführen**
   - Kontext: Fälligkeit 2026-03-31, Export nach `.Analyses/YYYY-MM-DD/gsc-exports/`, Auswertung in `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`.
 
-- verwerten!
+- Neue Blog-Themen
+  - Agent Skills
+    - https://agentskills.io/home
+    - https://github.com/anthropics/skills/tree/main/skills
+    - https://github.com/microsoft/skills
+    - https://github.com/vercel-labs/agent-skills
+    - https://github.com/agentskills/agentskills
 
 <!-- ## Mein Wertbeitrag
 

@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-03-03T00:00:00+02:00
+date: 2026-03-02T00:00:00+02:00
 title: "PowerShell Best Practices für wartbare Skripte"
 description: "Best Practices für PowerShell-Scripting: Struktur, Logging, Tests mit Pester und klare Standards für Teams."
 aliases:

@@ -15,6 +15,10 @@ param(
     [string]$RefreshToken,
     [string]$AccessToken,
     [string]$Text,
+    [string]$ArticleUrl,
+    [string]$ArticleTitle,
+    [string]$ArticleDescription,
+    [string]$ArticleThumbnailUrl,
     [ValidateSet('PUBLIC', 'CONNECTIONS')]
     [string]$Visibility = 'PUBLIC',
     [string]$PostUrn,
@@ -430,14 +434,34 @@ switch ($Action) {
         $token = Resolve-AccessToken -DirectToken $AccessToken -Path $TokenFile
         $authorUrn = Get-AuthorUrn -Token $token -OrgId $OrganizationId
 
+        $shareContent = @{
+            shareCommentary   = @{ text = $Text }
+            shareMediaCategory = 'NONE'
+        }
+
+        if (-not [string]::IsNullOrWhiteSpace($ArticleUrl)) {
+            $shareContent.shareMediaCategory = 'ARTICLE'
+            $media = @{
+                status = 'READY'
+                originalUrl = $ArticleUrl
+            }
+            if (-not [string]::IsNullOrWhiteSpace($ArticleTitle)) {
+                $media.title = @{ text = $ArticleTitle }
+            }
+            if (-not [string]::IsNullOrWhiteSpace($ArticleDescription)) {
+                $media.description = @{ text = $ArticleDescription }
+            }
+            if (-not [string]::IsNullOrWhiteSpace($ArticleThumbnailUrl)) {
+                $media.thumbnails = @( @{ resolvedUrl = $ArticleThumbnailUrl } )
+            }
+            $shareContent.media = @($media)
+        }
+
         $body = @{
             author          = $authorUrn
             lifecycleState  = 'PUBLISHED'
             specificContent = @{
-                'com.linkedin.ugc.ShareContent' = @{
-                    shareCommentary   = @{ text = $Text }
-                    shareMediaCategory = 'NONE'
-                }
+                'com.linkedin.ugc.ShareContent' = $shareContent
             }
             visibility      = @{
                 'com.linkedin.ugc.MemberNetworkVisibility' = $Visibility

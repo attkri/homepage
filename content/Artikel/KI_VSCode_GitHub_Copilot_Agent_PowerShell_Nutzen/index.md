@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-03-03T00:00:00+02:00
+date: 2026-03-02T00:00:00+02:00
 title: "GitHub Copilot Agent in VS Code: PowerShell schneller und sicherer entwickeln"
 description: "Praxisleitfaden für Unternehmen: So nutzt du GitHub Copilot Agent in VS Code für PowerShell mit klaren Teamregeln, Review-Prozess und stabiler Codequalität."
 summary: "Copilot Agent in VS Code beschleunigt PowerShell-Entwicklung, wenn klare Aufgaben, Teamregeln und feste Review-Schritte vorgegeben sind."
