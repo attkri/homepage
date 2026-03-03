@@ -1,8 +1,8 @@
 ---
 draft: false
-date: 2026-02-08T00:00:00+02:00
-title: "PowerShell produktiv starten: Setup mit VS Code und Windows Terminal"
-description: "So richtest du PowerShell 7, VS Code und Windows Terminal sauber ein und startest mit den ersten Cmdlets ohne typische Einsteigerfehler."
+date: 2026-03-03T00:00:00+02:00
+title: "PowerShell 7 starten: Setup mit VS Code und Windows Terminal"
+description: "Erfahre, wie du PowerShell 7 starten und produktiv nutzen kannst. Inklusive Setup für VS Code und Windows Terminal ohne typische Einsteigerfehler."
 aliases:
   - /powershell/gui-mit-powershell-erstellen/
 categories:
@@ -33,7 +33,7 @@ disableHLJS: true
 
 Dieser Artikel beantwortet eine konkrete Frage: **Wie richtest du PowerShell so ein, dass du vom ersten Tag an stabil und produktiv arbeiten kannst?**
 
-> Stand: 2026-02  
+> Stand: 2026  
 > Getestet mit: PowerShell 7.5 (`pwsh`), VS Code und Windows Terminal unter Windows 11.
 
 ## 1) PowerShell 7 installieren

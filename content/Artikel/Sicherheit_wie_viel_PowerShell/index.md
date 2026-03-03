@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-02-08T00:00:00+02:00
+date: 2026-03-03T00:00:00+02:00
 title: "Wie viel PowerShell braucht moderne IT-Sicherheit?"
 description: "PowerShell ist ein Schlüsselwerkzeug der IT-Sicherheit. Entdecke, wie du damit Audits, Protokolle und Systemhärtung automatisierst – sicher, effizient und nachvollziehbar."
 categories:
@@ -32,7 +32,7 @@ disableHLJS: true
 
 *Warum automatisiertes Auditing, Reporting und Härtung ohne PowerShell nicht mehr zeitgemäß ist – und wie du das volle Potenzial sicher ausschöpfst.*
 
-> Stand: 2026-02  
+> Stand: 2026  
 > Getestet mit: PowerShell 7.5 (`pwsh`) in Security-, Audit- und Betriebsszenarien.
 
 ### PowerShell – das unterschätzte Sicherheitswerkzeug
@@ -91,7 +91,7 @@ Darüber hinaus bietet PowerShell native Möglichkeiten zur Verschlüsselung, zu
 
 ## Sicherheitsrisiken? Ja – aber kontrollierbar
 
-Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte [Living-off-the-Land-Techniken](/glossar/#living-off-the-land). Doch statt das Tool zu verbannen, gilt es, sichere Rahmenbedingungen zu schaffen:
+Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte [Living-off-the-Land-Techniken](/glossar/#living-off-the-land). Wer [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}}) möchte, muss klare Rahmenbedingungen schaffen:
 
 - signierte Skripte und Execution Policies
 - rollenbasierte Rechtevergabe

@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-02-08T00:00:00+02:00
+date: 2026-03-03T00:00:00+02:00
 title: "PowerShell Best Practices für wartbare Skripte"
 description: "Best Practices für PowerShell-Scripting: Struktur, Logging, Tests mit Pester und klare Standards für Teams."
 aliases:
@@ -28,16 +28,16 @@ disableHLJS: true
 
 Dieser Artikel beantwortet eine klare Frage: **Welche Regeln machen PowerShell-Skripte im Team dauerhaft wartbar und sicher betreibbar?**
 
-> Stand: 2026-02  
+> Stand: 2026  
 > Getestet mit: PowerShell 7.4 ([LTS](/glossar/#lts-long-term-support)) und 7.5 für typische Admin- und Automatisierungsaufgaben.
 
 ## PowerShell Scripting Best Practices im Team
 
 ## 10 Best Practices für professionelles PowerShell-Scripting
 
-### 1) Namen so waehlen, dass Absicht sofort klar ist
+### 1) Namen so wählen, dass Absicht sofort klar ist
 
-Lesbarkeit ist die Basis fuer Wartbarkeit. Variablen und Funktionen sollten den fachlichen Zweck zeigen, nicht nur den Datentyp.
+Lesbarkeit ist die Basis für Wartbarkeit. Variablen und Funktionen sollten den fachlichen Zweck zeigen, nicht nur den Datentyp.
 
 ```powershell
 $logFilePath = "C:\Logs\deployment.log"
@@ -56,13 +56,13 @@ catch {
     Write-Error "Datei konnte nicht gelesen werden: $_"
 }
 finally {
-    Write-Verbose "Aufraeumarbeiten abgeschlossen" -Verbose
+    Write-Verbose "Aufräumarbeiten abgeschlossen" -Verbose
 }
 ```
 
 ### 3) Eingaben validieren, bevor Business-Logik startet
 
-Parameter-Validierung reduziert Laufzeitfehler und macht Funktionen selbsterklaerend.
+Parameter-Validierung reduziert Laufzeitfehler und macht Funktionen selbsterklärend.
 
 ```powershell
 function Set-UserPassword {
@@ -90,7 +90,7 @@ function Get-FreeDiskSpace {
 
 ### 5) Logging standardisieren
 
-Ohne vernuenftiges Logging wird Incident-Analyse teuer. Nutze ein einheitliches Format mit Zeitstempel und Level.
+Ohne vernünftiges Logging wird Incident-Analyse teuer. Nutze ein einheitliches Format mit Zeitstempel und Level.
 
 ```powershell
 function Write-Log {
@@ -127,7 +127,7 @@ Nutze `#Requires`, least privilege und Code-Signing, wenn Skripte in sensiblen U
 
 ### 8) Module statt Skript-Monolithen bauen
 
-Ab einer gewissen Groesse sollten wiederverwendbare Funktionen in Module wandern. Das verbessert Versionierung und Deployment.
+Ab einer gewissen Größe sollten wiederverwendbare Funktionen in Module wandern. Das verbessert Versionierung und Deployment.
 
 ```powershell
 New-ModuleManifest -Path "C:\Modules\Company.Automation\Company.Automation.psd1"
@@ -150,15 +150,15 @@ $duration.TotalMilliseconds
 
 Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logging-Format, Fehlerstrategie, Testpflicht.
 
-## Mini-Checkliste fuer den produktiven Einsatz
+## Mini-Checkliste für den produktiven Einsatz
 
 - Eingaben validiert und Fehlerpfade getestet
 - Logging mit Zeitstempel und Severity aktiv
 - [Pester](/glossar/#pester)-Tests in CI/CD integriert
-- Versions- und Modulabhaengigkeiten mit `#Requires` definiert
-- Rollback-Plan fuer kritische Jobs dokumentiert
+- Versions- und Modulabhängigkeiten mit `#Requires` definiert
+- Rollback-Plan für kritische Jobs dokumentiert
 
-## Weiterfuehrende Inhalte
+## Weiterführende Inhalte
 
 - [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
 - [PowerShell Cmdlet finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
@@ -169,4 +169,4 @@ Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logg
 
 ## Fazit
 
-PowerShell-Skripte sind dann professionell, wenn sie auch nach Monaten nachvollziehbar, sicher und testbar bleiben. Mit diesen 10 Regeln minimierst du Betriebsrisiko und erhoehst die Geschwindigkeit im Team spuerbar.
+PowerShell-Skripte sind dann professionell, wenn sie auch nach Monaten nachvollziehbar, sicher und testbar bleiben. Um [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}}) zu können, minimierst du mit diesen 10 Regeln das Betriebsrisiko und erhöhst die Geschwindigkeit im Team spürbar.

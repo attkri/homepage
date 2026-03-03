@@ -1,8 +1,8 @@
 ﻿---
 draft: false
-date: 2026-02-11T00:00:00+02:00
-title: "SQL Performance Tuning für SQL Server | Attila Krick"
-description: "SQL Performance Tuning mit messbaren Ergebnissen: Abfragen beschleunigen, Engpässe beheben und Datenbank-Performance nachhaltig verbessern."
+date: 2026-03-03T00:00:00+02:00
+title: "Performance SQL Server Tuning | Attila Krick"
+description: "Performance SQL Server Tuning mit messbaren Ergebnissen: Abfragen beschleunigen, Engpässe beheben und Datenbank-Performance nachhaltig verbessern."
 schemaType: "Service"
 serviceType: "SQL Performance Tuning"
 schemaProvider: "Attila Krick"
@@ -22,7 +22,7 @@ comments: false
 HideTags: true
 ---
 
-Wenn SQL-Abfragen zu langsam sind und Reports oder Fachprozesse ausbremsen, brauchst du kein Rätselraten, sondern ein systematisches Performance Tuning. Ich unterstütze dich dabei, Engpässe reproduzierbar zu identifizieren und gezielt zu beseitigen.
+Wenn SQL-Abfragen zu langsam sind und Reports oder Fachprozesse ausbremsen, brauchst du kein Rätselraten, sondern ein systematisches Tuning für die Performance im SQL Server. Ich unterstütze dich dabei, Engpässe reproduzierbar zu identifizieren und gezielt zu beseitigen.
 
 ## Wann diese Leistung sinnvoll ist
 

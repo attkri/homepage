@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-02-09T00:00:00+02:00
+date: 2026-03-03T00:00:00+02:00
 title: "GitHub Copilot Agent in VS Code: PowerShell schneller und sicherer entwickeln"
 description: "Praxisleitfaden für Unternehmen: So nutzt du GitHub Copilot Agent in VS Code für PowerShell mit klaren Teamregeln, Review-Prozess und stabiler Codequalität."
 summary: "Copilot Agent in VS Code beschleunigt PowerShell-Entwicklung, wenn klare Aufgaben, Teamregeln und feste Review-Schritte vorgegeben sind."
@@ -37,7 +37,7 @@ Ja. [GitHub Copilot](/glossar/#github-copilot) Agent in VS Code hilft bei PowerS
 
 Ich bin Attila Krick, PowerShell-Trainer und Berater. In diesem Beitrag zeige ich einen Workflow, der in Unternehmen und Behörden praxistauglich ist.
 
-**Stand: 2026-02**  
+> Stand: 2026  
 **Getestet mit:** VS Code, GitHub Copilot Agent, Pester und PSScriptAnalyzer in einem Review-basierten Teamworkflow.
 
 ## Was ist Copilot Agent im PowerShell-Kontext?
@@ -138,7 +138,7 @@ Nutzen: Du baust schneller ein Sicherheitsnetz für spätere Änderungen.
 ## Sicherheits- und Qualitätsregeln für Unternehmen
 
 - Nutze Copilot Agent nicht mit unklassifizierten sensiblen Daten.
-- Prüfe jeden generierten Befehl mit Blick auf Rechte, Nebenwirkungen und Scope.
+- Prüfe jeden generierten Befehl mit Blick auf Rechte, Nebenwirkungen und Scope, um [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}}) zu können.
 - Erzwinge [Code-Reviews](/glossar/#code-review) vor Merge, auch bei kleinen KI-Änderungen.
 - Führe PSScriptAnalyzer und Pester in der Pipeline verbindlich aus.
 - Dokumentiere, welche KI-Unterstützung für welches Repository erlaubt ist.
@@ -196,6 +196,6 @@ Beginne mit einem klar begrenzten Pilot-Repository, dokumentiere Prompt-Standard
 
 Copilot Agent in VS Code ist für PowerShell ein echter Hebel, wenn du Führung und Qualität kombinierst. KI ersetzt keine Verantwortung, aber sie beschleunigt sauber geführte Entwicklungsarbeit deutlich.
 
-💡 **Tipp:** Wenn du noch einen Schritt weiter gehen willst und KI nicht nur als Assistent, sondern als vollautomatisiertes Team für ganze Projekte einsetzen möchtest, lies meinen Erfahrungsbericht: **[Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert](/artikel/orchestrierung-von-ki-agenten/)**.
+💡 **Tipp:** Wenn du noch einen Schritt weiter gehen willst und KI nicht nur als Assistent, sondern als vollautomatisiertes Team für ganze Projekte einsetzen möchtest, lies meinen Erfahrungsbericht: **[Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert]({{< relref "/Artikel/Orchestrierung-von-KI-Agenten/index.md" >}})**.
 
 Wenn du in deinem Team einen belastbaren KI-Workflow für PowerShell etablieren willst, unterstütze ich dich mit praxisnahen Workshops und konkretem Setup für eure Umgebung.
