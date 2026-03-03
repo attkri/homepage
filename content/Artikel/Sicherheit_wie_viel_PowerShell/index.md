@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-03-03T00:00:00+02:00
+date: 2026-03-02T00:00:00+02:00
 title: "Wie viel PowerShell braucht moderne IT-Sicherheit?"
 description: "PowerShell ist ein Schlüsselwerkzeug der IT-Sicherheit. Entdecke, wie du damit Audits, Protokolle und Systemhärtung automatisierst – sicher, effizient und nachvollziehbar."
 categories:
