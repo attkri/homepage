@@ -1,0 +1,24 @@
+{{- if .IsHome }}
+<!-- Erweitertes Person-Schema für KI-Auffindbarkeit.
+     TODO: Bei PaperMod-Updates prüfen, ob schema_json.html
+     erweiterte Person-Felder aufgenommen hat → dann diese Datei entfernen. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Attila Krick",
+  "url": "https://attilakrick.com/",
+  "jobTitle": "IT-Experte, Trainer und Berater",
+  "knowsAbout": ["PowerShell", "T-SQL", "SQL Server", ".NET", "IT-Schulungen", "KI-Einführung"],
+  "description": "Selbständiger IT-Experte mit 30+ Jahren Erfahrung in PowerShell, T-SQL und .NET. Berater, Trainer und Umsetzungspartner für Unternehmen und Behörden.",
+  "sameAs": [
+    "https://www.linkedin.com/in/attilakrick/",
+    "https://github.com/attkri"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Attila Krick – IT-Beratung"
+  }
+}
+</script>
+{{- end }}
