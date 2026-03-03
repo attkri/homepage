@@ -1,6 +1,7 @@
 ---
 draft: false
 date: 2026-02-08T00:00:00+02:00
+lastmod: 2026-03-04T00:00:00+01:00
 title: "PowerShell Sicherheit: Execution Policy, Signierung, Hardening"
 description: "So setzt du PowerShell sicher ein: Execution Policy, Script-Signierung und konkrete Hardening-Schritte für produktive Umgebungen."
 aliases:
@@ -28,6 +29,11 @@ ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
 disableHLJS: true
+faqs:
+  - question: "Kann ich die Policy für ein einzelnes Skript umgehen?"
+    answer: "Ja, technisch zum Beispiel über den Parameter -ExecutionPolicy Bypass, aber nur in klar dokumentierten Ausnahmefällen."
+  - question: "Gilt Execution Policy auch auf Linux/macOS?"
+    answer: "Nicht im gleichen Sinne wie unter Windows. Dort greifen andere Sicherheitsmechanismen wie Berechtigungen, Laufzeitumgebung und OS-Hardening."
 ---
 
 ## Welche Frage beantwortet dieser Artikel?

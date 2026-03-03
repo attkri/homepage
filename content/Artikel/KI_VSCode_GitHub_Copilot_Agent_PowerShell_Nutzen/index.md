@@ -1,6 +1,7 @@
 ---
 draft: false
 date: 2026-03-02T00:00:00+02:00
+lastmod: 2026-03-04T00:00:00+01:00
 title: "GitHub Copilot Agent in VS Code: PowerShell schneller und sicherer entwickeln"
 description: "Praxisleitfaden für Unternehmen: So nutzt du GitHub Copilot Agent in VS Code für PowerShell mit klaren Teamregeln, Review-Prozess und stabiler Codequalität."
 summary: "Copilot Agent in VS Code beschleunigt PowerShell-Entwicklung, wenn klare Aufgaben, Teamregeln und feste Review-Schritte vorgegeben sind."
@@ -22,6 +23,17 @@ ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
 disableHLJS: true
+faqs:
+  - question: "Ist Copilot Agent für produktive PowerShell-Skripte geeignet?"
+    answer: "Ja, wenn ein klarer Qualitätsprozess existiert: Review durch erfahrene Entwickler, automatisierte Tests mit Pester und statische Analyse mit PSScriptAnalyzer."
+  - question: "Ersetzt der Agent erfahrene PowerShell-Entwickler?"
+    answer: "Nein. Der Agent beschleunigt Entwurf und Routinearbeiten. Architektur, Sicherheitsentscheidungen und fachliche Verantwortung bleiben beim Team."
+  - question: "Welche Aufgaben bringen den größten Nutzen?"
+    answer: "Hoher Nutzen entsteht bei Skriptgerüsten, Refactoring in kleinere Funktionen, Testvorlagen und Dokumentationsentwürfen."
+  - question: "Was ist der häufigste Fehler im Teamalltag?"
+    answer: "Zu vage Prompts. Definiere immer Ziel, Grenzen, Qualitätskriterien und verbotene Aktionen wie unkontrollierte Änderungen an produktiven Skripten."
+  - question: "Wie starte ich in einem Unternehmen ohne Risiko?"
+    answer: "Beginne mit einem klar begrenzten Pilot-Repository, dokumentiere Prompt-Standards, messe Qualität über Testabdeckung und führe erst danach schrittweise weitere Teams ein."
 ---
 
 ```goat

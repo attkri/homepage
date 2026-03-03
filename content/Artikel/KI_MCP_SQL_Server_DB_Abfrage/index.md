@@ -1,9 +1,10 @@
 ---
 draft: false
 date: 2026-02-09T00:00:00+02:00
+lastmod: 2026-03-04T00:00:00+01:00
 title: "MCP und SQL Server: KI-Abfragen kontrolliert und sicher einsetzen"
 description: "So nutzt du MCP für SQL Server mit klaren Rechten, stabilen Tool-Schnittstellen und reproduzierbaren Ergebnissen für Analyseaufgaben in Unternehmen."
-summary: "MCP standardisiert KI-gestuetzte SQL-Server-Abfragen ueber freigegebene Tools, klare Rechte und reproduzierbare Rueckgabeformate."
+summary: "MCP standardisiert KI-gestützte SQL-Server-Abfragen über freigegebene Tools, klare Rechte und reproduzierbare Rückgabeformate."
 categories:
   - T-SQL
 tags:
@@ -22,6 +23,17 @@ ShowPostNavLinks: true
 ShowShareButtons: true
 ShowCodeCopyButtons: true
 disableHLJS: true
+faqs:
+  - question: "Was ist der wichtigste Vorteil von MCP bei SQL-Server-Abfragen?"
+    answer: "MCP schafft eine kontrollierte Schnittstelle zwischen KI und Datenbank. Dadurch sind Rechte, erlaubte Funktionen und Ausgabeformate klar definiert."
+  - question: "Kann MCP Schreibzugriffe vollständig verhindern?"
+    answer: "Ja, wenn du die freigegebenen MCP-Tools strikt auf Lesezugriffe beschränkst und Datenbankrechte konsequent als Read-only konfigurierst."
+  - question: "Für welche Teams ist MCP besonders sinnvoll?"
+    answer: "Für Teams mit Governance-Anforderungen, sensiblen Daten oder Audit-Pflichten, die KI nutzen möchten, ohne direkte Datenbankzugriffe unkontrolliert zu öffnen."
+  - question: "Reicht MCP allein für gute Query-Qualität aus?"
+    answer: "Nein. Zusätzlich brauchst du sauberes Datenmodell, passende Indizes, definierte Prompt-Standards und fachliche Validierung der Ergebnisse."
+  - question: "Wie sieht ein sinnvoller Einstieg aus?"
+    answer: "Starte mit 3 bis 5 klaren Analysefällen, implementiere dafür jeweils ein enges MCP-Tool und überprüfe Qualität und Laufzeit mit realen Fachfragen."
 ---
 
 ```goat
