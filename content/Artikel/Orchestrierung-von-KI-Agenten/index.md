@@ -42,7 +42,7 @@ Das Setup in OpenCode bestand nicht aus einem monolithischen Chatbot, sondern au
 
 - **Der Code-Orchestrator:** Der Projektleiter, der die Aufgaben verteilt.
 - **Der Code-Planner:** Erstellt den verbindlichen Implementierungsplan, ohne selbst Code zu schreiben.
-- **Der Code-Critic:** Ein schonungsloser Prüfer. Er sucht nach Logikfehlern, Architekturbrüchen und Edge-Cases.
+- **Der Code-Critic:** Ein schonungsloser Prüfer. Er sucht nach Logikfehlern, Architekturbrüchen und Edge-Cases. ([Mehr zur Rolle des Kritiker-Agenten erfahren Sie hier](/artikel/kritiker-agent-ki-workflows/))
 - **Der Code-Coder:** Der fleißige Entwickler.
 - **Der Code-Tester & Reviewer:** Schreiben fehlende XUnit-Tests und prüfen auf Best Practices.
 - **Der Code-Publisher:** Kümmert sich um Release-Notes, Versionierung und das Deployment.
