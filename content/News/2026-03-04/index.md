@@ -1,0 +1,158 @@
+---
+draft: false
+date: 2026-03-04T00:00:00+01:00
+title: "IT-News vom 4. März 2026"
+description: "Trump verbietet US-Behörden den Einsatz von Anthropic-KI, Claude erhält kostenloses Gedächtnis für alle Nutzer, und Microsoft stellt die PowerShell-Roadmap 2026 mit MCP-Server-Integration vor."
+categories:
+  - Divers
+tags:
+  - News
+  - KI
+  - PowerShell
+  - IT-Security
+  - Claude
+author: "Attila Krick"
+showToc: true
+TocOpen: false
+comments: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: false
+ShowCodeCopyButtons: false
+disableHLJS: true
+---
+
+## Breaking News
+
+### Topic-Cluster: Trump verbannt Anthropic aus US-Behörden
+
+Die Eskalation im Konflikt zwischen dem US-Militär und dem KI-Unternehmen Anthropic hat eine neue Dimension erreicht: Präsident Trump hat per Dekret allen Bundesbehörden die Nutzung von Anthropic-Technologie mit sofortiger Wirkung untersagt. Hintergrund ist Anthropics Weigerung, Claude für autonome Waffensysteme und Massenüberwachung freizugeben. Rüstungskonzerne wie Lockheed Martin bereiten sich bereits darauf vor, die KI aus ihren Lieferketten zu entfernen, obwohl Juristen die Rechtsgrundlage des Dekrets anzweifeln. Parallel prüft die EU, ob Anthropic unter besseren Rahmenbedingungen nach Europa wechseln kann.
+
+Community-Reaktion: In der Tech-Community polarisiert der Fall stark. Während viele Anthropic für seine ethische Haltung loben, warnen Kritiker vor den wirtschaftlichen Folgen für das Unternehmen. Bei Google und OpenAI protestieren Mitarbeiter gegen ähnliche Regierungsdeals ihrer eigenen Arbeitgeber.
+
+Quellen: [Süddeutsche Zeitung](https://www.sueddeutsche.de/politik/usa-news-liveblog-usa-lutnick-epstein-aussage-li.3395873) · [Golem.de](https://www.golem.de/news/google-und-openai-ki-angestellte-protestieren-gegen-regierungsdeals-2603-206079.html) · [Tagesschau](https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-openai-pentagon-trump-100.html) · [ZDFheute](https://www.zdfheute.de/politik/deutschland/anthropic-ki-deutschland-eu-spd-trump-100.html)
+
+---
+
+## KI
+
+### Topic-Cluster: Claude öffnet Gedächtnis für alle und lanciert Wechsel-Offensive gegen ChatGPT
+
+Anthropic stellt die bisher kostenpflichtige Memory-Funktion für alle Claude-Nutzer kostenlos bereit und veröffentlicht gleichzeitig ein Import-Tool, das gespeicherte Daten direkt aus ChatGPT oder Google Gemini übernimmt. Die täglichen Neuanmeldungen haben sich laut Anthropic seit Januar 2026 vervierfacht. Der Schritt erfolgt strategisch: Während ChatGPT durch den Pentagon-Deal an Vertrauen verliert, positioniert Anthropic Claude als datenschutzfreundlichere Alternative.
+
+Quellen: [t3n](https://t3n.de/news/anthropic-erleichtert-den-umstieg-von-chatgpt-claude-bekommt-kostenlosen-memory-import-1732131/) · [ComputerBase](https://www.computerbase.de/news/apps/chatgpt-konkurrent-claude-anthropic-fuehrt-kostenlose-ki-speicherfunktion-fuer-alle-ein.96377/) · [ifun.de](https://www.ifun.de/wechsel-offensive-claude-importiert-chatgpt-erinnerungen-275455/)
+
+---
+
+### Anthropic mit 90 % B2B-Marktanteil – BullshitBench entlarvt KI-Schwächen
+
+Neue Marktdaten zeigen, dass Anthropic im B2B-Segment 90 % Marktanteil gegenüber OpenAI hält. Gleichzeitig liefert der BullshitBench-Benchmark ein ernüchterndes Bild: Die meisten modernen KI-Systeme stimmen zu leicht zu und legen kaum Widerspruch ein – nur Anthropic zeigt laut Benchmark eine kontinuierliche Verbesserung in diesem Bereich.
+
+Quellen: [All-AI.de (Marktanteil)](https://www.all-ai.de/news/news26top/anthropic-b2b-openai) · [All-AI.de (BullshitBench)](https://www.all-ai.de/news/beitrage2026/bullshit-bench-ki)
+
+---
+
+## Tools & Dev
+
+### Claude Code erhält Voice Mode für Sprachsteuerung
+
+Anthropic hat Claude Code um einen Voice Mode erweitert. Der Modus wird mit dem Befehl `/voice` aktiviert und erlaubt gesprochene Anweisungen statt Texteingaben. Details zu Nutzungsgrenzen oder Sprachanbieter-Partnerschaften hat Anthropic bislang nicht veröffentlicht.
+
+*Quelle: it-daily.net · 4. März 2026*
+
+→ Tiefer einsteigen: [KI-Agenten mit VS Code, GitHub Copilot und PowerShell nutzen](/artikel/ki-vscode-github-copilot-agent-powershell-nutzen/)
+
+---
+
+### Custom AI Agents in Visual Studio: Built-in und selbst gebaut (EN)
+
+Visual Studio integriert ab sofort KI-Agenten direkt in die IDE. Neben vorgefertigten Agenten können Entwickler eigene Agenten definieren und in die Entwicklungsumgebung einbinden. Die Neuerung erweitert die Automatisierungsmöglichkeiten im Vergleich zu bisherigen Copilot-Features deutlich.
+
+*Quelle: visualstudiomagazine.com (EN) · 3. März 2026*
+
+---
+
+## PowerShell & Automation
+
+### PowerShell 2026 Roadmap: MCP Server, PS 7.7 und EntraID-SSH
+
+Das PowerShell-Team hat die Investitionsschwerpunkte für 2026 veröffentlicht. Die wichtigsten Vorhaben: Ein offizieller MCP Server für KI-Integration kommt in PowerShell 7.7, Bash-kompatible Aliase erleichtern den Umstieg von Linux-Admins, und der Speicherort für Benutzerinhalte (Module, Profile, Hilfedateien) wird aus dem Dokumente-Ordner herausgelöst – was das lang bekannte OneDrive-Synchronisierungsproblem löst. Für Windows OpenSSH wird EntraID-Authentifizierung evaluiert. DSC v3.2 erhält einen Python-Adapter. Übergreifende Priorität: Security First vor Feature-Entwicklung.
+
+*Quelle: der-windows-papst.de · 3. März 2026*
+
+→ Tiefer einsteigen: [KI-Agenten mit VS Code, GitHub Copilot und PowerShell nutzen](/artikel/ki-vscode-github-copilot-agent-powershell-nutzen/)
+
+---
+
+## .NET
+
+### dotInsights März 2026: Monatlicher .NET-Digest von JetBrains (EN)
+
+JetBrains veröffentlicht die März-Ausgabe des dotInsights-Newsletters mit einer Zusammenfassung relevanter .NET-Neuigkeiten, Community-Beiträgen und Tooling-Updates aus dem vergangenen Monat.
+
+*Quelle: blog.jetbrains.com (EN) · 4. März 2026*
+
+---
+
+### Custom AI Agents in Visual Studio für .NET-Entwickler (EN)
+
+Neben dem Tools-Aspekt hat die Visual Studio Agent-Integration direkte Relevanz für .NET-Entwickler: Eigene Agenten lassen sich per Frontmatter-Definition in Workflows einbinden und können auf spezifische Codebasen, Build-Skripte und CI/CD-Pipelines zugreifen.
+
+*Quelle: visualstudiomagazine.com (EN) · 3. März 2026*
+
+---
+
+## T-SQL & SQL Server
+
+### SQL Server 2025: Drei neue Neuerungen für die Datensicherung
+
+SQL Server 2025 bringt wesentliche Verbesserungen beim Backup: Erstens lässt sich das Backup nun vollständig auf ein sekundäres Replikat auslagern und entlastet damit das primäre System. Zweitens unterstützt die neue Version die Sicherung in unveränderlichen Azure-Speicher (Immutable Storage), was Ransomware-Schutz für Backups ermöglicht. Drittens kommt ein neuer Kompressionsalgorithmus hinzu, der die Backup-Größen reduziert.
+
+*Quelle: windowspro.de · 4. März 2026*
+
+→ Tiefer einsteigen: [KI und MCP: SQL Server Datenbank abfragen](/artikel/ki-mcp-sql-server-db-abfrage/)
+
+---
+
+## IT-Security
+
+### Windows Admin Center: Kritische Lücke CVE-2026-26119 gepatcht
+
+Microsoft hat eine kritische Sicherheitslücke im Windows Admin Center geschlossen (CVE-2026-26119 / EUVD-2026-7587). Details zur Ausnutzbarkeit hält Microsoft unter Verschluss, das Security Advisory bestätigt jedoch das kritische Risiko. Administratoren sollten das Update umgehend einspielen.
+
+*Quelle: security-insider.de · 4. März 2026*
+
+→ Tiefer einsteigen: [PowerShell sicher einsetzen](/artikel/powershell-sicher-einsetzen/)
+
+---
+
+### CISA warnt vor aktiven Angriffen auf VMware Aria Operations
+
+Die US-Sicherheitsbehörde CISA schlägt Alarm: Angreifer nutzen aktiv eine als „hoch" eingestufte Schwachstelle in VMware Aria Operations aus (CVE-2026-21385, CVSS 7.8). Betroffene Unternehmen sollten das verfügbare Patch sofort anwenden.
+
+*Quelle: heise.de · 4. März 2026*
+
+---
+
+### Android März-Patchday: 10 kritische und 107 gefährliche Lücken geschlossen
+
+Googles März-Sicherheitsupdate für Android schließt insgesamt 117 Schwachstellen, darunter 10 als kritisch eingestufte Lücken. CVE-2026-0006 und CVE-2025-48631 erlauben Angreifern Rechteausweitung und Code-Einschleusung auf Android 14 bis 16. Mehrere Lücken werden laut Google bereits aktiv ausgenutzt.
+
+*Quelle: all-about-security.de · 4. März 2026*
+
+---
+
+## Besonders relevant
+
+| Thema | Relevanz |
+| :--- | :--- |
+| Trump verbannt Anthropic aus US-Behörden | Hoch – direkte Auswirkung auf den B2B-KI-Markt; Claude-Nutzer in US-Behörden müssen wechseln |
+| PowerShell 2026 Roadmap (MCP Server, PS 7.7) | Hoch – MCP-Integration in PowerShell verändert Automatisierungs-Workflows grundlegend |
+| VMware Aria Operations (aktive Angriffe) | Hoch – CISA-Warnung bei laufenden Angriffen erfordert sofortiges Patchen |
+| Claude Memory kostenlos für alle | Mittel – senkt Wechselbarrieren von ChatGPT erheblich |
+| SQL Server 2025 Backup-Neuerungen | Mittel – Immutable-Storage-Backup ist wichtiger Schritt für Ransomware-Schutz |
+
+---
+
+*12 Artikel · Quellen: t3n.de, all-ai.de, der-windows-papst.de, security-insider.de, heise.de, all-about-security.de, computerbase.de, golem.de, windowspro.de, visualstudiomagazine.com, blog.jetbrains.com · Stand: 04.03.2026 12:00 (Europe/Berlin)*
