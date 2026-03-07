@@ -1,7 +1,7 @@
 ﻿---
 draft: false
 date: 2026-02-27T00:00:00+01:00
-lastmod: 2026-03-07T02:20:42+01:00
+lastmod: 2026-03-07T21:17:21+01:00
 title: "KI-Einführung für Unternehmen | Strategie & Einstieg"
 description: "KI-Einführung im Unternehmen strukturiert angehen: Orientierung schaffen, Anwendungsfälle priorisieren und einen belastbaren Einstieg für die nächsten Schritte vorbereiten."
 author: "Attila Krick"
@@ -53,9 +53,26 @@ Säule 1 ist kein Technikprojekt und keine Mischseite für alles rund um KI. Es 
 
 Wenn bereits klar ist, dass Sie einen konkreten Agenten oder einen produktionsnahen Umsetzungsablauf bauen möchten, ist meist die zweite Säule passender: [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/).
 
+## Passt diese Seite zu Ihrer Situation?
+
+**Sie sind hier richtig, wenn**
+
+- Sie Themen erst sortieren und priorisieren müssen
+- Sie noch keine saubere Beauftragung für eine konkrete Umsetzung formuliert haben
+- Sie zwischen Fachbereich, IT, Datenschutz und Führung erst ein gemeinsames Bild herstellen wollen
+
+**Diese Seite ist nicht der richtige Start, wenn**
+
+- ein konkreter Anwendungsfall bereits feststeht und jetzt technisch umgesetzt werden soll
+- erste produktive Abläufe schon laufen und es jetzt um Standards, Zuständigkeiten und Skalierung geht
+
+Dann sind eher [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/) oder später [KI-Ausbau](/leistung/ki-ausbau/) der bessere nächste Schritt.
+
 ## Bausteine innerhalb von KI-Strategie & Einstieg
 
 Diese Säule besteht nicht nur aus Beratung, sondern aus passenden Formaten für unterschiedliche Ausgangslagen.
+
+Die Reihenfolge ist bewusst einfach gehalten: Erst klären wir Ihre Ausgangslage in dieser Säule. Danach zeigt sich, ob ein Seminar, ein Grundlagenformat oder eine individuelle Begleitung der sinnvollste nächste Baustein ist.
 
 ### KI-Kompass Seminar
 
@@ -118,4 +135,5 @@ Unter Umständen ja. Über regionale Digitalisierungsprogramme, IHK-Angebote ode
 Kostenloses Erstgespräch anfragen – ich melde mich zeitnah.
 
 - [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)
+- [Direkt zum Kontaktformular](/kontakt/)
 - [Zur KI-Übersicht](/leistung/ki/)

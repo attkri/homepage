@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2026-03-06T16:40:00+01:00
-lastmod: 2026-03-07T02:29:43+01:00
+lastmod: 2026-03-07T21:17:21+01:00
 title: "KI-Leistungen für Unternehmen | Einstieg, Agenten, Ausbau"
 description: "KI-Leistungen für Unternehmen und Behörden mit klarer Wegführung: erst Orientierung und Priorisierung, dann Agenten-Umsetzung und danach kontrollierter Ausbau."
 author: "Attila Krick"
@@ -46,7 +46,7 @@ Dieser Weg ist kein Einstieg, sondern der Folgepfad nach den ersten realen Schri
 - Typische Lage: Erste Lösungen existieren bereits
 - Ziel: Ausbau, Regeln, Betrieb und Befähigung im größeren Rahmen
 - Anschluss: nach Strategiearbeit und erster Umsetzung
-- Einstieg hier: [Zu KI-Ausbau](/leistung/ki-ausbau/)
+- Weiter hier, wenn die ersten Schritte bereits stehen: [Zu KI-Ausbau](/leistung/ki-ausbau/)
 
 ## Kurz gesagt
 
@@ -59,4 +59,5 @@ Dieser Weg ist kein Einstieg, sondern der Folgepfad nach den ersten realen Schri
 Wenn Sie unsicher sind, welcher Weg für Ihr Vorhaben gerade der richtige ist, schildern Sie mir kurz Ihre Ausgangslage. Ich helfe Ihnen, den passenden Einstieg sauber zu wählen.
 
 - [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Leistung%20einordnen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0Awir%20m%C3%B6chten%20unser%20aktuelles%20KI-Vorhaben%20kurz%20einordnen.%0A%0AOrganisation%3A%20%0AAusgangslage%3A%20%0AZiel%3A%20%0A)
+- [Direkt zum Kontaktformular](/kontakt/)
 - [Zur allgemeinen Leistungsübersicht](/leistung/)

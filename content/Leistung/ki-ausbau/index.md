@@ -1,7 +1,7 @@
 ﻿---
 draft: false
 date: 2026-02-27T00:00:00+01:00
-lastmod: 2026-03-06T16:40:00+01:00
+lastmod: 2026-03-07T21:17:21+01:00
 title: "KI-Ausbau im Unternehmen | Skalierung, Regeln, Betrieb"
 description: "Nach dem KI-Piloten weitere Teams anbinden, Regeln und Zuständigkeiten festlegen, den Betrieb absichern und neue Anwendungsfälle kontrolliert ausbauen."
 author: "Attila Krick"
@@ -104,7 +104,9 @@ Das richtet sich nach dem individuellen Bedarf – von regelmäßigen Review-Ter
 
 ## Nächster Schritt
 
+- [Ausbau-Gespräch anfragen](mailto:info@attilakrick.com?subject=KI-Ausbau%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0Awir%20haben%20bereits%20erste%20KI-Erfahrungen%20oder%20einen%20Pilot%20im%20Haus%20und%20m%C3%B6chten%20den%20n%C3%A4chsten%20Ausbau-Schritt%20sauber%20planen.%0A%0AUnternehmen%3A%20%0AAnsprechperson%3A%20%0AAktueller%20Stand%3A%20%0AN%C3%A4chste%20Fragen%3A%20%0A)
+- [Direkt zum Kontaktformular](/kontakt/)
+- Wenn Sie noch keinen belastbaren ersten Ablauf haben, gehen Sie zuerst zu [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/).
 - [Zur Säule 1: KI-Strategie & Einstieg](/leistung/ki-einfuehrung/)
 - [Zur ersten Umsetzung: KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/)
 - [Zur KI-Übersicht](/leistung/ki/)
-- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)

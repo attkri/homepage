@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2026-03-06T15:20:00+01:00
-lastmod: 2026-03-07T20:44:18+01:00
+lastmod: 2026-03-07T21:17:21+01:00
 title: "KI-Agenten-Umsetzung für Unternehmen"
 description: "Konkrete KI-Agenten im Unternehmen strukturiert umsetzen: Rollen klären, Skills und Commands sauber schneiden, Systeme per MCP anbinden und erste produktive Abläufe aufbauen."
 author: "Attila Krick"
@@ -139,7 +139,8 @@ Ein MCP ist vereinfacht gesagt die saubere Verbindung zwischen einem KI-Agenten 
 
 Wenn Sie einen konkreten KI-Anwendungsfall im Blick haben und daraus einen belastbaren ersten Ablauf machen wollen, lassen Sie uns darüber sprechen.
 
+- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Agenten-Umsetzung%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0Awir%20m%C3%B6chten%20einen%20konkreten%20KI-Anwendungsfall%20in%20eine%20erste%20belastbare%20Umsetzung%20%C3%BCberf%C3%BChren.%0A%0AUnternehmen%3A%20%0AAnsprechperson%3A%20%0ABeschreibung%20des%20Anwendungsfalls%3A%20%0ABeteiligte%20Bereiche%3A%20%0A)
+- [Direkt zum Kontaktformular](/kontakt/)
 - [Zur Säule 1: KI-Strategie & Einstieg](/leistung/ki-einfuehrung/)
 - [Zum Folgepfad: KI-Ausbau](/leistung/ki-ausbau/)
 - [Zur KI-Übersicht](/leistung/ki/)
-- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Agenten-Umsetzung%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0Awir%20m%C3%B6chten%20einen%20konkreten%20KI-Anwendungsfall%20in%20eine%20erste%20belastbare%20Umsetzung%20%C3%BCberf%C3%BChren.%0A%0AUnternehmen%3A%20%0AAnsprechperson%3A%20%0ABeschreibung%20des%20Anwendungsfalls%3A%20%0ABeteiligte%20Bereiche%3A%20%0A)
