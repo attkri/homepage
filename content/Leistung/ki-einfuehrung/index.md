@@ -1,10 +1,19 @@
 ﻿---
 draft: false
 date: 2026-02-27T00:00:00+01:00
-title: "KI-Einführung für Unternehmen – Strategie, Einstieg & Umsetzung | Attila Krick"
-description: "KI im Unternehmen einführen: Von der ersten Orientierung über das Pilotprojekt bis zum laufenden Betrieb. Beratung und Umsetzung für Mittelstand und Behörden."
+lastmod: 2026-03-07T02:20:42+01:00
+title: "KI-Einführung für Unternehmen | Strategie & Einstieg"
+description: "KI-Einführung im Unternehmen strukturiert angehen: Orientierung schaffen, Anwendungsfälle priorisieren und einen belastbaren Einstieg für die nächsten Schritte vorbereiten."
+author: "Attila Krick"
+cover:
+  image: "strategie-einstieg.webp"
+  alt: "Geordnete Priorisierung für den KI-Einstieg in Unternehmen"
+  caption: "Von vielen Ideen zu einem klaren Einstieg"
+  relative: true
+aliases:
+  - /leistung/ki-einstieg/
 schemaType: "Service"
-serviceType: "KI-Beratung und Einführung"
+serviceType: "KI-Strategie und Einstieg"
 schemaProvider: "Attila Krick"
 areaServed:
   - Deutschland
@@ -22,34 +31,55 @@ comments: false
 HideTags: true
 ---
 
-Viele Unternehmen wissen, dass KI relevant ist – aber nicht, wo sie anfangen sollen, was es kostet und worauf sie achten müssen. Genau hier setzt dieses Angebot an: vom ersten gemeinsamen Überblick bis zum laufenden Betrieb.
+Viele Unternehmen wollen KI einführen, aber der erste sinnvolle Schritt ist oft noch unscharf. Unklar ist meist nicht das Ob, sondern das Wie: Wo lohnt sich der Einstieg, was sollte zuerst geklärt werden und wann ist ein Thema reif für die Beauftragung? Genau dafür gibt es diese Säule: **KI-Strategie & Einstieg**.
 
-## Wann diese Leistung sinnvoll ist
+Sie schaffen damit Entscheidungsreife, priorisieren sinnvolle Anwendungsfelder und bringen Ihr Vorhaben in eine Form, mit der intern sauber entschieden und extern klar beauftragt werden kann. Wenn Sie die Gesamtlogik der KI-Leistungen sehen möchten, finden Sie sie im [KI-Hub](/leistung/ki/).
 
-- Wenn im Unternehmen unterschiedliche Vorstellungen zu KI kursieren und niemand den Überblick hat
-- Wenn KI-Tools bereits genutzt werden, aber ohne klare Regeln und Verantwortlichkeiten
-- Wenn ein Pilotprojekt geplant ist, aber der konkrete nächste Schritt fehlt
-- Wenn die EU-KI-Verordnung Handlungsbedarf erzeugt und Orientierung gefragt ist
+## Wann ist KI-Strategie & Einstieg der richtige Schritt?
 
-## Direkt buchbar: KI-Kompass Seminar
+- Wenn im Unternehmen viele Ideen im Raum stehen, aber keine klare Priorisierung existiert
+- Wenn erste KI-Tools genutzt werden, ohne dass Ziele, Regeln und Verantwortlichkeiten sauber geklärt sind
+- Wenn ein Pilotprojekt diskutiert wird, aber noch nicht entscheidungsreif formuliert ist
+- Wenn Fachbereich, IT, Datenschutz oder Führung unterschiedliche Bilder vom Thema haben
+- Wenn die EU-KI-Verordnung Handlungsbedarf erzeugt und belastbare Einordnung gebraucht wird
 
-Wer zuerst ein solides Fundament legen will, startet mit dem [**KI-Kompass Seminar**](/leistung/ki-kompass-seminar/). In zwei Tagen erarbeiten Sie sich ein realistisches Gesamtbild: Was KI kann, was nicht, was es kostet, welche Pflichten gelten – und wie der eigene Fahrplan aussieht. Für gemischte Teams, ohne technisches Vorwissen, mit Workshop und eigenem Anwendungsfall.
+## Worum es in dieser Säule geht
 
-- **2 Tage, remote, max. 10 Teilnehmer, 950 € pro Person zzgl. MwSt.**
+Säule 1 ist kein Technikprojekt und keine Mischseite für alles rund um KI. Es geht um drei sehr konkrete Ergebnisse:
+
+- **Entscheidungsreife:** Sie wissen, welche Themen jetzt dran sind und welche besser später kommen.
+- **Priorisierung:** Aus allgemeinen Ideen werden wenige, belastbare Anwendungsfälle mit nachvollziehbarer Reihenfolge.
+- **Beauftragungsfähigkeit:** Anforderungen, Rollen und nächste Schritte sind so klar, dass daraus ein sauberes Projekt oder eine passende Beauftragung entstehen kann.
+
+Wenn bereits klar ist, dass Sie einen konkreten Agenten oder einen produktionsnahen Umsetzungsablauf bauen möchten, ist meist die zweite Säule passender: [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/).
+
+## Bausteine innerhalb von KI-Strategie & Einstieg
+
+Diese Säule besteht nicht nur aus Beratung, sondern aus passenden Formaten für unterschiedliche Ausgangslagen.
+
+### KI-Kompass Seminar
+
+Wer zuerst ein solides Gesamtbild braucht, startet mit dem [**KI-Kompass Seminar**](/leistung/ki-kompass-seminar/). In zwei Tagen entsteht ein gemeinsames Verständnis von Chancen, Grenzen, Kosten, Pflichten und sinnvollen nächsten Schritten.
+
+- **2 Tage, remote direkt buchbar für 1.200 EUR pro Person zzgl. MwSt., Durchführung ab 3 Teilnehmenden, max. 10 Teilnehmende**
+- **Präsenz in Köln über die GFU, Inhouse auf Anfrage**
 - [Zum KI-Kompass Seminar](/leistung/ki-kompass-seminar/)
 
-## Individuelle Begleitung in drei Stufen
+### KI-Grundlagen
 
-KI-Einführung ist kein Einmalprojekt, sondern ein Prozess. Das Angebot begleitet Unternehmen vom ersten Verstehen bis zum produktiven Betrieb – in dem Tempo und Umfang, der zur Ausgangslage passt.
+Wenn zunächst eine gemeinsame Sprache im Team fehlt, ist [**KI-Grundlagen**](/leistung/ki-grundlagen/) oft der richtige Start. Das Format hilft, Missverständnisse abzubauen und das Thema fachlich sauber einzuordnen.
 
-- [**KI-Grundlagen – Verstehen & einordnen**](/leistung/ki-grundlagen/)
-  Gemeinsame Wissensbasis schaffen, Chancen und Risiken realistisch einschätzen, Entscheidungsgrundlage aufbauen.
+### Individuelle Strategie- und Einstiegsbegleitung
 
-- [**KI-Einstieg – Pilotieren & umsetzen**](/leistung/ki-einstieg/)
-  Erste Anwendungsfälle priorisieren, Werkzeuge auswählen, Datenschutz absichern, ersten messbaren Erfolg erzielen.
+Wenn Seminar oder Grundlagen allein nicht ausreichen, begleite ich Sie individuell: von der Standortbestimmung über die Priorisierung bis zur Vorbereitung einer ersten Beauftragung.
 
-- [**KI-Ausbau – Einführung & Betrieb**](/leistung/ki-ausbau/)
-  KI auf weitere Teams und Prozesse ausrollen, Regeln einführen, laufend verbessern und betreuen.
+## Typische Ergebnisse dieser Säule
+
+- Ein klares Bild, welche KI-Themen für Ihr Haus sinnvoll sind und welche nicht
+- Priorisierte Anwendungsfälle statt einer langen Wunschliste
+- Ein gemeinsames Verständnis zwischen Fachbereich, IT, Datenschutz und Führung
+- Eine belastbare Grundlage für Ausschreibung, Pilot oder Beauftragung
+- Eine saubere Entscheidung, ob der nächste Schritt [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/) oder späterer [KI-Ausbau](/leistung/ki-ausbau/) ist
 
 ## Für wen dieses Angebot passt
 
@@ -58,11 +88,18 @@ KI-Einführung ist kein Einmalprojekt, sondern ein Prozess. Das Angebot begleite
 - Enterprise-Abteilungen, die gezielt einzelne Abläufe optimieren wollen
 - Führungskräfte und IT-Verantwortliche, die fundierte Entscheidungen treffen müssen
 
+## So geht es danach weiter
+
+Nach Säule 1 gibt es in der Regel zwei sinnvolle Anschlusswege.
+
+- Wenn ein erster konkreter Umsetzungsfall bereit ist: [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/)
+- Wenn bereits erste Lösungen stehen und es um Verankerung, Regeln und Betrieb geht: [KI-Ausbau](/leistung/ki-ausbau/)
+
 ## Förderhinweis
 
 KI-Beratung kann unter Umständen gefördert werden – z. B. über regionale Digitalisierungsprogramme, IHK-Angebote oder Mittelstand-Digital-Zentren. Sprechen Sie mich an, ich prüfe das gerne mit Ihnen.
 
-## Häufige Fragen zur KI-Einführung
+## Häufige Fragen zu KI-Strategie & Einstieg
 
 ### Muss unser Unternehmen bereits KI-Erfahrung mitbringen?
 
@@ -78,6 +115,7 @@ Unter Umständen ja. Über regionale Digitalisierungsprogramme, IHK-Angebote ode
 
 ## Nächster Schritt
 
-Kostenloses Erstgespräch anfragen – ich melde mich innerhalb von 24 Stunden.
+Kostenloses Erstgespräch anfragen – ich melde mich zeitnah.
 
-[Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)
+- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)
+- [Zur KI-Übersicht](/leistung/ki/)

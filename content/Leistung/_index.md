@@ -1,8 +1,10 @@
 ---
 draft: false
-date: 2026-03-03
-title: "IT-Beratung & Schulung – KI, PowerShell, .NET, SQL Server | Attila Krick"
-description: "Beratung, Schulungen und Umsetzung für Unternehmen und Behörden: KI-Einführung, PowerShell-Automatisierung, .NET-Entwicklung und SQL-Server-Optimierung."
+date: 2026-03-03T00:00:00+01:00
+lastmod: 2026-03-06T16:40:00+01:00
+title: "IT-Leistungen im Überblick | KI, PowerShell, .NET, SQL Server"
+description: "Leistungsübersicht für Unternehmen und Behörden: KI-Strategie, KI-Agenten-Umsetzung, PowerShell, .NET und SQL Server mit klarem Fokus je Thema."
+author: "Attila Krick"
 aliases:
   - /leistungen/
   - /seminar/
@@ -12,28 +14,30 @@ hideMeta: true
 ShowToc: false
 cover:
   image: "cover.webp"
-  alt: "Attila Krick - IT-Spezialist"
+  alt: "Attila Krick, IT-Experte für KI, PowerShell, .NET und SQL Server"
 comments: false
 HideTags: true
 ---
 
-Ich bin Attila Krick – selbstständiger IT-Experte mit über 30 Jahren Erfahrung. Ich unterstütze IT-Entscheider in Unternehmen, Behörden und dem Mittelstand mit strategischer Beratung, praxisnahen Schulungen und technischer Umsetzung.
+Ich bin Attila Krick – selbstständiger IT-Experte mit über 30 Jahren Erfahrung. Auf dieser Seite bekommen Sie einen kompakten Überblick über meine Leistungen und sehen sofort, welcher Weg bei Ihrem Thema gerade der richtige ist.
 
-Stehen Sie vor der Herausforderung, KI sicher einzuführen, PowerShell-Skripte zu strukturieren oder Ihre SQL-Performance zu optimieren? Mein Prinzip lautet: **Befähigung statt Abhängigkeit**. Ich löse nicht nur Ihr akutes Problem, sondern befähige Ihr Team, nach dem Projekt selbstständig und sicher weiterzuarbeiten. Alle Leistungen sind remote und vor Ort (europaweit) verfügbar. *(Stand: 2026)*
+Stehen Sie vor der Herausforderung, KI sauber einzuordnen, PowerShell-Skripte zu strukturieren oder Ihre SQL-Performance zu optimieren? Mein Prinzip lautet: **Befähigung statt Abhängigkeit**. Ich löse nicht nur Ihr akutes Problem, sondern befähige Ihr Team, nach dem Projekt selbstständig und sicher weiterzuarbeiten. Alle Leistungen sind remote und vor Ort (europaweit) verfügbar. *(Stand: 2026)*
 
-## Leistungsbereiche
+## KI-Leistungen
 
-### KI-Einführung für Unternehmen
+### KI-Leistungen für Unternehmen
 
 ![KI-Einführung und Beratung für Unternehmen](ki-grafik.webp)
 
-Der Weg zur produktiven KI-Nutzung erfordert mehr als nur Technologie – er braucht Strategie, rechtliche Absicherung (z. B. EU-KI-Verordnung, Art. 4) und befähigte Mitarbeiter. Ich begleite Sie strukturiert durch alle Phasen:
+Beim Thema KI ist selten alles gleichzeitig dran. Manche Organisationen brauchen zuerst Orientierung und Priorisierung. Andere stehen schon vor der ersten konkreten Umsetzung. Genau dafür gibt es einen eigenen KI-Hub, der die Wege sauber trennt.
 
-- **Übersicht:** [KI-Einführung](/leistung/ki-einfuehrung/)
-- **Kompakt-Workshop:** [KI-Kompass Seminar (Tages-Workshop)](/leistung/ki-kompass-seminar/)
-- **Stufe 1:** [KI-Grundlagen (Verstehen & Einordnen)](/leistung/ki-grundlagen/)
-- **Stufe 2:** [KI-Einstieg (Pilotieren & Umsetzen)](/leistung/ki-einstieg/)
-- **Stufe 3:** [KI-Ausbau (Skalieren & Betrieb)](/leistung/ki-ausbau/)
+- [Zur KI-Übersicht mit klarer Wegführung](/leistung/ki/)
+
+- Dort finden Sie die Trennung zwischen [KI-Strategie & Einstieg](/leistung/ki-einfuehrung/), [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/) und dem Folgepfad [KI-Ausbau](/leistung/ki-ausbau/).
+
+- Wenn Sie bereits wissen, dass ein Seminar oder Grundlagenformat gefragt ist, finden Sie dort auch die passenden Bausteine wie [KI-Kompass für Unternehmen](/leistung/ki-kompass-seminar/) und [KI-Grundlagen](/leistung/ki-grundlagen/).
+
+## Weitere Leistungsbereiche
 
 ### PowerShell Beratung & Training
 
@@ -76,6 +80,6 @@ Schaffen Sie stabile Datenplattformen mit nachvollziehbaren Standards und messba
 
 ## Kontakt
 
-Ob konkretes Projekt, individuelle Schulung oder unverbindliches Erstgespräch – ich melde mich innerhalb von 24 Stunden.
+Ob konkretes Projekt, individuelle Schulung oder unverbindliches Erstgespräch – ich melde mich zeitnah.
 
 [Kontakt aufnehmen](/kontakt/)

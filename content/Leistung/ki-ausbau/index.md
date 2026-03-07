@@ -1,8 +1,10 @@
 ﻿---
 draft: false
 date: 2026-02-27T00:00:00+01:00
-title: "KI-Ausbau im Unternehmen – Einführung & Betrieb | Attila Krick"
-description: "KI nach dem Piloten breit einführen: Skalierung auf weitere Teams, Regeln und Zuständigkeiten einführen, laufenden Betrieb absichern und kontinuierlich verbessern."
+lastmod: 2026-03-06T16:40:00+01:00
+title: "KI-Ausbau im Unternehmen | Skalierung, Regeln, Betrieb"
+description: "Nach dem KI-Piloten weitere Teams anbinden, Regeln und Zuständigkeiten festlegen, den Betrieb absichern und neue Anwendungsfälle kontrolliert ausbauen."
+author: "Attila Krick"
 schemaType: "Service"
 serviceType: "KI-Ausbau und Betrieb"
 schemaProvider: "Attila Krick"
@@ -22,14 +24,22 @@ comments: false
 HideTags: true
 ---
 
-Der Pilot hat funktioniert. Jetzt geht es darum, KI nachhaltig im Unternehmen zu verankern – mit klaren Regeln, trainierten Teams und einem stabilen Betrieb, der sich kontinuierlich verbessert.
+Nach dem ersten KI-Piloten beginnt die eigentliche Verankerung im Unternehmen. Jetzt geht es darum, Lösungen sauber auszubauen: mit klaren Regeln, trainierten Teams und einem stabilen Betrieb, der nicht nach drei Monaten wieder auseinanderfällt.
 
-## Wann dieser Baustein sinnvoll ist
+Dieser Baustein ist bewusst **keine zweite Einstiegssäule**. Er folgt auf die ersten realen Schritte – typischerweise nach [KI-Strategie & Einstieg](/leistung/ki-einfuehrung/) und nach einer ersten [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/) oder einem vergleichbaren Pilot. Die saubere Wegführung über alle KI-Leistungen finden Sie im [KI-Hub](/leistung/ki/).
+
+## Wann ist KI-Ausbau der richtige Folgepfad?
 
 - Wenn das Pilotprojekt erfolgreich war und KI auf weitere Teams ausgeweitet werden soll
 - Wenn Verantwortlichkeiten, Freigabeprozesse und Qualitätssicherung noch fehlen
 - Wenn Mitarbeitende eigenständig KI-Werkzeuge nutzen, ohne dass das koordiniert ist
 - Wenn laufende Betreuung und kontinuierliche Verbesserung gefragt sind
+
+## Worum es hier nicht geht
+
+Wenn Sie noch Orientierung, Priorisierung oder Entscheidungsreife brauchen, starten Sie besser mit [KI-Strategie & Einstieg](/leistung/ki-einfuehrung/).
+
+Wenn Sie die erste konkrete technische Umsetzung aufbauen wollen, ist [KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/) der passendere Schritt.
 
 ## Was in diesem Baustein passiert
 
@@ -94,5 +104,7 @@ Das richtet sich nach dem individuellen Bedarf – von regelmäßigen Review-Ter
 
 ## Nächster Schritt
 
-- [Zurück zur KI-Einführung – Übersicht](/leistung/ki-einfuehrung/)
+- [Zur Säule 1: KI-Strategie & Einstieg](/leistung/ki-einfuehrung/)
+- [Zur ersten Umsetzung: KI-Agenten-Umsetzung](/leistung/ki-agenten-umsetzung/)
+- [Zur KI-Übersicht](/leistung/ki/)
 - [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)
