@@ -5,7 +5,7 @@ lastmod: 2026-03-05T09:00:00+01:00
 title: "KI-Agenten im Alltag: Ihr digitaler Mitarbeiter"
 description: "KI-Agenten im Alltag einsetzen – ohne Techniksprech. Wie Sie einen digitalen Mitarbeiter einweisen, Grenzen setzen und in 4 Bereichen sofort Arbeit abnehmen lassen."
 categories:
-  - Divers
+  - KI
 tags:
   - KI-Agenten
   - Alltag

@@ -4,9 +4,9 @@ date: 2026-03-03T20:37:00+01:00
 title: "Agent-as-a-Judge: Der Kritiker-Agent im KI-Workflow"
 description: "Erfahre, wie ein Kritiker-Agent (Agent-as-a-Judge) die Qualität in KI-Workflows sichert. 3 konkrete Strategien für fehlerfreie Automatisierung."
 categories:
-  - Divers
-tags:
   - KI
+tags:
+  - Agenten-Orchestrierung
   - Agenten
   - Qualitätssicherung
   - OpenCode

@@ -4,9 +4,9 @@ date: 2026-03-03T10:00:00+02:00
 title: "Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert"
 description: "Mein Erfahrungsbericht: Wie ein perfekt abgestimmtes Team aus spezialisierten KI-Agenten komplexe Software-Anforderungen autonom und fehlerfrei umsetzt."
 categories:
-  - Divers
-tags:
   - KI
+tags:
+  - Agenten-Orchestrierung
   - Agenten
   - Automation
   - OpenCode

@@ -8,8 +8,8 @@ summary: "MCP standardisiert KI-gestützte SQL-Server-Abfragen über freigegeben
 categories:
   - T-SQL
 tags:
-  - ki
-  - mcp
+  - KI
+  - MCP
   - sql-server
   - datenbankabfrage
   - prompt-engineering

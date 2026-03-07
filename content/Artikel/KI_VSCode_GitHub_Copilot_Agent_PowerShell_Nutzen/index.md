@@ -8,8 +8,8 @@ summary: "Copilot Agent in VS Code beschleunigt PowerShell-Entwicklung, wenn kla
 categories:
   - PowerShell
 tags:
-  - ki
-  - vscode
+  - KI
+  - VSCode
   - github-copilot
   - agent-mode
   - powershell-scripting
