@@ -1,0 +1,149 @@
+---
+draft: false
+date: 2026-03-08T00:00:00+01:00
+title: "IT-News vom 08. März 2026"
+description: "Der Pentagon-Deal zieht bei OpenAI personelle Konsequenzen nach sich, Windows tauscht auslaufende Secure-Boot-Zertifikate aus, und die Diskussion um KI in Sicherheits- und Tooling-Workflows verschärft sich weiter."
+categories:
+  - Divers
+tags:
+  - News
+  - KI
+  - Security
+  - OpenAI
+  - Windows
+author: "Attila Krick"
+showToc: true
+TocOpen: false
+comments: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowShareButtons: false
+ShowCodeCopyButtons: false
+disableHLJS: true
+---
+
+## Breaking News
+
+### Topic-Cluster: Pentagon-Deal bei OpenAI löst ersten prominenten Rücktritt aus
+
+Der Pentagon-Vertrag von OpenAI zieht eine erste sichtbare personelle Konsequenz nach sich: Caitlin Kalinowski, Leiterin der Robotik- und Hardware-Abteilung, verlässt das Unternehmen. In ihrer Begründung nennt sie ausdrücklich Bedenken gegen KI-Massenüberwachung ohne richterliche Kontrolle und gegen tödliche Autonomie ohne menschliche Freigabe. Damit wird aus der Debatte um OpenAIs Militärkurs ein interner Konflikt mit öffentlicher Signalwirkung.
+
+Community-Reaktion: In der öffentlichen Debatte kippt der Ton weiter in Richtung Grundsatzfrage. Ein Teil der Reaktionen bewertet den Schritt als überfällige Gewissensentscheidung, andere sehen darin vor allem ein Symptom dafür, dass sich große KI-Anbieter immer stärker zwischen Geschäft, Staat und sicherheitspolitischer Verantwortung aufreiben.
+
+Quellen: [ComputerBase](https://www.computerbase.de/news/wirtschaft/massenueberwachung-und-autonome-waffen-openais-chefin-der-robotik-abteilung-tritt-zurueck.96456/) · [t3n](https://t3n.de/news/ruecktritt-aus-prinzip-openai-managerin-raeumt-wegen-pentagon-deal-ihren-posten-1732903/)
+
+-> Tiefer einsteigen: [KI-Agenten im Alltag: Warum Guardrails wichtiger sind als noch ein neues Modell](/artikel/ki-agenten-guardrails-portabilitaet/)
+
+---
+
+## KI
+
+### [Anthropic Marketplace: Claude.ai-Kunden können Drittanbieter-Apps ohne Zusatzgebühren nutzen](https://the-decoder.de/anthropic-marketplace-claude-ai-kunden-koennen-drittanbieter-apps-ohne-zusatzgebuehren-nutzen/)
+
+Anthropic öffnet Claude für ein eigenes Partner-Ökosystem und startet einen Marketplace für Firmenkunden. Anwendungen von Anbietern wie Snowflake, Harvey und Replit lassen sich direkt aus bestehenden Anthropic-Budgets nutzen. Strategisch ist das mehr als eine Shop-Funktion: Anthropic positioniert Claude als Plattform, nicht nur als Modell.
+
+*Quelle: the-decoder.de · 07. Mär 2026*
+
+-> Tiefer einsteigen: [Orchestrierung von KI-Agenten: Was in der Praxis wirklich funktioniert](/artikel/orchestrierung-von-ki-agenten/)
+
+---
+
+### [OpenAI veröffentlicht GPT-5.4 mit Reasoning, Coding und Computer-Steuerung](https://www.igorslab.de/gpt-5-4-openai-buendelt-reasoning-coding-und-computer-steuerung-in-einem-modell/)
+
+GPT-5.4 bleibt auch einen Tag nach dem Release das Thema, weil OpenAI drei bislang getrennte Fähigkeiten enger zusammenzieht: Schlussfolgern, Code-Arbeit und direkte Interaktion mit Betriebssystemen. Für Teams ist das relevant, weil damit nicht nur die Modellqualität steigt, sondern auch das Risikoprofil: Je näher ein Modell an reale Systeme rückt, desto wichtiger werden saubere Leitplanken.
+
+*Quelle: igorslab.de · 07. Mär 2026*
+
+-> Tiefer einsteigen: [GitHub Copilot Agent in VS Code: PowerShell schneller und sicherer entwickeln](/artikel/ki-vscode-github-copilot-agent-powershell-nutzen/)
+
+---
+
+## Tools & Dev
+
+### [Visual Studio Code 1.110: Der Code-Editor wird zur KI-Orchestrierungsplattform](https://www.ad-hoc-news.de/boerse/news/ueberblick/visual-studio-code-1-110-der-code-editor-wird-zur/68644870)
+
+VS Code 1.110 entwickelt sich vom Editor weiter zur Steuerzentrale für Agenten-Workflows. Agent Plugins, Web-Interaktion und die stärkere Verzahnung mit Copilot verschieben den Fokus von einzelnen Code-Vervollständigungen hin zu orchestrierten Arbeitsabläufen. Für Entwickler ist das spannend, aber auch ein Hinweis darauf, dass IDEs künftig mehr Governance brauchen werden.
+
+*Quelle: ad-hoc-news.de (via boerse-global.de) · 07. Mär 2026*
+
+-> Tiefer einsteigen: [PowerShell in Visual Studio Code: Produktiv einrichten in 20 Minuten](/artikel/vscode-starter/)
+
+---
+
+### [MCP C# SDK erreicht Version 1.0](https://devblogs.microsoft.com/dotnet/release-v10-of-the-official-mcp-csharp-sdk/)
+
+Das offizielle MCP SDK für C# bleibt einer der wichtigsten technischen Bausteine der Woche. Mit Version 1.0 steht .NET-Teams jetzt eine stabilere Grundlage zur Verfügung, um KI-Agenten kontrolliert an Tools und Datenquellen anzubinden. Gerade im Zusammenspiel mit VS Code, Copilot und eigenen Agenten-Workflows wird MCP damit praktisch relevant.
+
+*Quelle: devblogs.microsoft.com · 05. Mär 2026*
+
+-> Tiefer einsteigen: [MCP und SQL Server: KI-Abfragen kontrolliert und sicher einsetzen](/artikel/ki-mcp-sql-server-db-abfrage/)
+
+---
+
+## IT-Security
+
+### [Windows Secure Boot-Zertifikate laufen 2026 ab: Microsoft ersetzt alte Signaturen schrittweise](https://www.deskmodder.de/blog/2026/03/08/windows-secure-boot-zertifikate-laufen-2026-ab-alte-zertifikate-werden-ersetzt/)
+
+Microsoft startet die schrittweise Erneuerung der Secure-Boot-Zertifikate, weil die bisherigen Zertifikate ab Juni 2026 auslaufen. Für Administratoren ist das kein Randthema, sondern ein klassischer Infrastrukturpunkt mit großem Hebel: Wer Firmware-, Boot- oder Recovery-Prozesse betreibt, sollte früh prüfen, ob eigene Umgebungen die Umstellung sauber mitgehen.
+
+*Quelle: deskmodder.de · 08. Mär 2026*
+
+---
+
+### [KI und Identitäten: CrowdStrike, Cloudflare und Google warnen vor neuer Bedrohungslage](https://borncity.com/news/ki-und-identitaeten-neue-cyber-bedrohungen-zwingen-zum-umdenken/)
+
+Die Sicherheitsanalysen der ersten Märzwoche wirken nach: Angreifer arbeiten immer weniger über klassische Einbrüche und immer stärker über gestohlene Identitäten, Social Engineering und automatisierte KI-Hilfen. Das verändert die Prioritäten in vielen Umgebungen. Nicht nur Perimeter-Schutz, sondern Identitätskontrolle und schnelles Patching rücken weiter nach vorn.
+
+*Quelle: borncity.com · 07. Mär 2026*
+
+-> Tiefer einsteigen: [Wie viel PowerShell braucht moderne IT-Sicherheit?](/artikel/sicherheit-wie-viel-powershell/)
+
+---
+
+### [PowerShell 7.5.4 enthält ein .NET SDK mit gemeldeter High-Schwachstelle](https://github.com/powershell/powershell/issues/26943)
+
+Im PowerShell-Repository wird derzeit diskutiert, dass die stabile Version 7.5.4 das .NET SDK 9.0.306 mitliefert, für das CVE-2026-21218 gemeldet wurde. Ein Fix ist noch nicht enthalten. Für produktive Teams heißt das vor allem: Versionen und Lieferketten nicht nur funktional, sondern auch sicherheitlich im Blick behalten.
+
+*Quelle: github.com/PowerShell (EN) · 06. Mär 2026*
+
+-> Tiefer einsteigen: [PowerShell Sicherheit: Execution Policy, Signierung, Hardening](/artikel/powershell-sicher-einsetzen/)
+
+---
+
+## .NET
+
+### [MCP C# SDK v1.0 macht Agenten-Integration in .NET praktikabler](https://devblogs.microsoft.com/dotnet/release-v10-of-the-official-mcp-csharp-sdk/)
+
+Dass das MCP C# SDK Version 1.0 erreicht hat, ist auch aus .NET-Sicht relevant. Damit wird aus einem experimentellen Integrationspfad ein Werkzeug, auf dem sich reale Agenten- und Tooling-Szenarien robuster aufbauen lassen. Besonders für Teams, die KI nicht als Spielerei, sondern als integrierten Teil ihrer Anwendungen sehen, ist das ein spürbarer Schritt.
+
+*Quelle: devblogs.microsoft.com · 05. Mär 2026*
+
+-> Tiefer einsteigen: [Entity Framework Grundlagen verständlich erklärt](/artikel/dotnet-entityframework-grundlagen/)
+
+---
+
+## T-SQL & SQL Server
+
+### [MCP wird für SQL- und Tool-Workflows praktischer: C# SDK v1.0 schafft die technische Basis](https://devblogs.microsoft.com/dotnet/release-v10-of-the-official-mcp-csharp-sdk/)
+
+Für SQL-Teams ist das MCP-C#-Release deshalb interessant, weil kontrollierte Tool-Aufrufe und Datenbank-Abfragen damit einfacher in bestehende .NET-Umgebungen eingebunden werden können. Wer KI-Abfragen gegen SQL Server nicht frei, sondern reproduzierbar und mit klaren Rechten ausführen will, bekommt damit ein deutlich stabileres Fundament.
+
+*Quelle: devblogs.microsoft.com · 05. Mär 2026*
+
+-> Tiefer einsteigen: [MCP und SQL Server: KI-Abfragen kontrolliert und sicher einsetzen](/artikel/ki-mcp-sql-server-db-abfrage/)
+
+---
+
+## Besonders relevant
+
+| Thema | Relevanz |
+| :--- | :--- |
+| Rücktritt bei OpenAI nach Pentagon-Deal | Hoch -- Erstmals wird der Militärkurs personell sichtbar; wichtig für die Debatte um Grenzen von KI-Einsatz |
+| Windows Secure Boot-Zertifikate laufen aus | Hoch -- Betrifft reale Windows-Infrastrukturen und kann Boot-, Recovery- und Rollout-Prozesse berühren |
+| Anthropic Marketplace | Hoch -- Claude entwickelt sich zur Plattform; relevant für Tool-Ökosysteme und Anbieterbindung |
+| MCP C# SDK v1.0 | Mittel -- Technisch wichtig für .NET-, Agenten- und SQL-nahe Integrationen, aber eher Infrastruktur als Schlagzeile |
+
+---
+
+*9 Artikel · Quellen: computerbase.de, t3n.de, the-decoder.de, igorslab.de, ad-hoc-news.de, devblogs.microsoft.com, deskmodder.de, borncity.com, github.com · Stand: 08.03.2026 16:10 (Europe/Berlin)*
