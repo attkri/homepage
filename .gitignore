@@ -1,19 +1,20 @@
 # Lokale Arbeitsdaten, die nicht öffentlich oder versioniert werden sollen
-.logs/
-.todo/
-.opencode/
-.tmp/
-.secrets/
-.Secrets/
-project.code-workspace
+.logs/**
+.opencode/**
+.tmp/**
+www.attilakrick.com.code-workspace
 .Analyses/**
+.tasks/**
+.vscode/**
+.ruff_cache/**
 
 # Hugo-Publish-Output wird in CI als Artifact deployed, nicht versioniert
 docs/
 resources/_gen/
 
-# Interne Agenten-Doku, nicht fuer die oeffentliche Website bestimmt
+# Interne Agenten-Doku und Commands, nicht fuer die oeffentliche Website bestimmt
 AGENTS.md
+.opencode/commands/
 
 # Temporaere Hugo-Sperrdatei waehrend lokaler Builds
 .hugo_build.lock

@@ -7,6 +7,7 @@ description: "So nutzt du MCP für SQL Server mit klaren Rechten, stabilen Tool-
 summary: "MCP standardisiert KI-gestützte SQL-Server-Abfragen über freigegebene Tools, klare Rechte und reproduzierbare Rückgabeformate."
 categories:
   - T-SQL
+  - KI
 tags:
   - KI
   - MCP

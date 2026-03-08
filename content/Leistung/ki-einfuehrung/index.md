@@ -134,6 +134,6 @@ Unter Umständen ja. Über regionale Digitalisierungsprogramme, IHK-Angebote ode
 
 Kostenloses Erstgespräch anfragen – ich melde mich zeitnah.
 
-- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.%0A%0AErreichbar%20bin%20ich%20unter%3A%20%5BTelefon%20%2F%20bevorzugte%20Zeit%5D)
+- [Jetzt Erstgespräch anfragen](mailto:info@attilakrick.com?subject=KI-Erstgespr%C3%A4ch%20anfragen&body=Guten%20Tag%20Herr%20Krick%2C%0A%0AMein%20Name%20ist%20%5BName%5D%2C%20ich%20arbeite%20bei%20%5BUnternehmen%5D.%0A%0AWir%20besch%C3%A4ftigen%20uns%20gerade%20mit%20dem%20Thema%20KI-Einf%C3%BChrung%20und%20w%C3%BCrden%20gerne%20kurz%20mit%20Ihnen%20sprechen.)
 - [Direkt zum Kontaktformular](/kontakt/)
 - [Zur KI-Übersicht](/leistung/ki/)

@@ -26,6 +26,12 @@ Dieses Repository enthält Inhalte, Layouts und Konfigurationen für die Hugo-We
 - Versionsverwaltung und Hosting über GitHub
 - OpenCode
 
+## Projektgedächtnis (OpenCode)
+
+Das session-übergreifende Projektwissen liegt in `.opencode/instructions/MyMemory.Instruction.md`.
+`AGENTS.md` enthält Regeln und Konventionen; das Projektgedächtnis enthält Entscheidungen, Probleme/Lösungen und den aktuellen Arbeitsstand.
+Single Source of Truth: `AGENTS.md` für Regeln/Workflows; `.opencode/instructions/MyMemory.Instruction.md` für Entscheidungen, Status sowie Probleme & Lösungen (inkl. Projektgedächtnis-Pfad).
+
 ## Deployment
 
 Wenn in den `main`-Branch gepusht wird, greift die GitHub Action `Deploy Hugo site to Pages` und veröffentlicht die Website automatisch.
@@ -55,3 +61,4 @@ Vervielfältigung oder Weitergabe erlaubt.
 ## Wichtiger Hinweis
 
 Projektregeln, Content-Konventionen, Front-Matter-Schemata und Agentenrichtlinien stehen in `AGENTS.md`.
+Das Projektgedächtnis (Entscheidungen/Probleme/Lösungen) liegt in `.opencode/instructions/MyMemory.Instruction.md`.

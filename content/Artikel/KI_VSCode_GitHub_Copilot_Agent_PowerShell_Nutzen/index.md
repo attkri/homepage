@@ -7,6 +7,7 @@ description: "Praxisleitfaden für Unternehmen: So nutzt du GitHub Copilot Agent
 summary: "Copilot Agent in VS Code beschleunigt PowerShell-Entwicklung, wenn klare Aufgaben, Teamregeln und feste Review-Schritte vorgegeben sind."
 categories:
   - PowerShell
+  - KI
 tags:
   - KI
   - VSCode

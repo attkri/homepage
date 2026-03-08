@@ -1,8 +1,9 @@
 ﻿---
 draft: false
 date: 2026-03-03T00:00:00+02:00
-title: "Performance SQL Server Tuning | Attila Krick"
-description: "Performance SQL Server Tuning mit messbaren Ergebnissen: Abfragen beschleunigen, Engpässe beheben und Datenbank-Performance nachhaltig verbessern."
+lastmod: 2026-03-08T18:30:00+02:00
+title: "SQL Server Performance Tuning für langsame Abfragen | Attila Krick"
+description: "SQL Server Performance Tuning mit messbaren Ergebnissen: Engpässe finden, Abfragen beschleunigen und produktive Systeme unter Last stabilisieren."
 schemaType: "Service"
 serviceType: "SQL Performance Tuning"
 schemaProvider: "Attila Krick"
@@ -22,7 +23,7 @@ comments: false
 HideTags: true
 ---
 
-Wenn SQL-Abfragen zu langsam sind und Reports oder Fachprozesse ausbremsen, brauchst du kein Rätselraten, sondern ein systematisches Tuning für die Performance im SQL Server. Ich unterstütze dich dabei, Engpässe reproduzierbar zu identifizieren und gezielt zu beseitigen.
+SQL Server Performance Tuning wird dann relevant, wenn langsame Abfragen Reports, Fachprozesse oder Schnittstellen ausbremsen und im Team nur noch Symptombekämpfung bleibt. Ich unterstütze dich dabei, Engpässe reproduzierbar zu identifizieren, die größten Bremsen zuerst zu beheben und die Performance im produktiven Betrieb messbar zu verbessern.
 
 ## Wann diese Leistung sinnvoll ist
 
@@ -80,7 +81,7 @@ Benötigt werden vor allem Laufzeitdaten, typische Lastmuster und die betroffene
 
 ## Nächster Schritt
 
-Wenn du wissen willst, wo eure größten SQL-Engpässe wirklich liegen, sprechen wir über ein fokussiertes Performance-Assessment.
+Wenn du wissen willst, welche Abfragen und Lastmuster deinen SQL Server wirklich ausbremsen, sprechen wir über ein fokussiertes Performance-Assessment mit klaren Prioritäten.
 
 - [Kontakt aufnehmen](/kontakt/)
 - Seminare bei der GFU: [T-SQL Komplett](https://www.gfu.net/s1498) · [T-SQL Best Practices](https://www.gfu.net/s3252)

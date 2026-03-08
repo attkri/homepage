@@ -153,7 +153,7 @@ Wenn Sie das Seminar mit Ihrem eigenen Team durchführen möchten, komme ich auc
 | ----- | ----- | ----- |
 | Format | Remote | Präsenz in Köln |
 | Preis | 1.200 EUR zzgl. MwSt. pro Teilnehmer | Es gelten die Konditionen der GFU |
-| Durchführung | ab 3 Teilnehmenden | Es gelten die Prozesse der GFU |
+| Durchführung | ab 3 Teilnehmenden | ab 1 Teilnehmer |
 | Gruppengröße | maximal 10 Teilnehmende | maximal 10 Teilnehmende |
 | Zertifikat | nach erfolgreicher Online-Prüfung | eigene GFU-Prozesse |
 | Abwicklung | direkt per E-Mail mit mir | Anmeldung über GFU |
