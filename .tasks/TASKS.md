@@ -8,6 +8,9 @@
 
 - - **Homepage-Teaser (B):** Dedizierter News-Teaser-Block auf der Startseite – auf Taskliste.
 
+- **Finale Home: redaktionellen Radar breiter ausbalancieren**
+  - Kontext: Für die echte Startseite News-/Artikel-Module später gemischter aus PowerShell, SQL und KI kuratieren; nicht wieder zu KI-lastig werden.
+
 - **Google Search Console Export Ende März 2026 erneut ausführen**
   - Kontext: Fälligkeit 2026-03-31, Export nach `.Analyses/YYYY-MM-DD/gsc-exports/`, Auswertung in `.Analyses/YYYY-MM-DD/GSC-Auswertung.md`.
 
