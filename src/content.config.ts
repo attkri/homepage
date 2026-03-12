@@ -31,7 +31,7 @@ const aboutCollection = defineCollection({
         z.object({
           key: z.string(),
           value: z.string(),
-        })
+        }),
       ),
     }),
     value: z.object({
@@ -41,7 +41,7 @@ const aboutCollection = defineCollection({
         z.object({
           title: z.string(),
           content: z.string(),
-        })
+        }),
       ),
     }),
     team: z.object({
@@ -52,7 +52,7 @@ const aboutCollection = defineCollection({
           name: z.string(),
           image: z.string(),
           designation: z.string(),
-        })
+        }),
       ),
     }),
     career: z.object({
@@ -91,6 +91,16 @@ const newsCollection = defineCollection({
     cover_image: z.string().optional(),
     author: z.string().optional(),
     author_image: z.string().optional(),
+  }),
+});
+
+const glossaryCollection = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "src/content/glossary",
+  }),
+  schema: z.object({
+    ...commonFields,
   }),
 });
 
@@ -133,7 +143,7 @@ const homeCollection = defineCollection({
             label: z.string(),
             link: z.string(),
           }),
-        })
+        }),
       ),
     }),
     feature: z.object({
@@ -146,7 +156,7 @@ const homeCollection = defineCollection({
           card_content: z.string(),
           icon: z.string(),
           image: z.string(),
-        })
+        }),
       ),
     }),
     about: z.object({
@@ -180,7 +190,7 @@ const faqCollection = defineCollection({
       z.object({
         question: z.string(),
         answer: z.string(),
-      })
+      }),
     ),
   }),
 });
@@ -201,7 +211,7 @@ const testimonialsCollection = defineCollection({
         designation: z.string(),
         avatar: z.string(),
         content: z.string(),
-      })
+      }),
     ),
   }),
 });
@@ -263,6 +273,7 @@ export const collections = {
   about: aboutCollection,
   articles: articlesCollection,
   contact: contactCollection,
+  glossary: glossaryCollection,
   homepage: homeCollection,
   faq: faqCollection,
   news: newsCollection,
