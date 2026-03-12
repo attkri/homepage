@@ -10,8 +10,6 @@
 
 - SEO KI Optimiert
 
-- .Tasks\seo-aeo-rules.md in den Seo-Skill
-
 ### Sekundäre Aufgaben
 
 - Artikel für attilakrick.com verfassen – ähnlich einem praxisnahen Einführungsbeitrag. Referenz-Stil: [OpenCode Tutorial 2026](https://www.nxcode.io/resources/news/opencode-tutorial-2026).
@@ -45,6 +43,9 @@
 - Cloud vs. On-Prem: Vor- und Nachteile, Entscheidungshilfen. -->
 
 ## Erledigt
+
+- **SEO-/AEO-/GEO-Regeln in den globalen `seo-audit`-Skill konsolidiert**
+  - Kontext: Die frühere Repo-Referenz wurde in den Skill überführt; kanonische Regelbasis läuft jetzt direkt über `seo-audit`.
 
 - **Astro-Grundstruktur und Publish-Workflow kurz dokumentiert**
   - Kontext: Pflegeanleitung in `.tasks/TASKS.md` ergänzt; neue Inhalte laufen über `src/content/`, Livegang über `main` + GitHub Pages.

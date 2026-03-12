@@ -9,16 +9,12 @@
       "url": "/leistung"
     },
     {
-      "name": "Artikel",
-      "url": "/artikel"
-    },
-    {
-      "name": "Glossar",
-      "url": "/glossar"
-    },
-    {
       "name": "IT-News",
       "url": "/news"
+    },
+    {
+      "name": "Artikel",
+      "url": "/artikel"
     },
     {
       "name": "Profil",

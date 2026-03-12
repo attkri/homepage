@@ -6,8 +6,7 @@ Dieses Dokument enthält projektspezifische Daten (Website `https://attilakrick.
 
 Folgende Projektquellen gehören zusätzlich zum aktuellen Kontext des Agenten:
 
-- Aufgaben: `.tasks/TASKS.md`
-- Projektgedächtnis: `.opencode/instructions/MyMemory.Instruction.md`
+- Aufgaben: `.Tasks/TASKS.md`
 
 ## Agentenarchitektur
 
@@ -275,7 +274,7 @@ Attila Krick schreibt, wie er auch in einer Kaffeepause erklären würde – ruh
 
 ## LinkedIn-Posts -- Regeln & Workflow
 
-- Quelle für Post-Entwürfe ist `.opencode/tmp/LinkedIn/` (z. B. `Post_01_*.md`).
+- Quelle für Post-Entwürfe ist `.Tasks/LinkedIn/` (z. B. `Post_01_*.md`).
 - LinkedIn-Entwürfe werden vom Arbeitsagenten auf Basis dieser Repo-Regeln erstellt, keine kanalübergreifenden Social-Kampagnen.
 - Jeder LinkedIn-Post muss inhaltlich mit dem verlinkten Fachartikel übereinstimmen (Nutzenversprechen, Kernthesen, Zielgruppe, CTA).
 - Artikel-Links in LinkedIn-Posts immer als kanonische, kleingeschriebene URL setzen (`/artikel/...`), nicht mit Großbuchstaben.
@@ -305,7 +304,7 @@ Jeder Inhalt wird für KI-Auffindbarkeit optimiert. Prioritäten:
 4. **Freshness-Signale:** Datum aktuell halten, "Stand: YYYY" in Artikeln, regelmäßige Updates.
 5. **Autorität aufbauen:** Über-mich-Signale, Expertise-Nachweise, Verlinkung zwischen thematisch verwandten Inhalten.
 6. **llms.txt:** `/llms.txt` und `/llms-full.txt` pflegen und aktuell halten.
-7. **Regelreferenz:** Für SEO-, AEO- und GEO-Aufgaben ist `.opencode/resources/seo-aeo-rules.md` die kanonische Detailreferenz.
+7. **Regelreferenz:** Für SEO-, AEO- und GEO-Aufgaben ist der globale Skill `seo-audit` die kanonische Detailreferenz.
 
 ## SEO-Optimierung (Sekundär)
 
@@ -350,7 +349,7 @@ Die folgenden Regeln gelten für **jeden** Agenten im System. Subagent-Dateien v
 
 - Direkter Website-Content wird vor dem Speichern immer als Inline-Entwurf gezeigt; erst nach User-Freigabe wird in `src/content/` geschrieben.
 - Für klar marketinglastige Seiten ergänzt der globale Skill `marketing-writing` dieses Framework optional.
-- Für SEO-/AEO-/GEO-Feinschliff gilt zusätzlich `seo-audit` plus `.opencode/resources/seo-aeo-rules.md`.
+- Für SEO-/AEO-/GEO-Feinschliff gilt zusätzlich `seo-audit`.
 
 ### Zielgruppen-Default
 
