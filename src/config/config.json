@@ -4,10 +4,10 @@
     "base_url": "https://attilakrick.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/favicon.ico",
     "logo": "/images/logo.svg",
-    "logo_width": "214",
-    "logo_height": "44",
+    "logo_width": "170",
+    "logo_height": "40",
     "logo_text": "Attila Krick"
   },
 

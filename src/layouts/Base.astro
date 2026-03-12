@@ -23,6 +23,7 @@ export interface Props {
 }
 // destructure frontmatter
 const { title, meta_title, description, image, noindex, canonical } = Astro.props;
+const faviconVersion = "20260312b";
 ---
 
 
@@ -30,7 +31,11 @@ const { title, meta_title, description, image, noindex, canonical } = Astro.prop
 <html lang="de">
   <head>
     <!-- favicon -->
-    <link rel="shortcut icon" href={config.site.favicon} />
+    <link rel="icon" href={`${config.site.favicon}?v=${faviconVersion}`} sizes="any" />
+    <link rel="shortcut icon" href={`${config.site.favicon}?v=${faviconVersion}`} />
+    <link rel="icon" type="image/png" sizes="32x32" href={`/favicon-32x32.png?v=${faviconVersion}`} />
+    <link rel="icon" type="image/png" sizes="16x16" href={`/favicon-16x16.png?v=${faviconVersion}`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`/apple-touch-icon.png?v=${faviconVersion}`} />
     <!-- theme meta -->
     <meta name="theme-name" content="attilakrick-astro" />
     <meta name="msapplication-TileColor" content="#000000" />

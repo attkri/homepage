@@ -2,11 +2,23 @@
 
 ## Aktiv
 
+### Primäre Aufgaben
+
+- NEWS: Entweder bild ausblenden oder ein passendes genierieren lassen
+
+- Umschreiben von Hugo auf Astro: .opencode\agents\AKCNewsAgent.md
+
+- SEO KI Optimiert
+
+- .Tasks\seo-aeo-rules.md in den Seo-Skill
+
+### Sekundäre Aufgaben
+
 - Artikel für attilakrick.com verfassen – ähnlich einem praxisnahen Einführungsbeitrag. Referenz-Stil: [OpenCode Tutorial 2026](https://www.nxcode.io/resources/news/opencode-tutorial-2026).
 
 - Orientierungstext zu KI-Sicherheit einbauen. Referenz-Inhalt: [KI-Sicherheit in der Praxis](https://www.it-daily.net/it-management/ki/ki-sicherheit-genai-risiken).
 
-- - **Homepage-Teaser (B):** Dedizierter News-Teaser-Block auf der Startseite – auf Taskliste.
+- Astro-Pflegeanleitung als eigene Datei unter `.tasks/Astro-Pflegeanleitung.md` pflegen.
 
 - **Finale Home: redaktionellen Radar breiter ausbalancieren**
   - Kontext: Für die echte Startseite News-/Artikel-Module später gemischter aus PowerShell, SQL und KI kuratieren; nicht wieder zu KI-lastig werden.
@@ -33,6 +45,15 @@
 - Cloud vs. On-Prem: Vor- und Nachteile, Entscheidungshilfen. -->
 
 ## Erledigt
+
+- **Astro-Grundstruktur und Publish-Workflow kurz dokumentiert**
+  - Kontext: Pflegeanleitung in `.tasks/TASKS.md` ergänzt; neue Inhalte laufen über `src/content/`, Livegang über `main` + GitHub Pages.
+
+- **Logo im Header geschärft und angepasst**
+  - Kontext: `public/images/logo.svg` und zentrale Logo-Ausgabe bereinigt.
+
+- **IT-News von Porträtbild auf generische Grafik umgestellt**
+  - Kontext: News-Karten nutzen jetzt generische Cover- und Badge-Grafiken statt Attila-Porträt.
 
 - **Schema-Tests für neue Leistungsseiten durchführen**
   - Kontext: Service + FAQ in Rich Results Test und Schema Markup Validator prüfen für:

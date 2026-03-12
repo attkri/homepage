@@ -29,7 +29,7 @@ Folgende Projektquellen gehören zusätzlich zum aktuellen Kontext des Agenten:
   - `seo-audit`
   - `performance-analytics`
   - `competitive-analysis`
-  - `hugo-technik`
+  - `astro`
   - `web-frontend-builder`
   - `web-design-guidelines`
   - `bild-erstellen`
@@ -87,21 +87,15 @@ Folgende Projektquellen gehören zusätzlich zum aktuellen Kontext des Agenten:
 ## Struktur
 
 - .todo/                  # Offene Repo Aufgaben, Templates
-- content/
-  - Artikel/              # Fachartikel (Hugo Page Bundles)
-    - <_Thema_>/
-      - index.md          # Artikel-Inhalt
-      - cover.webp        # Titelbild
-  - Leistung/             # Leistungsseite (Page Bundle)
-  - Leistungsseiten/      # Spezialisierte Leistungsseiten mit URL-Präfix /leistung/
-  - Suchen/               # Suchseite
-  - Impressum/            # Impressum
-  - Kontakt/              # Kontaktseite
-- static/
-  - images/posts/         # Artikelbilder (alt, nicht mehr verwenden)
-- assets/                 # Hugo Assets (CSS, JS)
-- layouts/                # Custom Layouts
-- themes/PaperMod/        # Theme (nicht editieren)
+- src/
+  - pages/                # File-based Routing für Seiten und Routen
+  - content/              # Markdown-/MDX-Inhalte für Artikel, News, Seiten und Sektionen
+  - layouts/              # Layouts, Seitentemplates und Strukturbausteine
+  - config/               # Zentrale Website-Konfiguration
+  - icons/                # Eigene SVG-Icons
+  - styles/               # Globale Styles
+- public/                 # Statische Dateien, die 1:1 ausgeliefert werden
+- .ALT/                   # Archivierter alter Hugo-Stand, nicht mehr produktiv
 
 ## GSC-Analyse-Regeln
 
@@ -118,36 +112,35 @@ Folgende Projektquellen gehören zusätzlich zum aktuellen Kontext des Agenten:
 
 ## Technologie
 
-### HUGO-Website
+### Astro-Website
 
-- **Generator:** [Hugo](https://gohugo.io/), **Version:** `v0.155.2 extended`
-- **Theme:** [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/), **Version:** `master-Snapshot 3bb0ca2 (2026-01-25)`
+- **Generator:** [Astro](https://astro.build/), **Version:** `6.0.2`
+- **Content-Modell:** Astro Content Collections über `src/content.config.ts`
 - **Sprache:** `de-DE`
 - **Base-URL:** `https://attilakrick.com/`
-- Für technische Hugo-Arbeit wie Partials, Bundles, Breadcrumbs, Theme-Overrides, Front Matter, Shortcodes, interne Links oder Build-Diagnose ist primär der globale Skill `hugo-technik` vorgesehen.
-- `web-frontend-builder` ergänzt Hugo-Arbeit nur dann, wenn die Aufgabe zusätzlich ein klares visuelles, layout- oder komponentenorientiertes Ziel hat.
-- Bei Mischfällen gilt: zuerst `hugo-technik`, `web-frontend-builder` nur ergänzend.
-- **Hosting:** GitHub Pages per Action `Deploy Hugo site to Pages` (Dieses GitHub-Repository ist gleichzeitig Quellcode-Repository und Hoster der Website)
+- Für technische Astro-Arbeit wie `src/pages/`, Layouts, dynamische Routen, `getStaticPaths()`, Content Collections, Build-Diagnose oder Seitenstruktur ist primär der globale Skill `astro` vorgesehen.
+- `web-frontend-builder` ergänzt Astro-Arbeit nur dann, wenn die Aufgabe zusätzlich ein klares visuelles, layout- oder komponentenorientiertes Ziel hat.
+- Bei Mischfällen gilt: zuerst `astro`, `web-frontend-builder` nur ergänzend.
+- **Hosting:** GitHub Pages per Action `deploy-astro-pages.yml` (dieses GitHub-Repository ist gleichzeitig Quellcode-Repository und Hoster der Website)
 - **Navigation / Menü:** Start, Artikel, Kategorien, Leistungen, News, Kontakt, Impressum, Suchen
 - **Suche:** Fuse.js (clientseitig)
 - **Cookie-Policy:** Die Website ist technisch **100% cookie-frei**. Funktionen mit Cookies sind ausnahmslos verboten.
 - **DSGVO:** Google Analytics deaktiviert; Drittanbieter nur ohne Cookies
 
-### Build-Artefakte (Hugo Cache)
+### Build-Artefakte und Cache
 
-- `resources/_gen/` ist ein generierter Hugo-Cache und gehört nicht zu den Quellinhalten der Website.
-- Dateien unter `resources/_gen/` werden **nie** committed.
-- Agenten sollen den Cache regelmäßig bereinigen, wenn er unnötiges Git-Rauschen erzeugt (z. B. vor Commits oder nach lokalen Builds).
-- Zulässige Bereinigung: `hugo --gc` oder lokales Löschen von `resources/_gen/`.
+- `.astro/` ist lokaler Astro-Cache und gehört nicht zu den Quellinhalten der Website.
+- `dist/` ist generierte Build-Ausgabe und wird nicht committed.
+- Agenten sollen lokale Build-Artefakte nur bei Bedarf bereinigen, wenn unnötiges Git-Rauschen entsteht.
+- Zulässige Bereinigung: lokales Löschen von `.astro/` oder `dist/`.
 
-### Hugo-Technik und Overrides
+### Astro-Technik
 
-- `themes/PaperMod/` wird **nie** direkt geändert.
-- Projektseitige Anpassungen erfolgen über `layouts/`, `assets/`, `static/` und andere Repo-Dateien.
-- Maßgeblicher technischer Release-Check ist `hugo --gc --minify`.
-- `hugo server -D` ist nur für Vorschau und Fehlersuche gedacht, nicht als Abnahmeersatz.
+- Projektseitige Anpassungen erfolgen über `src/pages/`, `src/layouts/`, `src/content/`, `src/config/`, `src/styles/` und `public/`.
+- Maßgeblicher technischer Release-Check ist `npm run build`.
+- `npm run dev` ist nur für Vorschau und Fehlersuche gedacht, nicht als Abnahmeersatz.
 
-### Hugo Front Matter
+### Astro Frontmatter
 
 #### Artikel
 
@@ -155,59 +148,35 @@ Alle Artikel verwenden dieses Schema:
 
 ```yaml
 ---
-draft: false
-date: YYYY-MM-DDTHH:mm:ss+02:00     # Immer mit aktueller System-Zeit (inkl. Uhrzeit) angeben
 title: "<Titel>"                    # max. 580px Breite
+meta_title: "<Meta Title>"          # falls abweichend vom Titel
 description: "<Beschreibung>"       # max. 1000px Breite
-categories:
-  - PowerShell                      # oder: T-SQL, dotNET, Divers, KI (exakte Schreibweise)
-tags:
-  - <tag1>
-  - <tag2>
+date: YYYY-MM-DDTHH:mm:ss+02:00      # Immer mit aktueller System-Zeit (inkl. Uhrzeit) angeben
+cover_image: "/images/artikel/<slug>/cover.webp"
+image: "/images/artikel/<slug>/cover.webp"
 author: "Attila Krick"
-cover:
-  image: cover.webp
-  alt: "<Alt-Text>"
-  caption: "<Bildunterschrift>"
-  relative: true
-
-# Also Option im Hinterkopf behalten:
-# editPost:
-#   URL: "https://github.com/attkri/homepage/blob/main/content/TEMPLATE.md"
-#   Text: "Diesen Artikel bearbeiten"
-#   appendFilePath: true
-
-showToc: true
-TocOpen: false
-comments: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowShareButtons: true
-ShowCodeCopyButtons: true
-ShowWordCount: true
-disableHLJS: true
+author_image: "/images/legacy/site/portrait-attila-krick-300x300.webp"
+draft: false
 ---
 
 ## Mit zwei Hashtags beginnt die erste Überschrift
 ```
 
-**Hinweis zu Datumsangaben (`date` / `lastmod`):**
+**Hinweis zu Datumsangaben (`date`):**
 
 - **Neue Artikel:** Das `date`-Feld muss immer mit einer konkreten Uhrzeit (z.B. `T12:23:00+02:00`) gesetzt werden, damit sie in der Sortierung korrekt erfasst werden.
-- **Kleinere Änderungen / SEO-Updates:** Das `date`-Feld bleibt zwingend unverändert! Stattdessen wird ein `lastmod`-Feld mit dem aktuellen Zeitstempel (inkl. Uhrzeit) im Front Matter hinzugefügt oder aktualisiert.
+- **Kleinere Änderungen / SEO-Updates:** Das `date`-Feld bleibt zwingend unverändert.
 - **Komplette Überarbeitungen (Major Rewrites):** Nur in diesem Fall wird das `date`-Feld auf das neue Datum (inkl. Uhrzeit) aktualisiert.
 
-Hinweis zu `cover`:
+Hinweis zu Artikelbildern:
 
-- `cover` ist **optional**.
+- `cover_image` und `image` sind **optional**, aber für Artikel in der Praxis meist sinnvoll.
 - Wenn kein inhaltlich passendes Bild vorhanden ist, wird **kein Default-Cover** gesetzt.
 - Keine Platzhalter- oder Portrait-Standardbilder als Ersatz verwenden.
 
 Optionale Front-Matter-Felder (nicht im Standard-Schema, aber gültig):
 
-- `aliases` – Liste von Redirect-URLs (Standard-Hugo-Feature, z.B. `["/alter-pfad/"]`). Wird bei URL-Änderungen oder Redirect-Bedarf gesetzt.
-- `canonical` – Kanonische URL, falls abweichend von der Standard-URL (über PaperMod-Params). Wird bei Duplikat-Risiko oder abweichender Standard-URL gesetzt.
+- `canonical` – Kanonische URL, falls abweichend von der Standard-URL. Wird bei Duplikat-Risiko oder abweichender Standard-URL gesetzt.
 
 #### Statische Seiten
 
@@ -215,10 +184,11 @@ Für Seiten ohne Artikelcharakter (Leistung, Kontakt, etc.):
 
 ```yaml
 ---
+title: "<Titel>"
+description: "<Beschreibung>"
+meta_title: "<Meta Title>"         # optional
+image: "<OG-Bild>"                 # optional
 draft: false
-date: YYYY-MM-DDT00:00:00+02:00
-comments: false
-HideTags: true
 ---
 ```
 
@@ -228,9 +198,10 @@ HideTags: true
 - Kategorien: `PowerShell`, `T-SQL`, `dotNET`, `Divers`, `KI` (exakte Schreibweise)
 - Aufzählungen ausschließlich mit `-`
 - Tabellen für Vergleiche und Übersichten
-- Bilder für Hugo: **immer WebP-Format** und **immer im Page Bundle** ablegen (z. B. `cover.webp`, `diagramm.webp`). Bestehende Altbestände unter `static/images/posts/` sind nur Legacy. Dort keine neuen Bilder ablegen. Nicht-Hugo-Bilder dürfen PNG oder das vom Aufrufer vorgegebene Format verwenden.
-- Wenn kein passendes Cover vorhanden ist: `cover` im Front Matter weglassen (kein Default-Cover einsetzen)
-- **Diagramm-Standard:** Bei neuen Artikeln oder Artikeln ohne Cover wird immer ein Bild generiert. Nutze hierfür zwingend den Skill `bild-erstellen`. Für inhaltliche Diagramme (z.B. Flowcharts, Workflows) muss ebenfalls der Skill `bild-erstellen` genutzt werden. Das generierte Bild muss nach WebP konvertiert und im Page Bundle des Artikels (z.B. als `cover.webp` oder `diagramm.webp`) gespeichert und entsprechend verlinkt werden.
+- Bilder für Artikel und Seiten liegen standardmäßig unter `public/images/...`; für Artikel bevorzugt unter `public/images/artikel/<slug>/...`.
+- Neue Artikelbilder bevorzugt als WebP anlegen; Ausnahmen nur, wenn PNG oder SVG fachlich sinnvoller ist.
+- Wenn kein passendes Cover vorhanden ist: `cover_image` und `image` im Front Matter weglassen (kein Default-Cover einsetzen).
+- **Diagramm-Standard:** Bei neuen Artikeln oder Artikeln ohne Cover wird immer ein Bild generiert. Nutze hierfür zwingend den Skill `bild-erstellen`. Für inhaltliche Diagramme (z. B. Flowcharts, Workflows) muss ebenfalls der Skill `bild-erstellen` genutzt werden. Das generierte Bild wird nach WebP konvertiert und unter `public/images/artikel/<slug>/...` oder einem fachlich passenden Bildpfad abgelegt.
 - Code-Blöcke mit Sprachkennung (<!-- ```yaml, ```html, ```powershell -->)
 - Zeichensatz: UTF-8 mit echten Umlauten (`ä`, `ö`, `ü`, `Ä`, `Ö`, `Ü`, `ß`). Keine Umschreibungen wie `ae`, `oe`, `ue` oder `ss` als Ersatz für Umlaute/ß.
 - Satzzeichen normal und vollständig verwenden (inklusive `?` in Fragen).
@@ -296,11 +267,11 @@ Attila Krick schreibt, wie er auch in einer Kaffeepause erklären würde – ruh
 - URL: `https://attilakrick.com/news/` · RSS: `https://attilakrick.com/news/index.xml`
 - Command: `.opencode/commands/PublishNew_AKC.md` (in `.gitignore`, wird nicht committet)
 - Commit-Message-Konvention: `content: News YYYY-MM-DD`
-- Datum immer `T00:00:00+01:00` im Front Matter – `buildFuture: false` schließt spätere Uhrzeiten aus dem Build aus
+- Datum immer `T00:00:00+01:00` im Frontmatter setzen, damit Tagesausgaben stabil und eindeutig datiert sind
 - **Betrieb:** Vollautomatisch – ein externer Scheduler triggert `PublishNew_AKC` täglich. Der Agent führt alle Schritte 1–11 ohne Rückfragen aus, inklusive Commit & Push.
 - **Quellensprache:** Primär Deutsch. Bei fehlenden DE-Quellen: englische Quellen suchen, Titel und Zusammenfassung auf Deutsch übersetzen, Quelle als `(EN)` kennzeichnen. Leere Kategorien existieren nicht.
 - **Fehlerfall:** Bei Git-Fehler 1x wiederholen, dann `"JobStatus": "FAILED"` im JSON zurückgeben.
-- **Struktur:** `content/News/_index.md` (Sektion), `content/News/YYYY-MM-DD/index.md` (Ausgabe als Page Bundle)
+- **Struktur:** `src/content/news/` mit Datumsdateien wie `src/content/news/YYYY-MM-DD.md`
 
 ## LinkedIn-Posts -- Regeln & Workflow
 
@@ -330,7 +301,7 @@ Jeder Inhalt wird für KI-Auffindbarkeit optimiert. Prioritäten:
 
 1. **Entitäts-Klarheit:** Jede Seite beantwortet genau eine Frage. Klare Aussagen, die auch in natürlichem Sprachfluss eindeutig bleiben. Subjekt-Prädikat-Objekt als Grundgerüst – Abweichungen sind erlaubt, wenn die Kernaussage in den ersten zwei Sätzen eines Absatzes eindeutig bleibt. Der Name des Autors und sein Fachgebiet sind auf jeder Seite erkennbar.
 2. **Zitierbarkeit:** Aussagen, die KI-Systeme als Quelle verwenden können. Konkrete Zahlen, Fakten und Anleitungen einbauen – aber eingebettet in einen Kontext, der erklärt, warum sie relevant sind. Eine Zahl ohne Einordnung ist genauso wenig hilfreich wie eine vage Beschreibung.
-3. **Strukturierte Daten:** Schema.org-Markup (Person, Article, SpeakableSpecification, WebSite+SearchAction, BreadcrumbList) empfehlen und einbauen, wo PaperMod es unterstützt. **Achtung:** FAQPage ist seit August 2023 auf Regierungs-/Gesundheitsseiten beschränkt; HowTo-Rich-Results wurden seit September 2023 entfernt — beide für attilakrick.com nicht verwenden.
+3. **Strukturierte Daten:** Schema.org-Markup (Person, Article, SpeakableSpecification, WebSite+SearchAction, BreadcrumbList) empfehlen und einbauen, wo die Astro-Struktur es sinnvoll unterstützt. **Achtung:** FAQPage ist seit August 2023 auf Regierungs-/Gesundheitsseiten beschränkt; HowTo-Rich-Results wurden seit September 2023 entfernt — beide für attilakrick.com nicht verwenden.
 4. **Freshness-Signale:** Datum aktuell halten, "Stand: YYYY" in Artikeln, regelmäßige Updates.
 5. **Autorität aufbauen:** Über-mich-Signale, Expertise-Nachweise, Verlinkung zwischen thematisch verwandten Inhalten.
 6. **llms.txt:** `/llms.txt` und `/llms-full.txt` pflegen und aktuell halten.
@@ -338,7 +309,7 @@ Jeder Inhalt wird für KI-Auffindbarkeit optimiert. Prioritäten:
 
 ## SEO-Optimierung (Sekundär)
 
-- Title-Tags und Meta-Descriptions (innerhalb der Hugo-Front-Matter-Felder `title` und `description`)
+- Title-Tags und Meta-Descriptions (innerhalb der Astro-Frontmatter-Felder `title`, `meta_title` und `description`)
 - Internes Linking zwischen verwandten Artikeln
 - Keyword-Platzierung (natürlich, kein Stuffing)
 - Alt-Texte für Bilder
@@ -358,10 +329,10 @@ Die folgenden Regeln gelten für **jeden** Agenten im System. Subagent-Dateien v
 - **Cookie-Verbot:** Keine Funktionen, Skripte oder Dienste, die Cookies setzen, lesen oder voraussetzen. Siehe §Regeln (unverhandelbar) für Details.
 - **Kategorien-Whitelist:** Nur `PowerShell`, `T-SQL`, `dotNET`, `Divers`, `KI` (exakte Schreibweise).
 - **Umlaute:** UTF-8 mit echten Umlauten (`ä`, `ö`, `ü`, `ß`). Keine Umschreibungen (`ae`, `oe`, `ue`, `ss`).
-- **Bildpfade:** Neue Bilder ausschließlich im Page Bundle ablegen. Keine neuen Bilder unter `static/images/posts/`.
-- **Build-Artefakte:** `resources/_gen/` wird nie committed.
+- **Bildpfade:** Neue Bilder standardmäßig unter `public/images/` ablegen; für Artikel bevorzugt unter `public/images/artikel/<slug>/`. Keine neuen Bilder in alten Legacy-Pfaden anlegen.
+- **Build-Artefakte:** `.astro/` und `dist/` sind Build-Artefakte und werden nicht committed.
 - **H1-Verbot:** Kein `#` (H1) im Artikeltext – H1 kommt aus dem Front-Matter-Titel.
-- **llms.txt:** Ausschließlich in `static/` – keine Duplikate außerhalb.
+- **llms.txt:** Ausschließlich in `public/` – keine Duplikate außerhalb.
 
 ## Regeln (unverhandelbar)
 
@@ -373,11 +344,11 @@ Die folgenden Regeln gelten für **jeden** Agenten im System. Subagent-Dateien v
 - **Freigabe:** Nur Änderungen am **direkten Website-Inhalt** brauchen vor dem Speichern die Freigabe durch den User.
 - **Keine vagen Formulierungen:** Keine vagen Formulierungen ohne konkrete Handlungsempfehlung. Weiche Übergänge, erzählerische Einstiege und kontextgebende Sätze sind keine „vagen Formulierungen" – sie sind erlaubt und erwünscht, solange sie zu einer konkreten Aussage hinführen.
 - **Keine Annahmen:** Keine Annahmen über Fakten, die der User nicht genannt hat und die nicht in den Datenquellen stehen.
-- **llms.txt:** `llms.txt` und `llms-full.txt` dürfen ausschließlich im `static/`-Verzeichnis liegen (gleicher Ort wie die veröffentlichte `robots.txt`). Keine Duplikate außerhalb von `static/`.
+- **llms.txt:** `llms.txt` und `llms-full.txt` dürfen ausschließlich im `public/`-Verzeichnis liegen (gleicher Ort wie die veröffentlichte `robots.txt`). Keine Duplikate außerhalb von `public/`.
 
 ## Content-Framework im Repo-Kontext
 
-- Direkter Website-Content wird vor dem Speichern immer als Inline-Entwurf gezeigt; erst nach User-Freigabe wird in `content/` geschrieben.
+- Direkter Website-Content wird vor dem Speichern immer als Inline-Entwurf gezeigt; erst nach User-Freigabe wird in `src/content/` geschrieben.
 - Für klar marketinglastige Seiten ergänzt der globale Skill `marketing-writing` dieses Framework optional.
 - Für SEO-/AEO-/GEO-Feinschliff gilt zusätzlich `seo-audit` plus `.opencode/resources/seo-aeo-rules.md`.
 
