@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="196" height="36" viewBox="0 0 196 36" fill="none" role="img" aria-label="Attila Krick">
-  <rect x="1" y="1" width="34" height="34" rx="4" fill="#C65A00" />
-  <path d="M9 24.5L15.2 11.5H19.1L25.4 24.5H21.8L20.5 21.6H13.7L12.4 24.5H9ZM14.8 18.9H19.3L17 13.8L14.8 18.9Z" fill="#F6E8D0"/>
-  <path d="M27.5 24.5L22.2 18.1L27.1 11.5H31.1L26.3 18.1L31.7 24.5H27.5Z" fill="#F6E8D0"/>
-  <text x="47" y="16" fill="#111111" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.18em">ATTILA KRICK</text>
-  <text x="47" y="29" fill="#5C5C5C" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.16em">POWERSHELL · SQL SERVER · KI-AGENTEN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="214" height="44" viewBox="0 0 214 44" fill="none" role="img" aria-label="Attila Krick">
+  <rect x="1" y="5" width="34" height="34" rx="4" fill="#C65A00" />
+  <path d="M9 28.5L15.2 15.5H19.1L25.4 28.5H21.8L20.5 25.6H13.7L12.4 28.5H9ZM14.8 22.9H19.3L17 17.8L14.8 22.9Z" fill="#F6E8D0"/>
+  <path d="M27.5 28.5L22.2 22.1L27.1 15.5H31.1L26.3 22.1L31.7 28.5H27.5Z" fill="#F6E8D0"/>
+  <text x="47" y="19" fill="#111111" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.18em">ATTILA KRICK</text>
+  <text x="47" y="33" fill="#5C5C5C" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.16em">POWERSHELL · SQL SERVER · KI-AGENTEN</text>
 </svg>

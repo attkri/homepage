@@ -2,7 +2,7 @@
 enable: true
 title: "Kundenstimmen: **ruhig, klar und praxisnah**"
 homepage_title: "Kundenstimmen"
-content: "Die Rueckmeldungen drehen sich nicht um Showeffekte, sondern um Struktur, Klarheit und echte Verstaendlichkeit in Projekt und Training."
+content: "Die Rückmeldungen drehen sich nicht um Showeffekte, sondern um Struktur, Klarheit und echte Verständlichkeit in Projekt und Training."
 
 testimonials:
   - name: "Seminarfeedback"

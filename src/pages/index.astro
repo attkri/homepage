@@ -73,7 +73,7 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
             <div class="p-6 border border-border rounded-xl bg-white/70">
               <p class="text-sm text-text-light uppercase tracking-[0.16em] pb-3">Training</p>
               <p class="h2 pb-2">1.500+</p>
-              <p>Schulungstage fuer Unternehmen, Mittelstand und Behoerden.</p>
+              <p>Schulungstage für Unternehmen, Mittelstand und Behörden.</p>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
               </div>
               <div>
                 <p class="font-semibold text-xl">Attila Krick</p>
-                <p class="text-text-light">Beratung, Umsetzung und Training fuer PowerShell, SQL Server und KI-Agenten.</p>
+                <p class="text-text-light">Beratung, Umsetzung und Training für PowerShell, SQL Server und KI-Agenten.</p>
               </div>
             </div>
             <p class="pt-4">Kein Schaufenstertext, sondern klare Einordnung, belastbare Umsetzung und Wissenstransfer, der im Team bleibt.</p>
@@ -114,19 +114,20 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
         {
           service.services.map((s, i: number) => (
             <div
-              class="p-8 border border-border rounded-xl"
+              class="group p-8 border border-border rounded-xl"
               data-aos="fade-right-sm"
               data-aos-delay={i * 100}
             >
-              <Icon name={s.image} class="w-16 h-16 mb-10 lg:mb-24" />
+              <Icon name={s.image} class="w-16 h-16 mb-10 lg:mb-24 text-text-dark/70 transition-colors duration-200 group-hover:text-secondary" />
               <h3 class="mb-4 text-2xl" set:html={markdownify(s.title)} />
               <p class="mb-4" set:html={markdownify(s.content)} />
               {s.button.enable && (
                 <a
                   href={s.button.link}
+                  aria-label={`Mehr erfahren: ${s.title}`}
                   class="flex items-center gap-1 transition duration-300 text-secondary hover:opacity-80"
                 >
-                  Mehr erfahren <span class="sr-only">Details</span>
+                  Mehr erfahren
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -267,7 +268,7 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
               <div class="h-full p-6 border border-border/20 rounded-xl bg-white/5">
                 <p class="text-sm uppercase tracking-[0.16em] text-light/60 pb-3">Einsatz</p>
                 <p class="h3 text-white pb-2">EU</p>
-                <p class="text-light/80">Remote und vor Ort fuer Unternehmen, Mittelstand und Behoerden.</p>
+                <p class="text-light/80">Remote und vor Ort für Unternehmen, Mittelstand und Behörden.</p>
               </div>
             </div>
           </div>

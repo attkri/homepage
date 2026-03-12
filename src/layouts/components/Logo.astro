@@ -23,7 +23,19 @@ const {
 <a href="/" class="navbar-brand inline-block">
   {
     src || logo ? (
-      <>
+      (src ? src : logo).endsWith(".svg") ? (
+        <img
+          src={src ? src : logo}
+          alt={title}
+          class="inline-block"
+          width={logo_width.replace("px", "")}
+          height={logo_height.replace("px", "")}
+          style={{
+            height: logo_height.replace("px", "") + "px",
+            width: logo_width.replace("px", "") + "px",
+          }}
+        />
+      ) : (
         <ImageMod
           src={src ? src : logo}
           class={`inline-block`}
@@ -36,7 +48,7 @@ const {
           }}
           format="webp"
         />
-      </>
+      )
     ) : logo_text ? (
       logo_text
     ) : (
