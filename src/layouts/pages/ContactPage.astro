@@ -1,0 +1,72 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+
+const pageIndex = await getListPage("contact", "-index");
+if (pageIndex.data.draft) {
+  return Astro.redirect("/404");
+}
+---
+
+<Base {...pageIndex.data}>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="pb-4" data-aos="fade-up-sm">Kontakt aufnehmen</h1>
+        <p class="pb-8" data-aos="fade-up-sm" data-aos-delay="100">
+          Fuer den ersten Austausch reicht eine kurze E-Mail. Das ist fuer beide Seiten
+          am klarsten, transparentesten und auf dieser bewusst cookie-freien Website auch der sicherste Weg.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3" data-aos="fade-up-sm" data-aos-delay="150">
+          <a class="btn btn-primary" href="mailto:info@attilakrick.com">E-Mail schreiben</a>
+          <a class="btn btn-outline-primary" href="/profil">Profil ansehen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-0">
+    <div class="container">
+      <div class="row g-4 justify-center">
+        <div class="md:col-6 lg:col-4" data-aos="fade-up-sm">
+          <div class="h-full p-6 border border-border rounded-xl">
+            <p class="text-sm text-text-light uppercase tracking-[0.16em] pb-3">Direkter Kontakt</p>
+            <h2 class="h4 pb-3">E-Mail</h2>
+            <p class="pb-5">info@attilakrick.com</p>
+            <a class="btn btn-outline-primary btn-sm" href="mailto:info@attilakrick.com">Mail öffnen</a>
+          </div>
+        </div>
+        <div class="md:col-6 lg:col-4" data-aos="fade-up-sm" data-aos-delay="100">
+          <div class="h-full p-6 border border-border rounded-xl">
+            <p class="text-sm text-text-light uppercase tracking-[0.16em] pb-3">Profile</p>
+            <h2 class="h4 pb-3">LinkedIn & GitHub</h2>
+            <p class="pb-5">Wenn ein kurzer Blick auf Profil, Themen und Arbeitsweise hilft, findest du mich direkt dort.</p>
+            <div class="flex flex-wrap gap-3">
+              <a class="btn btn-outline-primary btn-sm" href="https://www.linkedin.com/in/attilakrick/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a class="btn btn-outline-primary btn-sm" href="https://github.com/attkri" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-8" data-aos="fade-up-sm" data-aos-delay="150">
+          <div class="p-6 md:p-8 border border-border rounded-xl bg-light/60">
+            <h2 class="h4 pb-4">Was in die erste Nachricht gehoert</h2>
+            <div class="row g-4">
+              <div class="md:col-4">
+                <p class="font-medium pb-2">Ausgangspunkt</p>
+                <p class="text-text-light">Worum geht es konkret: PowerShell, SQL Server oder KI-Agenten?</p>
+              </div>
+              <div class="md:col-4">
+                <p class="font-medium pb-2">Umfeld</p>
+                <p class="text-text-light">Welches Team, welches System oder welches Projektumfeld ist betroffen?</p>
+              </div>
+              <div class="md:col-4">
+                <p class="font-medium pb-2">Ziel</p>
+                <p class="text-text-light">Was soll am Ende klarer, stabiler oder nutzbarer sein als heute?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

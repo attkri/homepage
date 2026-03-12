@@ -1,10 +1,10 @@
 .header {
-  @apply bg-body py-5;
+  @apply sticky top-0 z-50 border-b border-border bg-body/90 py-4 backdrop-blur;
 }
 
 /* navbar items */
 .navbar {
-  @apply relative flex flex-wrap items-center justify-between;
+  @apply relative flex flex-wrap items-center justify-between gap-4;
 }
 
 .navbar-brand {
@@ -15,11 +15,11 @@
 }
 
 .navbar-nav {
-  @apply text-center lg:text-left order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:gap-x-6 lg:pb-0 xl:gap-x-8;
+  @apply text-center lg:text-left order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:gap-x-5 lg:pb-0 xl:gap-x-6;
 }
 
 .nav-link {
-  @apply text-text-dark/80 hover:text-text-dark text-[14px] block p-3 font-medium transition lg:px-2 lg:py-3;
+  @apply text-text-dark/80 hover:text-text-dark text-[14px] block p-3 font-medium transition lg:px-2 lg:py-2;
 
   &.active {
     @apply underline decoration-(--color-primary) decoration-1 underline-offset-4 text-text-dark;

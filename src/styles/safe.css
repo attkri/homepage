@@ -16,19 +16,3 @@ input#nav-toggle:checked ~ #nav-menu {
 .form-label {
   @apply mb-4 block font-medium text-text-dark;
 }
-
-/* swiper pagination */
-.swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-  -o-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-}
-.swiper-pagination {
-  @apply flex items-center justify-center space-x-2 text-center;
-}
-.swiper-pagination-bullet {
-  @apply h-2.5 w-2.5 rounded-full bg-text-light opacity-100;
-}
-.swiper-pagination-bullet-active {
-  @apply h-4 w-4 bg-primary;
-}

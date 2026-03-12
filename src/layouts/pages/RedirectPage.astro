@@ -1,0 +1,26 @@
+---
+import Base from "@/layouts/Base.astro";
+
+interface Props {
+  to: string;
+  title?: string;
+  text?: string;
+}
+
+const { to, title = "Weiterleitung", text = "Sie werden zur aktuellen Seite weitergeleitet." } = Astro.props;
+---
+
+<Base title={title} noindex={true} canonical={to}>
+  <Fragment slot="head">
+    <meta http-equiv="refresh" content={`0;url=${to}`} />
+  </Fragment>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="max-w-xl mx-auto text-center">
+        <h1 class="h2 pb-4">{title}</h1>
+        <p class="pb-8">{text}</p>
+        <a class="btn btn-primary" href={to}>Direkt weiter</a>
+      </div>
+    </div>
+  </section>
+</Base>
