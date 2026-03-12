@@ -1,0 +1,72 @@
+{
+  "main": [
+    {
+      "name": "Start",
+      "url": "/"
+    },
+    {
+      "name": "Leistungen",
+      "url": "/leistung"
+    },
+    {
+      "name": "Artikel",
+      "url": "/artikel"
+    },
+    {
+      "name": "IT-News",
+      "url": "/news"
+    },
+    {
+      "name": "Profil",
+      "url": "/profil"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/kontakt"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Navigation",
+      "items": [
+        {
+          "name": "Start",
+          "url": "/"
+        },
+        {
+          "name": "Leistungen",
+          "url": "/leistung"
+        },
+        {
+          "name": "Artikel",
+          "url": "/artikel"
+        },
+        {
+          "name": "IT-News",
+          "url": "/news"
+        },
+        {
+          "name": "Kontakt",
+          "url": "/kontakt"
+        }
+      ]
+    },
+    {
+      "title": "Rechtliches",
+      "items": [
+        {
+          "name": "Profil",
+          "url": "/profil"
+        },
+        {
+          "name": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "name": "Impressum",
+          "url": "/impressum"
+        }
+      ]
+    }
+  ]
+}

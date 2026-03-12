@@ -7,6 +7,7 @@ www.attilakrick.com.code-workspace
 .tasks/**
 .vscode/**
 .ruff_cache/**
+.NEU/**
 
 # Hugo-Publish-Output wird in CI als Artifact deployed, nicht versioniert
 docs/
@@ -18,3 +19,12 @@ AGENTS.md
 
 # Temporaere Hugo-Sperrdatei waehrend lokaler Builds
 .hugo_build.lock
+
+# Astro Build- und Laufzeitdateien
+node_modules/
+dist/
+.output/
+.astro/
+.env
+.env.production
+tsconfig.tsbuildinfo

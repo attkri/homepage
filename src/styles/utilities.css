@@ -1,0 +1,13 @@
+@utility bg-gradient {
+  @apply bg-gradient-to-b from-[rgba(249,249,249,1)] from-[0.53%] to-white to-[83.28%];
+}
+
+.hover-border-effect {
+  @apply relative border-b border-[#0a0a0a1a] transition duration-300;
+  &::after {
+    @apply content-[''] absolute -bottom-px left-0 w-0 h-px bg-secondary transition-all duration-300;
+  }
+  &:hover::after {
+    @apply w-[40%];
+  }
+}
