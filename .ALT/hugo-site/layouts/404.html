@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <article class="post">
+        <header class="post-header">
+            <h1>Oops! Diese Seite existiert nicht.</h1>
+            <meta name="robots" content="noindex, nofollow">
+        </header>
+        <div class="post-content">
+            <p>Die gewünschte Seite existiert nicht. Vielleicht wurde sie verschoben oder gelöscht.</p>
+
+            <h2>Hier geht's weiter:</h2>
+            <ul>
+                <li><a href="{{ .Site.BaseURL }}">Zur Startseite</a></li>
+                <li><a href="{{ .Site.BaseURL }}/posts/">Zum Blog</a></li>
+                <li><a href="{{ .Site.BaseURL }}/leistungen/">Meine IT-Dienstleistungen</a></li>
+                <li><a href="{{ .Site.BaseURL }}/kontakt/">Kontakt aufnehmen</a></li>
+            </ul>
+
+            <h3>Oder nutze die <a href="{{ .Site.BaseURL }}/search/">Suche</a>.</h3>
+        </div>
+    </article>
+{{ end }}
