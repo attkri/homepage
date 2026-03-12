@@ -15,7 +15,14 @@ const dateFormat = (
       dateObj = new Date(date);
     }
   } else {
-    dateObj = date;
+    dateObj = new Date(
+      date.getUTCFullYear(),
+      date.getUTCMonth(),
+      date.getUTCDate(),
+      12,
+      0,
+      0,
+    );
   }
 
   const output = format(dateObj, pattern, { locale: de });
