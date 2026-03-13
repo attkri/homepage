@@ -28,16 +28,20 @@ const { pathname } = Astro.url;
       <Logo />
     </div>
     <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <input id="nav-toggle" type="checkbox" class="hidden" aria-hidden="true" />
     <label
       for="nav-toggle"
       class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark lg:order-1"
+      aria-label="Menü umschalten"
+      aria-controls="nav-menu"
+      role="button"
+      tabindex="0"
     >
-      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20" aria-hidden="true">
         <title>Menü öffnen</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
       </svg>
-      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20" aria-hidden="true">
         <title>Menü schließen</title>
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
@@ -56,6 +60,7 @@ const { pathname } = Astro.url;
                 <a
                   href={menu.url}
                   class={`nav-link block ${(pathname === `${menu.url}/` || pathname === menu.url) && "active"}`}
+                  aria-current={(pathname === `${menu.url}/` || pathname === menu.url) ? "page" : undefined}
                 >
                   {menu.name}
                 </a>

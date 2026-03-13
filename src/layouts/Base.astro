@@ -1,5 +1,6 @@
 ---
 import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
+import SchemaOrg from "@/components/SchemaOrg.astro";
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import { plainify } from "@/lib/utils/textConverter";
@@ -20,10 +21,17 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
+  schema_type?: "website" | "article" | "person";
+  date?: Date;
+  author?: string;
 }
 // destructure frontmatter
-const { title, meta_title, description, image, noindex, canonical } = Astro.props;
+const { title, meta_title, description, image, noindex, canonical, schema_type, date, author } = Astro.props;
 const faviconVersion = "20260312b";
+const currentUrl = (() => {
+  const resolved = new URL(canonical ?? Astro.url.pathname, config.site.base_url).toString();
+  return resolved === `${config.site.base_url}/` ? config.site.base_url : resolved;
+})();
 ---
 
 
@@ -61,7 +69,7 @@ const faviconVersion = "20260312b";
     </title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    <link rel="canonical" href={currentUrl} item-prop="url" />
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
@@ -80,7 +88,7 @@ const faviconVersion = "20260312b";
     <!-- og-description -->
     <meta property="og:description" content={plainify(description ? description : config.metadata.meta_description)} />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
+    <meta property="og:url" content={currentUrl} />
 
     <!-- twitter-title -->
     <meta name="twitter:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
@@ -94,6 +102,14 @@ const faviconVersion = "20260312b";
     <!-- twitter-image -->
     <meta name="twitter:image" content={`${config.site.base_url}${image ? image : config.metadata.meta_image}`} />
     <meta name="twitter:card" content="summary_large_image" />
+    <SchemaOrg
+      type={schema_type}
+      title={title}
+      description={description}
+      image={image}
+      date={date}
+      author={author}
+    />
     <slot name="head" />
   </head>
   <body>
@@ -109,6 +125,10 @@ const faviconVersion = "20260312b";
       import AOS from "aos";
       import "aos/dist/aos.css";
       function aosInit() {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          return;
+        }
+
         AOS.init({
           duration: 600,
           once: true,

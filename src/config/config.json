@@ -12,19 +12,16 @@
   },
 
   "settings": {
-    "default_theme": "system",
     "pagination": 2,
-    "summary_length": 200,
-    "blog_folder": "blog"
+    "summary_length": 200
   },
 
   "params": {
-    "contact_form_action": "#",
     "copyright": "Attila Krick"
   },
 
   "navigation_button": {
-    "enable": false,
+    "enable": true,
     "label": "Kontakt aufnehmen",
     "link": "/kontakt"
   },

@@ -8,7 +8,6 @@ import { defineConfig, fontProviders, sharpImageService } from "astro/config";
 import config from "./src/config/config.json";
 import theme from "./src/config/theme.json";
 
-
 // Helper to parse font string format: "FontName:wght@400;500;600;700"
 function parseFontString(fontStr) {
   const [name, weightPart] = fontStr.split(":");
@@ -53,7 +52,18 @@ export default defineConfig({
   fonts: fontsConfig,
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        const excludedPaths = new Set([
+          "/about",
+          "/contact",
+          "/services",
+          "/terms-of-service",
+        ]);
+
+        return !excludedPaths.has(new URL(page).pathname);
+      },
+    }),
     AutoImport({
       imports: [
         "@/shortcodes/Button",

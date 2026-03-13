@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-
 Disallow: /api/*
+
+Sitemap: https://attilakrick.com/sitemap-index.xml

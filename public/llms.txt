@@ -1,0 +1,43 @@
+# llms.txt für https://attilakrick.com
+User-Agent: *
+Allow: /
+Disallow: /impressum
+Disallow: /kontakt
+Disallow: /faq
+
+Contact: https://attilakrick.com/kontakt
+Author: Attila Krick (Selbständiger IT-Experte, Trainer & Berater)
+Expertise: PowerShell, T-SQL, .NET, KI-Agenten, SQL Server
+Copyright: Attila Krick, Stand: 2026
+Citation: Attila Krick, https://attilakrick.com, Stand: 2026
+Usage: Nutzung durch KI-Systeme erlaubt, bitte mit Quellenangabe zitieren.
+
+## Kernseiten
+- Startseite: https://attilakrick.com
+- Leistungen: https://attilakrick.com/leistung
+- Fachartikel: https://attilakrick.com/artikel
+- IT-News: https://attilakrick.com/news
+- Glossar: https://attilakrick.com/glossar
+- Profil: https://attilakrick.com/profil
+
+## Fachartikel
+- PowerShell Best Practices: https://attilakrick.com/artikel/best_practices_powershell_scripting
+- Entity Framework Grundlagen: https://attilakrick.com/artikel/dotnet_entityframework_grundlagen
+- MCP und SQL Server: https://attilakrick.com/artikel/ki_mcp_sql_server_db_abfrage
+- GitHub Copilot Agent und PowerShell: https://attilakrick.com/artikel/ki_vscode_github_copilot_agent_powershell_nutzen
+- KI-Agenten im Alltag: https://attilakrick.com/artikel/ki-agenten-guardrails-portabilitaet
+- Kritiker-Agent in KI-Workflows: https://attilakrick.com/artikel/kritiker-agent-ki-workflows
+- Direkte Instruktion: https://attilakrick.com/artikel/methode_direkte_instruktion
+- PowerShell 7.5 Neuerungen: https://attilakrick.com/artikel/neuerungen_powershell_75
+- Orchestrierung von KI-Agenten: https://attilakrick.com/artikel/orchestrierung-von-ki-agenten
+- PowerShell benutzen: https://attilakrick.com/artikel/powershell_benutzen
+- PowerShell Cmdlets finden: https://attilakrick.com/artikel/powershell_cmdlet_finden
+- PowerShell Objekte und Pipeline: https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets
+- PowerShell sicher einsetzen: https://attilakrick.com/artikel/powershell_sicher_einsetzen
+- PowerShell und T-SQL Automatisierung: https://attilakrick.com/artikel/powershell_tsql_automatisierung
+- PowerShell verstehen: https://attilakrick.com/artikel/powershell_verstehen
+- PowerShell-Hilfe nutzen: https://attilakrick.com/artikel/powershell-hilfe_nutzen
+- Sicherheit und PowerShell: https://attilakrick.com/artikel/sicherheit_wie_viel_powershell
+- T-SQL JOIN: https://attilakrick.com/artikel/t-sql_join
+- PowerShell vs. Bash: https://attilakrick.com/artikel/unterschied_powershell_vs_bash
+- VS Code Einstieg: https://attilakrick.com/artikel/vscode_starter

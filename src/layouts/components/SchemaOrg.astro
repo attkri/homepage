@@ -1,0 +1,170 @@
+---
+/**
+ * Schema.org JSON-LD Markup
+ *
+ * Rendert strukturierte Daten je nach Seitentyp:
+ * - WebSite + SearchAction (alle Seiten)
+ * - BreadcrumbList (alle Seiten außer Startseite)
+ * - Article (Artikel-Einzelseiten)
+ * - Person (Profilseite)
+ */
+import config from "@/config/config.json";
+
+export interface Props {
+  type?: "website" | "article" | "person";
+  title?: string;
+  description?: string;
+  image?: string;
+  date?: Date;
+  author?: string;
+}
+
+const { type = "website", title, description, image, date, author } = Astro.props;
+const baseUrl = config.site.base_url;
+const pathname = Astro.url.pathname;
+const currentUrl = `${baseUrl}${pathname}`;
+const searchPath = (config.site as Record<string, unknown>)["search_path"] as string | undefined;
+
+// --- WebSite + SearchAction (alle Seiten) ---
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: config.site.title,
+  url: baseUrl,
+  description: config.metadata.meta_description,
+  inLanguage: "de-DE",
+  ...(searchPath
+    ? {
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${baseUrl}${searchPath}?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      }
+    : {}),
+};
+
+// --- BreadcrumbList (alle Seiten außer Startseite) ---
+const pathSegments = pathname.split("/").filter((s) => s);
+const breadcrumbItems = [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "Start",
+    item: baseUrl,
+  },
+];
+
+const labelMap: Record<string, string> = {
+  artikel: "Artikel",
+  news: "IT-News",
+  leistung: "Leistungen",
+  profil: "Profil",
+  kontakt: "Kontakt",
+  impressum: "Impressum",
+  glossar: "Glossar",
+  kategorien: "Kategorien",
+  suchen: "Suchen",
+};
+
+pathSegments.forEach((segment, i) => {
+  const href = `${baseUrl}/${pathSegments.slice(0, i + 1).join("/")}`;
+  const label =
+    labelMap[segment] ||
+    segment
+      .replace(/[-_]/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase());
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    position: i + 2,
+    name: label,
+    item: href,
+  });
+});
+
+const breadcrumbSchema =
+  pathSegments.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbItems,
+      }
+    : null;
+
+// --- Article (Artikel-Einzelseiten) ---
+const articleSchema =
+  type === "article" && title
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: title,
+        description: description || "",
+        image: image ? `${baseUrl}${image}` : undefined,
+        datePublished: date ? date.toISOString() : undefined,
+        dateModified: date ? date.toISOString() : undefined,
+        url: currentUrl,
+        inLanguage: "de-DE",
+        author: {
+          "@type": "Person",
+          name: author || "Attila Krick",
+          url: `${baseUrl}/profil`,
+        },
+        publisher: {
+          "@type": "Person",
+          name: "Attila Krick",
+          url: `${baseUrl}/profil`,
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": currentUrl,
+        },
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1", ".content p:first-of-type"],
+        },
+      }
+    : null;
+
+// --- Person (Profilseite) ---
+const personSchema =
+  type === "person"
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Attila Krick",
+        url: `${baseUrl}/profil`,
+        jobTitle: "IT-Experte, Trainer & Berater",
+        description:
+          "Selbständiger IT-Experte mit 30+ Jahren Erfahrung in PowerShell, SQL Server und KI-Agenten. Beratung, Umsetzung und Training für Unternehmen, Mittelstand und Behörden.",
+        knowsAbout: [
+          "PowerShell",
+          "SQL Server",
+          "T-SQL",
+          ".NET",
+          "C#",
+          "WPF",
+          "KI-Agenten",
+          "IT-Automation",
+          "IT-Sicherheit",
+        ],
+        sameAs: ["https://www.linkedin.com/in/attilakrick/"],
+        worksFor: {
+          "@type": "Organization",
+          name: "Attila Krick - IT-Beratung",
+          url: baseUrl,
+        },
+      }
+    : null;
+
+// Alle Schemas sammeln
+const schemas = [websiteSchema, breadcrumbSchema, articleSchema, personSchema].filter(Boolean);
+---
+
+{
+  schemas.map((schema) => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))
+}

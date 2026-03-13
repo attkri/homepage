@@ -35,9 +35,9 @@ export const titleify = (content: string) => {
 export const plainify = (content: string) => {
   const parseMarkdown: any = marked.parse(content);
   const filterBrackets = parseMarkdown.replace(/<\/?[^>]+(>|$)/gm, "");
-  const filterSpaces = filterBrackets.replace(/[\r\n]\s*[\r\n]/gm, "");
+  const filterSpaces = filterBrackets.replace(/\s+/g, " ").trim();
   const stripHTML = htmlEntityDecoder(filterSpaces);
-  return stripHTML;
+  return stripHTML.replace(/\s+/g, " ").trim();
 };
 
 // strip entities for plainify
@@ -51,7 +51,7 @@ const htmlEntityDecoder = (htmlWithEntities: string) => {
     "&#39;": "'",
   };
   let htmlWithoutEntities: string = htmlWithEntities.replace(
-    /(&amp;|&lt;|&gt;|&quot;|&#39;)/g,
+    /(&nbsp;|&amp;|&lt;|&gt;|&quot;|&#39;)/g,
     (entity: string): string => {
       return entityList[entity];
     },

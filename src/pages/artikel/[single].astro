@@ -15,9 +15,9 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, meta_title, description, image } = post.data;
+const { title, meta_title, description, image, date, author } = post.data;
 ---
 
-<Base title={title} meta_title={meta_title} description={description} image={image}>
+<Base title={title} meta_title={meta_title} description={description} image={image} schema_type="article" date={date} author={author}>
   <PostSingle post={post} />
 </Base>
