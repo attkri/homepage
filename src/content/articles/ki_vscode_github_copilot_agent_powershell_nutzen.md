@@ -10,11 +10,11 @@ author_image: "/images/legacy/site/portrait-attila-krick-300x300.webp"
 draft: false
 ---
 
-```goat
+```text
 +-----------+  Prompt + Teamregeln   +---------------+  erstellt / refactort   +------------------+  Lint, Test, Review   +----------+
 | Entwickler| ---------------------> | Copilot Agent | ----------------------> | Skript + Pester  | --------------------> | Freigabe |
 | VS Code   | <--------------------- |               | <---------------------- | Tests            | <-------------------- | im Repo  |
-+-----------+      Rueckfragen       +---------------+      Anpassungen        +------------------+       Feedback        +----------+
++-----------+      Rückfragen        +---------------+      Anpassungen        +------------------+       Feedback        +----------+
 ```
 
 ## Kurzantwort
@@ -24,7 +24,7 @@ Ja. [GitHub Copilot](/glossar/#github-copilot) Agent in VS Code hilft bei PowerS
 Ich bin Attila Krick, PowerShell-Trainer und Berater. In diesem Beitrag zeige ich einen Workflow, der in Unternehmen und Behörden praxistauglich ist.
 
 > Stand: 2026  
-**Getestet mit:** VS Code, GitHub Copilot Agent, Pester und PSScriptAnalyzer in einem Review-basierten Teamworkflow.
+> **Getestet mit:** VS Code, GitHub Copilot Agent, Pester und PSScriptAnalyzer in einem Review-basierten Teamworkflow.
 
 ## Was ist Copilot Agent im PowerShell-Kontext?
 
@@ -52,11 +52,11 @@ Copilot Agent ist ein KI-gestützter Arbeitsmodus in VS Code, der nicht nur Code
 
 ## Typische Aufgaben und geeignete Agent-Prompts
 
-| Aufgabe | Prompt-Muster | Erwarteter Nutzen |
-| --- | --- | --- |
-| Skript-Grundgerüst erstellen | "Erstelle ein PowerShell-Skript mit `param`-Block, `CmdletBinding`, Fehlerbehandlung und Logging. Nutze sprechende Funktionsnamen." | Schnellere Erstversion mit Team-Standard |
-| Bestehenden Code refactoren | "Refactore in Funktionen mit Single Responsibility, reduziere Seiteneffekte und ergänze Parameter-Validierung." | Wartbarerer Code, weniger technische Schulden |
-| Tests ergänzen | "Erzeuge Pester-Tests für Erfolgsfall, Fehlerpfad und leere Rückgabe. Nutze Mocking für externe Aufrufe." | Höhere Änderungssicherheit |
+| Aufgabe                      | Prompt-Muster                                                                                                                       | Erwarteter Nutzen                             |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Skript-Grundgerüst erstellen | "Erstelle ein PowerShell-Skript mit `param`-Block, `CmdletBinding`, Fehlerbehandlung und Logging. Nutze sprechende Funktionsnamen." | Schnellere Erstversion mit Team-Standard      |
+| Bestehenden Code refactoren  | "Refactore in Funktionen mit Single Responsibility, reduziere Seiteneffekte und ergänze Parameter-Validierung."                     | Wartbarerer Code, weniger technische Schulden |
+| Tests ergänzen               | "Erzeuge Pester-Tests für Erfolgsfall, Fehlerpfad und leere Rückgabe. Nutze Mocking für externe Aufrufe."                           | Höhere Änderungssicherheit                    |
 
 ## Drei konkrete PowerShell-Use-Cases
 
@@ -124,7 +124,7 @@ Nutzen: Du baust schneller ein Sicherheitsnetz für spätere Änderungen.
 ## Sicherheits- und Qualitätsregeln für Unternehmen
 
 - Nutze Copilot Agent nicht mit unklassifizierten sensiblen Daten.
-- Prüfe jeden generierten Befehl mit Blick auf Rechte, Nebenwirkungen und Scope, um [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}}) zu können.
+- Prüfe jeden generierten Befehl mit Blick auf Rechte, Nebenwirkungen und Scope, um [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen) zu können.
 - Erzwinge [Code-Reviews](/glossar/#code-review) vor Merge, auch bei kleinen KI-Änderungen.
 - Führe PSScriptAnalyzer und Pester in der Pipeline verbindlich aus.
 - Dokumentiere, welche KI-Unterstützung für welches Repository erlaubt ist.
@@ -150,11 +150,11 @@ Nutzen: Du baust schneller ein Sicherheitsnetz für spätere Änderungen.
 
 ## Weiterführende Inhalte
 
-- [Best Practices für PowerShell-Skripting]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
-- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
-- [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [Best Practices für PowerShell-Skripting](/artikel/best_practices_powershell_scripting)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
+- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## FAQ: GitHub Copilot Agent für PowerShell
 
@@ -182,6 +182,6 @@ Beginne mit einem klar begrenzten Pilot-Repository, dokumentiere Prompt-Standard
 
 Copilot Agent in VS Code ist für PowerShell ein echter Hebel, wenn du Führung und Qualität kombinierst. KI ersetzt keine Verantwortung, aber sie beschleunigt sauber geführte Entwicklungsarbeit deutlich.
 
-💡 **Tipp:** Wenn du noch einen Schritt weiter gehen willst und KI nicht nur als Assistent, sondern als vollautomatisiertes Team für ganze Projekte einsetzen möchtest, lies meinen Erfahrungsbericht: **[Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert]({{< relref "/Artikel/Orchestrierung-von-KI-Agenten/index.md" >}})**.
+💡 **Tipp:** Wenn du noch einen Schritt weiter gehen willst und KI nicht nur als Assistent, sondern als vollautomatisiertes Team für ganze Projekte einsetzen möchtest, lies meinen Erfahrungsbericht: **[Agenten-Orchestrierung in der Praxis: Wenn KI den Code bis zum Release steuert](/artikel/orchestrierung-von-ki-agenten)**.
 
 Wenn du in deinem Team einen belastbaren KI-Workflow für PowerShell etablieren willst, unterstütze ich dich mit praxisnahen Workshops und konkretem Setup für eure Umgebung.

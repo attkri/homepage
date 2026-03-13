@@ -105,13 +105,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## Weiterführende Inhalte
 
-- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
-- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
-- [PowerShell Cmdlets finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
-- [PowerShell in VS Code produktiv einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
-- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [PowerShell verstehen](/artikel/powershell_verstehen)
+- [PowerShell-Hilfe richtig nutzen](/artikel/powershell-hilfe_nutzen)
+- [PowerShell Cmdlets finden](/artikel/powershell_cmdlet_finden)
+- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 

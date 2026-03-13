@@ -113,12 +113,12 @@ KI-Antworten und Forenbeiträge immer gegen `Get-Help` und offizielle Doku prüf
 
 ## Weiterführende Inhalte
 
-- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
-- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
-- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
-- [PowerShell in Visual Studio Code einrichten]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [PowerShell-Hilfe richtig nutzen](/artikel/powershell-hilfe_nutzen)
+- [PowerShell verstehen](/artikel/powershell_verstehen)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
+- [PowerShell in Visual Studio Code einrichten](/artikel/vscode_starter)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 

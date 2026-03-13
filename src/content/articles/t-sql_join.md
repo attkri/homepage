@@ -134,12 +134,12 @@ Wichtig: Eine zusätzliche Zwischentabelle macht eine Abfrage **nicht automatisc
 
 ## Weiterführende Inhalte
 
-- [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
-- [Entity Framework Core Grundlagen]({{< relref "/Artikel/dotNET_EntityFramework_Grundlagen/index.md" >}})
+- [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung)
+- [Entity Framework Core Grundlagen](/artikel/dotnet_entityframework_grundlagen)
 - [SQL Performance Tuning](/leistung/sql-performance-tuning/)
 - [T-SQL Workshop](/leistung/tsql-workshop/)
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 

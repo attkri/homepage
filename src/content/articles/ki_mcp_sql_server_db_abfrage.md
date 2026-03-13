@@ -10,7 +10,7 @@ author_image: "/images/legacy/site/portrait-attila-krick-300x300.webp"
 draft: false
 ---
 
-```goat
+```text
 +------------+      MCP Tool-Request       +-------------+      Read-only Query       +-------------+
 | KI-System  | --------------------------> | MCP-Server  | -------------------------> | SQL Server  |
 | (ChatGPT)  | <-------------------------- |             | <------------------------- | (Views/SPs) |
@@ -122,12 +122,12 @@ Regeln:
 
 ## Weiterführende Inhalte
 
-- [PowerShell und T-SQL für Automatisierung]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
-- [T-SQL JOINs verstehen]({{< relref "/Artikel/T-SQL_JOIN/index.md" >}})
+- [PowerShell und T-SQL für Automatisierung](/artikel/powershell_tsql_automatisierung)
+- [T-SQL JOINs verstehen](/artikel/t-sql_join)
 - [SQL Server Beratung](/leistung/sql-server-beratung/)
 - [SQL Performance Tuning](/leistung/sql-performance-tuning/)
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## FAQ: MCP und SQL Server
 

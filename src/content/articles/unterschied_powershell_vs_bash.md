@@ -98,12 +98,12 @@ Wenn dein Team reproduzierbare Automatisierung, saubere Fehlerbehandlung und war
 
 ## Weiterführende Inhalte
 
-- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
-- [PowerShell Cmdlet finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
-- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
-- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [PowerShell verstehen](/artikel/powershell_verstehen)
+- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 

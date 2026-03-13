@@ -84,11 +84,11 @@ Damit ein Training belastbar wirkt, arbeite ich mit klaren Kriterien:
 
 ## Weiterführende Inhalte
 
-- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
-- [PowerShell sicher einsetzen]({{< relref "/Artikel/PowerShell_sicher_einsetzen/index.md" >}})
-- [PowerShell in Visual Studio Code]({{< relref "/Artikel/VSCode_Starter/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
+- [PowerShell in Visual Studio Code](/artikel/vscode_starter)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 

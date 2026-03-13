@@ -86,13 +86,13 @@ Get-Process |
 
 ## Weiterführende Inhalte
 
-- [PowerShell verstehen]({{< relref "/Artikel/PowerShell_verstehen/index.md" >}})
-- [PowerShell Cmdlets finden]({{< relref "/Artikel/PowerShell_Cmdlet_finden/index.md" >}})
-- [PowerShell-Hilfe richtig nutzen]({{< relref "/Artikel/PowerShell-Hilfe_nutzen/index.md" >}})
-- [PowerShell Scripting Best Practices]({{< relref "/Artikel/Best_Practices_PowerShell_Scripting/index.md" >}})
-- [PowerShell und T-SQL automatisieren]({{< relref "/Artikel/PowerShell_TSQL_Automatisierung/index.md" >}})
-- [Leistungen]({{< relref "/Leistung/index.md" >}})
-- [Kontakt]({{< relref "/Kontakt/index.md" >}})
+- [PowerShell verstehen](/artikel/powershell_verstehen)
+- [PowerShell Cmdlets finden](/artikel/powershell_cmdlet_finden)
+- [PowerShell-Hilfe richtig nutzen](/artikel/powershell-hilfe_nutzen)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
+- [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung)
+- [Leistungen](/leistung)
+- [Kontakt](/kontakt)
 
 ## Fazit
 
