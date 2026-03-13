@@ -22,7 +22,17 @@ export interface Props {
 const { type = "website", title, description, image, date, author } = Astro.props;
 const baseUrl = config.site.base_url;
 const pathname = Astro.url.pathname;
-const currentUrl = `${baseUrl}${pathname}`;
+const normalizeSiteUrl = (value: string) => {
+  const resolved = new URL(value, `${baseUrl}/`);
+
+  if (resolved.pathname !== "/" && !resolved.pathname.endsWith("/")) {
+    resolved.pathname = `${resolved.pathname}/`;
+  }
+
+  return resolved.pathname === "/" ? `${resolved.origin}/` : resolved.toString();
+};
+
+const currentUrl = normalizeSiteUrl(pathname);
 const searchPath = (config.site as Record<string, unknown>)["search_path"] as string | undefined;
 
 // --- WebSite + SearchAction (alle Seiten) ---
@@ -30,7 +40,7 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: config.site.title,
-  url: baseUrl,
+  url: `${new URL(baseUrl).origin}/`,
   description: config.metadata.meta_description,
   inLanguage: "de-DE",
   ...(searchPath
@@ -39,7 +49,7 @@ const websiteSchema = {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate: `${baseUrl}${searchPath}?q={search_term_string}`,
+            urlTemplate: `${normalizeSiteUrl(searchPath)}?q={search_term_string}`,
           },
           "query-input": "required name=search_term_string",
         },
@@ -54,7 +64,7 @@ const breadcrumbItems = [
     "@type": "ListItem",
     position: 1,
     name: "Start",
-    item: baseUrl,
+    item: `${new URL(baseUrl).origin}/`,
   },
 ];
 
@@ -71,7 +81,7 @@ const labelMap: Record<string, string> = {
 };
 
 pathSegments.forEach((segment, i) => {
-  const href = `${baseUrl}/${pathSegments.slice(0, i + 1).join("/")}`;
+  const href = normalizeSiteUrl(`/${pathSegments.slice(0, i + 1).join("/")}`);
   const label =
     labelMap[segment] ||
     segment
@@ -102,7 +112,7 @@ const articleSchema =
         "@type": "Article",
         headline: title,
         description: description || "",
-        image: image ? `${baseUrl}${image}` : undefined,
+        image: image ? new URL(image, `${baseUrl}/`).toString() : undefined,
         datePublished: date ? date.toISOString() : undefined,
         dateModified: date ? date.toISOString() : undefined,
         url: currentUrl,
@@ -110,12 +120,12 @@ const articleSchema =
         author: {
           "@type": "Person",
           name: author || "Attila Krick",
-          url: `${baseUrl}/profil`,
+          url: normalizeSiteUrl("/profil"),
         },
         publisher: {
           "@type": "Person",
           name: "Attila Krick",
-          url: `${baseUrl}/profil`,
+          url: normalizeSiteUrl("/profil"),
         },
         mainEntityOfPage: {
           "@type": "WebPage",
@@ -135,7 +145,7 @@ const personSchema =
         "@context": "https://schema.org",
         "@type": "Person",
         name: "Attila Krick",
-        url: `${baseUrl}/profil`,
+        url: normalizeSiteUrl("/profil"),
         jobTitle: "IT-Experte, Trainer & Berater",
         description:
           "Selbständiger IT-Experte mit 30+ Jahren Erfahrung in PowerShell, SQL Server und KI-Agenten. Beratung, Umsetzung und Training für Unternehmen, Mittelstand und Behörden.",

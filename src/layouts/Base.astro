@@ -28,10 +28,17 @@ export interface Props {
 // destructure frontmatter
 const { title, meta_title, description, image, noindex, canonical, schema_type, date, author } = Astro.props;
 const faviconVersion = "20260312b";
-const currentUrl = (() => {
-  const resolved = new URL(canonical ?? Astro.url.pathname, config.site.base_url).toString();
-  return resolved === `${config.site.base_url}/` ? config.site.base_url : resolved;
-})();
+const normalizeSiteUrl = (value: string) => {
+  const resolved = new URL(value, `${config.site.base_url}/`);
+
+  if (resolved.pathname !== "/" && !resolved.pathname.endsWith("/")) {
+    resolved.pathname = `${resolved.pathname}/`;
+  }
+
+  return resolved.pathname === "/" ? `${resolved.origin}/` : resolved.toString();
+};
+
+const currentUrl = normalizeSiteUrl(canonical ?? Astro.url.pathname);
 ---
 
 

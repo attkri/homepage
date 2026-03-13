@@ -61,7 +61,8 @@ export default defineConfig({
           "/terms-of-service",
         ]);
 
-        return !excludedPaths.has(new URL(page).pathname);
+        const pathname = new URL(page).pathname.replace(/\/$/, "") || "/";
+        return !excludedPaths.has(pathname);
       },
     }),
     AutoImport({
