@@ -10,6 +10,8 @@ const indexPageLink = currentPage === 2;
 const hasPrevPage = currentPage > 1;
 const hasNextPage = totalPages > currentPage!;
 
+const normalizePageUrl = (value: string) => (value === "/" ? value : `${value}/`);
+
 let pageList: number[] = [];
 for (let i = 1; i <= totalPages; i++) {
   pageList.push(i);
@@ -27,8 +29,8 @@ for (let i = 1; i <= totalPages; i++) {
         <a
           href={
             indexPageLink
-              ? `${section ? "/" + section : "/"}`
-              : `${section ? "/" + section : ""}/page/${currentPage - 1}`
+              ? normalizePageUrl(`${section ? "/" + section : "/"}`)
+              : normalizePageUrl(`${section ? "/" + section : ""}/page/${currentPage - 1}`)
           }
           class="rounded px-2 py-1.5 text-text-dark hover:bg-text-light  "
         >
@@ -79,8 +81,8 @@ for (let i = 1; i <= totalPages; i++) {
           <a
             href={
               i === 0
-                ? `${section ? "/" + section : "/"}`
-                : `${section ? "/" + section : ""}/page/${pagination}`
+                ? normalizePageUrl(`${section ? "/" + section : "/"}`)
+                : normalizePageUrl(`${section ? "/" + section : ""}/page/${pagination}`)
             }
             aria-current="page"
             class="rounded px-4 py-2 text-text-dark hover:bg-text-light  "
@@ -93,7 +95,7 @@ for (let i = 1; i <= totalPages; i++) {
       {/* next page */}
       {hasNextPage ? (
         <a
-          href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
+          href={normalizePageUrl(`${section ? "/" + section : ""}/page/${currentPage + 1}`)}
           class="rounded px-2 py-1.5 text-text-dark hover:bg-text-light  "
         >
           <span class="sr-only">Next</span>

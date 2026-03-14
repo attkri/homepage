@@ -218,11 +218,11 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
                     {dateFormat(latestNews.data.date!)} · IT-News
                   </p>
                   <h3 class="h3 pb-4">
-                    <a href={`/news/${latestNews.id}`}>{latestNews.data.title}</a>
+                    <a href={`/news/${latestNews.id}/`}>{latestNews.data.title}</a>
                   </h3>
                   <p class="pb-6" set:html={markdownify(latestNews.data.description)} />
                   <div class="flex flex-wrap gap-3">
-                    <a class="btn btn-primary" href={`/news/${latestNews.id}`}>Aktuelle News lesen</a>
+                    <a class="btn btn-primary" href={`/news/${latestNews.id}/`}>Aktuelle News lesen</a>
                     <a class="btn btn-outline-primary" href="/news/">Alle IT-News</a>
                   </div>
                 </div>

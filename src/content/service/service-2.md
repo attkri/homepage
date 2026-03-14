@@ -10,5 +10,5 @@ contact_2: "Attila Krick unterstützt bei Engpässen, Performance-Problemen, Des
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 ---

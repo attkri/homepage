@@ -23,7 +23,7 @@ const { title, image, description, date, author, author_image } = post.data;
       />
     </div>
     <a
-      href={`/${basePath}/${post.id}`}
+      href={`/${basePath}/${post.id}/`}
       class="h5 font-medium after:absolute after:inset-0"
       set:html={markdownify(title)}
     />

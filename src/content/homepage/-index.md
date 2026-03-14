@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "Leistungen ansehen"
-    link: "/leistung"
+    link: "/leistung/"
   brands:
     - "/images/company-logo/company-logo.webp"
     - "/images/company-logo/company-logo-1.webp"
@@ -24,21 +24,21 @@ service:
       button:
         enable: true
         label: "Zur Leistung"
-        link: "/leistung#powershell"
+        link: "/leistung/#powershell"
     - title: "SQL Server"
       image: "service-2"
       content: "Architektur, Analyse und Performance-Tuning für Datenplattformen, die stabil, nachvollziehbar und betriebssicher bleiben sollen."
       button:
         enable: true
         label: "Zur Leistung"
-        link: "/leistung#sql-server"
+        link: "/leistung/#sql-server"
     - title: "KI-Agenten"
       image: "service-3"
       content: "Einordnung, Guardrails und Umsetzung für Organisationen, die KI-Agenten mit Kontrolle statt Tool-Euphorie einführen wollen."
       button:
         enable: true
         label: "Zur Leistung"
-        link: "/leistung#ki-agenten"
+        link: "/leistung/#ki-agenten"
 
 feature:
   title: "Beratung, Umsetzung und Training <br> **bleiben bewusst zusammengedacht**"
@@ -68,5 +68,5 @@ about:
   button:
     enable: true
     label: "Zum Profil"
-    link: "/profil"
+    link: "/profil/"
 ---

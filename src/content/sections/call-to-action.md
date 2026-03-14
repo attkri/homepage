@@ -6,5 +6,5 @@ description: "Ob PowerShell, SQL Server oder KI-Agenten: Der nächste Schritt bl
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 ---

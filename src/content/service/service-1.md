@@ -10,5 +10,5 @@ contact_2: "Dazu kommen Schulungen vom Einstieg bis zum Fortgeschrittenen-Niveau
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 ---

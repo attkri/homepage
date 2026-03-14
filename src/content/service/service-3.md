@@ -10,5 +10,5 @@ contact_2: "Attila Krick unterstützt bei Einstieg, Auswahl, Guardrails und konk
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 ---

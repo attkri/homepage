@@ -9,5 +9,5 @@ banner_title: "Drei Leistungsfelder für **echte Projekte und echte Teams**"
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 ---

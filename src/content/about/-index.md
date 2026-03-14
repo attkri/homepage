@@ -8,7 +8,7 @@ draft: false
 button:
   enable: true
   label: "Kontakt aufnehmen"
-  link: "/kontakt"
+  link: "/kontakt/"
 
 story:
   title: "Erfahrung, die <br> Betrieb und Umsetzung zusammenzieht"
