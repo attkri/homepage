@@ -146,13 +146,13 @@ Skripte bleiben nur dann stabil, wenn Konventionen klar sind: Namensschema, Logg
 
 ## Weiterführende Inhalte
 
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden)
-- [PowerShell Objekte und Pipeline verstehen](/artikel/powershell_objekte_pipeline_cmdlets)
-- [PowerShell verstehen](/artikel/powershell_verstehen)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden/)
+- [PowerShell Objekte und Pipeline verstehen](/artikel/powershell_objekte_pipeline_cmdlets/)
+- [PowerShell verstehen](/artikel/powershell_verstehen/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 
-PowerShell-Skripte sind dann professionell, wenn sie auch nach Monaten nachvollziehbar, sicher und testbar bleiben. Um [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen) zu können, minimierst du mit diesen 10 Regeln das Betriebsrisiko und erhöhst die Geschwindigkeit im Team spürbar.
+PowerShell-Skripte sind dann professionell, wenn sie auch nach Monaten nachvollziehbar, sicher und testbar bleiben. Um [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/) zu können, minimierst du mit diesen 10 Regeln das Betriebsrisiko und erhöhst die Geschwindigkeit im Team spürbar.

@@ -180,12 +180,12 @@ using (var context = new AppDbContext(options))
 
 ## Weiterführende Inhalte
 
-- [T-SQL JOIN verstehen und korrekt einsetzen](/artikel/t-sql_join)
-- [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung)
+- [T-SQL JOIN verstehen und korrekt einsetzen](/artikel/t-sql_join/)
+- [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung/)
 - [.NET Beratung](/leistung/dotnet-beratung/)
 - [.NET Code Review](/leistung/dotnet-code-review/)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

@@ -6,23 +6,23 @@
     },
     {
       "name": "Leistungen",
-      "url": "/leistung"
+      "url": "/leistung/"
     },
     {
       "name": "IT-News",
-      "url": "/news"
+      "url": "/news/"
     },
     {
       "name": "Artikel",
-      "url": "/artikel"
+      "url": "/artikel/"
     },
     {
       "name": "Profil",
-      "url": "/profil"
+      "url": "/profil/"
     },
     {
       "name": "Kontakt",
-      "url": "/kontakt"
+      "url": "/kontakt/"
     }
   ],
   "footer": [
@@ -35,23 +35,23 @@
         },
         {
           "name": "Leistungen",
-          "url": "/leistung"
+          "url": "/leistung/"
         },
         {
           "name": "Artikel",
-          "url": "/artikel"
+          "url": "/artikel/"
         },
         {
           "name": "Glossar",
-          "url": "/glossar"
+          "url": "/glossar/"
         },
         {
           "name": "IT-News",
-          "url": "/news"
+          "url": "/news/"
         },
         {
           "name": "Kontakt",
-          "url": "/kontakt"
+          "url": "/kontakt/"
         }
       ]
     },
@@ -60,15 +60,15 @@
       "items": [
         {
           "name": "Profil",
-          "url": "/profil"
+          "url": "/profil/"
         },
         {
           "name": "FAQ",
-          "url": "/faq"
+          "url": "/faq/"
         },
         {
           "name": "Impressum",
-          "url": "/impressum"
+          "url": "/impressum/"
         }
       ]
     }

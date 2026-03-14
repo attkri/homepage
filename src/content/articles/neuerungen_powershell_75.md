@@ -86,13 +86,13 @@ Miss vor und nach dem Wechsel dieselben Jobs. Nur so ist ein Nutzen belastbar be
 ## Weiterführende Ressourcen
 
 - Offizielle Releases: [PowerShell Releases auf GitHub](https://github.com/PowerShell/PowerShell/releases)
-- Sicherheitsfokus: [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- Cmdlet-Recherche: [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden)
-- Praxisbeispiel Automation: [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung)
+- Sicherheitsfokus: [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- Cmdlet-Recherche: [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden/)
+- Praxisbeispiel Automation: [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung/)
 
 ## Unterstützung für dein Team
 
 Wenn du PowerShell 7.5 in deinem Unternehmen strukturiert einführen willst, findest du hier den passenden Einstieg:
 
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)

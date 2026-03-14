@@ -109,11 +109,11 @@ Empfohlener Ablauf:
 
 ## Weiterführende Inhalte
 
-- [PowerShell verstehen: Grundlagen für den sicheren Einstieg](/artikel/powershell_verstehen)
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- [Best Practices für PowerShell Scripting](/artikel/best_practices_powershell_scripting)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell verstehen: Grundlagen für den sicheren Einstieg](/artikel/powershell_verstehen/)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- [Best Practices für PowerShell Scripting](/artikel/best_practices_powershell_scripting/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

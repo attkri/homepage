@@ -96,14 +96,14 @@ So entstehen reproduzierbare Reports für Betrieb, Audit und Management.
 
 ## Weiterführende Inhalte
 
-- [T-SQL JOINs verstehen](/artikel/t-sql_join)
-- [Entity Framework Core Grundlagen](/artikel/dotnet_entityframework_grundlagen)
-- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
+- [T-SQL JOINs verstehen](/artikel/t-sql_join/)
+- [Entity Framework Core Grundlagen](/artikel/dotnet_entityframework_grundlagen/)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting/)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
 - [SQL Server Beratung](/leistung/sql-server-beratung/)
 - [SQL Performance Tuning](/leistung/sql-performance-tuning/)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

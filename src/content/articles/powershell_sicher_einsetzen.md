@@ -84,13 +84,13 @@ Nicht im gleichen Sinne wie unter Windows. Dort greifen andere Sicherheitsmechan
 
 ## Weiterführende Inhalte
 
-- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
-- [Sicherheit: Wie viel PowerShell ist sinnvoll?](/artikel/sicherheit_wie_viel_powershell)
-- [PowerShell Cmdlets finden](/artikel/powershell_cmdlet_finden)
-- [PowerShell-Hilfe richtig nutzen](/artikel/powershell-hilfe_nutzen)
-- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting/)
+- [Sicherheit: Wie viel PowerShell ist sinnvoll?](/artikel/sicherheit_wie_viel_powershell/)
+- [PowerShell Cmdlets finden](/artikel/powershell_cmdlet_finden/)
+- [PowerShell-Hilfe richtig nutzen](/artikel/powershell-hilfe_nutzen/)
+- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

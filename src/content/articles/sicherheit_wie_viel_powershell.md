@@ -73,7 +73,7 @@ Darüber hinaus bietet PowerShell native Möglichkeiten zur Verschlüsselung, zu
 
 ## Sicherheitsrisiken? Ja – aber kontrollierbar
 
-Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte [Living-off-the-Land-Techniken](/glossar/#living-off-the-land). Wer [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen) möchte, muss klare Rahmenbedingungen schaffen:
+Natürlich kann PowerShell selbst ein Risiko darstellen – insbesondere durch sogenannte [Living-off-the-Land-Techniken](/glossar/#living-off-the-land). Wer [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/) möchte, muss klare Rahmenbedingungen schaffen:
 
 - signierte Skripte und Execution Policies
 - rollenbasierte Rechtevergabe
@@ -114,8 +114,8 @@ Wer heute Systeme absichern, Konfigurationen prüfen oder Angriffe erkennen will
 
 ## Weiterführende Inhalte
 
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
-- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting/)
+- [PowerShell in VS Code produktiv einrichten](/artikel/vscode_starter/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)

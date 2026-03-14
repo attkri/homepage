@@ -101,12 +101,12 @@ KI-Tools können helfen, aber produktive Befehle sollten immer gegen `Get-Help` 
 
 ## Weiterführende Inhalte
 
-- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden)
-- [PowerShell verstehen](/artikel/powershell_verstehen)
-- [PowerShell in Visual Studio Code einrichten](/artikel/vscode_starter)
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden/)
+- [PowerShell verstehen](/artikel/powershell_verstehen/)
+- [PowerShell in Visual Studio Code einrichten](/artikel/vscode_starter/)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

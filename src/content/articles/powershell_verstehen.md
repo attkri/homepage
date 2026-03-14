@@ -78,12 +78,12 @@ Starte mit einem Mini-Workflow, den du täglich brauchst, zum Beispiel Service-C
 
 ## Weiterführende Inhalte
 
-- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden)
-- [PowerShell in Visual Studio Code einrichten](/artikel/vscode_starter)
-- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting)
-- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [PowerShell Cmdlet finden](/artikel/powershell_cmdlet_finden/)
+- [PowerShell in Visual Studio Code einrichten](/artikel/vscode_starter/)
+- [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting/)
+- [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## Fazit
 

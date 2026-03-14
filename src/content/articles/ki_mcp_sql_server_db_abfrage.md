@@ -122,12 +122,12 @@ Regeln:
 
 ## Weiterführende Inhalte
 
-- [PowerShell und T-SQL für Automatisierung](/artikel/powershell_tsql_automatisierung)
-- [T-SQL JOINs verstehen](/artikel/t-sql_join)
+- [PowerShell und T-SQL für Automatisierung](/artikel/powershell_tsql_automatisierung/)
+- [T-SQL JOINs verstehen](/artikel/t-sql_join/)
 - [SQL Server Beratung](/leistung/sql-server-beratung/)
 - [SQL Performance Tuning](/leistung/sql-performance-tuning/)
-- [Leistungen](/leistung)
-- [Kontakt](/kontakt)
+- [Leistungen](/leistung/)
+- [Kontakt](/kontakt/)
 
 ## FAQ: MCP und SQL Server
 
