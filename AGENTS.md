@@ -20,7 +20,8 @@ Folgende Projektquellen gehören zusätzlich zum aktuellen Kontext des Agenten:
 ## Skill-First-Arbeitsweise
 
 - Bei passender Fachaufgabe wird zuerst der passende Skill geladen.
-- Ausnahme Website-Content: Für Fachartikel, Leistungsseiten, Glossare und Case Studies ist das Content-Framework in diesem Repo die Standardmethode; ein zusätzlicher Skill ist dafür nicht erforderlich.
+- Ausnahme Website-Content: Für Fachartikel, Leistungsseiten, Glossare und Case Studies ist das Content-Framework in diesem Repo die Standardmethode.
+- **Pflicht-Skills bei Artikelerstellung:** Beim Schreiben neuer Fachartikel oder Leistungsseiten muss `marketing-writing` für Copy-Qualität (Klarheit, Nutzenführung, aktive Sprache) geladen werden. `seo-audit` folgt anschließend für den SEO-/AEO-/GEO-Feinschliff. Das Content-Framework bleibt die strukturelle Basis; die Skills ergänzen die handwerkliche Qualität.
 - Lokale Skills unter `.opencode/skills/` haben Vorrang vor globalen Skills, wenn beide dieselbe Aufgabe sinnvoll abdecken.
 - Aktuell gibt es keine verpflichtenden projektspezifischen lokalen Skills mehr; projektspezifische Content-Regeln und Website-Konventionen liegen direkt in `AGENTS.md` und `@WebMaster`.
 - Wichtige globale Skills für dieses Repo:
@@ -348,8 +349,8 @@ Die folgenden Regeln gelten für **jeden** Agenten im System. Subagent-Dateien v
 ## Content-Framework im Repo-Kontext
 
 - Direkter Website-Content wird vor dem Speichern immer als Inline-Entwurf gezeigt; erst nach User-Freigabe wird in `src/content/` geschrieben.
-- Für klar marketinglastige Seiten ergänzt der globale Skill `marketing-writing` dieses Framework optional.
-- Für SEO-/AEO-/GEO-Feinschliff gilt zusätzlich `seo-audit`.
+- Beim Schreiben neuer Fachartikel oder Leistungsseiten muss `marketing-writing` geladen werden (Klarheit, Nutzenführung, aktive Sprache). Das Content-Framework bleibt die strukturelle Basis.
+- Für SEO-/AEO-/GEO-Feinschliff gilt anschließend `seo-audit`.
 
 ### Zielgruppen-Default
 
