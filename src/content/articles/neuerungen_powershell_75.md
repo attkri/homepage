@@ -12,6 +12,8 @@ draft: false
 
 ## Solltest du auf PowerShell 7.5 wechseln?
 
+> **Hinweis:** Seit März 2026 ist [PowerShell 7.6 (LTS)](/artikel/powershell-7-6-neue-features/) verfügbar – die neue empfohlene Version für Produktionsumgebungen mit drei Jahren Support.
+
 PowerShell 7.5 ist seit **Dezember 2024** als stabile Version verfügbar. Für viele Teams ist der Wechsel sinnvoll, wenn neue Features gebraucht werden und ein kontrollierter Rollout möglich ist.
 
 > Stand: 2026-02  

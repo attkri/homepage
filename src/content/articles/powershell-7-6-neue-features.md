@@ -165,4 +165,6 @@ $PSVersionTable.PSVersion
 
 PowerShell 7.6 ist kein Feature-Feuerwerk, sondern ein solides LTS-Release, das an den richtigen Stellen schleift. Die Tab-Completion-Fixes allein rechtfertigen den Update-Aufwand, und Features wie `PSRedirectToVariable` oder `PSWhere()` machen Skripte kürzer und lesbarer.
 
-Wer produktive Automatisierung betreibt, hat mit dem LTS-Status drei Jahre Ruhe. Wer noch auf 7.4 sitzt: Der Support dafür endet am 10. November 2026 – ein guter Zeitpunkt, den Umstieg zu planen. _(Stand: März 2026)_
+Wer produktive Automatisierung betreibt, hat mit dem LTS-Status drei Jahre Ruhe. Wer noch auf 7.4 sitzt: Der Support dafür endet am 10. November 2026 – ein guter Zeitpunkt, den Umstieg zu planen.
+
+Wer den Schritt von 7.4 auf 7.5 noch nicht gemacht hat, findet im Artikel [Neuerungen in PowerShell 7.5](/artikel/neuerungen_powershell_75/) eine Upgrade-Checkliste. Und wer seine Skripte bei der Gelegenheit gleich robuster machen will: Die [Best Practices für PowerShell-Scripting](/artikel/best_practices_powershell_scripting/) gelten auch unter 7.6 unverändert. _(Stand: März 2026)_
