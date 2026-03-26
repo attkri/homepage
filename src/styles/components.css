@@ -138,7 +138,7 @@
   @apply prose-img:max-w-full prose-img:rounded;
   @apply prose-hr:border-border;
   @apply prose-p:text-base prose-p:text-text;
-  @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-l-[10px] prose-blockquote:border-primary prose-blockquote:bg-light prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-text;
+  @apply prose-blockquote:ml-4 prose-blockquote:border-0 prose-blockquote:bg-transparent prose-blockquote:px-0 prose-blockquote:py-0 prose-blockquote:pl-5 prose-blockquote:text-lg prose-blockquote:italic prose-blockquote:text-text-light;
   @apply prose-pre:rounded-lg prose-pre:bg-text-light;
   @apply prose-code:px-1 prose-code:text-primary;
   @apply prose-strong:text-text;
@@ -149,4 +149,48 @@
   @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-text;
   @apply prose-tr:border-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px];
+}
+
+.content pre {
+  @apply overflow-x-auto rounded-[18px] border px-4 py-3 shadow-none;
+}
+
+.content pre.astro-code {
+  border-color: #40464f;
+  background-color: #31363f !important;
+}
+
+.content pre code {
+  @apply block bg-transparent p-0 text-[0.94rem] leading-[1.6];
+  font-family: "Cascadia Code", "Fira Code", Consolas, monospace;
+  font-weight: 430;
+  text-shadow: none;
+}
+
+.content pre code .line {
+  display: block;
+}
+
+.content pre[data-language="text"] {
+  border-color: #d8d2c8;
+  background: linear-gradient(180deg, #f2ede6 0%, #ece7df 100%) !important;
+}
+
+.content pre[data-language="text"] code {
+  color: #1f2328 !important;
+  font-size: 0.95rem;
+  line-height: 1;
+  font-weight: 000;
+  letter-spacing: 0;
+  font-family:
+    var(--font-primary) Consolas,
+    monospace;
+}
+
+.content pre[data-language="text"] code span {
+  color: inherit !important;
+}
+
+.content pre[data-language="text"] code .line {
+  margin: 0;
 }

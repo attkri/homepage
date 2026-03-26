@@ -8,6 +8,9 @@ www.attilakrick.com.code-workspace
 .vscode/**
 .ruff_cache/**
 .NEU/**
+.Tools/**
+AGENTS.md
+.Legacy/**
 
 # Hugo-Publish-Output wird in CI als Artifact deployed, nicht versioniert
 docs/
@@ -28,3 +31,5 @@ dist/
 .env
 .env.production
 tsconfig.tsbuildinfo
+
+
