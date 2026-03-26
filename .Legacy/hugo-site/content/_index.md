@@ -1,5 +1,0 @@
----
-draft: false
-aliases:
-  - /home/
----
