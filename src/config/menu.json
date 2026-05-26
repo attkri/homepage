@@ -9,6 +9,10 @@
       "url": "/leistung/"
     },
     {
+      "name": "Seminare",
+      "url": "/seminare/"
+    },
+    {
       "name": "IT-News",
       "url": "/news/"
     },
@@ -36,6 +40,10 @@
         {
           "name": "Leistungen",
           "url": "/leistung/"
+        },
+        {
+          "name": "Seminare",
+          "url": "/seminare/"
         },
         {
           "name": "Artikel",

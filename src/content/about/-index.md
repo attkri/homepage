@@ -1,5 +1,5 @@
 ---
-title: "Attila Krick: **PowerShell, SQL Server und KI-Agenten mit echter Projekterfahrung**"
+title: "Attila Krick: **PowerShell, SQL Server, .NET und KI mit echter Projekterfahrung**"
 meta_title: "Profil"
 description: "Attila Krick arbeitet seit über 30 Jahren an der Schnittstelle von Betrieb, Entwicklung, Architektur und Wissenstransfer."
 image: "/images/legacy/site/portrait-attila-krick-300x300.webp"

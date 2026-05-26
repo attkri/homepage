@@ -136,8 +136,7 @@ Wichtig: Eine zusätzliche Zwischentabelle macht eine Abfrage **nicht automatisc
 
 - [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung/)
 - [Entity Framework Core Grundlagen](/artikel/dotnet_entityframework_grundlagen/)
-- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
-- [T-SQL Workshop](/leistung/tsql-workshop/)
+- [T-SQL- und SQL-Server-Seminar](/seminare/tsql-sql-server-seminar/)
 - [Leistungen](/leistung/)
 - [Kontakt](/kontakt/)
 

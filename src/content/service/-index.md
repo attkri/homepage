@@ -1,11 +1,11 @@
 ---
 title: "Leistungen"
-meta_title: ""
-description: "Leistungsübersicht für PowerShell, SQL Server und KI-Agenten - klar gegliedert nach Themenfeld statt nach Buzzwords."
+meta_title: "Leistungen für PowerShell, SQL Server, .NET und KI-Agenten"
+description: "Leistungsübersicht für PowerShell, SQL Server, .NET und KI-Agenten - klar gegliedert nach Themenfeld, Projektarbeit und Wissenstransfer."
 image: ""
 draft: false
 
-banner_title: "Drei Leistungsfelder für **echte Projekte und echte Teams**"
+banner_title: "Leistungen für **echte Projekte und echte Teams**"
 button:
   enable: true
   label: "Kontakt aufnehmen"

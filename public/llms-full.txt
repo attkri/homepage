@@ -19,7 +19,7 @@ author:
     - Größere Unternehmen
     - Behörden und öffentlicher Dienst
     - Mittelstand
-  contact: https://attilakrick.com/kontakt
+  contact: https://attilakrick.com/kontakt/
   linkedin: https://www.linkedin.com/in/attilakrick/
   github: https://github.com/attkri
 policy:
@@ -34,85 +34,100 @@ citation:
   preferred: Attila Krick, https://attilakrick.com, Stand: 2026
 rights:
   copyright: Attila Krick, Stand: 2026
-updated: 2026-03-13
+  updated: 2026-05-15
 pages:
-  - url: https://attilakrick.com
+  - url: https://attilakrick.com/
     title: Startseite
-    description: Beratung, Umsetzung und Training für PowerShell, SQL Server und KI-Agenten.
-  - url: https://attilakrick.com/leistung
+    description: Beratung, Umsetzung und Training für PowerShell, SQL Server, .NET und KI.
+  - url: https://attilakrick.com/leistung/
     title: Leistungen
-    description: Drei Leistungsfelder - PowerShell-Automatisierung, SQL Server, KI-Agenten.
-  - url: https://attilakrick.com/artikel
+    description: Portfolio und Leistungen für PowerShell, SQL Server, .NET und KI-Agenten.
+  - url: https://attilakrick.com/seminare/
+    title: Seminare
+    description: Individuell zugeschnittene Seminare und Workshops für PowerShell, T-SQL, SQL Server, .NET und KI.
+  - url: https://attilakrick.com/seminare/powershell-seminar/
+    title: PowerShell-Seminar
+    description: Individuell zugeschnittenes PowerShell-Seminar für Scripting, Automatisierung, Remoting, Pester, Sicherheit und Skriptqualität.
+  - url: https://attilakrick.com/seminare/tsql-sql-server-seminar/
+    title: T-SQL- und SQL-Server-Seminar
+    description: Individuell zugeschnittenes T-SQL- und SQL-Server-Seminar für Abfragen, Stored Procedures, Indizes, Performance-Tuning, Analyse und Datenbankbetrieb.
+  - url: https://attilakrick.com/seminare/dotnet-seminar/
+    title: .NET-Seminar
+    description: Individuell zugeschnittenes .NET-Seminar für C#, WPF, .NET MAUI, Entity Framework, Architektur, Datenzugriff und Codequalität.
+  - url: https://attilakrick.com/seminare/ki-seminar/
+    title: KI-Seminar
+    description: Individuell zugeschnittenes KI-Seminar für Copilot, KI-Agenten, Guardrails, Governance, Rollen, Freigaben und produktive Arbeitsweisen.
+  - url: https://attilakrick.com/artikel/
     title: Fachartikel
     description: Fachartikel zu PowerShell, SQL Server, .NET und KI-Agenten aus realer Projekt- und Schulungspraxis.
-  - url: https://attilakrick.com/news
+  - url: https://attilakrick.com/news/
     title: IT-News
     description: Kuratierte tägliche IT-News mit Relevanz für Projekte.
-  - url: https://attilakrick.com/glossar
+  - url: https://attilakrick.com/glossar/
     title: Glossar
     description: 68 Fachbegriffe zu PowerShell, T-SQL, .NET und KI.
-  - url: https://attilakrick.com/profil
+  - url: https://attilakrick.com/profil/
     title: Profil
     description: Über Attila Krick - Erfahrung, Positionierung, Schulungspartner.
 articles:
-  - url: https://attilakrick.com/artikel/best_practices_powershell_scripting
+  - url: https://attilakrick.com/artikel/best_practices_powershell_scripting/
     title: PowerShell Best Practices
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/dotnet_entityframework_grundlagen
+  - url: https://attilakrick.com/artikel/dotnet_entityframework_grundlagen/
     title: Entity Framework Grundlagen
     topic: .NET
-  - url: https://attilakrick.com/artikel/ki_mcp_sql_server_db_abfrage
+  - url: https://attilakrick.com/artikel/ki_mcp_sql_server_db_abfrage/
     title: MCP und SQL Server - KI-gestützte Datenbankabfragen
     topic: KI, T-SQL
-  - url: https://attilakrick.com/artikel/ki_vscode_github_copilot_agent_powershell_nutzen
+  - url: https://attilakrick.com/artikel/ki_vscode_github_copilot_agent_powershell_nutzen/
     title: GitHub Copilot Agent für PowerShell in VS Code
     topic: KI, PowerShell
-  - url: https://attilakrick.com/artikel/ki-agenten-guardrails-portabilitaet
+  - url: https://attilakrick.com/artikel/ki-agenten-guardrails-portabilitaet/
     title: KI-Agenten im Alltag - Ihr digitaler Mitarbeiter
     topic: KI
-  - url: https://attilakrick.com/artikel/kritiker-agent-ki-workflows
+  - url: https://attilakrick.com/artikel/kritiker-agent-ki-workflows/
     title: Agent-as-a-Judge - Der Kritiker-Agent im KI-Workflow
     topic: KI
-  - url: https://attilakrick.com/artikel/methode_direkte_instruktion
+  - url: https://attilakrick.com/artikel/methode_direkte_instruktion/
     title: Direkte Instruktion als Trainingsmethode
     topic: Methodik
-  - url: https://attilakrick.com/artikel/neuerungen_powershell_75
+  - url: https://attilakrick.com/artikel/neuerungen_powershell_75/
     title: PowerShell 7.5 Neuerungen
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/orchestrierung-von-ki-agenten
+  - url: https://attilakrick.com/artikel/orchestrierung-von-ki-agenten/
     title: Agenten-Orchestrierung in der Praxis
     topic: KI
-  - url: https://attilakrick.com/artikel/powershell_benutzen
+  - url: https://attilakrick.com/artikel/powershell_benutzen/
     title: PowerShell benutzen
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/powershell_cmdlet_finden
+  - url: https://attilakrick.com/artikel/powershell_cmdlet_finden/
     title: PowerShell Cmdlets finden
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets
+  - url: https://attilakrick.com/artikel/powershell_objekte_pipeline_cmdlets/
     title: PowerShell Objekte, Pipeline und Cmdlets
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/powershell_sicher_einsetzen
+  - url: https://attilakrick.com/artikel/powershell_sicher_einsetzen/
     title: PowerShell sicher einsetzen
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/powershell_tsql_automatisierung
+  - url: https://attilakrick.com/artikel/powershell_tsql_automatisierung/
     title: PowerShell und T-SQL Automatisierung
     topic: PowerShell, T-SQL
-  - url: https://attilakrick.com/artikel/powershell_verstehen
+  - url: https://attilakrick.com/artikel/powershell_verstehen/
     title: PowerShell verstehen
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/powershell-hilfe_nutzen
+  - url: https://attilakrick.com/artikel/powershell-hilfe_nutzen/
     title: PowerShell-Hilfe nutzen
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/sicherheit_wie_viel_powershell
+  - url: https://attilakrick.com/artikel/sicherheit_wie_viel_powershell/
     title: Sicherheit - Wie viel PowerShell?
     topic: PowerShell, Security
-  - url: https://attilakrick.com/artikel/t-sql_join
+  - url: https://attilakrick.com/artikel/t-sql_join/
     title: T-SQL JOIN
     topic: T-SQL
-  - url: https://attilakrick.com/artikel/unterschied_powershell_vs_bash
+  - url: https://attilakrick.com/artikel/unterschied_powershell_vs_bash/
     title: PowerShell vs. Bash
     topic: PowerShell
-  - url: https://attilakrick.com/artikel/vscode_starter
+  - url: https://attilakrick.com/artikel/vscode_starter/
     title: VS Code Einstieg
     topic: Tools
 faq:

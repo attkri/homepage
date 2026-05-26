@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Attila Krick - PowerShell, SQL Server und KI-Agenten",
+    "title": "Attila Krick - PowerShell, SQL Server, .NET und KI",
     "base_url": "https://attilakrick.com",
     "base_path": "/",
     "trailing_slash": true,
@@ -29,7 +29,7 @@
   "metadata": {
     "meta_author": "Attila Krick",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Beratung, Umsetzung und Training für PowerShell, SQL Server und KI-Agenten - klar, praxisnah und mit echtem Projektbezug."
+    "meta_description": "Beratung, Umsetzung und Training für PowerShell, SQL Server, .NET und KI - klar, praxisnah und mit echtem Projektbezug."
   },
   "google_tag_manager": {
     "enable": false,

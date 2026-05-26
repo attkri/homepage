@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Klare Hilfe für <br> **PowerShell, SQL Server und KI-Agenten.**"
+  title: "Klare Hilfe für <br> **PowerShell, SQL Server, .NET und KI.**"
   content: "Attila Krick verbindet Beratung, Umsetzung und Training für Unternehmen und Behörden. Der Einstieg bleibt bewusst klar: erst das Themenfeld, dann der passende Arbeitsmodus."
   image: "/images/leistung/ki-hub.webp"
   button:
@@ -16,7 +16,7 @@ banner:
     - "/images/company-logo/company-logo-5.webp"
 
 service:
-  title: "Drei Themenfelder, <br> klare Prioritäten"
+  title: "Vier Themenfelder, <br> klare Prioritäten"
   services:
     - title: "PowerShell-Automatisierung"
       image: "service-1"
@@ -32,6 +32,13 @@ service:
         enable: true
         label: "Zur Leistung"
         link: "/leistung/#sql-server"
+    - title: ".NET-Entwicklung"
+      image: "service-4"
+      content: "C#, WPF, .NET MAUI, Entity Framework, Datenzugriff und Codequalität für reale Entwicklungsarbeit."
+      button:
+        enable: true
+        label: "Zur Leistung"
+        link: "/leistung/#dotnet"
     - title: "KI-Agenten"
       image: "service-3"
       content: "Einordnung, Guardrails und Umsetzung für Organisationen, die KI-Agenten mit Kontrolle statt Tool-Euphorie einführen wollen."
@@ -50,7 +57,7 @@ feature:
       icon: "FaAsterisk"
       image: "/images/leistung/powershell-grafik.webp"
     - title: "Praxis statt Schaufenster"
-      description: "Ob PowerShell, SQL Server oder KI-Agenten: Entscheidend ist, was im Alltag sauber läuft - nicht was auf einer Folie gut aussieht."
+      description: "Ob PowerShell, SQL Server, .NET oder KI: Entscheidend ist, was im Alltag sauber läuft - nicht was auf einer Folie gut aussieht."
       card_content: "Projektarbeit, Schulung und Betriebsrealität greifen sichtbar ineinander."
       icon: "FaHandHoldingHeart"
       image: "/images/leistung/sql-grafik.webp"

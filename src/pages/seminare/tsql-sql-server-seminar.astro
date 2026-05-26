@@ -1,0 +1,33 @@
+---
+import SeminarPage from "@/layouts/pages/SeminarPage.astro";
+
+const page = {
+  title: "T-SQL- und SQL-Server-Seminar mit Praxisbezug",
+  meta_title: "T-SQL- und SQL-Server-Seminar | Performance, Analyse, Optimierung",
+  description: "T-SQL- und SQL-Server-Seminar für Unternehmen: Abfragen, Stored Procedures, Indizes, Performance-Tuning, Analyse und Datenbankbetrieb.",
+  h1: "T-SQL- und SQL-Server-Seminar mit Praxisbezug",
+  intro: [
+    "SQL-Schulungen bleiben oft zu nah an der Syntax. In echten Teams geht es aber um mehr: lesbare T-SQL-Abfragen, verlässliche Stored Procedures, passende Indizes, nachvollziehbare Datenmodelle und Performance-Probleme, die den Betrieb ausbremsen.",
+    "Genau diese Verbindung aus T-SQL, SQL Server, Analyse und Optimierung steht hier im Mittelpunkt.",
+  ],
+  coreStatement: "Ein T-SQL- und SQL-Server-Seminar von Attila Krick unterstützt Teams dabei, SQL-Abfragen, Performance, Analyse und Datenbankbetrieb verständlich und praxisnah zu verbessern.",
+  reasons: [
+    "SQL-Abfragen laufen zu langsam.",
+    "JOINs, Stored Procedures oder Indizes werden uneinheitlich genutzt.",
+    "Reporting-Abfragen belasten produktive Systeme.",
+    "Performance-Tuning soll im Team verstanden werden.",
+    "SQL-Wissen hängt an einzelnen Personen.",
+    "Datenbankbetrieb, Analyse und Optimierung sollen besser zusammenfinden.",
+  ],
+  tailoring: "Der Workshop wird kostenfrei und in kurzer Zeit auf die reale Ausgangslage zugeschnitten. Je nach Bedarf liegt der Schwerpunkt auf T-SQL-Grundlagen, Abfrageoptimierung, SQL Server Performance Tuning, Datenbankbetrieb oder gemeinsamer Analyse konkreter Muster.",
+  ctaLabel: "SQL-Thema kurz schildern",
+  ctaMicrocopy: "Eine grobe Beschreibung des Engpasses reicht. Die erste Einordnung ist kostenfrei.",
+  relatedLinks: [
+    { label: "T-SQL JOINs verstehen", href: "/artikel/t-sql_join/" },
+    { label: "PowerShell und T-SQL automatisieren", href: "/artikel/powershell_tsql_automatisierung/" },
+    { label: "MCP und SQL Server", href: "/artikel/ki_mcp_sql_server_db_abfrage/" },
+  ],
+};
+---
+
+<SeminarPage {...page} />

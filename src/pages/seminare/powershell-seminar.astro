@@ -1,0 +1,33 @@
+---
+import SeminarPage from "@/layouts/pages/SeminarPage.astro";
+
+const page = {
+  title: "PowerShell-Seminar für Unternehmen und Behörden",
+  meta_title: "PowerShell-Seminar für Unternehmen | Scripting, Automatisierung, Sicherheit",
+  description: "PowerShell-Seminar für Unternehmen und Behörden: Scripting, Automatisierung, Remoting, Pester, Sicherheit und Skriptqualität – individuell zugeschnitten.",
+  h1: "PowerShell-Seminar für Unternehmen und Behörden",
+  intro: [
+    "Ein gutes PowerShell-Seminar beginnt nicht bei einer Folienagenda, sondern bei der Frage, was das Team im Alltag wirklich können muss.",
+    "Für manche Gruppen ist der Einstieg in Cmdlets, Objekte und Pipeline entscheidend. Andere brauchen belastbare Skriptstandards, sichere Fehlerbehandlung, PowerShell-Remoting, Pester-Tests oder PowerShell-Hardening im Betrieb.",
+  ],
+  coreStatement: "Ein PowerShell-Seminar von Attila Krick ist ein individuell zugeschnittener Workshop für Unternehmen und Behörden, der Scripting, Automatisierung, Sicherheit und Skriptqualität an der realen Team-Situation ausrichtet.",
+  reasons: [
+    "Admins sollen sicherer mit PowerShell arbeiten.",
+    "Skripte sind gewachsen, aber schwer wartbar.",
+    "Automatisierung soll nicht nur funktionieren, sondern im Team verstanden werden.",
+    "PowerShell-Sicherheit, Execution Policy, Signierung oder Hardening sollen greifbar werden.",
+    "Pester, Fehlerbehandlung und Standards sollen in den Alltag kommen.",
+    "PowerShell-Wissen soll nicht dauerhaft an einzelnen Experten hängen.",
+  ],
+  tailoring: "Die Inhalte werden in kurzer Zeit kostenfrei auf Team, Wissensstand, Umgebung und Zielbild zugeschnitten. So entsteht ein PowerShell-Workshop, der Einsteiger abholt, Fortgeschrittene weiterbringt oder erfahrene Admins bei Automatisierung, Sicherheit und Wartbarkeit schärft.",
+  ctaLabel: "PowerShell-Thema kurz schildern",
+  ctaMicrocopy: "Eine grobe Beschreibung reicht. Der passende Seminarzuschnitt entsteht danach kostenfrei.",
+  relatedLinks: [
+    { label: "PowerShell Best Practices", href: "/artikel/best_practices_powershell_scripting/" },
+    { label: "PowerShell sicher einsetzen", href: "/artikel/powershell_sicher_einsetzen/" },
+    { label: "PowerShell und KI", href: "/artikel/powershell-ki-alltag/" },
+  ],
+};
+---
+
+<SeminarPage {...page} />

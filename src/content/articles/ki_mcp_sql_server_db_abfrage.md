@@ -124,8 +124,7 @@ Regeln:
 
 - [PowerShell und T-SQL für Automatisierung](/artikel/powershell_tsql_automatisierung/)
 - [T-SQL JOINs verstehen](/artikel/t-sql_join/)
-- [SQL Server Beratung](/leistung/sql-server-beratung/)
-- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
+- [T-SQL- und SQL-Server-Seminar](/seminare/tsql-sql-server-seminar/)
 - [Leistungen](/leistung/)
 - [Kontakt](/kontakt/)
 

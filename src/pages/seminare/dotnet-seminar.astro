@@ -1,0 +1,32 @@
+---
+import SeminarPage from "@/layouts/pages/SeminarPage.astro";
+
+const page = {
+  title: ".NET-Seminar für C#, WPF, MAUI und Entity Framework",
+  meta_title: ".NET-Seminar für C#, WPF, MAUI und Entity Framework",
+  description: ".NET-Seminar für Unternehmen: C#, WPF, .NET MAUI, Entity Framework, Architektur, Codequalität und Datenzugriff – passend für Teams zugeschnitten.",
+  h1: ".NET-Seminar für C#, WPF, MAUI und Entity Framework",
+  intro: [
+    ".NET-Teams stehen selten vor einem reinen Sprachthema. Meist greifen C#, Architektur, Datenzugriff, UI-Technologie und Projektstruktur ineinander.",
+    "Mal geht es um sauberen C#-Code, mal um WPF-Anwendungen, .NET MAUI, Entity Framework Core, Datenbankzugriff oder Entwicklungsstandards, die ein Team dauerhaft tragen.",
+  ],
+  coreStatement: "Ein .NET-Seminar von Attila Krick deckt C#, WPF, .NET MAUI und Entity Framework ab und richtet sich an Teams, die ihre Entwicklungsarbeit strukturierter, wartbarer und praxisnäher aufstellen wollen.",
+  reasons: [
+    "C#-Grundlagen oder moderne Sprachfeatures sollen im Team gefestigt werden.",
+    "WPF-Anwendungen sind gewachsen und brauchen bessere Struktur.",
+    ".NET MAUI soll realistisch eingeordnet oder eingeführt werden.",
+    "Entity Framework Core wird genutzt, aber nicht sauber verstanden.",
+    "Datenzugriff, Architektur und Codequalität sollen zusammen gedacht werden.",
+    "Entwicklungsstandards sollen nicht nur besprochen, sondern praktisch eingeübt werden.",
+  ],
+  tailoring: "Das Seminar wird kostenfrei und in kurzer Zeit auf Technologie, Reifegrad und Projektkontext zugeschnitten. So entsteht kein abstrakter .NET-Kurs, sondern ein Workshop, der dort ansetzt, wo das Team fachlich wirklich steht.",
+  ctaLabel: ".NET-Thema kurz schildern",
+  ctaMicrocopy: "C#, WPF, MAUI oder EF Core – eine grobe Richtung reicht für den ersten Zuschnitt.",
+  relatedLinks: [
+    { label: "Entity Framework Grundlagen", href: "/artikel/dotnet_entityframework_grundlagen/" },
+    { label: "Agenten-Orchestrierung in .NET", href: "/artikel/orchestrierung-von-ki-agenten/" },
+  ],
+};
+---
+
+<SeminarPage {...page} />

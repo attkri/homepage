@@ -1,0 +1,86 @@
+---
+import Base from "@/layouts/Base.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+
+const seminars = [
+  {
+    title: "PowerShell-Seminar",
+    href: "/seminare/powershell-seminar/",
+    text: "Scripting, Automatisierung, Remoting, Pester, Sicherheit, Hardening und Skriptqualität für Admins und Teams.",
+  },
+  {
+    title: "T-SQL- und SQL-Server-Seminar",
+    href: "/seminare/tsql-sql-server-seminar/",
+    text: "Abfragen, Stored Procedures, Indizes, Performance-Tuning, Analyse, Optimierung und Datenbankbetrieb.",
+  },
+  {
+    title: ".NET-Seminar",
+    href: "/seminare/dotnet-seminar/",
+    text: "C#, WPF, .NET MAUI, Entity Framework, EF Core, Architektur, Datenzugriff und Codequalität.",
+  },
+  {
+    title: "KI-Seminar",
+    href: "/seminare/ki-seminar/",
+    text: "Copilot, ChatGPT, KI-Agenten, Guardrails, Governance, Rollen, Freigaben und produktive Arbeitsweisen.",
+  },
+];
+---
+
+<Base
+  title="Seminare"
+  meta_title="Seminare für PowerShell, SQL Server, .NET und KI"
+  description="Individuell zugeschnittene Seminare und Workshops für PowerShell, T-SQL, SQL Server, .NET und KI – ohne starre Standardagenda."
+>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="pb-3 text-sm uppercase tracking-[0.16em] text-text-light">Seminare und Workshops</p>
+        <h1 class="pb-6">Seminare für PowerShell, SQL Server, .NET und KI</h1>
+        <p class="text-lg text-text-light">
+          Keine Katalogware und keine starre Standardagenda. Die Seminare werden in kurzer Zeit kostenfrei auf Zielgruppe, Wissensstand, technische Umgebung und gewünschtes Ergebnis zugeschnitten.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 pt-8">
+          <a href="/kontakt/" class="btn btn-primary">Seminarthema kurz schildern</a>
+          <a href="/leistung/" class="btn btn-outline-primary">Leistungen ansehen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-0">
+    <div class="container">
+      <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="p-8 border border-border rounded-xl bg-white">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Kurz gesagt</p>
+          <h2 class="h3 pb-4">Individuell zugeschnittene Seminare statt fertiger Agenda</h2>
+          <p class="text-lg">
+            Attila Krick bietet Seminare und Workshops für PowerShell, T-SQL, SQL Server, .NET und KI an – für Unternehmen, Behörden und technische Teams.
+          </p>
+        </div>
+        <div class="p-8 border border-border rounded-xl bg-light">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Erfahrung</p>
+          <h2 class="h3 pb-4">Praxis, Betrieb und Wissenstransfer</h2>
+          <p>
+            Mehr als 30 Jahre IT-Praxis und über 1.500 Schulungstage sorgen dafür, dass Seminare nicht an Folien enden, sondern im Team weiterwirken.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid gap-4 md:grid-cols-2">
+        {seminars.map((seminar) => (
+          <a href={seminar.href} class="group p-8 border border-border rounded-xl bg-white transition-colors hover:border-secondary/40">
+            <h2 class="h3 pb-4 group-hover:text-secondary">{seminar.title}</h2>
+            <p class="pb-6">{seminar.text}</p>
+            <span class="text-secondary">Seminar ansehen →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CallToAction />
+</Base>

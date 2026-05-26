@@ -1,0 +1,143 @@
+---
+import Base from "@/layouts/Base.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+
+interface LinkItem {
+  label: string;
+  href: string;
+}
+
+export interface Props {
+  title: string;
+  meta_title: string;
+  description: string;
+  h1: string;
+  intro: string[];
+  coreStatement: string;
+  reasons: string[];
+  tailoring: string;
+  ctaLabel: string;
+  ctaMicrocopy: string;
+  relatedLinks?: LinkItem[];
+}
+
+const {
+  title,
+  meta_title,
+  description,
+  h1,
+  intro,
+  coreStatement,
+  reasons,
+  tailoring,
+  ctaLabel,
+  ctaMicrocopy,
+  relatedLinks = [],
+} = Astro.props;
+---
+
+<Base title={title} meta_title={meta_title} description={description}>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="pb-3 text-sm uppercase tracking-[0.16em] text-text-light">Seminar und Workshop</p>
+        <h1 class="pb-6">{h1}</h1>
+        <div class="flex flex-col gap-4 text-lg text-text-light">
+          {intro.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 pt-8">
+          <a href="/kontakt/" class="btn btn-primary">{ctaLabel}</a>
+          <a href="/leistung/" class="btn btn-outline-primary">Alle Leistungen ansehen</a>
+        </div>
+        <p class="pt-4 text-sm text-text-light">{ctaMicrocopy}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-0">
+    <div class="container">
+      <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="p-8 border border-border rounded-xl bg-white">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Kurz gesagt</p>
+          <h2 class="h3 pb-4">Was dieses Angebot leistet</h2>
+          <p class="text-lg">{coreStatement}</p>
+        </div>
+        <div class="p-8 border border-border rounded-xl bg-light">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Erfahrung</p>
+          <h2 class="h3 pb-4">Praxis, Betrieb und Wissenstransfer</h2>
+          <p>
+            Attila Krick verbindet mehr als 30 Jahre IT-Praxis mit über 1.500 Schulungstagen für Unternehmen, Mittelstand und Behörden.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-0">
+    <div class="container">
+      <div class="max-w-3xl pb-10">
+        <p class="pb-3 text-sm uppercase tracking-[0.16em] text-text-light">Typische Anlässe</p>
+        <h2 class="pb-4">Wenn ein Standardseminar zu grob wäre</h2>
+        <p>
+          Die folgenden Punkte sind keine feste Agenda, sondern typische Ausgangslagen. Der konkrete Zuschnitt entsteht erst nach einer kurzen fachlichen Klärung.
+        </p>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        {reasons.map((reason) => (
+          <div class="p-6 border border-border rounded-xl bg-white">
+            <p>{reason}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-0">
+    <div class="container">
+      <div class="grid gap-6 lg:grid-cols-3">
+        <div class="lg:col-span-2 p-8 border border-border rounded-xl">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Individueller Zuschnitt</p>
+          <h2 class="h3 pb-4">Keine starre Standardagenda</h2>
+          <p>{tailoring}</p>
+        </div>
+        <div class="p-8 border border-border rounded-xl bg-light">
+          <p class="pb-3 text-sm uppercase tracking-[0.16em] text-secondary">Mögliche Formate</p>
+          <h2 class="h4 pb-4">Remote, vor Ort oder kompakt</h2>
+          <p>
+            Möglich sind Inhouse-Seminare, Remote-Workshops, Vor-Ort-Termine, kompakte Entscheidungsworkshops und praxisnahe Sessions an realen Beispielen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {relatedLinks.length > 0 && (
+    <section class="section pb-0">
+      <div class="container">
+        <div class="p-8 border border-border rounded-xl bg-light">
+          <h2 class="h3 pb-6">Passende Vertiefungen</h2>
+          <div class="flex flex-wrap gap-3">
+            {relatedLinks.map((link) => (
+              <a href={link.href} class="btn btn-outline-primary">{link.label}</a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="pb-4">Ein grober Anlass reicht für den Einstieg</h2>
+        <p class="pb-8">
+          Es muss noch keine fertige Agenda geben. Beschreiben Sie kurz Thema, Zielgruppe und gewünschtes Ergebnis. Daraus entsteht der passende Seminarzuschnitt.
+        </p>
+        <a href="/kontakt/" class="btn btn-primary">{ctaLabel}</a>
+        <p class="pt-4 text-sm text-text-light">{ctaMicrocopy}</p>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction />
+</Base>

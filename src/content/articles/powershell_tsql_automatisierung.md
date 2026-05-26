@@ -100,8 +100,7 @@ So entstehen reproduzierbare Reports für Betrieb, Audit und Management.
 - [Entity Framework Core Grundlagen](/artikel/dotnet_entityframework_grundlagen/)
 - [PowerShell Scripting Best Practices](/artikel/best_practices_powershell_scripting/)
 - [PowerShell sicher einsetzen](/artikel/powershell_sicher_einsetzen/)
-- [SQL Server Beratung](/leistung/sql-server-beratung/)
-- [SQL Performance Tuning](/leistung/sql-performance-tuning/)
+- [T-SQL- und SQL-Server-Seminar](/seminare/tsql-sql-server-seminar/)
 - [Leistungen](/leistung/)
 - [Kontakt](/kontakt/)
 

@@ -57,7 +57,9 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
           <div class="flex flex-wrap gap-3 pt-6" data-aos="fade-up-sm" data-aos-delay="200">
             <a class="btn btn-outline-primary btn-sm" href="/leistung/#powershell">PowerShell</a>
             <a class="btn btn-outline-primary btn-sm" href="/leistung/#sql-server">SQL Server</a>
-            <a class="btn btn-outline-primary btn-sm" href="/leistung/#ki-agenten">KI-Agenten</a>
+            <a class="btn btn-outline-primary btn-sm" href="/leistung/#dotnet">.NET</a>
+            <a class="btn btn-outline-primary btn-sm" href="/leistung/#ki-agenten">KI</a>
+            <a class="btn btn-outline-primary btn-sm" href="/seminare/">Seminare</a>
             <a class="btn btn-outline-primary btn-sm" href="/artikel/">Fachartikel</a>
             <a class="btn btn-outline-primary btn-sm" href="/news/">IT-News</a>
           </div>
@@ -91,7 +93,7 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
               </div>
               <div>
                 <p class="font-semibold text-xl">Attila Krick</p>
-                <p class="text-text-light">Beratung, Umsetzung und Training für PowerShell, SQL Server und KI-Agenten.</p>
+                <p class="text-text-light">Beratung, Umsetzung und Training für PowerShell, SQL Server, .NET und KI.</p>
               </div>
             </div>
             <p class="pt-4">Kein Schaufenstertext, sondern klare Einordnung, belastbare Umsetzung und Wissenstransfer, der im Team bleibt.</p>
@@ -113,7 +115,7 @@ const latestNewsImage = latestNews?.data.image ?? "/images/legacy/site/news-defa
         data-aos="fade-right-sm"
         set:html={markdownify(service.title)}
       />
-      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {
           service.services.map((s, i: number) => (
             <div

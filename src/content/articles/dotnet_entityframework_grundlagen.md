@@ -182,8 +182,7 @@ using (var context = new AppDbContext(options))
 
 - [T-SQL JOIN verstehen und korrekt einsetzen](/artikel/t-sql_join/)
 - [PowerShell und T-SQL automatisieren](/artikel/powershell_tsql_automatisierung/)
-- [.NET Beratung](/leistung/dotnet-beratung/)
-- [.NET Code Review](/leistung/dotnet-code-review/)
+- [.NET-Seminar](/seminare/dotnet-seminar/)
 - [Leistungen](/leistung/)
 - [Kontakt](/kontakt/)
 
