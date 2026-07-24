@@ -14,8 +14,8 @@ header:
 **Angaben gemäß § 5 TMG**
 
 Attila Krick  
-An der Schanze 20  
-47292 Grefrath
+An der Schanz 20  
+47929 Grefrath
 
 E-Mail: [info@attilakrick.com](mailto:info@attilakrick.com)
 
