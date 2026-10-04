@@ -36,13 +36,6 @@ Single Source of Truth: `AGENTS.md` für Regeln/Workflows; `.opencode/instructio
 
 Wenn in den `main`-Branch gepusht wird, greift die GitHub Action `Deploy Hugo site to Pages` und veröffentlicht die Website automatisch.
 
-## Wichtige Kommandos
-
-| Kommando         | Zweck                                          |
-| ---------------- | ---------------------------------------------- |
-| `hugo server -D` | Lokaler Entwicklungsserver mit Drafts          |
-| `hugo --gc`      | Hugo-Cache bereinigen (Ressourcen-Verzeichnis) |
-
 ## Mitwirkung
 
 Hinweise auf Fehler (z. B. Tippfehler, defekte Links) sind willkommen.
